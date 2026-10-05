@@ -285,3 +285,22 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - This deviates from FR-25 because of the measured latency. NFR-01 (p95 ≤ 45 s) is checked again on the deployed URL at M2.
 - **To revisit:** retest `site:` once on 2026-10-07 (1 credit). If it works again, the filter stays anyway and the fallback is simply used less.
 **Files:** `probes/p04_fraud_notice.py`, `data/seeds/known_entities.json`, `serp/client.py`, `probes/base.py`, `probes/p01_entity.py`.
+
+### D-35 · 2026-10-05 · API details not fixed by `07`
+- **Additive fields:**
+  - `verdict.sub_line` (the `09` S4 sub line, rendered server-side next to `headline`).
+  - Top-level `warnings` on `GET /api/checks/{id}`, which S2 needs for the OCR banner.
+  - Both are left out of share responses.
+- **Uploads:**
+  - Stored under `data/uploads/{check_id}/`, outside the static root, so purging one check never deletes another check's file.
+  - At most 2 embedded images per PDF become `offer_image` artifacts.
+  - The type is detected by magic bytes. `.eml` is accepted by extension or `message/rfc822` plus a header sniff, because browsers often send it as `application/octet-stream`.
+- **Rate-limit key:** `sha256(ip | SPECIAL26_SHARE_SALT | UTC day)`, taking the first `X-Forwarded-For` hop (Railway proxy). Rate limiting applies in `live` only, as NFR-07 says.
+- **Daily cap:** checked at `POST /run`, and at create when `auto_run=true` (`07` §9).
+- **Expiry:** checked lazily on PUT/run (30 min idle → `expired`, raw data purged, 410). Retention does the same hourly.
+- **PUT claims:**
+  - An unchanged claim keeps its source and id. A changed one becomes `source = user` and keeps its id.
+  - Changing a claim's type, or citing an unknown id, gives 422.
+  - Org names typed by the student go through the dictionary, so "TCS" becomes "Tata Consultancy Services" with its `entity_id`.
+- **SSE:** subscribe first, then replay from `check_events`, so no event falls between the two. `?last_event_id=` works as well as the header. The stream ends immediately for a terminal check once its stored events have been sent.
+**Files:** `api/checks.py`, `intake/ingest.py`, `api/health.py`, `main.py`.
