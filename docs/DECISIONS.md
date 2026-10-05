@@ -411,3 +411,15 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - Counter-evidence stays visible under "All findings".
 - The worked example still gives D1, D3, PERSONAL_UPI. The live G1 case is now a unit test.
 **Files:** `scoring/aggregate.py`, `tests/unit/test_scoring.py`.
+
+### D-45 · 2026-10-06 · Per-claim view and P12, prompted by a user's real offer letter
+**Context:** The user ran their own offer letter. P01 found no official website: both Google queries returned only LinkedIn posts and Scribd copies of offer letters. The letter's own website `www.thiranex.in` was extracted as a link claim, but nothing about it was shown, so it looked "ignored". The PRD core story (`02` §5) promises a card that "lists each claim, what the web says about it". Findings were grouped only by family.
+**Decision:**
+- **New section on the private verdict page,** "What the offer claims, and what we found". It lists each claim with the findings that cite it (via `claim_ids`), each opening its receipt.
+  - A claim no finding cites gets a neutral sentence that says only what is true. For a link: whether its registrable domain is among the official domains P01 found, and whether P06 searched for it.
+  - The offer's own website is never treated as official. Official contacts still come only from P01/P04 (`09` S6). This is a display of existing evidence, not a new finding, weight or rule.
+- **P12_DOMAIN_AGE built** (stretch item 1, FR-21) via `SerpClient.rdap` (D-11):
+  - Up to 3 suspect-class domains are checked: sender, reply-to and `other`/`document` links. One finding is emitted, for the youngest.
+  - RDAP verified live: `thiranex.in` registered 2025-09-09, which is over a year before the check, so no finding.
+  - The constructed demo domains (`techmahindra-careers.in`, `infosys-careers.co`) have no registration record, confirming `14` §3's requirement that they be unregistered.
+**Files:** `probes/p12_domain_age.py`, `probes/registry.py`, `frontend/src/components/ClaimsChecked.tsx`, `frontend/src/pages/Check.tsx`.

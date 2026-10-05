@@ -319,3 +319,44 @@ def test_result_dates():
     assert result_date({"iso_date": "2026-03-09T07:00:00Z"}, now).year == 2026
     assert (now - result_date({"displayed_meta": "10+ comments · 2 years ago"}, now)).days == 730
     assert result_date({"date": "Mar 3, 2024"}, now).month == 3 and result_date({}, now) is None
+
+
+# ---- P12 (D-45) ------------------------------------------------------------------------------------------------
+from special26.probes.p12_domain_age import P12DomainAge
+
+
+class RdapSerp(FakeSerp):
+    def __init__(self, by_domain):
+        super().__init__()
+        self.by_domain = by_domain
+
+    async def rdap(self, d):
+        self.calls.append(d)
+        return self.by_domain.get(d)
+
+
+def rdap_at(date):
+    return {"events": [{"eventAction": "registration", "eventDate": date}]}
+
+
+@pytest.mark.parametrize("date,code", [("2026-08-20T00:00:00Z", "P12_VERY_NEW"), ("2026-03-01T00:00:00Z", "P12_NEW"),
+                                       ("2020-01-01T00:00:00Z", None)])
+async def test_p12_age_bands(date, code):
+    c = ctx("Apply at https://www.thiranex.in/apply", official=[], serp=RdapSerp({"thiranex.in": rdap_at(date)}))
+    res = await P12DomainAge().run(c)
+    assert codes(res) == ([code] if code else [])
+    if code:
+        assert res.findings[0].receipt.kind == "rdap" and res.findings[0].receipt.link.endswith("/thiranex.in")
+
+
+async def test_p12_live_fixture_and_unregistered():
+    data = json.loads((FIX / "rdap_thiranex_in.json").read_text())
+    res = await P12DomainAge().run(ctx("See www.thiranex.in", official=[], serp=RdapSerp({"thiranex.in": data})))
+    assert res.outputs["domains"][0]["age_days"] > 365 and codes(res) == []          # 2025-09-09: just over a year
+    g1 = await P12DomainAge().run(ctx(G1_TEXT, official=["techmahindra.com"], serp=RdapSerp({})))
+    assert codes(g1) == [] and g1.status == "ok"                                      # 08 §6.1: unregistered demo domain
+
+
+def test_p12_skips_official_and_freemail():
+    assert P12DomainAge().applicable(ctx("Regards\nx@gmail.com", official=[])) == "skipped_no_input"
+    assert P12DomainAge().applicable(ctx("Regards\nhr@infosys.com", official=["infosys.com"])) == "skipped_no_input"

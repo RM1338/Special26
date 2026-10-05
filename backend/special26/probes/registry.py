@@ -10,5 +10,6 @@ from special26.probes.p08_office import P08Office
 from special26.probes.p09_image import P09Image
 from special26.probes.p10_template import P10Template
 from special26.probes.p11_policy import P11Policy
+from special26.probes.p12_domain_age import P12DomainAge
 
-PROBES = [P01Entity, P11Policy, P03Headers, P02Sender, P04FraudNotice, P05Chatter, P06IdentifierTrace, P07Role, P08Office, P09Image, P10Template]
+PROBES = [P01Entity, P11Policy, P03Headers, P02Sender, P04FraudNotice, P05Chatter, P06IdentifierTrace, P07Role, P08Office, P09Image, P10Template, P12DomainAge]

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { api } from "../api";
 import ClaimEditor, { type ClaimSubmit } from "../components/ClaimEditor";
+import ClaimsChecked from "../components/ClaimsChecked";
 import NextSteps from "../components/NextSteps";
 import ProbeTimeline from "../components/ProbeTimeline";
 import VerdictCard from "../components/VerdictCard";
@@ -90,6 +91,7 @@ export default function Check() {
               <span className="text-muted"> using the same details{c.campaign.orgs.length > 1 ? `, claiming ${c.campaign.orgs.join(", ")}` : ""}.</span>
             </Link>
           )}
+          <ClaimsChecked claims={c.claims} findings={c.findings} probes={c.probes} />
           <NextSteps steps={c.verdict.next_steps} org={org} contacts={c.verdict.official_contacts}
             onShare={share} shareState={shareState} />
           <details className="mt-10">
