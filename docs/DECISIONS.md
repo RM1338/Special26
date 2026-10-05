@@ -423,3 +423,16 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - RDAP verified live: `thiranex.in` registered 2025-09-09, which is over a year before the check, so no finding.
   - The constructed demo domains (`techmahindra-careers.in`, `infosys-careers.co`) have no registration record, confirming `14` §3's requirement that they be unregistered.
 **Files:** `probes/p12_domain_age.py`, `probes/registry.py`, `frontend/src/components/ClaimsChecked.tsx`, `frontend/src/pages/Check.tsx`.
+
+### D-46 · 2026-10-06 · Seed scam corpus is verbatim-only; credits are the binding constraint
+**Seed corpus (`08` §7.5):**
+- I searched news reports, employer notices (Dr. Reddy's, Mahindra Aerospace, Wipro), PIB fact-checks, CyberPeace, consumercomplaints.in and forums for transcribed scam texts.
+- Published sources describe the messages but almost never reprint them. The verbatim fragments found (consumercomplaints.in, HCL complaint 2013/2015: "You have to deposit the (Cash) as an initial amount in favor of our company accountant ... Rs.6, 725/-"; techenclave Wipro thread) are under P10's 30-token minimum.
+- **Decision:** the seed corpus holds only verbatim texts with a source. No texts are written by us. A P10 receipt reads "Known fake offer text" and links to its source, so a reconstructed text would be a false receipt.
+- Until real texts arrive from the team (redacted student messages), P10's local part matches against checks that ended red (`08` §7.5's second source), and the quoted-sentence search still runs. This is a gap against `12` §1 ("≥ 25 scam templates"); reported in `STATUS.md`.
+
+**Credits:**
+- `GET serpapi.com/account.json` (2026-10-06): Free Plan, 250 searches/month, 100 left, 150 used this month.
+- `11` §6 assumes a live recording of 450 to 1,100 calls. That isn't affordable.
+- Pending the user's answer on extra credits: no more exploratory live calls. The remaining credits go first to recording `demo.db` for the golden cases (about 50).
+**Files:** `data/seeds/scam_templates/`, `docs/STATUS.md`.
