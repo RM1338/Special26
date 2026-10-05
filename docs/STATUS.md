@@ -55,3 +55,30 @@
 1. Intake (`.eml`, PDF, images), then the API: create, PUT claims, run, GET, error envelope, rate limit (T2.1).
 2. Pipeline persistence and events, SSE with `Last-Event-ID`, then P04 + D1 (T2.2 to T2.4).
 3. Frontend scaffold and the four screens wired to the API, then deploy (T0.7, T2.5 to T2.7) for M2 on Wed 7 Oct 21:00.
+
+## M2 Vertical slice (due Wed 7 Oct 21:00 IST), 2026-10-05, everything except the deploy
+
+**Works**
+- Intake (T1.4): `.eml` (auth results, HTML or plain body), PDF text and images, images resized with EXIF stripped and pHash, Lens sizing, optional OCR.
+- API (T2.1): create, edit claims, run, read, health. Every `07` §9 error code has a test.
+- Pipeline (T2.2): persists each probe before its event, then scores, saves the verdict, purges raw data.
+- SSE with `Last-Event-ID` (T2.3).
+- P04 + D1 (T2.4): Google ignored every site-restricted query we tried, so P04 filters results to official domains and falls back to the employer's verified notice (D-34).
+- Frontend (T0.7, T1.11, T1.12, T2.5, T2.6): Home, Confirm, live timeline, verdict card, receipt slip, next steps. Checked in Chromium at 360 px with no horizontal scroll.
+- Dockerfile for Railway (T2.7, D-33). Railway CLI installed.
+- G1 end to end through the API (replay test) and in the browser (live, from cache): red, impersonation, D1 + D3, reason 1 = D1.
+- 284 backend tests in about 5 s.
+
+**Demoable:** locally, the full G1 flow in the browser.
+
+**Blocked on the user**
+- `railway login`, plus `SERPAPI_API_KEY` and `SPECIAL26_SHARE_SALT` set as Railway variables.
+- The local Docker daemon isn't reachable (the user isn't in the `docker` group), so the image builds only on Railway for now. M5's offline `docker run` check needs local Docker.
+- G3 consented `.eml` (D-14).
+
+**Credits used so far:** 15 (8 of them on the D-34 site-restriction investigation).
+
+**Next three tasks**
+1. Deploy to Railway with a volume at `/app/data`, then a live G1 on the public URL (M2 exit).
+2. P07, P08, P09 (Lens upload path, D-27), P03, P10, P06, P05 (T3.1 to T3.8).
+3. Share token, share page with OG tags (D-18), campaigns.
