@@ -403,3 +403,11 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - Template similarity is shown as "{n} offers share near-identical wording" (D-19).
 - **Verdict screen:** a check in a campaign shows "Linked to N other offers using the same details", linking to the campaign page (`09` §1, F → J).
 **Files:** `api/share.py`, `api/checks.py`, `api/web.py`, `frontend/src/pages/{Share,Campaign,Check}.tsx`.
+
+### D-44 · 2026-10-06 · Reason direction
+**Context:** On the first full live G1 run (`chk_353i4x65ya7r`, 7 credits, 7.9 s, S = 6.0), `P07_ROLE_LISTED` (−1.0) tied `P11_PERSONAL_UPI` (+1.0) on |w|. Under the `05` tiebreak it became reason 3 of a red verdict, so evidence for a genuine offer appeared under "Why" the offer is high risk. The `08` §6.1 example, where reason 3 = PERSONAL_UPI, had no P07/P08 findings.
+**Decision:**
+- After decisive rules, reasons first list findings pointing the verdict's way: positive weights for red and amber, negative for green. Grey keeps pure |w| order. Within each direction the order is still |effective| desc, probe_id, `08` table order (D-05). So FR-33's "ordered by absolute contribution" holds within each direction.
+- Counter-evidence stays visible under "All findings".
+- The worked example still gives D1, D3, PERSONAL_UPI. The live G1 case is now a unit test.
+**Files:** `scoring/aggregate.py`, `tests/unit/test_scoring.py`.

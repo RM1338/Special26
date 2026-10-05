@@ -129,8 +129,11 @@ def score(results: dict[str, ProbeResult]) -> Verdict:
     reasons = [Reason(rank=0, code=r, message=m, finding_ids=[fid[i] for i in idx]) for r, idx, m in decisive]
     used = {i for _, idx, _ in decisive for i in idx}
     order = code_order()
+    # D-44: "Why" first lists evidence pointing the verdict's way (red/amber: toward fraud; green: toward genuine)
+    sign = {"red": 1, "amber": 1, "green": -1}.get(tier, 0)
     rest = sorted((i for i, f in enumerate(findings) if i not in used and eff[i] != 0),
-                  key=lambda i: (-abs(eff[i]), findings[i].probe_id, order[findings[i].code]))
+                  key=lambda i: (sign != 0 and (eff[i] > 0) != (sign > 0), -abs(eff[i]), findings[i].probe_id,
+                                 order[findings[i].code]))
     reasons += [Reason(rank=0, code=findings[i].code, message=findings[i].message, finding_ids=[fid[i]]) for i in rest]
     reasons = [r.model_copy(update={"rank": n}) for n, r in enumerate(reasons[:3], 1)]
 

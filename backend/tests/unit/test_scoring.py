@@ -184,3 +184,15 @@ def test_fraud_only_when_quoting_a_notice():
 
 def test_inr():
     assert [inr(2000), inr(150000), inr(499), inr(12345678)] == ["₹2,000", "₹1,50,000", "₹499", "₹1,23,45,678"]
+
+
+def test_reasons_follow_verdict_direction():  # D-44: live G1 has P07/P08 at -1.0 tying PERSONAL_UPI
+    r = g1_results()
+    r["P07_ROLE"] = ProbeResult(probe_id="P07_ROLE", status="ok", findings=[F("P07_ROLE_LISTED")])
+    r["P08_OFFICE"] = ProbeResult(probe_id="P08_OFFICE", status="ok", findings=[F("P08_OFFICE_MATCH")])
+    v = score(r)
+    assert v.score == 6.0 and [x.code for x in v.reasons] == ["D1_FEE_VS_NOTICE", "D3_LOOKALIKE_PLUS_FEE",
+                                                              "P11_PERSONAL_UPI"]
+    green = score(results(F("P03_DKIM_ALIGNED_OFFICIAL"), F("P07_ROLE_LISTED"), F("P05_COMPLAINTS_GENERAL")))
+    assert green.tier == "green" and [x.code for x in green.reasons][:2] == ["P03_DKIM_ALIGNED_OFFICIAL",
+                                                                             "P07_ROLE_LISTED"]
