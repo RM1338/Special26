@@ -1,0 +1,47 @@
+{
+ "G1": {
+  "tier": "red",
+  "red_kind": "impersonation",
+  "decisive": [
+   "D1_FEE_VS_NOTICE",
+   "D3_LOOKALIKE_PLUS_FEE"
+  ],
+  "reason1": "D1_FEE_VS_NOTICE"
+ },
+ "G2": {
+  "tier": "red",
+  "red_kind": "impersonation",
+  "decisive": [
+   "D2_SCHEME_IMPERSONATION"
+  ],
+  "reason1": "D2_SCHEME_IMPERSONATION"
+ },
+ "G4": {
+  "tier": "amber",
+  "red_kind": null,
+  "decisive": [],
+  "reason1": "P01_NO_PRESENCE"
+ },
+ "G5": {
+  "tier": "red",
+  "red_kind": "impersonation",
+  "decisive": [],
+  "reason1": "P09_STOCK_PHOTO"
+ },
+ "G6a": {
+  "tier": "red",
+  "red_kind": "impersonation",
+  "decisive": [
+   "D3_LOOKALIKE_PLUS_FEE"
+  ],
+  "reason1": "D3_LOOKALIKE_PLUS_FEE"
+ },
+ "G6b": {
+  "tier": "red",
+  "red_kind": "impersonation",
+  "decisive": [
+   "D3_LOOKALIKE_PLUS_FEE"
+  ],
+  "reason1": "D3_LOOKALIKE_PLUS_FEE"
+ }
+}
