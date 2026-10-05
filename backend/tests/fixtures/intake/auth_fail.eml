@@ -1,0 +1,7 @@
+Authentication-Results: mx.google.com; dkim=fail header.i=@techmahindra.com; spf=fail smtp.mailfrom=x@bulk.example; dmarc=fail header.from=techmahindra.com
+From: "Tech Mahindra HR" <hr@techmahindra.com>
+Reply-To: techm.hr.desk@gmail.com
+Subject: Offer letter
+Content-Type: text/plain
+
+Pay Rs 2,000 for verification.

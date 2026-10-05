@@ -1,0 +1,325 @@
+{
+ "search_metadata": {
+  "id": "6ac3e17ea20802515bff0bdb",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/RfbXl_Mo9Oj_ymL9KD1sAY5DBWvqkhVnCmBjfZXTuSI/6ac3e17ea20802515bff0bdb.json",
+  "markdown_endpoint": "https://serpapi.com/searches/RfbXl_Mo9Oj_ymL9KD1sAY5DBWvqkhVnCmBjfZXTuSI/6ac3e17ea20802515bff0bdb.md",
+  "pixel_position_endpoint": "https://serpapi.com/searches/RfbXl_Mo9Oj_ymL9KD1sAY5DBWvqkhVnCmBjfZXTuSI/6ac3e17ea20802515bff0bdb.json_with_pixel_position",
+  "created_at": "2026-10-05 17:42:22 UTC",
+  "processed_at": "2026-10-05 17:42:22 UTC",
+  "google_url": "https://www.google.com/search?q=site%3Atechmahindra.com+recruitment+fraud&oq=site%3Atechmahindra.com+recruitment+fraud&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+  "raw_html_file": "https://serpapi.com/searches/RfbXl_Mo9Oj_ymL9KD1sAY5DBWvqkhVnCmBjfZXTuSI/6ac3e17ea20802515bff0bdb.html",
+  "total_time_taken": 23.08
+ },
+ "search_parameters": {
+  "engine": "google",
+  "q": "site:techmahindra.com recruitment fraud",
+  "google_domain": "google.com",
+  "hl": "en",
+  "gl": "in",
+  "device": "desktop"
+ },
+ "search_information": {
+  "query_displayed": "site:techmahindra.com recruitment fraud",
+  "total_results": 54,
+  "time_taken_displayed": 0.18,
+  "organic_results_state": "Results for exact spelling"
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "The rise of fake recruiters: Red flags HR should be aware of",
+   "link": "https://www.humanresourcesonline.net/the-rise-of-fake-recruiters-red-flags-hr-should-be-aware-of",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmwEB6zswFc2eP4tvlXev2_dgzWbtj6ih8DMjtrvuexVoQfaRSVLLO6RApW0GUHnjRzNgsZdulNuq7I2sV9yu2i0bic5vGSX9Vg7F92tZ9Ra3yDPaCi1iz7E3tJLesWbDaLPQeq2PMElqj64NuXikiXnMVXftvZ2nr1u5OUvjj-_NqPj7TFmuISKL9-tM8WR9AMAIiI8K8ZRz03RvDw&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECB8QAQ&uoh=1",
+   "displayed_link": "https://www.humanresourcesonline.net › ... › Evergreen",
+   "favicon": "https://serpapi.com/images/i/UklGRg4BAABXRUJQVlA4IAIBAACwBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0y3sF_jrJHckv6TNFAOZ8wnjX6mxZvp-F1YFjEobw9yexhwAD3BB66xsZ-Z3qfmBufGX4v5t7gPzFOY5dlohS98wWv5FM_4rcxEykqFH_Zf-3iM7fbSaBLtLFdf2f-glFQuF84LTfNY-8J7s1j-_2NOzYt-rpXHlfg4CdJcwbIyJbTB5lQ1QVMU_E4kWYyNgzrnCwIOuLNDayWHgcp-MGt4RB5RM7lSxcTuB9q20LRcAEZPkbhd4oiXGwrAC1ktRzwcAaJbNjVNdpjF4_cSxMhzq-dRNjoAR2WqmYLKWcGlx8VTpUAAAA.webp",
+   "date": "5 Mar 2026",
+   "snippet": "As recruitment scams grow more sophisticated, fraudsters are impersonating employers and staffing firms to lure candidates with fake interviews ...",
+   "snippet_highlighted_words": [
+    "impersonating employers and staffing firms"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "As recruitment scams grow more sophisticated, fraudsters are impersonating employers and staffing firms to lure candidates with fake interviews ...",
+     "source_info_link": "https://www.humanresourcesonline.net/the-rise-of-fake-recruiters-red-flags-hr-should-be-aware-of",
+     "icon": "https://serpapi.com/images/i/UklGRg4BAABXRUJQVlA4IAIBAACwBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0y3sF_jrJHckv6TNFAOZ8wnjX6mxZvp-F1YFjEobw9yexhwAD3BB66xsZ-Z3qfmBufGX4v5t7gPzFOY5dlohS98wWv5FM_4rcxEykqFH_Zf-3iM7fbSaBLtLFdf2f-glFQuF84LTfNY-8J7s1j-_2NOzYt-rpXHlfg4CdJcwbIyJbTB5lQ1QVMU_E4kWYyNgzrnCwIOuLNDayWHgcp-MGt4RB5RM7lSxcTuB9q20LRcAEZPkbhd4oiXGwrAC1ktRzwcAaJbNjVNdpjF4_cSxMhzq-dRNjoAR2WqmYLKWcGlx8VTpUAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CuABL2dvdG8_dXJsPUNBRVNtd0VCNnpzd0ZjMmVQNHR2bFhldjJfZGd6V2J0ajZpaDhETWp0cnZ1ZXhWb1FmYVJTVkxMTzZSQXBXMEdVSG5qUnpOZ3NaZHVsTnVxN0kyc1Y5eXUyaTBiaWM1dkdTWDlWZzdGOTJ0WjlSYTN5RFBhQ2kxaXo3RTN0Skxlc1diRGFMUFFlcTJQTUVscWo2NE51WGlraVhuTVZYZnR2WjJucjF1NU9VdmpqLV9OcVBqN1RGbXVJU0tMOS10TThXUjlBTUFJaUk4SzhaUnowM1J2RHcSBBoCCAAa8wQSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDNBAgAEAAYACAAKj8KC3JlY3J1aXRtZW50FSlinz8aB3JlY3J1aXQaEHJlY3J1aXRtZW50ZnJhdWQaEGl2O3A7cmVjcnVpdG1lbnQqPwoFZnJhdWQVAAAAABoGZnJhdWRzGgRzY2FtGgVzY2FtcxoQcmVjcnVpdG1lbnRmcmF1ZBoKaXY7cDtmcmF1ZDLgAS9nb3RvP3VybD1DQUVTbXdFQjZ6c3dGYzJlUDR0dmxYZXYyX2RneldidGo2aWg4RE1qdHJ2dWV4Vm9RZmFSU1ZMTE82UkFwVzBHVUhualJ6TmdzWmR1bE51cTdJMnNWOXl1MmkwYmljNXZHU1g5Vmc3RjkydFo5UmEzeURQYUNpMWl6N0UzdEpMZXNXYkRhTFBRZXEyUE1FbHFqNjROdVhpa2lYbk1WWGZ0dloybnIxdTVPVXZqai1fTnFQajdURm11SVNLTDktdE04V1I5QU1BSWlJOEs4WlJ6MDNSdkR3OjxUaGUgcmlzZSBvZiBmYWtlIHJlY3J1aXRlcnM6IFJlZCBmbGFncyBIUiBzaG91bGQgYmUgYXdhcmUgb2ZCnwFBcyByZWNydWl0bWVudCBzY2FtcyBncm93IG1vcmUgc29waGlzdGljYXRlZCwgZnJhdWRzdGVycyBhcmUgPGI-aW1wZXJzb25hdGluZyBlbXBsb3llcnMgYW5kIHN0YWZmaW5nIGZpcm1zPC9iPiB0byBsdXJlIGNhbmRpZGF0ZXMgd2l0aCBmYWtlIGludGVydmlld3MmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuABL2dvdG8_dXJsPUNBRVNtd0VCNnpzd0ZjMmVQNHR2bFhldjJfZGd6V2J0ajZpaDhETWp0cnZ1ZXhWb1FmYVJTVkxMTzZSQXBXMEdVSG5qUnpOZ3NaZHVsTnVxN0kyc1Y5eXUyaTBiaWM1dkdTWDlWZzdGOTJ0WjlSYTN5RFBhQ2kxaXo3RTN0Skxlc1diRGFMUFFlcTJQTUVscWo2NE51WGlraVhuTVZYZnR2WjJucjF1NU9VdmpqLV9OcVBqN1RGbXVJU0tMOS10TThXUjlBTUFJaUk4SzhaUnowM1J2RHcSBBoCCAAa8wQSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDNBAgAEAAYACAAKj8KC3JlY3J1aXRtZW50FSlinz8aB3JlY3J1aXQaEHJlY3J1aXRtZW50ZnJhdWQaEGl2O3A7cmVjcnVpdG1lbnQqPwoFZnJhdWQVAAAAABoGZnJhdWRzGgRzY2FtGgVzY2FtcxoQcmVjcnVpdG1lbnRmcmF1ZBoKaXY7cDtmcmF1ZDLgAS9nb3RvP3VybD1DQUVTbXdFQjZ6c3dGYzJlUDR0dmxYZXYyX2RneldidGo2aWg4RE1qdHJ2dWV4Vm9RZmFSU1ZMTE82UkFwVzBHVUhualJ6TmdzWmR1bE51cTdJMnNWOXl1MmkwYmljNXZHU1g5Vmc3RjkydFo5UmEzeURQYUNpMWl6N0UzdEpMZXNXYkRhTFBRZXEyUE1FbHFqNjROdVhpa2lYbk1WWGZ0dloybnIxdTVPVXZqai1fTnFQajdURm11SVNLTDktdE04V1I5QU1BSWlJOEs4WlJ6MDNSdkR3OjxUaGUgcmlzZSBvZiBmYWtlIHJlY3J1aXRlcnM6IFJlZCBmbGFncyBIUiBzaG91bGQgYmUgYXdhcmUgb2ZCnwFBcyByZWNydWl0bWVudCBzY2FtcyBncm93IG1vcmUgc29waGlzdGljYXRlZCwgZnJhdWRzdGVycyBhcmUgPGI-aW1wZXJzb25hdGluZyBlbXBsb3llcnMgYW5kIHN0YWZmaW5nIGZpcm1zPC9iPiB0byBsdXJlIGNhbmRpZGF0ZXMgd2l0aCBmYWtlIGludGVydmlld3MmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Human Resources Online",
+   "read_more_link": "https://www.humanresourcesonline.net/the-rise-of-fake-recruiters-red-flags-hr-should-be-aware-of#:~:text=As%20recruitment%20scams%20grow%20more,fake%20interviews%20and%20fast%2Dtrack%20offers."
+  },
+  {
+   "position": 2,
+   "title": "Recruitment scams: common types, how to spot them, and ...",
+   "link": "https://www.hcamag.com/ca/specialization/recruitment/recruitment-scams-common-types-how-to-spot-them-and-their-impact-on-business/532937",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESxAEB6zswFZDPPaNL2P0fS-ILFuM2ZeFgBbvqJGZfnteKQtecCJAH4cdPJgCElmR5mCW5v4UQ-SBG2KAWTKkdScw7gFPXITICtA62-M-OWFu2xL96exj68GXh6IqoLFD9u8Je_EmPen8ZYCdlulK7FtYvlfnNIaUxRfAImSmd8ePGst3phmqLcBo80cnF6DKfQE0I6Dea3-dofa7M45fnCqDtpX8LJYOtuhLr2RARPveD_GjB13kLHDcJC78Up1lWF0AJHPXN&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECBAQAQ&uoh=1",
+   "displayed_link": "https://www.hcamag.com › specialization › recruitment-...",
+   "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAAA50lEQVR4AWJwL_ChKx61EBOPWjhq4RsZZUB7ZWABQQxE0R5SxVWx3WwLCyBNBEA6SB3bQTqYFgLYG_zw74szx-KweMj-L4-ZsCfoHPg5OR1Zc8rs4pydhO5O3VN6hwqviQop6-Ba8HKOVSZsvwqz08CQbKez4ZstpCkqNN0FZYOFOkKZTPkQOtVpxFKIMc7sFGH-0jUVKjy2JruUHYqQ4L4KBxN4NBUXRoVDd6hFfRgZGGU7hJGR9vijie_wkJ5Rlu94pZ2Fit5_h_AKCM1JU1gmC2FFlhfCjLxCWBR0tv_6WzzCR_gI35qpD43yM5pfAAAAAElFTkSuQmCC.png",
+   "date": "27 Jan 2025",
+   "snippet": "Recruitment scams involve fake job listings designed to trick job seekers into giving away personal information or money in exchange for job ...",
+   "snippet_highlighted_words": [
+    "Recruitment scams"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Recruitment scams involve fake job listings designed to trick job seekers into giving away personal information or money in exchange for job ...",
+     "source_info_link": "https://www.hcamag.com/ca/specialization/recruitment/recruitment-scams-common-types-how-to-spot-them-and-their-impact-on-business/532937",
+     "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAAA50lEQVR4AWJwL_ChKx61EBOPWjhq4RsZZUB7ZWABQQxE0R5SxVWx3WwLCyBNBEA6SB3bQTqYFgLYG_zw74szx-KweMj-L4-ZsCfoHPg5OR1Zc8rs4pydhO5O3VN6hwqviQop6-Ba8HKOVSZsvwqz08CQbKez4ZstpCkqNN0FZYOFOkKZTPkQOtVpxFKIMc7sFGH-0jUVKjy2JruUHYqQ4L4KBxN4NBUXRoVDd6hFfRgZGGU7hJGR9vijie_wkJ5Rlu94pZ2Fit5_h_AKCM1JU1gmC2FFlhfCjLxCWBR0tv_6WzzCR_gI35qpD43yM5pfAAAAAElFTkSuQmCC.png"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpYCL2dvdG8_dXJsPUNBRVN4QUVCNnpzd0ZaRFBQYU5MMlAwZlMtSUxGdU0yWmVGZ0JidnFKR1pmbnRlS1F0ZWNDSkFINGNkUEpnQ0VsbVI1bUNXNXY0VVEtU0JHMktBV1RLa2RTY3c3Z0ZQWElUSUN0QTYyLU0tT1dGdTJ4TDk2ZXhqNjhHWGg2SXFvTEZEOXU4SmVfRW1QZW44WllDZGx1bEs3RnRZdmxmbk5JYVV4UmZBSW1TbWQ4ZVBHc3QzcGhtcUxjQm84MGNuRjZES2ZRRTBJNkRlYTMtZG9mYTdNNDVmbkNxRHRwWDhMSllPdHVoTHIyUkFSUHZlRF9HakIxM2tMSERjSkM3OFVwMWxXRjBBSkhQWE4SBBoCCAAaqwUSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCFBQgAEAAYACAAKj8KC3JlY3J1aXRtZW50FR6iv0AaB3JlY3J1aXQaEHJlY3J1aXRtZW50ZnJhdWQaEGl2O3A7cmVjcnVpdG1lbnQqPwoFZnJhdWQVEohHPxoGZnJhdWRzGgRzY2FtGgVzY2FtcxoQcmVjcnVpdG1lbnRmcmF1ZBoKaXY7cDtmcmF1ZDKWAi9nb3RvP3VybD1DQUVTeEFFQjZ6c3dGWkRQUGFOTDJQMGZTLUlMRnVNMlplRmdCYnZxSkdaZm50ZUtRdGVjQ0pBSDRjZFBKZ0NFbG1SNW1DVzV2NFVRLVNCRzJLQVdUS2tkU2N3N2dGUFhJVElDdEE2Mi1NLU9XRnUyeEw5NmV4ajY4R1hoNklxb0xGRDl1OEplX0VtUGVuOFpZQ2RsdWxLN0Z0WXZsZm5OSWFVeFJmQUltU21kOGVQR3N0M3BobXFMY0JvODBjbkY2REtmUUUwSTZEZWEzLWRvZmE3TTQ1Zm5DcUR0cFg4TEpZT3R1aExyMlJBUlB2ZURfR2pCMTNrTEhEY0pDNzhVcDFsV0YwQUpIUFhOOkE8Yj5SZWNydWl0bWVudCBzY2FtczwvYj46IGNvbW1vbiB0eXBlcywgaG93IHRvIHNwb3QgdGhlbSwgYW5kIC4uLkKcATxiPlJlY3J1aXRtZW50IHNjYW1zPC9iPiBpbnZvbHZlIGZha2Ugam9iIGxpc3RpbmdzIGRlc2lnbmVkIHRvIHRyaWNrIGpvYiBzZWVrZXJzIGludG8gZ2l2aW5nIGF3YXkgcGVyc29uYWwgaW5mb3JtYXRpb24gb3IgbW9uZXkgaW4gZXhjaGFuZ2UgZm9yIGpvYiZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpYCL2dvdG8_dXJsPUNBRVN4QUVCNnpzd0ZaRFBQYU5MMlAwZlMtSUxGdU0yWmVGZ0JidnFKR1pmbnRlS1F0ZWNDSkFINGNkUEpnQ0VsbVI1bUNXNXY0VVEtU0JHMktBV1RLa2RTY3c3Z0ZQWElUSUN0QTYyLU0tT1dGdTJ4TDk2ZXhqNjhHWGg2SXFvTEZEOXU4SmVfRW1QZW44WllDZGx1bEs3RnRZdmxmbk5JYVV4UmZBSW1TbWQ4ZVBHc3QzcGhtcUxjQm84MGNuRjZES2ZRRTBJNkRlYTMtZG9mYTdNNDVmbkNxRHRwWDhMSllPdHVoTHIyUkFSUHZlRF9HakIxM2tMSERjSkM3OFVwMWxXRjBBSkhQWE4SBBoCCAAaqwUSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCFBQgAEAAYACAAKj8KC3JlY3J1aXRtZW50FR6iv0AaB3JlY3J1aXQaEHJlY3J1aXRtZW50ZnJhdWQaEGl2O3A7cmVjcnVpdG1lbnQqPwoFZnJhdWQVEohHPxoGZnJhdWRzGgRzY2FtGgVzY2FtcxoQcmVjcnVpdG1lbnRmcmF1ZBoKaXY7cDtmcmF1ZDKWAi9nb3RvP3VybD1DQUVTeEFFQjZ6c3dGWkRQUGFOTDJQMGZTLUlMRnVNMlplRmdCYnZxSkdaZm50ZUtRdGVjQ0pBSDRjZFBKZ0NFbG1SNW1DVzV2NFVRLVNCRzJLQVdUS2tkU2N3N2dGUFhJVElDdEE2Mi1NLU9XRnUyeEw5NmV4ajY4R1hoNklxb0xGRDl1OEplX0VtUGVuOFpZQ2RsdWxLN0Z0WXZsZm5OSWFVeFJmQUltU21kOGVQR3N0M3BobXFMY0JvODBjbkY2REtmUUUwSTZEZWEzLWRvZmE3TTQ1Zm5DcUR0cFg4TEpZT3R1aExyMlJBUlB2ZURfR2pCMTNrTEhEY0pDNzhVcDFsV0YwQUpIUFhOOkE8Yj5SZWNydWl0bWVudCBzY2FtczwvYj46IGNvbW1vbiB0eXBlcywgaG93IHRvIHNwb3QgdGhlbSwgYW5kIC4uLkKcATxiPlJlY3J1aXRtZW50IHNjYW1zPC9iPiBpbnZvbHZlIGZha2Ugam9iIGxpc3RpbmdzIGRlc2lnbmVkIHRvIHRyaWNrIGpvYiBzZWVrZXJzIGludG8gZ2l2aW5nIGF3YXkgcGVyc29uYWwgaW5mb3JtYXRpb24gb3IgbW9uZXkgaW4gZXhjaGFuZ2UgZm9yIGpvYiZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "hcamag.com",
+   "read_more_link": "https://www.hcamag.com/ca/specialization/recruitment/recruitment-scams-common-types-how-to-spot-them-and-their-impact-on-business/532937#:~:text=Recruitment%20scams%20involve%20fake%20job,for%20job%20offers%20or%20interviews."
+  },
+  {
+   "position": 3,
+   "title": "How students aware about fake-job offers, fraud-awareness",
+   "link": "https://www.youtube.com/watch?v=zp_d4AcHljI",
+   "displayed_link": "170+ views · 4 years ago",
+   "thumbnail": "https://serpapi.com/searches/6ac3e17ea20802515bff0bdb/images/E3h7CKL6uTUbQ4bNBBlrNQRq9pNHAofXCl7cOcb12T0.jpeg",
+   "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAQAwCdASoQABAAAsBMJbACdEyAZIBvHZEVF_xH8jFr8RAA_vdfqk7B4h7c7SA9EXLm1jvCcvS12TTPc4SgLiYbbdnDtj5mFYsy9rYK8egN-m_wy1bF7_lqaJwe1kOFY9IH8jmlO7DbAWe9V_-WsvvcWurSf-Cp-rbcVf_uF_E7k7jxw1wX2r_PvJ3PjrggAAA.webp",
+   "snippet": "How students aware about fake-job offers, fraud-awareness - important-notice recruitment-fraud-alert",
+   "duration": "49:36",
+   "about_this_result": {
+    "source": {
+     "description": "How students aware about fake-job offers, fraud-awareness - important-notice recruitment-fraud-alert",
+     "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAQAwCdASoQABAAAsBMJbACdEyAZIBvHZEVF_xH8jFr8RAA_vdfqk7B4h7c7SA9EXLm1jvCcvS12TTPc4SgLiYbbdnDtj5mFYsy9rYK8egN-m_wy1bF7_lqaJwe1kOFY9IH8jmlO7DbAWe9V_-WsvvcWurSf-Cp-rbcVf_uF_E7k7jxw1wX2r_PvJ3PjrggAAA.webp"
+    }
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVm1kRWdMb0RZRWtKeDVEVXpYc0VwOVQtbzFJd1VhWTVzMVo4WE1HNjRMOUxIRGYyeWkwT2RQM0d6VHVleDNYMzVFaUZoTzZmRzNEX2V0aUp3OTY3YkVYb0p0V3hLSlFkSVBwSlNDYWpiSVdqeHBlMHBzdnpBZWUwR3lueHREbUFxd2cSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVm1kRWdMb0RZRWtKeDVEVXpYc0VwOVQtbzFJd1VhWTVzMVo4WE1HNjRMOUxIRGYyeWkwT2RQM0d6VHVleDNYMzVFaUZoTzZmRzNEX2V0aUp3OTY3YkVYb0p0V3hLSlFkSVBwSlNDYWpiSVdqeHBlMHBzdnpBZWUwR3lueHREbUFxd2cSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+   "source": "YouTube · Blue Pearl Computer Education"
+  },
+  {
+   "position": 4,
+   "title": "Modern Slavery: Understanding Indian Recruitment Fraud",
+   "link": "https://devilslane.com/modern-slavery-understanding-indian-recruitment-fraud/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFfDCCGVTmG_NcmCmlzG1DoMG7iQqrsZrML98tn67pRMlqW3ztdao7WsvQLnmyAMCzonDIL35RnY13mqUlyoACBUwck2yKcOMP34L54J4R2UjptMaifP58aEjkNj1k4Kyi-Vj5dThduUF8tiP7wM5aPfXp87cLCY9Ok7GfsAp4A2tBHOT&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECBcQAQ&uoh=1",
+   "displayed_link": "https://devilslane.com › modern-slavery-understanding-...",
+   "favicon": "https://serpapi.com/images/i/UklGRoQBAABXRUJQVlA4IHgBAACwCACdASogACAAPtE-tFooIigoFAEAGglpABOTedgRWwSD1AMzHy__0_cF_U__Z9fT0Jf1ASr0cOJa2YIXrlxktVV_fK3ibJj0OeSgjwAA_v3bRSVswpLQ-O2QaFNp75vCbxHXiP-APe6031vZEEqt-eyzQKnua7_79dT-dZJ9Ek6sX86xDUUtdw8hwiqfyYk-4P4wQ_TRk8r43_AURFRonmu-A9Qfhz1TWk7qkG7DxhxliZPGo2l9S2RhbteHl1ef3QnfTlit07xxB7XlH9kC3i_FEmJ6rNkf2z_j78yoZz_BgGgmpj-JKp_f4N3uMUbtj9XicdJtxYAEAqYvv3_6D2KHEVhg5YbHmmc7i8PHZ-Zr0HeDI-7WxK5U3j8r5kjvk_Mwx8Yf9_dO_2jQZhufsrUcbNcjvYNfse3UPlhEjBt6hvN8r1YLElX-nxmHNhUWOeE7Cq4R7vDK80S_jdMBSbIFbPiOqRTsdRrkHICKr9yA7y_QAAAA.webp",
+   "date": "8 Oct 2024",
+   "snippet": "This scam works quite simply: we train you for ten weeks on a meagre salary for an amazing company you dream of, then place you into another ...",
+   "snippet_highlighted_words": [
+    "scam"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "This scam works quite simply: we train you for ten weeks on a meagre salary for an amazing company you dream of, then place you into another ...",
+     "source_info_link": "https://devilslane.com/modern-slavery-understanding-indian-recruitment-fraud/",
+     "icon": "https://serpapi.com/images/i/UklGRoQBAABXRUJQVlA4IHgBAACwCACdASogACAAPtE-tFooIigoFAEAGglpABOTedgRWwSD1AMzHy__0_cF_U__Z9fT0Jf1ASr0cOJa2YIXrlxktVV_fK3ibJj0OeSgjwAA_v3bRSVswpLQ-O2QaFNp75vCbxHXiP-APe6031vZEEqt-eyzQKnua7_79dT-dZJ9Ek6sX86xDUUtdw8hwiqfyYk-4P4wQ_TRk8r43_AURFRonmu-A9Qfhz1TWk7qkG7DxhxliZPGo2l9S2RhbteHl1ef3QnfTlit07xxB7XlH9kC3i_FEmJ6rNkf2z_j78yoZz_BgGgmpj-JKp_f4N3uMUbtj9XicdJtxYAEAqYvv3_6D2KHEVhg5YbHmmc7i8PHZ-Zr0HeDI-7WxK5U3j8r5kjvk_Mwx8Yf9_dO_2jQZhufsrUcbNcjvYNfse3UPlhEjBt6hvN8r1YLElX-nxmHNhUWOeE7Cq4R7vDK80S_jdMBSbIFbPiOqRTsdRrkHICKr9yA7y_QAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZmRENDR1ZUbUdfTmNtQ21sekcxRG9NRzdpUXFyc1pyTUw5OHRuNjdwUk1scVczenRkYW83V3N2UUxubXlBTUN6b25ESUwzNVJuWTEzbXFVbHlvQUNCVXdjazJ5S2NPTVAzNEw1NEo0UjJVanB0TWFpZlA1OGFFamtOajFrNEt5aS1WajVkVGhkdVVGOHRpUDd3TTVhUGZYcDg3Y0xDWTlPazdHZnNBcDRBMnRCSE9UEgQaAggAGtcEEgIIABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJAsQQIABAAGAAgACo_CgtyZWNydWl0bWVudBVv3oZAGgdyZWNydWl0GhByZWNydWl0bWVudGZyYXVkGhBpdjtwO3JlY3J1aXRtZW50Kj8KBWZyYXVkFRixl0AaBmZyYXVkcxoEc2NhbRoFc2NhbXMaEHJlY3J1aXRtZW50ZnJhdWQaCml2O3A7ZnJhdWQyxgEvZ290bz91cmw9Q0FFU2lBRUI2enN3RmZEQ0NHVlRtR19OY21DbWx6RzFEb01HN2lRcXJzWnJNTDk4dG42N3BSTWxxVzN6dGRhbzdXc3ZRTG5teUFNQ3pvbkRJTDM1Um5ZMTNtcVVseW9BQ0JVd2NrMnlLY09NUDM0TDU0SjRSMlVqcHRNYWlmUDU4YUVqa05qMWs0S3lpLVZqNWRUaGR1VUY4dGlQN3dNNWFQZlhwODdjTENZOU9rN0dmc0FwNEEydEJIT1Q6PU1vZGVybiBTbGF2ZXJ5OiBVbmRlcnN0YW5kaW5nIEluZGlhbiA8Yj5SZWNydWl0bWVudCBGcmF1ZDwvYj5CnAFUaGlzIDxiPnNjYW08L2I-IHdvcmtzIHF1aXRlIHNpbXBseTogd2UgdHJhaW4geW91IGZvciB0ZW4gd2Vla3Mgb24gYSBtZWFncmUgc2FsYXJ5IGZvciBhbiBhbWF6aW5nIGNvbXBhbnkgeW91IGRyZWFtIG9mLCB0aGVuIHBsYWNlIHlvdSBpbnRvIGFub3RoZXImbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZmRENDR1ZUbUdfTmNtQ21sekcxRG9NRzdpUXFyc1pyTUw5OHRuNjdwUk1scVczenRkYW83V3N2UUxubXlBTUN6b25ESUwzNVJuWTEzbXFVbHlvQUNCVXdjazJ5S2NPTVAzNEw1NEo0UjJVanB0TWFpZlA1OGFFamtOajFrNEt5aS1WajVkVGhkdVVGOHRpUDd3TTVhUGZYcDg3Y0xDWTlPazdHZnNBcDRBMnRCSE9UEgQaAggAGtcEEgIIABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJAsQQIABAAGAAgACo_CgtyZWNydWl0bWVudBVv3oZAGgdyZWNydWl0GhByZWNydWl0bWVudGZyYXVkGhBpdjtwO3JlY3J1aXRtZW50Kj8KBWZyYXVkFRixl0AaBmZyYXVkcxoEc2NhbRoFc2NhbXMaEHJlY3J1aXRtZW50ZnJhdWQaCml2O3A7ZnJhdWQyxgEvZ290bz91cmw9Q0FFU2lBRUI2enN3RmZEQ0NHVlRtR19OY21DbWx6RzFEb01HN2lRcXJzWnJNTDk4dG42N3BSTWxxVzN6dGRhbzdXc3ZRTG5teUFNQ3pvbkRJTDM1Um5ZMTNtcVVseW9BQ0JVd2NrMnlLY09NUDM0TDU0SjRSMlVqcHRNYWlmUDU4YUVqa05qMWs0S3lpLVZqNWRUaGR1VUY4dGlQN3dNNWFQZlhwODdjTENZOU9rN0dmc0FwNEEydEJIT1Q6PU1vZGVybiBTbGF2ZXJ5OiBVbmRlcnN0YW5kaW5nIEluZGlhbiA8Yj5SZWNydWl0bWVudCBGcmF1ZDwvYj5CnAFUaGlzIDxiPnNjYW08L2I-IHdvcmtzIHF1aXRlIHNpbXBseTogd2UgdHJhaW4geW91IGZvciB0ZW4gd2Vla3Mgb24gYSBtZWFncmUgc2FsYXJ5IGZvciBhbiBhbWF6aW5nIGNvbXBhbnkgeW91IGRyZWFtIG9mLCB0aGVuIHBsYWNlIHlvdSBpbnRvIGFub3RoZXImbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "devilslane.com",
+   "read_more_link": "https://devilslane.com/modern-slavery-understanding-indian-recruitment-fraud/#:~:text=This%20scam%20works%20quite%20simply%3A,years%20which%20you%20can't%20leave."
+  },
+  {
+   "position": 5,
+   "title": "Warning Signs of A Potential Job Scam",
+   "link": "https://www.neemtree.in/warning-signs-of-a-potential-job-scam/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeQHrOzAVmQx6c9guh8NS7-20blssG04AhCEtHN83hyYKbUFkScb7m6_8B5aAK09_D_XHp0R_f6cQt-QBPmb4KG9WuyzU0QUbyWbs6rFemHNh5T-GFoTQIReiJVluC0Me30OSgYwjfEAzxebCN_wMlrPeD8-eIV4D-8g&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECBQQAQ&uoh=1",
+   "displayed_link": "https://www.neemtree.in › Blog",
+   "favicon": "https://serpapi.com/images/i/UklGRtoAAABXRUJQVlA4IM4AAAAQBgCdASocABwAPtEwtFooIigoGAEAGgliAJ0ygzNVgQYDbAbf-A4vMhaFdYdckubvU2jsP7doV4AA_vYOF_OIdipuHkSN3RfGlRDh5eVjxu-q5NrvHyfBVi5HKKZdUwCYh0ZOTP1fXCQFbrdu_GPpR_DsQrYAuvLQNSFcnEtBP0MKq14L1g0MJcRmsgFyZX37vgnrm1xrqmH-s_edGGPEkbIXczllhRgLn3-yL73PCrbrypfnB_yu4pbuAOZsUn0NqnFyY59kM0U63UAAAA.webp",
+   "date": "15 May 2024",
+   "snippet": "Scammers often use job postings to collect personal details they can then use for identity theft or fraud. And remember, reputable companies ...",
+   "snippet_highlighted_words": [
+    "Scammers often use job postings to collect personal details"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Scammers often use job postings to collect personal details they can then use for identity theft or fraud. And remember, reputable companies ...",
+     "source_info_link": "https://www.neemtree.in/warning-signs-of-a-potential-job-scam/",
+     "icon": "https://serpapi.com/images/i/UklGRtoAAABXRUJQVlA4IM4AAAAQBgCdASocABwAPtEwtFooIigoGAEAGgliAJ0ygzNVgQYDbAbf-A4vMhaFdYdckubvU2jsP7doV4AA_vYOF_OIdipuHkSN3RfGlRDh5eVjxu-q5NrvHyfBVi5HKKZdUwCYh0ZOTP1fXCQFbrdu_GPpR_DsQrYAuvLQNSFcnEtBP0MKq14L1g0MJcRmsgFyZX37vgnrm1xrqmH-s_edGGPEkbIXczllhRgLn3-yL73PCrbrypfnB_yu4pbuAOZsUn0NqnFyY59kM0U63UAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrEBL2dvdG8_dXJsPUNBRVNlUUhyT3pBVm1ReDZjOWd1aDhOUzctMjBibHNzRzA0QWhDRXRITjgzaHlZS2JVRmtTY2I3bTZfOEI1YUFLMDlfRF9YSHAwUl9mNmNRdC1RQlBtYjRLRzlXdXl6VTBRVWJ5V2JzNnJGZW1ITmg1VC1HRm9UUUlSZWlKVmx1QzBNZTMwT1NnWXdqZkVBenhlYkNOX3dNbHJQZUQ4LWVJVjRELThnEgQaAggAGroEEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQJYECAAQABgAIAAqPwoLcmVjcnVpdG1lbnQVVA9IPxoHcmVjcnVpdBoQcmVjcnVpdG1lbnRmcmF1ZBoQaXY7cDtyZWNydWl0bWVudCo_CgVmcmF1ZBUVFJU-GgZmcmF1ZHMaBHNjYW0aBXNjYW1zGhByZWNydWl0bWVudGZyYXVkGgppdjtwO2ZyYXVkMrEBL2dvdG8_dXJsPUNBRVNlUUhyT3pBVm1ReDZjOWd1aDhOUzctMjBibHNzRzA0QWhDRXRITjgzaHlZS2JVRmtTY2I3bTZfOEI1YUFLMDlfRF9YSHAwUl9mNmNRdC1RQlBtYjRLRzlXdXl6VTBRVWJ5V2JzNnJGZW1ITmg1VC1HRm9UUUlSZWlKVmx1QzBNZTMwT1NnWXdqZkVBenhlYkNOX3dNbHJQZUQ4LWVJVjRELThnOjdXYXJuaW5nIFNpZ25zIG9mIEEgUG90ZW50aWFsIEpvYiA8Yj5TY2FtPC9iPiAtIE5lZW10cmVlQpwBPGI-U2NhbW1lcnMgb2Z0ZW4gdXNlIGpvYiBwb3N0aW5ncyB0byBjb2xsZWN0IHBlcnNvbmFsIGRldGFpbHM8L2I-IHRoZXkgY2FuIHRoZW4gdXNlIGZvciBpZGVudGl0eSB0aGVmdCBvciBmcmF1ZC4gQW5kIHJlbWVtYmVyLCByZXB1dGFibGUgY29tcGFuaWVzJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrEBL2dvdG8_dXJsPUNBRVNlUUhyT3pBVm1ReDZjOWd1aDhOUzctMjBibHNzRzA0QWhDRXRITjgzaHlZS2JVRmtTY2I3bTZfOEI1YUFLMDlfRF9YSHAwUl9mNmNRdC1RQlBtYjRLRzlXdXl6VTBRVWJ5V2JzNnJGZW1ITmg1VC1HRm9UUUlSZWlKVmx1QzBNZTMwT1NnWXdqZkVBenhlYkNOX3dNbHJQZUQ4LWVJVjRELThnEgQaAggAGroEEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQJYECAAQABgAIAAqPwoLcmVjcnVpdG1lbnQVVA9IPxoHcmVjcnVpdBoQcmVjcnVpdG1lbnRmcmF1ZBoQaXY7cDtyZWNydWl0bWVudCo_CgVmcmF1ZBUVFJU-GgZmcmF1ZHMaBHNjYW0aBXNjYW1zGhByZWNydWl0bWVudGZyYXVkGgppdjtwO2ZyYXVkMrEBL2dvdG8_dXJsPUNBRVNlUUhyT3pBVm1ReDZjOWd1aDhOUzctMjBibHNzRzA0QWhDRXRITjgzaHlZS2JVRmtTY2I3bTZfOEI1YUFLMDlfRF9YSHAwUl9mNmNRdC1RQlBtYjRLRzlXdXl6VTBRVWJ5V2JzNnJGZW1ITmg1VC1HRm9UUUlSZWlKVmx1QzBNZTMwT1NnWXdqZkVBenhlYkNOX3dNbHJQZUQ4LWVJVjRELThnOjdXYXJuaW5nIFNpZ25zIG9mIEEgUG90ZW50aWFsIEpvYiA8Yj5TY2FtPC9iPiAtIE5lZW10cmVlQpwBPGI-U2NhbW1lcnMgb2Z0ZW4gdXNlIGpvYiBwb3N0aW5ncyB0byBjb2xsZWN0IHBlcnNvbmFsIGRldGFpbHM8L2I-IHRoZXkgY2FuIHRoZW4gdXNlIGZvciBpZGVudGl0eSB0aGVmdCBvciBmcmF1ZC4gQW5kIHJlbWVtYmVyLCByZXB1dGFibGUgY29tcGFuaWVzJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Neemtree",
+   "read_more_link": "https://www.neemtree.in/warning-signs-of-a-potential-job-scam/#:~:text=Scammers%20often%20use%20job%20postings,applying%20through%20an%20unfamiliar%20link."
+  },
+  {
+   "position": 6,
+   "title": "6 Dangerous Red Flags Hidden Inside Fake Job Offers",
+   "link": "https://blog.kindjobs.in/fake-job-offer-warning/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESawHrOzAVRu4DpP9nu42Pcd-7rU2zryOH6rv4EZXS-_guWTLoA0XBtyykeeXGs5NFp2bGj9G6nBz_gIznGXu9J1fxGTw-H-8EIC7wGd9XPhIzNUCDKNplwANbHFwhItSzs8FOLLp7dktQmnbX&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECBIQAQ&uoh=1",
+   "displayed_link": "https://blog.kindjobs.in › fake-job-offer-warning",
+   "date": "23 Sept 2026",
+   "snippet": "1. They Ask You to Pay a Fee Upfront Legitimate employers never charge candidates money to apply, attend an interview, or receive an offer ...",
+   "snippet_highlighted_words": [
+    "They Ask You to Pay a Fee Upfront"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "1. They Ask You to Pay a Fee Upfront Legitimate employers never charge candidates money to apply, attend an interview, or receive an offer ...",
+     "source_info_link": "https://blog.kindjobs.in/fake-job-offer-warning/"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVlJ1NERwUDludTQyUGNkLTdyVTJ6cnlPSDZydjRFWlhTLV9ndVdUTG9BMFhCdHl5a2VlWEdzNU5GcDJiR2o5RzZuQnpfZ0l6bkdYdTlKMWZ4R1R3LUgtOEVJQzd3R2Q5WFBoSXpOVUNES05wbHdBTmJIRndoSXRTenM4Rk9MTHA3ZGt0UW1uYlgSBBoCCAAaoQQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA_QMIABAAGAAgACo_CgtyZWNydWl0bWVudBWrEaE_GgdyZWNydWl0GhByZWNydWl0bWVudGZyYXVkGhBpdjtwO3JlY3J1aXRtZW50Kj8KBWZyYXVkFW9o9T8aBmZyYXVkcxoEc2NhbRoFc2NhbXMaEHJlY3J1aXRtZW50ZnJhdWQaCml2O3A7ZnJhdWQyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWUnU0RHBQOW51NDJQY2QtN3JVMnpyeU9INnJ2NEVaWFMtX2d1V1RMb0EwWEJ0eXlrZWVYR3M1TkZwMmJHajlHNm5Cel9nSXpuR1h1OUoxZnhHVHctSC04RUlDN3dHZDlYUGhJek5VQ0RLTnBsd0FOYkhGd2hJdFN6czhGT0xMcDdka3RRbW5iWDozNiBEYW5nZXJvdXMgUmVkIEZsYWdzIEhpZGRlbiBJbnNpZGUgRmFrZSBKb2IgT2ZmZXJzQpoBMS4gPGI-VGhleSBBc2sgWW91IHRvIFBheSBhIEZlZSBVcGZyb250PC9iPiBMZWdpdGltYXRlIGVtcGxveWVycyBuZXZlciBjaGFyZ2UgY2FuZGlkYXRlcyBtb25leSB0byBhcHBseSwgYXR0ZW5kIGFuIGludGVydmlldywgb3IgcmVjZWl2ZSBhbiBvZmZlciZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVlJ1NERwUDludTQyUGNkLTdyVTJ6cnlPSDZydjRFWlhTLV9ndVdUTG9BMFhCdHl5a2VlWEdzNU5GcDJiR2o5RzZuQnpfZ0l6bkdYdTlKMWZ4R1R3LUgtOEVJQzd3R2Q5WFBoSXpOVUNES05wbHdBTmJIRndoSXRTenM4Rk9MTHA3ZGt0UW1uYlgSBBoCCAAaoQQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA_QMIABAAGAAgACo_CgtyZWNydWl0bWVudBWrEaE_GgdyZWNydWl0GhByZWNydWl0bWVudGZyYXVkGhBpdjtwO3JlY3J1aXRtZW50Kj8KBWZyYXVkFW9o9T8aBmZyYXVkcxoEc2NhbRoFc2NhbXMaEHJlY3J1aXRtZW50ZnJhdWQaCml2O3A7ZnJhdWQyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWUnU0RHBQOW51NDJQY2QtN3JVMnpyeU9INnJ2NEVaWFMtX2d1V1RMb0EwWEJ0eXlrZWVYR3M1TkZwMmJHajlHNm5Cel9nSXpuR1h1OUoxZnhHVHctSC04RUlDN3dHZDlYUGhJek5VQ0RLTnBsd0FOYkhGd2hJdFN6czhGT0xMcDdka3RRbW5iWDozNiBEYW5nZXJvdXMgUmVkIEZsYWdzIEhpZGRlbiBJbnNpZGUgRmFrZSBKb2IgT2ZmZXJzQpoBMS4gPGI-VGhleSBBc2sgWW91IHRvIFBheSBhIEZlZSBVcGZyb250PC9iPiBMZWdpdGltYXRlIGVtcGxveWVycyBuZXZlciBjaGFyZ2UgY2FuZGlkYXRlcyBtb25leSB0byBhcHBseSwgYXR0ZW5kIGFuIGludGVydmlldywgb3IgcmVjZWl2ZSBhbiBvZmZlciZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "KindJobs"
+  },
+  {
+   "position": 7,
+   "title": "Fake Job Offer Scam: Recruitment Fraud Explained | SECMONS",
+   "link": "https://secmons.com/scams/fake-job-offer-scam/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaQHrOzAVHlB7OHzWWoI226xlCS7At2W2AptdS9dPC8hSIYYB2sNlSn912Xu3c8ydfzf4wtx2EPctzZCdO_EHHmhhAEc2P8uO43mvnWMmWL_-6H-VOiquBI7AziPLifJ21qWywW0Mmt1Pdg&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECA8QAQ&uoh=1",
+   "displayed_link": "https://secmons.com › Scams",
+   "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJFBMVEVHcEx8Ou18Ou18Ou18Ou18Ou18Ou18Ou58Ou18Ou18Ou18Ou0hJjmeAAAAC3RSTlMAw1KpOiCQDWvu2iGcR4QAAAB7SURBVCiRrZJBDoAwCASpLWDl__8VbW91YmLcYzc70A0ii7y29XFqi6jkFfYyFgStEQWslrHt91gHS0TzC0XRvn5hNFPEaKxG7OLEzvdDkd363apBgXtM9mPzPtjU_GSTBpt0bQRV-cE9JbTDPv7xgF5idAnKB5Syh9gJ49QEbECewTMAAAAASUVORK5CYII.png",
+   "date": "1 Jan 2021",
+   "snippet": "The fake job offer scam is a widespread fraud operation in which attackers impersonate recruiters, hiring managers, or legitimate companies to ...",
+   "snippet_highlighted_words": [
+    "attackers impersonate recruiters, hiring managers, or legitimate companies"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "The fake job offer scam is a widespread fraud operation in which attackers impersonate recruiters, hiring managers, or legitimate companies to ...",
+     "source_info_link": "https://secmons.com/scams/fake-job-offer-scam/",
+     "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJFBMVEVHcEx8Ou18Ou18Ou18Ou18Ou18Ou18Ou58Ou18Ou18Ou18Ou0hJjmeAAAAC3RSTlMAw1KpOiCQDWvu2iGcR4QAAAB7SURBVCiRrZJBDoAwCASpLWDl__8VbW91YmLcYzc70A0ii7y29XFqi6jkFfYyFgStEQWslrHt91gHS0TzC0XRvn5hNFPEaKxG7OLEzvdDkd363apBgXtM9mPzPtjU_GSTBpt0bQRV-cE9JbTDPv7xgF5idAnKB5Syh9gJ49QEbECewTMAAAAASUVORK5CYII.png"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVkhsQjdPSHpXV29JMjI2eGxDUzdBdDJXMkFwdGRTOWRQQzhoU0lZWUIyc05sU245MTJYdTNjOHlkZnpmNHd0eDJFUGN0elpDZE9fRUhIbWhoQUVjMlA4dU80M212bldNbVdMXy02SC1WT2lxdUJJN0F6aVBMaWZKMjFxV3l3VzBNbXQxUGRnEgQaAggAGrgEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQJQECAAQABgAIAAqPwoLcmVjcnVpdG1lbnQVZziqQBoHcmVjcnVpdBoQcmVjcnVpdG1lbnRmcmF1ZBoQaXY7cDtyZWNydWl0bWVudCo_CgVmcmF1ZBVMNqxAGgZmcmF1ZHMaBHNjYW0aBXNjYW1zGhByZWNydWl0bWVudGZyYXVkGgppdjtwO2ZyYXVkMpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVkhsQjdPSHpXV29JMjI2eGxDUzdBdDJXMkFwdGRTOWRQQzhoU0lZWUIyc05sU245MTJYdTNjOHlkZnpmNHd0eDJFUGN0elpDZE9fRUhIbWhoQUVjMlA4dU80M212bldNbVdMXy02SC1WT2lxdUJJN0F6aVBMaWZKMjFxV3l3VzBNbXQxUGRnOkhGYWtlIEpvYiBPZmZlciA8Yj5TY2FtPC9iPjogPGI-UmVjcnVpdG1lbnQgRnJhdWQ8L2I-IEV4cGxhaW5lZCB8IFNFQ01PTlNCngFUaGUgZmFrZSBqb2Igb2ZmZXIgc2NhbSBpcyBhIHdpZGVzcHJlYWQgZnJhdWQgb3BlcmF0aW9uIGluIHdoaWNoIDxiPmF0dGFja2VycyBpbXBlcnNvbmF0ZSByZWNydWl0ZXJzLCBoaXJpbmcgbWFuYWdlcnMsIG9yIGxlZ2l0aW1hdGUgY29tcGFuaWVzPC9iPiB0byZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVkhsQjdPSHpXV29JMjI2eGxDUzdBdDJXMkFwdGRTOWRQQzhoU0lZWUIyc05sU245MTJYdTNjOHlkZnpmNHd0eDJFUGN0elpDZE9fRUhIbWhoQUVjMlA4dU80M212bldNbVdMXy02SC1WT2lxdUJJN0F6aVBMaWZKMjFxV3l3VzBNbXQxUGRnEgQaAggAGrgEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQJQECAAQABgAIAAqPwoLcmVjcnVpdG1lbnQVZziqQBoHcmVjcnVpdBoQcmVjcnVpdG1lbnRmcmF1ZBoQaXY7cDtyZWNydWl0bWVudCo_CgVmcmF1ZBVMNqxAGgZmcmF1ZHMaBHNjYW0aBXNjYW1zGhByZWNydWl0bWVudGZyYXVkGgppdjtwO2ZyYXVkMpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVkhsQjdPSHpXV29JMjI2eGxDUzdBdDJXMkFwdGRTOWRQQzhoU0lZWUIyc05sU245MTJYdTNjOHlkZnpmNHd0eDJFUGN0elpDZE9fRUhIbWhoQUVjMlA4dU80M212bldNbVdMXy02SC1WT2lxdUJJN0F6aVBMaWZKMjFxV3l3VzBNbXQxUGRnOkhGYWtlIEpvYiBPZmZlciA8Yj5TY2FtPC9iPjogPGI-UmVjcnVpdG1lbnQgRnJhdWQ8L2I-IEV4cGxhaW5lZCB8IFNFQ01PTlNCngFUaGUgZmFrZSBqb2Igb2ZmZXIgc2NhbSBpcyBhIHdpZGVzcHJlYWQgZnJhdWQgb3BlcmF0aW9uIGluIHdoaWNoIDxiPmF0dGFja2VycyBpbXBlcnNvbmF0ZSByZWNydWl0ZXJzLCBoaXJpbmcgbWFuYWdlcnMsIG9yIGxlZ2l0aW1hdGUgY29tcGFuaWVzPC9iPiB0byZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "secmons.com",
+   "read_more_link": "https://secmons.com/scams/fake-job-offer-scam/#:~:text=The%20fake%20job%20offer%20scam,information%20or%20making%20fraudulent%20payments."
+  },
+  {
+   "position": 8,
+   "title": "All Accused In Recruitment Scam Will Be Identified, Booked: LG",
+   "link": "https://www.youtube.com/watch?v=ZmFB3SkD--0",
+   "displayed_link": "11.4K+ views · 4 years ago",
+   "thumbnail": "https://serpapi.com/searches/6ac3e17ea20802515bff0bdb/images/E3h7CKL6uTUbQ4bNBBlrNf5SImF_SI9QueWSFDFGgWM.jpeg",
+   "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAQAwCdASoQABAAAsBMJbACdEyAZIBvHZEVF_xH8jFr8RAA_vdfqk7B4h7c7SA9EXLm1jvCcvS12TTPc4SgLiYbbdnDtj5mFYsy9rYK8egN-m_wy1bF7_lqaJwe1kOFY9IH8jmlO7DbAWe9V_-WsvvcWurSf-Cp-rbcVf_uF_E7k7jxw1wX2r_PvJ3PjrggAAA.webp",
+   "snippet": "J&K LG said all accused involved in the recruitment scam of J&K Police sub-inspector, FAA and JE Civil posts will be identified and booked ...",
+   "duration": "4:37",
+   "about_this_result": {
+    "source": {
+     "description": "J&K LG said all accused involved in the recruitment scam of J&K Police sub-inspector, FAA and JE Civil posts will be identified and booked ...",
+     "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAQAwCdASoQABAAAsBMJbACdEyAZIBvHZEVF_xH8jFr8RAA_vdfqk7B4h7c7SA9EXLm1jvCcvS12TTPc4SgLiYbbdnDtj5mFYsy9rYK8egN-m_wy1bF7_lqaJwe1kOFY9IH8jmlO7DbAWe9V_-WsvvcWurSf-Cp-rbcVf_uF_E7k7jxw1wX2r_PvJ3PjrggAAA.webp"
+    }
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVjJwRXZja01SNk1uN0JpOTVJdU1sSUN1RHNISUlTUktKcXJBbjZpekJJWEU2RXhoamdqazRIZFY3bGM0THJvUkNxaEVnUFBMYU83ZFplV21maE4zVWw0bDM5WERWMmYtd2U5dEJDbHNMOWsxcDdMU3NENGdvXzc0Qmh0c0c2YWRYSmcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVjJwRXZja01SNk1uN0JpOTVJdU1sSUN1RHNISUlTUktKcXJBbjZpekJJWEU2RXhoamdqazRIZFY3bGM0THJvUkNxaEVnUFBMYU83ZFplV21maE4zVWw0bDM5WERWMmYtd2U5dEJDbHNMOWsxcDdMU3NENGdvXzc0Qmh0c0c2YWRYSmcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+   "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSXuvzicYWL7kzd-sQUqMkNyyrhbSwCfKyGZg",
+   "source": "YouTube · Excelsior News"
+  },
+  {
+   "position": 9,
+   "title": "job recruitment scam - The Economic Times",
+   "link": "https://economictimes.indiatimes.com/topic/job-recruitment-scam",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAVZ_M11LcwTLEdqCEwfBPGKwODJ35sWmqU2e9CrfHiGdPJ0PxfNlVx30Sn-w39CE-UTaRzVrWhPMJkw4AejdrhCof_sH60JOlUELU33zHOH049Tn6SMcXddfcnnUimGCRMK_hEF8ubqBIBsEUI7i9AurfeT1Aq&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECA4QAQ&uoh=1",
+   "displayed_link": "https://economictimes.indiatimes.com › topic › job-recr...",
+   "favicon": "https://serpapi.com/images/i/UklGRvQAAABXRUJQVlA4IOgAAAAQBQCdASocABwAPtEwtFooIigoGAEAGgloAKwy6M4BtGUG_e7Uf_IM7saSf5E0ERQAAP6cqPZjr7J-9SavpOBfLsbhlRwsMG_a8Rbp-_R4cS-RyVWgx5cgvXgNo_-N4_cBT3AAfxeKB3GuT5gvQ2UDKHi3eJKJK7jykwBhT-W8b8M_9sh_hHbBkT3H1HVTQjuw2pclgD91RkaQw8HgF_E7-Uesx4U0eMZZ9A1fwXZEgmRpqxY79imRAM-wGZUCybLSh9vT7Cu1eXa4O844RnSmSGtBnZe52XwjAOzZeq5f8f8NlC3MH6AA.webp",
+   "snippet": "Job scams are rising as scammers impersonate recruiters to steal personal information or money. Job seekers are advised to research companie... 28 Oct, 2024, ...",
+   "snippet_highlighted_words": [
+    "scammers impersonate recruiters"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Job scams are rising as scammers impersonate recruiters to steal personal information or money. Job seekers are advised to research companie... 28 Oct, 2024, ...",
+     "source_info_link": "https://economictimes.indiatimes.com/topic/job-recruitment-scam",
+     "icon": "https://serpapi.com/images/i/UklGRvQAAABXRUJQVlA4IOgAAAAQBQCdASocABwAPtEwtFooIigoGAEAGgloAKwy6M4BtGUG_e7Uf_IM7saSf5E0ERQAAP6cqPZjr7J-9SavpOBfLsbhlRwsMG_a8Rbp-_R4cS-RyVWgx5cgvXgNo_-N4_cBT3AAfxeKB3GuT5gvQ2UDKHi3eJKJK7jykwBhT-W8b8M_9sh_hHbBkT3H1HVTQjuw2pclgD91RkaQw8HgF_E7-Uesx4U0eMZZ9A1fwXZEgmRpqxY79imRAM-wGZUCybLSh9vT7Cu1eXa4O844RnSmSGtBnZe52XwjAOzZeq5f8f8NlC3MH6AA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVlpfTTExTGN3VExFZHFDRXdmQlBHS3dPREozNXNXbXFVMmU5Q3JmSGlHZFBKMFB4Zk5sVngzMFNuLXczOUNFLVVUYVJ6VnJXaFBNSmt3NEFlamRyaENvZl9zSDYwSk9sVUVMVTMzekhPSDA0OVRuNlNNY1hkZGZjbm5VaW1HQ1JNS19oRUY4dWJxQklCc0VVSTdpOUF1cmZlVDFBcRIEGgIIABrHBBICCAAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQKEECAAQABgAIAAqPwoLcmVjcnVpdG1lbnQVM3EWQBoHcmVjcnVpdBoQcmVjcnVpdG1lbnRmcmF1ZBoQaXY7cDtyZWNydWl0bWVudCo_CgVmcmF1ZBUAAAAAGgZmcmF1ZHMaBHNjYW0aBXNjYW1zGhByZWNydWl0bWVudGZyYXVkGgppdjtwO2ZyYXVkMrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVlpfTTExTGN3VExFZHFDRXdmQlBHS3dPREozNXNXbXFVMmU5Q3JmSGlHZFBKMFB4Zk5sVngzMFNuLXczOUNFLVVUYVJ6VnJXaFBNSmt3NEFlamRyaENvZl9zSDYwSk9sVUVMVTMzekhPSDA0OVRuNlNNY1hkZGZjbm5VaW1HQ1JNS19oRUY4dWJxQklCc0VVSTdpOUF1cmZlVDFBcTowam9iIDxiPnJlY3J1aXRtZW50IHNjYW08L2I-IC0gVGhlIEVjb25vbWljIFRpbWVzQq0BSm9iIHNjYW1zIGFyZSByaXNpbmcgYXMgPGI-c2NhbW1lcnMgaW1wZXJzb25hdGUgcmVjcnVpdGVyczwvYj4gdG8gc3RlYWwgcGVyc29uYWwgaW5mb3JtYXRpb24gb3IgbW9uZXkuIEpvYiBzZWVrZXJzIGFyZSBhZHZpc2VkIHRvIHJlc2VhcmNoIGNvbXBhbmllLi4uIDI4IE9jdCwgMjAyNCwmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVlpfTTExTGN3VExFZHFDRXdmQlBHS3dPREozNXNXbXFVMmU5Q3JmSGlHZFBKMFB4Zk5sVngzMFNuLXczOUNFLVVUYVJ6VnJXaFBNSmt3NEFlamRyaENvZl9zSDYwSk9sVUVMVTMzekhPSDA0OVRuNlNNY1hkZGZjbm5VaW1HQ1JNS19oRUY4dWJxQklCc0VVSTdpOUF1cmZlVDFBcRIEGgIIABrHBBICCAAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQKEECAAQABgAIAAqPwoLcmVjcnVpdG1lbnQVM3EWQBoHcmVjcnVpdBoQcmVjcnVpdG1lbnRmcmF1ZBoQaXY7cDtyZWNydWl0bWVudCo_CgVmcmF1ZBUAAAAAGgZmcmF1ZHMaBHNjYW0aBXNjYW1zGhByZWNydWl0bWVudGZyYXVkGgppdjtwO2ZyYXVkMrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVlpfTTExTGN3VExFZHFDRXdmQlBHS3dPREozNXNXbXFVMmU5Q3JmSGlHZFBKMFB4Zk5sVngzMFNuLXczOUNFLVVUYVJ6VnJXaFBNSmt3NEFlamRyaENvZl9zSDYwSk9sVUVMVTMzekhPSDA0OVRuNlNNY1hkZGZjbm5VaW1HQ1JNS19oRUY4dWJxQklCc0VVSTdpOUF1cmZlVDFBcTowam9iIDxiPnJlY3J1aXRtZW50IHNjYW08L2I-IC0gVGhlIEVjb25vbWljIFRpbWVzQq0BSm9iIHNjYW1zIGFyZSByaXNpbmcgYXMgPGI-c2NhbW1lcnMgaW1wZXJzb25hdGUgcmVjcnVpdGVyczwvYj4gdG8gc3RlYWwgcGVyc29uYWwgaW5mb3JtYXRpb24gb3IgbW9uZXkuIEpvYiBzZWVrZXJzIGFyZSBhZHZpc2VkIHRvIHJlc2VhcmNoIGNvbXBhbmllLi4uIDI4IE9jdCwgMjAyNCwmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "The Economic Times",
+   "read_more_link": "https://economictimes.indiatimes.com/topic/job-recruitment-scam#:~:text=Job%20scams%20are%20rising%20as,Oct%2C%202024%2C%2009.08%20PM%20IST"
+  },
+  {
+   "position": 10,
+   "title": "How to Avoid Fake Government Recruitment Scams",
+   "link": "https://sarkaarnaukri.com/how-to-avoid-fake-government-recruitment-scams/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShAEB6zswFTo4pY2RnldiT-DNcwN9FwhLkGFckAnOVS-sLOmW_OHcO8Tbj9gAEXzZ5Q_bqtVApDcWrppMWbRDWAAgjcXhIqPQvAWrQsLc59Bu384DSChS3rwr70tDZQ2CitpYOmBS_22PuLb5sDJt06Ld8L4SgsVd1i5LpZOSnw8KynJDYxY&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQFnoECBMQAQ&uoh=1",
+   "displayed_link": "https://sarkaarnaukri.com › how-to-avoid-fake-governm...",
+   "date": "28 May 2026",
+   "snippet": "Learn how to avoid fake government recruitment scams in India. Check warning signs, verify official job notifications, avoid fraud websites, ...",
+   "snippet_highlighted_words": [
+    "Learn how to avoid fake government recruitment scams in India"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Learn how to avoid fake government recruitment scams in India. Check warning signs, verify official job notifications, avoid fraud websites, ...",
+     "source_info_link": "https://sarkaarnaukri.com/how-to-avoid-fake-government-recruitment-scams/"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZUbzRwWTJSbmxkaVQtRE5jd045RndoTGtHRmNrQW5PVlMtc0xPbVdfT0hjTzhUYmo5Z0FFWHpaNVFfYnF0VkFwRGNXcnBwTVdiUkRXQUFnamNYaElxUFF2QVdyUXNMYzU5QnUzODREU0NoUzNyd3I3MHREWlEyQ2l0cFlPbUJTXzIyUHVMYjVzREp0MDZMZDhMNFNnc1ZkMWk1THBaT1NudzhLeW5KRFl4WRIEGgIIABrIBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCkBAgAEAAYACAAKj8KC3JlY3J1aXRtZW50FSgww0AaB3JlY3J1aXQaEHJlY3J1aXRtZW50ZnJhdWQaEGl2O3A7cmVjcnVpdG1lbnQqPwoFZnJhdWQVodGnPxoGZnJhdWRzGgRzY2FtGgVzY2FtcxoQcmVjcnVpdG1lbnRmcmF1ZBoKaXY7cDtmcmF1ZDLBAS9nb3RvP3VybD1DQUVTaEFFQjZ6c3dGVG80cFkyUm5sZGlULUROY3dOOUZ3aExrR0Zja0FuT1ZTLXNMT21XX09IY084VGJqOWdBRVh6WjVRX2JxdFZBcERjV3JwcE1XYlJEV0FBZ2pjWGhJcVBRdkFXclFzTGM1OUJ1Mzg0RFNDaFMzcndyNzB0RFpRMkNpdHBZT21CU18yMlB1TGI1c0RKdDA2TGQ4TDRTZ3NWZDFpNUxwWk9Tbnc4S3luSkRZeFk6NUhvdyB0byBBdm9pZCBGYWtlIEdvdmVybm1lbnQgPGI-UmVjcnVpdG1lbnQgU2NhbXM8L2I-QpwBPGI-TGVhcm4gaG93IHRvIGF2b2lkIGZha2UgZ292ZXJubWVudCByZWNydWl0bWVudCBzY2FtcyBpbiBJbmRpYTwvYj4uIENoZWNrIHdhcm5pbmcgc2lnbnMsIHZlcmlmeSBvZmZpY2lhbCBqb2Igbm90aWZpY2F0aW9ucywgYXZvaWQgZnJhdWQgd2Vic2l0ZXMsJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZUbzRwWTJSbmxkaVQtRE5jd045RndoTGtHRmNrQW5PVlMtc0xPbVdfT0hjTzhUYmo5Z0FFWHpaNVFfYnF0VkFwRGNXcnBwTVdiUkRXQUFnamNYaElxUFF2QVdyUXNMYzU5QnUzODREU0NoUzNyd3I3MHREWlEyQ2l0cFlPbUJTXzIyUHVMYjVzREp0MDZMZDhMNFNnc1ZkMWk1THBaT1NudzhLeW5KRFl4WRIEGgIIABrIBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCkBAgAEAAYACAAKj8KC3JlY3J1aXRtZW50FSgww0AaB3JlY3J1aXQaEHJlY3J1aXRtZW50ZnJhdWQaEGl2O3A7cmVjcnVpdG1lbnQqPwoFZnJhdWQVodGnPxoGZnJhdWRzGgRzY2FtGgVzY2FtcxoQcmVjcnVpdG1lbnRmcmF1ZBoKaXY7cDtmcmF1ZDLBAS9nb3RvP3VybD1DQUVTaEFFQjZ6c3dGVG80cFkyUm5sZGlULUROY3dOOUZ3aExrR0Zja0FuT1ZTLXNMT21XX09IY084VGJqOWdBRVh6WjVRX2JxdFZBcERjV3JwcE1XYlJEV0FBZ2pjWGhJcVBRdkFXclFzTGM1OUJ1Mzg0RFNDaFMzcndyNzB0RFpRMkNpdHBZT21CU18yMlB1TGI1c0RKdDA2TGQ4TDRTZ3NWZDFpNUxwWk9Tbnc4S3luSkRZeFk6NUhvdyB0byBBdm9pZCBGYWtlIEdvdmVybm1lbnQgPGI-UmVjcnVpdG1lbnQgU2NhbXM8L2I-QpwBPGI-TGVhcm4gaG93IHRvIGF2b2lkIGZha2UgZ292ZXJubWVudCByZWNydWl0bWVudCBzY2FtcyBpbiBJbmRpYTwvYj4uIENoZWNrIHdhcm5pbmcgc2lnbnMsIHZlcmlmeSBvZmZpY2lhbCBqb2Igbm90aWZpY2F0aW9ucywgYXZvaWQgZnJhdWQgd2Vic2l0ZXMsJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "sarkaarnaukri.com"
+  }
+ ],
+ "pagination": {
+  "current": 1,
+  "next": "https://www.google.com/search?q=site:techmahindra.com+recruitment+fraud&sca_esv=b88b68c618104966&gl=in&hl=en&sxsrf=APpeQnst6XKvoYJVhhKmY4lseNaeHPsB7g:1791222164055&ei=lOHDapLxAo_U5NoPvJ_imAI&start=10&sa=N&sstk=AS6-VmIjEQWcDjeiBjbcuK7g5uY3xgg7gZHSVM3XsyrZwr7HLriGSVlJK22GBGN5oVvO8Ita7UYtNK1OuxW5dsPrrg2O7Gj0xofXMw&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQ8NMDegQIORAO",
+  "other_pages": {
+   "2": "https://www.google.com/search?q=site:techmahindra.com+recruitment+fraud&sca_esv=b88b68c618104966&gl=in&hl=en&sxsrf=APpeQnst6XKvoYJVhhKmY4lseNaeHPsB7g:1791222164055&ei=lOHDapLxAo_U5NoPvJ_imAI&start=10&sa=N&sstk=AS6-VmIjEQWcDjeiBjbcuK7g5uY3xgg7gZHSVM3XsyrZwr7HLriGSVlJK22GBGN5oVvO8Ita7UYtNK1OuxW5dsPrrg2O7Gj0xofXMw&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQ8tMDegQIORAE",
+   "3": "https://www.google.com/search?q=site:techmahindra.com+recruitment+fraud&sca_esv=b88b68c618104966&gl=in&hl=en&sxsrf=APpeQnst6XKvoYJVhhKmY4lseNaeHPsB7g:1791222164055&ei=lOHDapLxAo_U5NoPvJ_imAI&start=20&sa=N&sstk=AS6-VmIjEQWcDjeiBjbcuK7g5uY3xgg7gZHSVM3XsyrZwr7HLriGSVlJK22GBGN5oVvO8Ita7UYtNK1OuxW5dsPrrg2O7Gj0xofXMw&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQ8tMDegQIORAG",
+   "4": "https://www.google.com/search?q=site:techmahindra.com+recruitment+fraud&sca_esv=b88b68c618104966&gl=in&hl=en&sxsrf=APpeQnst6XKvoYJVhhKmY4lseNaeHPsB7g:1791222164055&ei=lOHDapLxAo_U5NoPvJ_imAI&start=30&sa=N&sstk=AS6-VmIjEQWcDjeiBjbcuK7g5uY3xgg7gZHSVM3XsyrZwr7HLriGSVlJK22GBGN5oVvO8Ita7UYtNK1OuxW5dsPrrg2O7Gj0xofXMw&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQ8tMDegQIORAI",
+   "5": "https://www.google.com/search?q=site:techmahindra.com+recruitment+fraud&sca_esv=b88b68c618104966&gl=in&hl=en&sxsrf=APpeQnst6XKvoYJVhhKmY4lseNaeHPsB7g:1791222164055&ei=lOHDapLxAo_U5NoPvJ_imAI&start=40&sa=N&sstk=AS6-VmIjEQWcDjeiBjbcuK7g5uY3xgg7gZHSVM3XsyrZwr7HLriGSVlJK22GBGN5oVvO8Ita7UYtNK1OuxW5dsPrrg2O7Gj0xofXMw&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQ8tMDegQIORAK",
+   "6": "https://www.google.com/search?q=site:techmahindra.com+recruitment+fraud&sca_esv=b88b68c618104966&gl=in&hl=en&sxsrf=APpeQnst6XKvoYJVhhKmY4lseNaeHPsB7g:1791222164055&ei=lOHDapLxAo_U5NoPvJ_imAI&start=50&sa=N&sstk=AS6-VmIjEQWcDjeiBjbcuK7g5uY3xgg7gZHSVM3XsyrZwr7HLriGSVlJK22GBGN5oVvO8Ita7UYtNK1OuxW5dsPrrg2O7Gj0xofXMw&ved=2ahUKEwiSi7XGtqOXAxUPKlkFHbyPGCMQ8tMDegQIORAM"
+  }
+ },
+ "serpapi_pagination": {
+  "current": 1,
+  "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=site%3Atechmahindra.com+recruitment+fraud&start=10",
+  "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=site%3Atechmahindra.com+recruitment+fraud&start=10",
+  "other_pages": {
+   "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=site%3Atechmahindra.com+recruitment+fraud&start=10",
+   "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=site%3Atechmahindra.com+recruitment+fraud&start=20",
+   "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=site%3Atechmahindra.com+recruitment+fraud&start=30",
+   "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=site%3Atechmahindra.com+recruitment+fraud&start=40",
+   "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=site%3Atechmahindra.com+recruitment+fraud&start=50"
+  }
+ }
+}

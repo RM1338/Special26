@@ -1,0 +1,6 @@
+Authentication-Results: mx.google.com; dkim=pass header.i=@gmail.com; spf=pass smtp.mailfrom=student@gmail.com
+From: Student <student@gmail.com>
+Subject: Fwd: Selected for Data Analyst Intern
+Content-Type: text/html; charset=utf-8
+
+<div>---------- Forwarded message ---------<br>From: hr.onboarding@techmahindra-careers.in<br>Pay Rs. 2,000/-</div>

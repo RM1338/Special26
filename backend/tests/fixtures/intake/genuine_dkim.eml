@@ -1,0 +1,28 @@
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@acme-example.com header.s=s1 header.b=abc;
+       spf=pass (google.com: domain of talent@acme-example.com designates 1.2.3.4 as permitted sender) smtp.mailfrom=talent@acme-example.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=acme-example.com
+Authentication-Results: relay.acme-example.com; dkim=none
+From: Acme Talent Team <talent@acme-example.com>
+To: Student <student@example.edu>
+Subject: Offer of internship: Software Engineering Intern
+Date: Mon, 05 Oct 2026 10:00:00 +0530
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset=utf-8
+
+Dear Student,
+
+We are pleased to offer you the position of Software Engineering Intern at Acme Example Pvt Ltd,
+Bengaluru, with a stipend of Rs 40,000 per month.
+
+Regards,
+Meera Nair
+Talent Acquisition Manager
+--b1
+Content-Type: text/html; charset=utf-8
+
+<p>Dear Student,</p><p>HTML version</p>
+--b1--

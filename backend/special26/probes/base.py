@@ -110,7 +110,7 @@ class Probe(ABC):
     engine: ClassVar[str | None] = None      # primary engine for the probe.started event
     depends_on: ClassVar[tuple[str, ...]] = ()
     max_calls: ClassVar[int] = 0
-    timeout_s: ClassVar[float] = 12.0        # FR-25; P09 overrides (D-29)
+    timeout_s: ClassVar[float] = 12.0        # FR-25 for local probes; SerpApi probes 25 s, P09 35 s (D-29, D-34)
 
     def __init__(self):
         self.credits_used = 0

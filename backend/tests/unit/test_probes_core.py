@@ -161,3 +161,48 @@ async def test_p11_g2_scheme():
     res = await P11Policy().run(ctx((GOLDEN / "g2.txt").read_text()))
     assert {"P11_SCHEME_OFF_PORTAL", "P11_FORM_OR_SHORTLINK", "P11_CANDIDATE_PAYS", "P11_PERSONAL_UPI",
             "P11_URGENCY"} == set(codes(res))
+
+
+# ---- P04 (D-34) ------------------------------------------------------------------------------------------------
+from special26.probes.p04_fraud_notice import P04FraudNotice, query
+
+ONSITE = {"organic_results": [
+    {"position": 1, "title": "Beware of fake job offers", "link": "https://www.blog.example/x", "snippet": "fake job"},
+    {"position": 2, "title": "Recruitment Fraud Alert", "link": "https://careers.infosys.com/fraud",
+     "snippet": "Infosys does not charge any fee from candidates at any stage."},
+]}
+
+
+async def test_p04_live_fixture_offsite_falls_back_to_verified_seed():
+    data = json.loads((FIX / "google_notice_techmahindra.json").read_text())
+    c = ctx("Welcome to Tech Mahindra", official=["techmahindra.com"], serp=FakeSerp({query(["techmahindra.com"]): data}))
+    res = await P04FraudNotice().run(c)
+    f = res.findings[0]
+    assert (f.code, f.decisive_flag, f.receipt.kind) == ("P04_NOTICE_FOUND", "P04_NOTICE_NO_FEE", "rule")
+    assert f.receipt.link == "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf"
+    assert f.message == "Tech Mahindra has published a recruitment fraud notice on its own website."
+    assert res.credits_used == 1                                         # the 08 query still runs
+
+
+async def test_p04_onsite_notice_with_no_fee():
+    c = ctx("Welcome to Infosys", official=["infosys.com"], serp=FakeSerp({query(["infosys.com"]): ONSITE}))
+    f = (await P04FraudNotice().run(c)).findings[0]
+    assert f.decisive_flag == "P04_NOTICE_NO_FEE" and f.receipt.kind == "serp" and f.receipt.position == 2
+
+
+async def test_p04_onsite_notice_without_no_fee():
+    data = {"organic_results": [{"position": 1, "title": "Recruitment fraud warning",
+                                 "link": "https://www.infosys.com/x", "snippet": "Beware of recruitment fraud."}]}
+    c = ctx("Welcome to Infosys", official=["infosys.com"], serp=FakeSerp({query(["infosys.com"]): data}))
+    f = (await P04FraudNotice().run(c)).findings[0]
+    assert f.code == "P04_NOTICE_FOUND" and f.decisive_flag is None
+
+
+async def test_p04_offsite_only_and_no_seed_gives_nothing():
+    data = {"organic_results": ONSITE["organic_results"][:1]}
+    c = ctx("Welcome to Infosys", official=["infosys.com"], serp=FakeSerp({query(["infosys.com"]): data}))
+    assert (await P04FraudNotice().run(c)).findings == []
+
+
+def test_p04_skipped_without_official():
+    assert P04FraudNotice().applicable(ctx("Welcome to Infosys", official=[])) == "skipped_no_official_domain"

@@ -14,7 +14,8 @@ EMPTY_RESULT = "hasn't returned any results"   # SerpApi's empty-result "error" 
 NOT_KEYED = ("api_key", "output", "no_cache")
 LENS_IMAGE_PARAMS = ("url", "image_id")        # D-12: Lens is keyed by image_sha256 instead
 REQUEST_ONLY = ("image_sha256",)
-HTTP_TIMEOUT = {"google_lens": 30.0}             # Lens measured 13.6 s and 16.6 s (D-29); others 10 s
+HTTP_TIMEOUT = {"google_lens": 30.0}             # Lens measured 13.6 s and 16.6 s (D-29)
+DEFAULT_TIMEOUT = 22.0                             # google measured up to 23 s on 2026-10-05 (D-34)
 
 log = logging.getLogger(__name__)
 logging.getLogger("httpx").setLevel(logging.WARNING)   # httpx INFO logs full URLs incl. api_key (NFR-07)
@@ -77,7 +78,7 @@ class SerpClient:
         q["api_key"] = self.s.serpapi_api_key.get_secret_value()
         for attempt in (0, 1):
             try:
-                r = await self.http.get(SERP_URL, params=q, timeout=HTTP_TIMEOUT.get(q["engine"], 10.0))
+                r = await self.http.get(SERP_URL, params=q, timeout=HTTP_TIMEOUT.get(q["engine"], DEFAULT_TIMEOUT))
             except httpx.TimeoutException as e:
                 err = UpstreamError(f"SerpApi request timed out: {type(e).__name__}")
                 err.charged = True

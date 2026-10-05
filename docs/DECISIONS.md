@@ -263,3 +263,25 @@ Fixtures are in `backend/tests/fixtures/serp/`. 7 credits spent: 5 engines, 1 Le
 - Seeds ship inside the image at `/app/seeds` (`SPECIAL26_SEEDS_DIR`), so the volume mount can't hide them.
 - If the free plan's RAM or volume proves too small, fall back to Hobby ($5/month) with the same image.
 **Files:** `Dockerfile`, `special26/seeds.py`, `railway.json` (at deploy).
+
+### D-34 · 2026-10-05 · Google ignores site restrictions; P04 fallback; SerpApi timeouts
+**Observed live** (fixtures in `backend/tests/fixtures/serp/google_notice_*.json`; 8 credits on this investigation, 15 in total today). These queries all returned off-site pages (YouTube, Reddit, blogs) and not one techmahindra.com result:
+1. `(site:techmahindra.com) (fraud OR ...)` (the `08` form)
+2. `site:techmahindra.com (fraud OR ...)`
+3. The same with `nfpr=1`, where SerpApi then reported "Results for exact spelling"
+4. `site:techmahindra.com recruitment fraud`
+5. `as_sitesearch=techmahindra.com`
+
+The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the company's own notice either. Google latency also varied widely: SerpApi `total_time_taken` was 0.8 to 2.3 s on some calls and 19.6 to 23 s on others, and three calls timed out at our 10 s limit.
+
+**Decision:**
+- **P04 runs the `08` query unchanged** (1 credit), but a result counts as the employer's notice only if its registrable domain is in the official set. Without that filter, P04 had produced a false `P04_NOTICE_FOUND` from a YouTube video.
+- **Fallback:** if no on-site notice comes back, P04 uses the employer's own notice recorded in `known_entities.json` (`fraud_notice_url`, `fraud_notice_quote`, `fraud_notice_verified_on`). The receipt is `kind = rule`, `rule_id = known_entities.fraud_notice`, with the notice link and the verified quote. `P04_NOTICE_NO_FEE` is set only if the quote matches the `08` NO_FEE regex. The finding code and its meaning ("the employer's own words") are unchanged; only the receipt source differs, and the receipt says so.
+- **Verified 2026-10-05:** `https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf` (fetched directly) says "Tech Mahindra does not charge any fee or collect any deposit from candidates for any jobs". Other employers get a notice only after the same manual check.
+- **P05 call A** (`-site:{o1}`): the exclusion can't be relied on either, so P05 also drops results on official domains client-side.
+- **Timeouts:**
+  - HTTP timeout is 22 s for all engines except Lens (30 s).
+  - Probe timeouts: local probes keep FR-25's 12 s, SerpApi probes 25 s, P01 45 s (two sequential calls), P09 35 s.
+  - This deviates from FR-25 because of the measured latency. NFR-01 (p95 ≤ 45 s) is checked again on the deployed URL at M2.
+- **To revisit:** retest `site:` once on 2026-10-07 (1 credit). If it works again, the filter stays anyway and the fallback is simply used less.
+**Files:** `probes/p04_fraud_notice.py`, `data/seeds/known_entities.json`, `serp/client.py`, `probes/base.py`, `probes/p01_entity.py`.

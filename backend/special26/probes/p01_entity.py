@@ -55,6 +55,7 @@ class P01Entity(Probe):
     id = "P01_ENTITY"
     engine = "google"
     max_calls = 2
+    timeout_s = 45.0          # two sequential calls (D-34)
 
     def applicable(self, ctx: ProbeContext):
         return None if ctx.claims.org_name else "skipped_no_input"
