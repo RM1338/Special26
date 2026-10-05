@@ -253,3 +253,13 @@ Fixtures are in `backend/tests/fixtures/serp/`. 7 credits spent: 5 engines, 1 Le
 - **CLI:** runs with `check_id = None`. It's a developer tool, so only the daily cap applies; there is no check row to budget against.
 - **Scorer:** `Verdict.effective` gives the per-finding effective weights for `findings.effective_weight`. Each finding keeps its message `vars` so decisive copy (D1, D2, D4) can name the org, amount and scheme without re-deriving them.
 **Files:** `probes/p01_entity.py`, `probes/p02_sender.py`, `probes/p11_policy.py`, `pipeline/runner.py`, `scoring/aggregate.py`, `cli.py`.
+
+### D-33 · 2026-10-05 · Deploy target: Railway free plan
+**Context:** `04` §8 allows Render or Railway. The user chose Railway's free plan and has an account. Per Railway's 2026 pricing as summarised in third-party comparisons: a 30-day trial with $5 credit, then $1/month capped at 1 vCPU and 0.5 GB RAM. No cold starts. Volumes are supported.
+**Decision:**
+- One container, one uvicorn worker, built to fit in 0.5 GB RAM.
+- Tesseract runs only when an image needs OCR.
+- SQLite lives on a Railway volume mounted at `/app/data`. Volume size on the free plan is to be confirmed at deploy time.
+- Seeds ship inside the image at `/app/seeds` (`SPECIAL26_SEEDS_DIR`), so the volume mount can't hide them.
+- If the free plan's RAM or volume proves too small, fall back to Hobby ($5/month) with the same image.
+**Files:** `Dockerfile`, `special26/seeds.py`, `railway.json` (at deploy).
