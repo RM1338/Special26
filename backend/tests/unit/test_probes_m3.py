@@ -176,3 +176,48 @@ def test_image_token_sign_verify():  # D-25
     assert verify("salt", t, now=1500) == "abc"
     assert verify("salt", t, now=1000 + 601) is None                  # 10 minute expiry
     assert verify("other", t, now=1500) is None and verify("salt", t[:-2] + "xx", now=1500) is None
+
+
+# ---- P03 (D-39) ------------------------------------------------------------------------------------------------
+from special26.intake.eml import parse_eml as _parse
+from special26.probes.p03_headers import P03Headers
+
+INTAKE = Path(__file__).parents[1] / "fixtures/intake"
+
+
+def eml_ctx(name, official):
+    raw = (INTAKE / name).read_bytes()
+    from special26.claims.extract import extract_claims
+    from special26.claims.redact import redact
+    e = _parse(raw)
+    c = ctx("x", official=official)
+    c.claims = extract_claims(redact(e["body"])[0], eml=e)
+    c.repo = SimpleNamespace(artifacts=lambda _cid: [{"role": "eml", "storage_path": str(INTAKE / name)}])
+    c.check_id = "chk_x"
+    return c
+
+
+async def test_p03_dkim_aligned_official():
+    res = await P03Headers().run(eml_ctx("genuine_dkim.eml", ["acme-example.com"]))
+    assert codes(res) == ["P03_DKIM_ALIGNED_OFFICIAL"] and res.outputs["auth"]["dmarc"] == "pass"
+    assert "dkim=pass" in res.findings[0].receipt.extra["header"]
+
+
+async def test_p03_not_aligned_when_not_official():
+    assert codes(await P03Headers().run(eml_ctx("genuine_dkim.eml", ["other.com"]))) == []
+
+
+async def test_p03_auth_fail_and_reply_diverted():
+    res = await P03Headers().run(eml_ctx("auth_fail.eml", ["techmahindra.com"]))
+    assert codes(res) == ["P03_AUTH_FAIL", "P03_REPLY_DIVERTED"]
+    assert "DMARC fail" in res.findings[0].message and "t***@gmail.com" in res.findings[1].message
+
+
+async def test_p03_forwarded_skipped():
+    assert (await P03Headers().run(eml_ctx("forwarded.eml", ["techmahindra.com"]))).status == "skipped_forwarded"
+
+
+def test_p03_skipped_without_eml():
+    c = ctx("hello")
+    c.repo, c.check_id = SimpleNamespace(artifacts=lambda _cid: []), "chk_x"
+    assert P03Headers().applicable(c) == "skipped_no_input"

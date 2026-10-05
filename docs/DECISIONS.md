@@ -337,3 +337,11 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **`P09_PHOTO_OFFICIAL`** uses `fuzz.partial_ratio ≥ 80` between the HR name and the match title, so that "Neha Kapoor - HR Manager" counts.
 - **Letter call:** it runs only when `budget - reserved_calls ≥ 3` (`05` §8). The runner computes `reserved_calls` before wave 1, counting probes that are applicable or wait only for P01. The rule is the same in replay, so a replay reproduces exactly what was recorded.
 **Files:** `serp/client.py`, `api/public_img.py`, `probes/p09_image.py`, `pipeline/runner.py`.
+
+### D-39 · 2026-10-06 · P03 inputs
+- **P03 depends on P01**, extending D-03: `P03_DKIM_ALIGNED_OFFICIAL` needs the official set, which only P01 produces. P02 already waits for P03, so the order is P01 → P03 → P02.
+- **Input:** P03 re-parses the `.eml` artifact from disk during the run. Raw files are purged only after the verdict (NFR-06).
+- **DKIM domain:** `header.d`, or the domain of `header.i` when providers report only `header.i` (Gmail's format, as in the fixture).
+- **`skipped_forwarded`:** the Subject starts with `Fwd:` or `Fw:`, or there is no `from_headers` sender claim, meaning the student marked the From address "This is mine" (D-09).
+- **Receipts:** `rule` receipts carrying the topmost `Authentication-Results` header (trimmed to 400 characters) in `extra.header`.
+**Files:** `probes/p03_headers.py`, `probes/registry.py`.
