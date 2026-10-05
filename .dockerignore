@@ -1,0 +1,11 @@
+.git
+.venv
+**/__pycache__
+**/node_modules
+frontend/dist
+data/special26.db*
+data/eval.db*
+data/uploads
+backend/tests
+docs
+.env
