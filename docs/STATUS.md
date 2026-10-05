@@ -108,3 +108,28 @@
 1. Seed scam templates (≥ 25 transcribed public texts with source URLs).
 2. Eval cases (30 fraud + 30 genuine, `11` §2), schema-valid with sources.
 3. P12 RDAP (stretch), then the golden tests in replay and the `demo.db` recording (M5).
+
+## M3 done / M5 partly done, 2026-10-06
+
+**Since the last update**
+- **P12 (RDAP domain age)** built.
+- **Per-claim "what we found" view**, after the user's own offer letter showed the extracted website was never reported back (D-45).
+- **Seed corpus:** 27 constructed scam texts, each following a cited report. Receipts say "pattern described in a public report", never "known text" (D-46, D-47).
+- **Eval:** 60 constructed cases, 30 fraud and 30 genuine, split 40/60 by template group. Harness `eval/run_eval.py` covers S26, B0, B3, ablations, Wilson CIs, false reds, latency and credits (D-49).
+  - B0 so far: catch rate 1.00, red recall 0.73.
+  - B3 so far: red recall 0.90, no false reds; all genuine cases grey (no coverage without search).
+- **Golden G1, G2, G4, G5, G6a and G6b recorded live into `data/demo.db`** (46 credits; 50 responses). All `14` §3 invariants hold, and the replay tests pass offline in 2.4 s. G3 stays a strict xfail.
+- P01 and P10 keep local evidence when search is unavailable (D-48). The G2 contact links to `pminternship.mca.gov.in` (D-50).
+- 340 tests pass, 1 xfail.
+
+**Credits:** SerpApi Free Plan, **54 searches left** this month (196 used). The deployed daily cap is 15 (D-47) until the user confirms more credits.
+
+**Blocked on the user**
+- More SerpApi credits, needed to record S26 for the 60 eval cases (about 540 searches; `11` §6's fallback of 40 stratified cases is about 360).
+- The `docker` group for the M5 offline `docker run` check.
+- G3 consented `.eml`.
+
+**Next three tasks**
+1. README (T4.7): the problem with sources, the GIF, run instructions for live and replay, the engine table, the eval table, limitations.
+2. Copy audit, em dash grep and mobile pass (T4.3).
+3. S26 eval recording and report once credits arrive. Until then the report shows B0 and B3 only.
