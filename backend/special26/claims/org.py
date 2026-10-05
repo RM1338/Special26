@@ -116,7 +116,9 @@ def by_legal_line(text: str):
 
 def by_pattern(text: str):
     for m in PATTERN.finditer(text):
-        name = m.group(1).rstrip(".,-")
+        name = re.split(r"\.\s", m.group(1))[0].rstrip(".,-")      # stop at a sentence end
+        if not name:
+            continue
         if not _stop(name):
             return name, (m.start(1), m.start(1) + len(name))
     return None

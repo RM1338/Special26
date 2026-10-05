@@ -314,3 +314,13 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **Rule receipts** carry their `09` S5 sentence in `receipt.extra.text`, so the copy lives only in `scoring/copy.py`.
 - **Serving:** FastAPI serves `frontend/dist` (`SPECIAL26_STATIC_DIR` in Docker), with an SPA fallback for every non-`/api`, non-`/public` path.
 **Files:** `frontend/*`, `backend/special26/api/web.py`, `backend/special26/probes/base.py`.
+
+### D-37 · 2026-10-06 · P07 and P08 inputs
+- **P07 location:** `location = "{city}, India"` when an address gives a city, else `"India"`. If SerpApi rejects the location string (an UpstreamError mentioning "location"), P07 retries once with `"India"`.
+- **P08 query:** an address claim is queried as an address only if it has a PIN or a comma-separated part ("Tech Mahindra Limited, Noida"). A bare city mention ("Join our Bengaluru campus") falls back to `08`'s `{org} office {city}`. `P08_NOT_FOUND` and `P08_RESIDENTIAL` apply only to address queries, as `08` says.
+- **P08 matching:**
+  - `08`'s type lists match case-insensitively. Entries longer than 3 characters also match as a substring ("Company" matches "BPO Company"), and "PG" must match exactly.
+  - `P08_REVIEWS_SCAM` reads only the review text already in the search response (D-28).
+  - The receipt link is a public Google Maps search URL built from the place title and `place_id`.
+- **Org pattern fix:** the `08` §2.3 pattern allows dots inside names, so "Welcome to Acme Widgets. Office: ..." captured "Acme Widgets. Office". The capture is now cut at the first ". ".
+**Files:** `probes/p07_role.py`, `probes/p08_office.py`, `claims/org.py`.
