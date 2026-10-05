@@ -113,7 +113,8 @@ class P01Entity(Probe):
                              org=org, official=first)
         else:
             f = self.finding("P01_NO_PRESENCE", receipt=serp_receipt("google", q, key), claim_ids=claim_ids, org=org)
-        out = self.result([f], {"official_domains": official, "candidates": cands[:5], "receipts": receipts,
-                                "official_contacts": contacts})
+        hosts = list(dict.fromkeys((entity["official_domains"] if entity else []) + accepted))  # as written, for links
+        out = self.result([f], {"official_domains": official, "official_hosts": hosts, "candidates": cands[:5],
+                                "receipts": receipts, "official_contacts": contacts})
         return out.model_copy(update={"status": status})
 

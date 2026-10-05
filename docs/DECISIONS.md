@@ -482,3 +482,13 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - B1 and B2 are stretch (`12` §3) and not run.
 - **Recording S26:** needs about 9 searches per case, so roughly 540 for all 60. That waits for the extra credits. Until then only B0 and B3 can be reported.
 **Files:** `eval/*`.
+
+### D-50 · 2026-10-06 · Golden tests and recording
+- **Golden runner:** `backend/tests/golden/golden_run.py` runs G1, G2, G4, G5 (with `g5_hr_photo.jpg` as `hr_photo`) and G6a then G6b through the real API.
+- **Two checks:**
+  1. The `14` §3 invariants, hardcoded. G1: red, impersonation, decisive {D1, D3}, reason 1 = D1. G2: D2 and the `pminternship.mca.gov.in` contact. G4: amber with its three findings. G5: red, impersonation, with FREEMAIL, STOCK_PHOTO and CANDIDATE_PAYS. G6: shared campaign, G6b has SEEN_LOCALLY.
+  2. A snapshot (`expected.json`: tier, red_kind, decisive, reason 1), written at recording time. This freezes the parts `14` leaves to "whatever the recording shows" (G5's decisive set).
+- **`scripts/record_demo.py`:** runs live with `SPECIAL26_RECORD_TO=data/demo.db`, reusing the local cache. If an invariant fails, it writes no snapshot. It adds a `recording` row (time, git sha, note).
+- **Tests skip** until `demo.db` has a recording. G3 is a strict xfail (D-14).
+- **Contact fix:** P01 now also outputs `official_hosts`, the seed hostnames as written. The "website" official contact uses it, so G2 links to `https://pminternship.mca.gov.in` rather than the registrable `mca.gov.in` (`14` §3 G2).
+**Files:** `backend/tests/golden/*`, `scripts/record_demo.py`, `probes/p01_entity.py`, `scoring/nextsteps.py`.

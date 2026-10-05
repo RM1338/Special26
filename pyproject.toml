@@ -4,7 +4,7 @@ version = "0.1.0"
 requires-python = ">=3.11"
 
 [tool.pytest.ini_options]
-pythonpath = ["backend", "backend/tests/unit"]
+pythonpath = ["backend", "backend/tests/unit", "backend/tests/golden"]
 testpaths = ["backend/tests"]
 asyncio_mode = "auto"
 

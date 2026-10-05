@@ -12,8 +12,9 @@ def official_contacts(results: dict[str, ProbeResult]) -> list[dict]:
     if p01 and p01.findings and p01.findings[0].code == "P01_OFFICIAL_FOUND":
         fid = p01.findings[0].id
         out += [{"kind": c["kind"], "value": c["value"], "finding_id": fid} for c in p01.outputs.get("official_contacts", [])]
-        if not any(c["kind"] == "careers_url" for c in out) and p01.outputs.get("official_domains"):
-            out.append({"kind": "website", "value": f"https://{p01.outputs['official_domains'][0]}", "finding_id": fid})
+        hosts = p01.outputs.get("official_hosts") or p01.outputs.get("official_domains")
+        if not any(c["kind"] == "careers_url" for c in out) and hosts:          # G2: pminternship.mca.gov.in
+            out.append({"kind": "website", "value": f"https://{hosts[0]}", "finding_id": fid})
     p04 = results.get("P04_FRAUD_NOTICE")
     if p04 and p04.findings and p04.findings[0].receipt.link:
         out.append({"kind": "fraud_notice", "value": p04.findings[0].receipt.link, "finding_id": p04.findings[0].id})
