@@ -5,6 +5,7 @@ from special26.claims.models import ClaimType as T
 from special26.claims.regexes import has_scam_word
 from special26.domains.classify import reg
 from special26.probes.base import Probe, ProbeContext, ProbeResult, Receipt, serp_receipt
+from special26.storage.retention import seed_provenance
 from special26.template.minhash import signature
 from special26.template.normalize import tokens
 from special26.template.phrase import distinctive_sentence
@@ -33,9 +34,12 @@ class P10Template(Probe):
             best = next(iter(ctx.repo.template_candidates(sig, label="scam", exclude=ctx.check_id)), None)
             if best and best["jaccard"] >= MED:
                 seed = best["check_id"].startswith("seed:")
-                receipt = Receipt(kind="local_memory", title="Known fake offer text" if seed else
-                                  "An earlier check marked high risk", link=best["source_url"] if seed else None,
-                                  extra={"similarity": round(best["jaccard"], 2),
+                constructed = seed and seed_provenance(best["check_id"]) == "constructed"
+                title = ("Matches a fake offer pattern described in a public report" if constructed
+                         else "Known fake offer text" if seed else "An earlier check marked high risk")   # D-47
+                receipt = Receipt(kind="local_memory", title=title, link=best["source_url"] if seed else None,
+                                  extra={"similarity": round(best["jaccard"], 2), "provenance":
+                                         seed_provenance(best["check_id"]) if seed else "earlier_check",
                                          "template": best["check_id"] if seed else None})
                 code = "P10_TEMPLATE_MATCH_HIGH" if best["jaccard"] >= HIGH else "P10_TEMPLATE_MATCH_MED"
                 f.append(self.finding(code, receipt, ids))   # no percentage in reasons (09 §4)

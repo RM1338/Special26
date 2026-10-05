@@ -1,0 +1,6 @@
+# source: https://jobrise.io/en/blog/job-scams-india-avoid-2026/
+# provenance: constructed
+# note: Pattern from the guide: e-verification fee for documents after an unsolicited offer.
+Dear <recipient>,
+We are pleased to inform you that your candidature has been approved for the post of Customer Support Executive. Before issuing the appointment letter, your educational documents must be e-verified through the government verification system.
+The e-verification fee is Rs 1,850 which is refundable after joining. Kindly complete the payment within 48 hours using the link below, failing which your selection will be cancelled.

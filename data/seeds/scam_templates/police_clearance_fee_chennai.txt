@@ -1,0 +1,6 @@
+# source: https://www.dinamalar.com/news/kalvimalar-news-en/fraudsters-target-college-students-with-fake-internship-offers-warn-cyber-experts/57787
+# provenance: constructed
+# note: Pattern from the report: Rs 15,000 stipend, then Rs 2,000 over UPI for a police clearance certificate.
+Dear <recipient>,
+You have been shortlisted for our paid internship with a stipend of Rs 15,000 per month. To complete the background check every intern must obtain a Police Clearance Certificate through our verification partner.
+Kindly pay the verification charges of Rs 2,000 to the UPI ID <upi> and share the transaction id. Your offer letter will be released only after the verification is complete. Please finish the process today itself.

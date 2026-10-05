@@ -43,11 +43,25 @@ def seed_templates(repo) -> int:
     from special26.template.normalize import tokens
     n = 0
     for f in sorted((seeds.DIR / "scam_templates").glob("*.txt")):
-        lines = f.read_text().splitlines()
-        src = lines[0].removeprefix("# source:").strip() if lines and lines[0].startswith("# source:") else None
-        body = "\n".join(lines[1:] if src else lines)
+        head, body = seed_header(f)
+        src = head.get("source")
         toks = tokens(body)
         if sig := signature(toks):
             repo.save_template(f"seed:{f.name}", "scam", sig, len(toks), src)
             n += 1
     return n
+
+
+def seed_header(path) -> tuple[dict, str]:
+    """'# key: value' lines at the top of a seed template, then the body."""
+    head, lines = {}, path.read_text().splitlines()
+    while lines and lines[0].startswith("# ") and ":" in lines[0]:
+        k, v = lines.pop(0)[2:].split(":", 1)
+        head[k.strip()] = v.strip()
+    return head, "\n".join(lines)
+
+
+def seed_provenance(check_id: str) -> str | None:
+    from special26 import seeds
+    f = seeds.DIR / "scam_templates" / check_id.removeprefix("seed:")
+    return seed_header(f)[0].get("provenance") if check_id.startswith("seed:") and f.is_file() else None

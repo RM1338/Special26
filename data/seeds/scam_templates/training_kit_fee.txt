@@ -1,0 +1,6 @@
+# source: https://www.quickheal.co.in/knowledge-centre/fake-job-offer-scams-how-fraudsters-use-linkedin-and-whatsapp/
+# provenance: constructed
+# note: Pattern from the guide: training kit and module charges after a LinkedIn or WhatsApp selection message.
+Hello <recipient>, greetings from the HR team.
+We saw your profile on LinkedIn and you are selected for the role of Junior Analyst. All new joiners must collect the training kit which contains the ID card, joining kit and access to the LMS training modules.
+The training kit fee is Rs 3,200 payable before the induction. Kindly pay through the link shared and confirm on this chat. Induction batch starts Monday.

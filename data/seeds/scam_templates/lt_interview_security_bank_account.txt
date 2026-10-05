@@ -1,0 +1,6 @@
+# source: https://www.deccanchronicle.com/140929/nation-crime/article/watch-out-fraud-job-mails
+# provenance: constructed
+# note: Pattern from the report: refundable interview security deposited in a designated bank account.
+Dear Applicant,
+You are shortlisted for the technical interview for the post of Site Engineer at our infrastructure project. Interview will be held at the head office and the company will bear travel and accommodation.
+Every shortlisted candidate must deposit a refundable interview security of Rs 9,500 in the bank account given below. The security will be returned at the end of the interview. Send the deposit slip by email to confirm your seat.

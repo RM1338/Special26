@@ -1,0 +1,8 @@
+# source: https://www.businesstoday.in/latest/trends/story/company-ko-pocket-money-chahiye-techie-shares-rs23000-internship-offer-letter-but-with-an-unexpected-demand-533454-2026-05-27
+# provenance: constructed
+# note: Pattern from the report: Rs 23,000 per month stipend promised, Rs 1,594 internship fee via a form link.
+Dear <recipient>,
+We are pleased to offer you a remote internship as a Software Development Intern. Your monthly stipend will be Rs 23,000 in hand which includes basic pay of Rs 22,500 and internet allowance of Rs 500.
+To confirm your enrollment please pay the internship fees of Rs 1,594 through the form link below. Your offer letter and onboarding kit will be shared within 48 hours of payment.
+Fill the form: <url>
+Team HR

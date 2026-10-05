@@ -1,0 +1,6 @@
+# source: https://jobrise.io/en/blog/job-scams-india-avoid-2026/
+# provenance: constructed
+# note: Pattern from the guide: document courier charges before the offer letter is sent.
+Dear <recipient>,
+Congratulations on your selection. Your original offer letter and joining documents have been prepared by the corporate HR office and will be sent to your home address through courier.
+Kindly pay the document courier and stamp paper charges of Rs 1,250 so that the documents can be dispatched today. Please share the payment receipt along with your Aadhaar and PAN copy on <email>.

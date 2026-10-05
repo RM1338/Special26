@@ -1,0 +1,6 @@
+# source: https://www.drreddys.com/caution-notice-recruitment-fraud
+# provenance: constructed
+# note: Pattern from the employer's notice: security deposit for return air-fare for the final interview.
+Dear <recipient>,
+Greetings from the Talent Acquisition team. We are glad to inform you that you have cleared the preliminary rounds and are invited for the final round of interview at our corporate office in Hyderabad. The company will provide return air-fare and hotel stay for the interview.
+To book your tickets you are required to pay a refundable security deposit of Rs 7,500 to the account given below. The deposit will be returned at the interview venue. Kindly treat this as urgent and share the payment receipt with <email>.

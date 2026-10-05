@@ -1,0 +1,7 @@
+# source: https://www.careerindia.com/features/aicte-internship-scams-new-2026-rules-to-identify-fake-offers-and-protect-your-career-011-65999.html
+# provenance: constructed
+# note: Pattern from the report: emails demanding a mandatory internship fee in AICTE / Ministry of Education's name.
+Subject: Mandatory Internship Fee for AICTE Approved Internship
+Dear Student,
+As per the new guidelines of AICTE and the Ministry of Education, completion of a credited internship is mandatory for the award of your degree. Your college has nominated you for the AICTE approved virtual internship programme.
+You are required to pay the mandatory internship fee of Rs 2,499 to activate your account on the portal. Students who fail to pay before the deadline will not receive internship credits. Pay now: <url>

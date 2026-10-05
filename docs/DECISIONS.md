@@ -436,3 +436,19 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - `11` §6 assumes a live recording of 450 to 1,100 calls. That isn't affordable.
 - Pending the user's answer on extra credits: no more exploratory live calls. The remaining credits go first to recording `demo.db` for the golden cases (about 50).
 **Files:** `data/seeds/scam_templates/`, `docs/STATUS.md`.
+
+### D-47 · 2026-10-06 · Constructed seed corpus, as directed by the user
+**Context:** D-46 found no verbatim scam texts long enough to fingerprint. The user chose: "replicate stuff like it happens in real life", with no real student messages for now. The user is getting more SerpApi credits. Until a new limit is confirmed, the deployed daily cap is 15 (`SPECIAL26_DAILY_CREDIT_CAP`, set on Railway).
+**Decision:**
+- **27 constructed templates** in `data/seeds/scam_templates/`, each modelled on a pattern described in a cited public report or employer notice: amounts, purpose, channel, pressure tactics.
+  - Each file starts with `# source:`, `# provenance: constructed` and `# note:`.
+  - The two fragments quoted verbatim in forum posts (techenclave Wipro thread, consumercomplaints.in HCL complaint) are kept word for word inside their templates, and the note says so.
+  - Identifiers are written as placeholders (`<upi>`, `<phone>`, `<email>`, `<url>`), so no real or real-looking UPI IDs, numbers or addresses are in the repo.
+- **Honest receipt:** a P10 match on a constructed seed reads "Matches a fake offer pattern described in a public report" and links to that report, with `extra.provenance = constructed`. It never says "Known fake offer text". `08`'s finding codes and weights are unchanged.
+- **Checked before shipping:**
+  - All 27 texts are ≥ 30 tokens.
+  - Max seed-to-seed Jaccard is 0.08, so they are varied.
+  - Golden inputs G1, G2, G4, G5, G6a and G6b score at most 0.03 against any seed, so the golden verdicts don't depend on the corpus.
+  - The genuine fixture offer scores 0.03, so there's no false template match.
+- **README limitation:** the corpus is constructed from reports, not collected from victims.
+**Files:** `data/seeds/scam_templates/*.txt`, `storage/retention.py`, `probes/p10_template.py`, `tests/unit/test_template.py`.

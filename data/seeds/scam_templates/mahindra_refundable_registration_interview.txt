@@ -1,0 +1,7 @@
+# source: https://mahindraaerospace.com/fraudulent-recruitment/
+# provenance: constructed
+# note: Pattern from the employer's notice: allegedly refundable deposit towards registration and interview fees.
+Dear Applicant,
+This is with reference to your profile on the job portal. Your candidature has been shortlisted for the position of Junior Engineer (Production) with a CTC of Rs 4.2 LPA.
+To proceed further you must complete the registration and interview fee formality by paying Rs 3,800 which is completely refundable after joining. The payment link and bank details are attached. Kindly note that seats are limited and the offer will lapse if the fee is not paid by tomorrow evening.
+Regards, Recruitment Cell

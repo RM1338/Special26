@@ -1,0 +1,6 @@
+# source: https://careers.wipro.com/content/Fraud-Awareness/
+# provenance: constructed
+# note: Pattern from the employer's notice: refundable deposit / verification charges demanded by people posing as HR.
+Dear <recipient>,
+Greetings from Human Resources. Based on your interview performance you are selected for the position of Associate Software Engineer with an annual CTC of Rs 3.5 lakh.
+As per the company policy your background verification (BGV) will be done by our verification partner. Kindly pay the refundable BGV charges of Rs 8,700 to the account mentioned below. The amount will be refunded on the date of joining. The offer letter will be released after the payment.

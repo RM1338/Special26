@@ -1,0 +1,6 @@
+# source: https://www.outlookmoney.com/news/got-a-government-job-appointment-letter-heres-what-pib-fact-check-says
+# provenance: constructed
+# note: Pattern from the PIB fact-check report: fake government appointment letter asking for payment.
+Government of India, Ministry Recruitment Board.
+Appointment Letter. With reference to your application you are hereby appointed to the post of Data Entry Operator on a monthly salary of Rs 35,400 in the pay level 4.
+You are required to deposit a security amount of Rs 5,600 as a refundable training and kit charge within seven days of receipt of this letter, failing which the appointment will be cancelled. The amount must be paid through the link below.

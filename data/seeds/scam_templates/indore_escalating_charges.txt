@@ -1,0 +1,6 @@
+# source: https://www.outlookmoney.com/news/student-duped-of-rs-44000-in-fake-job-offer-scam-how-to-stay-safe
+# provenance: constructed
+# note: Pattern from the report: a student pays repeated charges, totalling Rs 44,000, for a fake job.
+Dear <recipient>,
+Your selection is confirmed. To generate your employee code you need to pay the onboarding fee of Rs 3,500. After the employee code is generated you will receive the laptop and joining kit.
+Note: insurance charges and the refundable salary account opening charges will be informed after the onboarding fee is received. All charges are refundable with the first salary. Kindly pay today to avoid cancellation.

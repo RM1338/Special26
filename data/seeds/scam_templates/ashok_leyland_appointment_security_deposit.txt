@@ -1,0 +1,6 @@
+# source: https://www.hrkatha.com/news/the-case-of-fake-ashok-leyland-appointment-letters/
+# provenance: constructed
+# note: Pattern from the report: consultants promise appointment letters against a Rs 5,000 to 8,000 deposit.
+Congratulations <recipient>!
+We are happy to inform you that you are selected as Graduate Engineer Trainee in our automobile manufacturing unit. Your appointment letter is ready and will be issued after verification.
+As per company policy every new joinee has to submit a security deposit of Rs 8,000 which will be returned along with the first month salary. Please transfer the amount to the account of our placement consultant and send the screenshot on WhatsApp <phone>. Joining date will be informed after receipt of deposit.

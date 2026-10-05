@@ -80,3 +80,30 @@ async def test_p10_template_high_and_phrase_reported(repo, tmp_path, monkeypatch
 
 def test_p10_skipped_on_tiny_text():
     assert P10Template().applicable(ctx("Hi")) == "skipped_no_input"
+
+
+def test_constructed_seed_receipt_is_honest(repo, tmp_path, monkeypatch):  # D-47
+    import asyncio
+
+    from special26 import seeds
+    d = tmp_path / "scam_templates"
+    d.mkdir()
+    (d / "c1.txt").write_text("# source: https://news.example/r\n# provenance: constructed\n# note: from report\n" + BASE)
+    monkeypatch.setattr(seeds, "DIR", tmp_path)
+    seed_templates(repo)
+    c = ctx(BASE)
+    c.repo, c.serp = repo, FakeSerp()
+    f = asyncio.run(P10Template().run(c)).findings[0]
+    assert f.receipt.title == "Matches a fake offer pattern described in a public report"
+    assert f.receipt.extra["provenance"] == "constructed" and f.receipt.link == "https://news.example/r"
+
+
+def test_shipped_seed_corpus():
+    from special26 import seeds
+    from special26.storage.retention import seed_header
+    files = sorted((seeds.DIR / "scam_templates").glob("*.txt"))
+    assert len(files) >= 25
+    for f in files:
+        head, body = seed_header(f)
+        assert head["source"].startswith("https://") and head["provenance"] in ("constructed", "transcribed")
+        assert signature(tokens(body)) is not None, f.name

@@ -1,0 +1,6 @@
+# source: https://www.freepressjournal.in/mumbai/mumbai-bandra-man-duped-of-284l-in-job-scam
+# provenance: constructed
+# note: Pattern from the report: registration fees and charges for enrolling with a job portal, escalating.
+Dear <recipient>,
+Thank you for registering with our premium job placement portal. Your profile has been forwarded to five reputed companies and two of them have shortlisted you.
+To unlock the interview schedule you must upgrade to the premium membership by paying the registration fee of Rs 2,500. After the interview, a refundable job guarantee charge will apply. Our relationship manager will call you from <phone>.

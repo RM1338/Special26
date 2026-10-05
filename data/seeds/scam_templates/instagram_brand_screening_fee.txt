@@ -1,0 +1,6 @@
+# source: https://cyberpeace.org/resources/blogs/internship-scams-exposing-financial-frauds-targeting-students
+# provenance: constructed
+# note: Pattern from the case study: internship at a fashion brand advertised on Instagram with a Rs 5,000 screening fee.
+Hi <recipient>, thank you for applying to our Fashion Marketing Internship through Instagram!
+Your profile has been shortlisted for the final screening round. Due to the huge number of applications, a refundable screening fee of Rs 5,000 is applicable for all shortlisted candidates.
+Pay to <upi> and send the screenshot to this number. Selected interns will receive a stipend of Rs 12,000 per month and a certificate from the brand. Hurry, only few seats left!
