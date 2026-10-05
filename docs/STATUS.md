@@ -85,3 +85,26 @@
 1. P07, P08, P09 (Lens upload path, D-27), P03, P10, P06, P05 (T3.1 to T3.8).
 2. Share token, share page with OG tags (D-18), campaigns.
 3. Scam template seed corpus (≥ 25) and eval cases (lane B).
+
+## M3 Full probes (due Thu 8 Oct 23:59 IST), progress at 2026-10-06
+
+**Works** (deployed: https://web-production-4b8c8.up.railway.app)
+- All 11 MVP probes are live: P01, P02, P03, P04, P05 (Google, News, Forums), P06, P07 (Jobs), P08 (Maps), P09 (Lens via SerpApi upload), P10 (MinHash/LSH + quoted sentence), P11.
+- **Full G1 live run:** red, impersonation, D1 + D3, S = 6.0, coverage 1.0, 7 credits, verdict in 7.9 s.
+- Template fingerprinting, identifiers, union-find campaigns, `/api/campaigns/{id}`. G6a + G6b link into one campaign (Infosys, HCLTech) in replay.
+- Share tokens and the masked share page with WhatsApp OG tags. Campaign page. Verdict links to its campaign.
+- Reason ordering now follows the verdict's direction (D-44).
+- 329 backend tests in about 5 s.
+
+**Behind**
+- T3.11: 60 eval cases. Not started; needs sourcing from public reports.
+- Seed scam template corpus (≥ 25, `08` §7.5): empty, so P10's local part matches only earlier red checks.
+- P12 (stretch): not started.
+- G3 consented `.eml`: still pending (D-14).
+
+**Credits used so far:** 31 (17 earlier, 1 for the Lens upload spike, 13 on the deployed server today, including two full G1 runs).
+
+**Next three tasks**
+1. Seed scam templates (≥ 25 transcribed public texts with source URLs).
+2. Eval cases (30 fraud + 30 genuine, `11` §2), schema-valid with sources.
+3. P12 RDAP (stretch), then the golden tests in replay and the `demo.db` recording (M5).
