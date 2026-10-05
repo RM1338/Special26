@@ -1,0 +1,50 @@
+# Ruleset 2026.10.1 lexicons (08 §2, §4, §9). Changing this file changes the ruleset.
+
+scam_words: [scam, scammer, fraud, fraudulent, fake, cheated, cheat, duped, beware, warning, alert, complaint,
+             lost money, extortion, fact check, phishing, not affiliated, do not pay, impersonat]
+
+known_upi_handles: [ybl, ibl, axl, okaxis, okhdfcbank, okicici, oksbi, paytm, pthdfc, ptsbi, ptyes, ptaxis, upi, apl,
+                    yapl, axisbank, sbi, icici, hdfcbank, kotak, federal, rbl, idfcfirst, indus, freecharge, fam,
+                    waicici, wahdfcbank, wasbi, waaxis, jupiteraxis, naviaxis]
+upi_context_words: [upi, gpay, phonepe, paytm, scan]
+
+phone_sender_words: [call, whatsapp, contact hr, contact, reach, message, ping, text]
+
+# 08 §2.5, first matching purpose wins in this order
+purposes:
+  stipend: [stipend, per month, /month, p.m., monthly]
+  salary: [salary, ctc, lpa, package, per annum]
+  verification: [background verification, bgv, police verification, police clearance, pcc, document verification,
+                 medical test, verification charges]
+  deposit: [security deposit, refundable, caution, deposit]
+  equipment: [laptop, device, joining kit, id card, uniform, kit]
+  training: [training fee, training charges, course fee, certification, lms, workshop fee]
+  registration: [registration, enrolment, enrollment, application fee, form fee, slot booking]
+  document: [offer letter charges, appointment letter, stamp paper, notary, agreement]
+  other_fee: [processing fee, onboarding fee, service charge, insurance, charges, fee]
+payer_words: [pay, payment, deposit, transfer, send, submit, scan, upi, gpay, phonepe, paytm, jama, bhugtan, fee, charges]
+
+# 08 §2.6
+process:
+  no_interview: [without interview, no interview, selected directly, direct selection, on the basis of your profile,
+                 shortlisted from your resume, liked your resume, based on your resume]
+  chat_only_interview: [interview on whatsapp, interview on telegram, chat interview, text interview]
+  urgent: [limited seats, last date today, immediately, urgent joining]
+  telegram: [telegram, t.me]
+  whatsapp: [whatsapp, wa.me]
+
+hr_title_words: [HR, Talent, Recruiter, Manager, Executive]
+
+# 08 §2.3 step 3 stop list
+org_stop_words: [Dear, Team, HR, India, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, Regards,
+                 Thanks, Congratulations, Hi, Hello, We, You, Your, The, This, Please, Our, Us, Human Resources,
+                 Talent Acquisition, Recruitment, Onboarding, WhatsApp, Telegram, Gmail, UPI]
+display_name_drop: [HR, Team, Careers, Recruitment]
+
+# 08 §4 P08
+office_types: [Corporate office, Company, Software company, Consultant, Business management consultant, IT company]
+residential_types: [Apartment building, Housing society, Residential, Hostel, PG]
+coworking_types: [Coworking space, Business center, Virtual office]
+
+# P05 complaint topic words (08 §4 P05)
+job_words: [job, intern, offer, placement, hiring]

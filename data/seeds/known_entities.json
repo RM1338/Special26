@@ -1,0 +1,786 @@
+[
+ {
+  "kind": "company",
+  "name": "Tech Mahindra",
+  "aliases": [
+   "TechM",
+   "Tech Mahindra Limited"
+  ],
+  "official_domains": [
+   "techmahindra.com"
+  ],
+  "careers_url": "https://careers.techmahindra.com/",
+  "fraud_notice_url": "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf",
+  "source_url": "https://www.techmahindra.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Tata Consultancy Services",
+  "aliases": [
+   "TCS",
+   "TCS iON",
+   "Tata Consultancy Services Limited"
+  ],
+  "official_domains": [
+   "tcs.com",
+   "tcsion.com"
+  ],
+  "source_url": "https://www.tcs.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Infosys",
+  "aliases": [
+   "Infosys Limited",
+   "Infosys BPM"
+  ],
+  "official_domains": [
+   "infosys.com"
+  ],
+  "source_url": "https://www.infosys.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Wipro",
+  "aliases": [
+   "Wipro Limited"
+  ],
+  "official_domains": [
+   "wipro.com"
+  ],
+  "source_url": "https://www.wipro.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "HCLTech",
+  "aliases": [
+   "HCL Technologies",
+   "HCL"
+  ],
+  "official_domains": [
+   "hcltech.com"
+  ],
+  "source_url": "https://www.hcltech.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Cognizant",
+  "aliases": [
+   "Cognizant Technology Solutions",
+   "CTS"
+  ],
+  "official_domains": [
+   "cognizant.com"
+  ],
+  "source_url": "https://www.cognizant.com/in/en",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Accenture",
+  "aliases": [
+   "Accenture Solutions"
+  ],
+  "official_domains": [
+   "accenture.com"
+  ],
+  "source_url": "https://www.accenture.com/en",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Capgemini",
+  "aliases": [
+   "Capgemini India"
+  ],
+  "official_domains": [
+   "capgemini.com"
+  ],
+  "source_url": "https://www.capgemini.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "IBM",
+  "aliases": [
+   "IBM India",
+   "International Business Machines"
+  ],
+  "official_domains": [
+   "ibm.com"
+  ],
+  "source_url": "https://www.ibm.com/in-en",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Deloitte",
+  "aliases": [
+   "Deloitte India",
+   "Deloitte Touche Tohmatsu"
+  ],
+  "official_domains": [
+   "deloitte.com"
+  ],
+  "source_url": "https://www.deloitte.com/in/en.html",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "PwC",
+  "aliases": [
+   "PricewaterhouseCoopers",
+   "PwC India"
+  ],
+  "official_domains": [
+   "pwc.com",
+   "pwc.in"
+  ],
+  "source_url": "https://www.pwc.com/gx/en.html",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "EY",
+  "aliases": [
+   "Ernst & Young",
+   "EY GDS"
+  ],
+  "official_domains": [
+   "ey.com"
+  ],
+  "source_url": "https://www.ey.com/en_in",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "KPMG",
+  "aliases": [
+   "KPMG India"
+  ],
+  "official_domains": [
+   "kpmg.com"
+  ],
+  "source_url": "https://kpmg.com/xx/en.html",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "LTIMindtree",
+  "aliases": [
+   "LTI Mindtree",
+   "Larsen & Toubro Infotech",
+   "Mindtree",
+   "LTM"
+  ],
+  "official_domains": [
+   "ltimindtree.com",
+   "ltm.com"
+  ],
+  "source_url": "https://www.ltm.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "L&T Technology Services",
+  "aliases": [
+   "LTTS"
+  ],
+  "official_domains": [
+   "ltts.com"
+  ],
+  "source_url": "https://www.ltts.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Larsen & Toubro",
+  "aliases": [
+   "L&T",
+   "Larsen and Toubro"
+  ],
+  "official_domains": [
+   "larsentoubro.com"
+  ],
+  "source_url": "https://www.larsentoubro.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Mphasis",
+  "aliases": [
+   "Mphasis Limited"
+  ],
+  "official_domains": [
+   "mphasis.com"
+  ],
+  "source_url": "https://www.mphasis.com/home.html",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Persistent Systems",
+  "aliases": [
+   "Persistent"
+  ],
+  "official_domains": [
+   "persistent.com"
+  ],
+  "source_url": "https://www.persistent.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Hexaware",
+  "aliases": [
+   "Hexaware Technologies"
+  ],
+  "official_domains": [
+   "hexaware.com"
+  ],
+  "source_url": "https://hexaware.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Zoho",
+  "aliases": [
+   "Zoho Corporation"
+  ],
+  "official_domains": [
+   "zoho.com"
+  ],
+  "source_url": "https://www.zoho.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Amazon",
+  "aliases": [
+   "Amazon India",
+   "Amazon Development Centre"
+  ],
+  "official_domains": [
+   "amazon.jobs",
+   "amazon.com",
+   "amazon.in"
+  ],
+  "source_url": "https://www.amazon.jobs/en/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Google",
+  "aliases": [
+   "Google India"
+  ],
+  "official_domains": [
+   "google.com"
+  ],
+  "source_url": "https://www.google.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Microsoft",
+  "aliases": [
+   "Microsoft India",
+   "Microsoft IDC"
+  ],
+  "official_domains": [
+   "microsoft.com"
+  ],
+  "source_url": "https://www.microsoft.com/en-in",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Flipkart",
+  "aliases": [
+   "Flipkart Internet"
+  ],
+  "official_domains": [
+   "flipkart.com",
+   "flipkartcareers.com"
+  ],
+  "source_url": "https://www.flipkart.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Paytm",
+  "aliases": [
+   "One97 Communications"
+  ],
+  "official_domains": [
+   "paytm.com"
+  ],
+  "source_url": "https://paytm.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Swiggy",
+  "aliases": [
+   "Bundl Technologies"
+  ],
+  "official_domains": [
+   "swiggy.com",
+   "swiggy.in"
+  ],
+  "source_url": "https://www.swiggy.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Zomato",
+  "aliases": [
+   "Eternal Limited"
+  ],
+  "official_domains": [
+   "zomato.com"
+  ],
+  "source_url": "https://www.zomato.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Reliance Industries",
+  "aliases": [
+   "Reliance",
+   "RIL"
+  ],
+  "official_domains": [
+   "ril.com"
+  ],
+  "source_url": "https://www.ril.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Reliance Jio",
+  "aliases": [
+   "Jio",
+   "Jio Platforms"
+  ],
+  "official_domains": [
+   "jio.com"
+  ],
+  "source_url": "https://www.jio.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Tata Motors",
+  "aliases": [
+   "Tata Motors Limited"
+  ],
+  "official_domains": [
+   "tatamotors.com"
+  ],
+  "source_url": "https://www.tatamotors.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Mahindra & Mahindra",
+  "aliases": [
+   "Mahindra Group",
+   "Mahindra and Mahindra"
+  ],
+  "official_domains": [
+   "mahindra.com"
+  ],
+  "source_url": "https://www.mahindra.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "HDFC Bank",
+  "aliases": [
+   "HDFC Bank Limited"
+  ],
+  "official_domains": [
+   "hdfcbank.com",
+   "hdfc.bank.in"
+  ],
+  "source_url": "https://www.hdfc.bank.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "ICICI Bank",
+  "aliases": [
+   "ICICI"
+  ],
+  "official_domains": [
+   "icicibank.com",
+   "icici.bank.in"
+  ],
+  "source_url": "https://www.icici.bank.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Axis Bank",
+  "aliases": [
+   "Axis Bank Limited"
+  ],
+  "official_domains": [
+   "axisbank.com",
+   "axis.bank.in"
+  ],
+  "source_url": "https://www.axis.bank.in",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "State Bank of India",
+  "aliases": [
+   "SBI"
+  ],
+  "official_domains": [
+   "sbi.co.in",
+   "bank.sbi",
+   "sbi.bank.in"
+  ],
+  "source_url": "https://sbi.co.in/redirect/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Kotak Mahindra Bank",
+  "aliases": [
+   "Kotak"
+  ],
+  "official_domains": [
+   "kotak.com",
+   "kotak.bank.in"
+  ],
+  "source_url": "https://www.kotak.bank.in/en/home.html",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Hindustan Unilever",
+  "aliases": [
+   "HUL",
+   "Unilever"
+  ],
+  "official_domains": [
+   "hul.co.in",
+   "unilever.com"
+  ],
+  "source_url": "https://www.hul.co.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "ITC",
+  "aliases": [
+   "ITC Limited"
+  ],
+  "official_domains": [
+   "itcportal.com"
+  ],
+  "source_url": "https://itcportal.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Nestle India",
+  "aliases": [
+   "Nestle"
+  ],
+  "official_domains": [
+   "nestle.in"
+  ],
+  "source_url": "https://www.nestle.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Goldman Sachs",
+  "aliases": [
+   "Goldman Sachs Services"
+  ],
+  "official_domains": [
+   "goldmansachs.com"
+  ],
+  "source_url": "https://www.goldmansachs.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "JPMorgan Chase",
+  "aliases": [
+   "JP Morgan",
+   "J.P. Morgan",
+   "JPMorgan"
+  ],
+  "official_domains": [
+   "jpmorganchase.com",
+   "jpmorgan.com"
+  ],
+  "source_url": "https://www.jpmorganchase.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Oracle",
+  "aliases": [
+   "Oracle India"
+  ],
+  "official_domains": [
+   "oracle.com"
+  ],
+  "source_url": "https://www.oracle.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Adobe",
+  "aliases": [
+   "Adobe India"
+  ],
+  "official_domains": [
+   "adobe.com"
+  ],
+  "source_url": "https://www.adobe.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Samsung",
+  "aliases": [
+   "Samsung R&D Institute",
+   "Samsung India"
+  ],
+  "official_domains": [
+   "samsung.com"
+  ],
+  "source_url": "https://www.samsung.com/in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Genpact",
+  "aliases": [
+   "Genpact India"
+  ],
+  "official_domains": [
+   "genpact.com"
+  ],
+  "source_url": "https://www.genpact.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Bajaj Finserv",
+  "aliases": [
+   "Bajaj Finance"
+  ],
+  "official_domains": [
+   "bajajfinserv.in"
+  ],
+  "source_url": "https://www.bajajfinserv.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Bharti Airtel",
+  "aliases": [
+   "Airtel"
+  ],
+  "official_domains": [
+   "airtel.in",
+   "airtel.com"
+  ],
+  "source_url": "https://www.airtel.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Asian Paints",
+  "aliases": [
+   "Asian Paints Limited"
+  ],
+  "official_domains": [
+   "asianpaints.com"
+  ],
+  "source_url": "https://www.asianpaints.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Maruti Suzuki",
+  "aliases": [
+   "Maruti Suzuki India"
+  ],
+  "official_domains": [
+   "marutisuzuki.com"
+  ],
+  "source_url": "https://www.marutisuzuki.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Siemens",
+  "aliases": [
+   "Siemens India"
+  ],
+  "official_domains": [
+   "siemens.com"
+  ],
+  "source_url": "https://www.siemens.com/en-us/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Bosch",
+  "aliases": [
+   "Bosch India",
+   "Robert Bosch"
+  ],
+  "official_domains": [
+   "bosch.com",
+   "bosch.in"
+  ],
+  "source_url": "https://www.bosch.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Meesho",
+  "aliases": [
+   "Fashnear Technologies"
+  ],
+  "official_domains": [
+   "meesho.com"
+  ],
+  "source_url": "https://www.meesho.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Ola",
+  "aliases": [
+   "ANI Technologies",
+   "Ola Electric"
+  ],
+  "official_domains": [
+   "olacabs.com",
+   "olaelectric.com"
+  ],
+  "source_url": "https://www.olacabs.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "company",
+  "name": "Byju's",
+  "aliases": [
+   "BYJU'S",
+   "Think and Learn"
+  ],
+  "official_domains": [
+   "byjus.com"
+  ],
+  "source_url": "https://byjus.com/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "scheme",
+  "scheme_key": "pm_internship",
+  "name": "PM Internship Scheme",
+  "aliases": [
+   "PM Internship",
+   "PMIS",
+   "Prime Minister Internship Scheme",
+   "Prime Minister Internship"
+  ],
+  "official_domains": [
+   "pminternship.mca.gov.in",
+   "mca.gov.in"
+  ],
+  "source_url": "https://pminternship.mca.gov.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "scheme",
+  "scheme_key": "aicte_internship",
+  "name": "AICTE Internship",
+  "aliases": [
+   "AICTE internship",
+   "National Internship Portal"
+  ],
+  "official_domains": [
+   "internship.aicte-india.org",
+   "aicte-india.org",
+   "aicte.gov.in"
+  ],
+  "source_url": "https://internship.aicte-india.org/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "scheme",
+  "scheme_key": "msme_internship",
+  "name": "MSME Internship",
+  "aliases": [
+   "MSME internship",
+   "Ministry of MSME"
+  ],
+  "official_domains": [
+   "msme.gov.in"
+  ],
+  "source_url": "https://www.msme.gov.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "scheme",
+  "scheme_key": "skill_india",
+  "name": "Skill India",
+  "aliases": [
+   "NSDC",
+   "Skill India Digital"
+  ],
+  "official_domains": [
+   "skillindiadigital.gov.in",
+   "nsdcindia.org"
+  ],
+  "source_url": "https://www.skillindiadigital.gov.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "scheme",
+  "scheme_key": "niti_internship",
+  "name": "NITI Aayog Internship",
+  "aliases": [
+   "NITI Aayog internship"
+  ],
+  "official_domains": [
+   "niti.gov.in"
+  ],
+  "source_url": "https://www.niti.gov.in/",
+  "verified_on": "2026-10-05"
+ },
+ {
+  "kind": "scheme",
+  "scheme_key": "digital_india",
+  "name": "Digital India Internship",
+  "aliases": [
+   "Digital India internship",
+   "MeitY internship"
+  ],
+  "official_domains": [
+   "meity.gov.in",
+   "digitalindia.gov.in"
+  ],
+  "source_url": "https://www.meity.gov.in/",
+  "verified_on": "2026-10-05"
+ }
+]

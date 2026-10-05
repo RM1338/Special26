@@ -198,3 +198,42 @@ Fixtures are in `backend/tests/fixtures/serp/`. 7 credits spent: 5 engines, 1 Le
 - **google_forums:** `organic_results[]`. Its age is only in `displayed_meta` ("10+ comments · 1 year ago"), as D-28 predicted.
 - **google_maps:** `local_results[]` with `type`, `types`, `website` (`techmahindra.com` ✓), `reviews_link`, and `user_review` on 2 of 3 places. Types seen: "Software company", "Corporate office", which are in the P08 match list ✓.
 **Files:** `serp/client.py`, `scripts/spike_engines.py`, `pipeline/runner.py` (per-probe timeout), `probes/p05`, `p07`, `p09`.
+
+### D-30 · 2026-10-05 · Seed verification and `bank.in`
+**Context:** T0.8 requires official domains verified against each company's own site. `scripts/verify_seeds.py` fetched every domain over HTTPS and found:
+- **Banks:** HDFC, ICICI, Axis and Kotak now redirect to `hdfc.bank.in`, `icici.bank.in`, `axis.bank.in` and `kotak.bank.in`. `sbi.bank.in` answers too.
+- **LTIMindtree** redirects to `ltm.com`.
+- **AICTE** redirects to `aicte.gov.in`.
+- **tldextract:** its bundled public-suffix snapshot doesn't list `bank.in`, so every bank resolved to the same registrable domain, `bank.in`.
+**Decision:**
+- The new domains are added alongside the old ones, which are still used for email.
+- tldextract runs with `extra_suffixes=("bank.in", "fin.in")` (the RBI-restricted zones) everywhere, via the shared `domains/classify.py:EXT`.
+- `source_url` is the final URL after redirects; `verified_on` is 2026-10-05. Persistent Systems' site is behind a bot check, so it keeps the URL from the first pass.
+- 54 companies and 6 schemes. The `06` target of 80 is still open.
+- `cities.txt` has 491 cities and tech localities, without PIN prefixes. No algorithm in `08` uses the prefixes.
+- City names that are also common first names (Anand, Sagar, Puri, ...) are left out so signatures don't turn into addresses.
+**Files:** `data/seeds/*`, `scripts/verify_seeds.py`, `domains/classify.py`.
+
+### D-31 · 2026-10-05 · Extraction guards not spelled out in `08`
+**Context:** These came up while making G1 to G6 and the FR-10 tests extract correctly.
+**Decision:**
+- **Dictionary matching of companies:**
+  - Aliases of 4 characters or fewer (TCS, EY, HCL, SBI) match exact case only.
+  - Any brand surface that is all lowercase is ignored ("in reliance on", "@paytm").
+  - A brand followed by a product word (Form, Pay, Meet, Drive, Docs, Jobs, UPI, ...) is ignored.
+  - "Paytm" preceded by via, on, using, through, to, with or in is ignored, since it names the payment rail.
+  - Schemes match without the casing guards.
+- **AMOUNT regex (`08` §2.2), two bug fixes:**
+  - The `rs`/`inr` prefix may not follow a letter ("Mrs. 5" is not ₹5).
+  - The unit (`k`, `lakh`, `lpa`) must end at a word boundary ("Rs 2000 kit" is not ₹20,00,000).
+  - Decimals are kept in the value: ₹1.5 lakh = 150000.
+- **Address:**
+  - A PIN line gives the whole line, and its city is the last city on the line.
+  - A city-only address is the clause ending at the city, without leading prepositions ("at Infosys Limited, Mysuru" → "Infosys Limited, Mysuru").
+- **Legal line:**
+  - Descriptor suffixes (Technologies, Solutions, Services, Consultancy, Infotech, Softech) are kept as part of the name: "Brightpath Technologies", legal suffix "Pvt Ltd".
+  - The legal-line and pattern steps reject names whose first word is in the stop list, or that are a city.
+- **Process phrases** are matched on punctuation-flattened text ("Last date: today" = "last date today").
+- **"non-refundable"** is normalised to "nonrefundable" before purpose matching, extending D-23 to purpose classification.
+- **A process claim** is emitted only when at least one flag is true.
+**Files:** `claims/org.py`, `claims/regexes.py`, `claims/extract.py`, `claims/amounts.py`, `data/seeds/lexicons.yaml`.

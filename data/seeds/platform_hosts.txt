@@ -1,0 +1,23 @@
+# host<TAB>kind  (08 §2.2). Path-qualified entries match host + path prefix.
+forms.gle	form
+docs.google.com/forms	form
+forms.office.com	form
+typeform.com	form
+jotform.com	form
+bit.ly	shortener
+tinyurl.com	shortener
+cutt.ly	shortener
+rb.gy	shortener
+t.ly	shortener
+is.gd	shortener
+rzp.io	payment
+razorpay.me	payment
+paytm.me	payment
+instamojo.com	payment
+cashfree.com	payment
+wa.me	messaging
+t.me	messaging
+chat.whatsapp.com	messaging
+telegram.me	messaging
+drive.google.com	document
+docs.google.com/document	document
