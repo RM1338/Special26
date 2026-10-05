@@ -55,6 +55,9 @@ async def run_probes(base: dict, probes: list[type[Probe]], emit: Emit | None = 
             on_result(res)
         emit("probe.finished", res.summary())
 
+    pre = ProbeContext(**base)                   # before any upstream: probes needing P01 count as applicable
+    base = {**base, "reserved_calls": sum(P.max_calls for P in probes
+                                          if P().applicable(pre) in (None, "skipped_no_official_domain"))}
     for P in probes:
         tasks[P.id] = asyncio.ensure_future(run_one(P))
     await asyncio.gather(*tasks.values())

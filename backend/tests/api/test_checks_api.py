@@ -147,3 +147,15 @@ def test_404_and_health(client):
     h = client.get("/api/health").json()
     assert h["status"] == "ok" and h["mode"] == "replay" and h["db"] == "ok" and h["ruleset_version"] == "2026.10.1"
     assert h["credits_today"] == {"used": 0, "cap": 200}
+
+
+def test_public_img_token(client):  # NFR-07, D-25
+    from special26.api.public_img import sign
+    photo = (Path(__file__).parents[1] / "golden/inputs/g5_hr_photo.jpg").read_bytes()
+    r = client.post("/api/checks", files=[("files", ("hr.jpg", photo, "image/jpeg"))], data={"file_roles": '["hr_photo"]'})
+    st = client.app.state.s26
+    art = st.repo.artifacts(r.json()["check_id"])[0]
+    assert art["role"] == "hr_photo" and art["storage_path"].startswith(st.settings.uploads_dir)
+    ok = client.get(f"/public/img/{sign(st.settings.share_salt, art['sha256'])}")
+    assert ok.status_code == 200 and ok.headers["content-type"] == "image/jpeg"
+    assert err(client.get("/public/img/garbage")) == (404, "NOT_FOUND")

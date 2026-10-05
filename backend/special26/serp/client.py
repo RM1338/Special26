@@ -9,6 +9,7 @@ import httpx
 from special26.errors import BudgetExhausted, ReplayMiss, UpstreamError
 
 SERP_URL = "https://serpapi.com/search.json"
+UPLOAD_URL = "https://serpapi.com/image"                # Lens image upload (D-27)
 RDAP_URL = "https://rdap.org/domain/{}"
 EMPTY_RESULT = "hasn't returned any results"   # SerpApi's empty-result "error" (05 §4 note)
 NOT_KEYED = ("api_key", "output", "no_cache")
@@ -124,3 +125,17 @@ class SerpClient:
                 self.repo.cache_put(key, "rdap", params, row)
             self.repo.record_put(key, "rdap", params, row)
         return None if row.get("not_found") else row
+
+    async def upload_image(self, jpeg: bytes) -> str:
+        """Upload bytes for Google Lens; returns image_id. Not a search, so no ledger row (D-27)."""
+        if self.s.mode == "replay" or self.s.serpapi_api_key is None:
+            raise UpstreamError("image upload unavailable")
+        try:
+            r = await self.http.post(UPLOAD_URL, params={"api_key": self.s.serpapi_api_key.get_secret_value()},
+                                     files={"image": ("photo.jpg", jpeg, "image/jpeg")}, timeout=30.0)
+        except httpx.HTTPError as e:
+            raise UpstreamError(f"Lens upload failed: {type(e).__name__}") from None
+        image_id = r.json().get("image_id") if r.headers.get("content-type", "").startswith("application/json") else None
+        if r.status_code >= 400 or not image_id:
+            raise UpstreamError(f"Lens upload {r.status_code}")
+        return image_id

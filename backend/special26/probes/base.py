@@ -70,6 +70,7 @@ class ProbeContext(BaseModel):
     settings: Any = None
     redacted_text: str = ""
     repo: Any = None
+    reserved_calls: int = 0                  # sum of max_calls of applicable probes (05 §8, P09 letter rule)
 
     @property
     def official(self) -> list[str]:

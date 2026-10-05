@@ -324,3 +324,16 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - The receipt link is a public Google Maps search URL built from the place title and `place_id`.
 - **Org pattern fix:** the `08` §2.3 pattern allows dots inside names, so "Welcome to Acme Widgets. Office: ..." captured "Acme Widgets. Office". The capture is now cut at the first ". ".
 **Files:** `probes/p07_role.py`, `probes/p08_office.py`, `claims/org.py`.
+
+### D-38 · 2026-10-06 · P09 Lens implementation
+- **Upload path verified live:** `POST https://serpapi.com/image` with `api_key` and the `image` file returned an `image_id` in 1.4 s. Lens `exact_matches` by `image_id` then took 7.5 s and returned 400 matches, with `pexels.com` at positions 12 and 111. 1 credit. Fixture: `google_lens_g5_upload.json`.
+- **Order of attempts:**
+  1. SerpApi upload.
+  2. On upload failure, the signed URL `{SPECIAL26_PUBLIC_BASE_URL}/public/img/{token}` (D-25).
+  3. With neither available, `skipped_no_public_url` (`04` §6).
+- **Replay** never uploads: Lens results are keyed by `image_sha256` (D-12) and searched with `image_id = "replay"`, which the cache key ignores.
+- **`P09_STOCK_PHOTO`** scans every exact match; stock hits sit deep in the list.
+- **`P09_PHOTO_OTHER_NAMES`** counts distinct registrable domains whose match title holds a capitalised two-word name with `fuzz.ratio < 70` to the HR name. When there is no HR name, any such name counts.
+- **`P09_PHOTO_OFFICIAL`** uses `fuzz.partial_ratio ≥ 80` between the HR name and the match title, so that "Neha Kapoor - HR Manager" counts.
+- **Letter call:** it runs only when `budget - reserved_calls ≥ 3` (`05` §8). The runner computes `reserved_calls` before wave 1, counting probes that are applicable or wait only for P01. The rule is the same in replay, so a replay reproduces exactly what was recorded.
+**Files:** `serp/client.py`, `api/public_img.py`, `probes/p09_image.py`, `pipeline/runner.py`.
