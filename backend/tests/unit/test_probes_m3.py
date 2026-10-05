@@ -258,3 +258,64 @@ async def test_p06_search_failure_keeps_status():
 
 def test_p06_freemail_only_is_not_applicable():
     assert P06IdentifierTrace().applicable(ctx("Regards\nme.hr@gmail.com", official=[])) == "skipped_no_input"
+
+
+# ---- P05 (D-42) ------------------------------------------------------------------------------------------------
+from datetime import UTC, datetime
+
+from special26.probes.p05_chatter import P05Chatter, result_date
+
+
+class EngineSerp(FakeSerp):
+    def __init__(self, by_engine: dict):
+        super().__init__()
+        self.by_engine = by_engine
+
+    async def search(self, check_id, params):
+        self.calls.append(params)
+        v = self.by_engine.get(params["engine"], {})
+        if isinstance(v, Exception):
+            raise v
+        return v, f"k{len(self.calls)}", False
+
+
+def complaint(i, title="Tech Mahindra fake job offer scam warning", snippet="students cheated", date="1 year ago",
+              link=None):
+    return {"position": i, "title": title, "snippet": snippet, "link": link or f"https://forum{i}.in/t",
+            "displayed_meta": date}
+
+
+async def test_p05_general_names_sender_and_live_fixtures():
+    forums = json.loads((FIX / "google_forums_techmahindra.json").read_text())
+    forums["organic_results"] += [complaint(90 + i) for i in range(3)]
+    forums["organic_results"].append(complaint(99, snippet="mail from hr.onboarding@techmahindra-careers.in asked fee"))
+    serp = EngineSerp({"google_news": json.loads((FIX / "google_news_techmahindra.json").read_text()),
+                       "google_forums": forums, "google": {"organic_results": []}})
+    res = await P05Chatter().run(ctx(G1_TEXT, official=["techmahindra.com"], serp=serp))
+    assert codes(res) == ["P05_COMPLAINTS_GENERAL", "P05_COMPLAINT_NAMES_SENDER"]
+    assert "techmahindra-careers.in" in res.findings[1].message
+    assert serp.calls[0]["q"].endswith("-site:techmahindra.com") and len(serp.calls) == 3
+
+
+async def test_p05_old_complaints_ignored_and_forums_optional():
+    serp = EngineSerp({"google": {"organic_results": [complaint(i, date="5 years ago") for i in range(4)]},
+                       "google_news": {"news_results": []}, "google_forums": UpstreamError("down")})
+    res = await P05Chatter().run(ctx(G1_TEXT, official=["techmahindra.com"], serp=serp))
+    assert res.status == "ok" and codes(res) == [] and res.outputs["complaints"] == 0
+
+
+async def test_p05_pib_factcheck_and_both_core_calls_failing():
+    g2 = (Path(__file__).parents[1] / "golden/inputs/g2.txt").read_text()
+    serp = EngineSerp({"google_news": {"news_results": [
+        {"title": "PIB Fact Check: Fake PM Internship registration form", "link": "https://www.pib.gov.in/x"}]}})
+    assert codes(await P05Chatter().run(ctx(g2, official=["mca.gov.in"], serp=serp))) == ["P05_PIB_FACTCHECK"]
+    down = EngineSerp({"google": UpstreamError("x"), "google_news": UpstreamError("y")})
+    with pytest.raises(UpstreamError):
+        await P05Chatter().run(ctx(G1_TEXT, official=[], serp=down))
+
+
+def test_result_dates():
+    now = datetime(2026, 10, 7, tzinfo=UTC)
+    assert result_date({"iso_date": "2026-03-09T07:00:00Z"}, now).year == 2026
+    assert (now - result_date({"displayed_meta": "10+ comments · 2 years ago"}, now)).days == 730
+    assert result_date({"date": "Mar 3, 2024"}, now).month == 3 and result_date({}, now) is None

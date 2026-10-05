@@ -374,3 +374,19 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **`edge_counts`** = count of members by the edge that linked them. `orgs` are in first-seen order.
 - **`/api/campaigns/{id}`:** identifiers shared by ≥ 2 members are masked, except domains, which are shown in full (`03` §4.3).
 **Files:** `campaign/*`, `probes/p06_identifier_trace.py`, `api/campaigns.py`, `storage/repo.py`, `pipeline/runner.py`.
+
+### D-42 · 2026-10-06 · P05 details
+- **Official filter:** the `-site:{o1}` exclusion can't be trusted (D-34), so results on official domains are dropped client-side.
+- **Complaint dates** (24-month window):
+  - News `iso_date`.
+  - A relative age ("1 year ago") in Forums `displayed_meta` or Google `date`.
+  - An absolute "Mar 3, 2024" date.
+  - A result with no date stays eligible, as `08` says "date (if any)".
+- **"Contains the org":** `fuzz.partial_ratio(org, title + snippet) ≥ 85`, case-insensitive.
+- **`P05_COMPLAINT_NAMES_SENDER`:** the sender's domain counts only if it is a suspect class (typosquat, combosquat, tld_swap, homoglyph, unrelated), because "gmail.com" would match everything. HR names count only when they have at least two words.
+- **Failure handling:**
+  - Forums errors are skipped quietly (`08`).
+  - If one of Google or News fails, P05 still reports `ok` on the remaining results, recording `outputs.failed_calls`. This is consistent with `04` §10's forums degradation.
+  - Only when both fail does P05 raise, which makes its status `error` or `skipped_*`.
+- **`P05_PIB_FACTCHECK`:** any result from the three calls whose registrable domain is `pib.gov.in`, or with "PIB Fact Check" in the title, counts when a scheme claim exists. It doesn't need to meet the complaint criteria.
+**Files:** `probes/p05_chatter.py`.
