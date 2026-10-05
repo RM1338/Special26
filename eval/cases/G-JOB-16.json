@@ -1,0 +1,14 @@
+{
+ "case_id": "G-JOB-16",
+ "label": "genuine",
+ "category": "jobs_listing_message",
+ "template_group": "tg-listing-0",
+ "source_url": null,
+ "provenance": "constructed",
+ "text": "Hello <RECIPIENT>,\nThank you for applying for the Relationship Manager role at HDFC Bank in Mumbai. We would like to schedule your first interview round\nnext week. Please pick a slot using the link in your candidate account on our careers site.\nBest,\nRecruiting Team\nrecruiting@hdfc.bank.in",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "green",
+ "notes": "Constructed recruiter message for a real employer, real domain (consented_real substitute, D-49).",
+ "split": "dev"
+}

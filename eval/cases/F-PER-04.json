@@ -1,0 +1,14 @@
+{
+ "case_id": "F-PER-04",
+ "label": "fraud",
+ "category": "persona",
+ "template_group": "tg-persona-docs",
+ "source_url": "https://www.quickheal.co.in/knowledge-centre/fake-job-offer-scams-how-fraudsters-use-linkedin-and-whatsapp/",
+ "provenance": "constructed",
+ "text": "Hi <RECIPIENT>,\nI am the hiring manager at IBM. We liked your resume and you are selected as Associate Developer without interview.\nPlease send your Aadhaar, PAN, bank passbook copy and a cancelled cheque to ibm.campus.connect@yahoo.com today so that we can create your\nemployee ID. Your offer letter will follow.\nRegards",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "amber",
+ "notes": "No fee and no photo: expected amber (11 §2.1 persona); red needs Lens.",
+ "split": "holdout"
+}

@@ -1,0 +1,14 @@
+{
+ "case_id": "F-CMP-03b",
+ "label": "fraud",
+ "category": "campaign_variants",
+ "template_group": "tg-campaign-3",
+ "source_url": "https://jobrise.io/en/blog/job-scams-india-avoid-2026/",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nYou are selected for the Graduate Trainee programme at Swiggy. Kindly pay the ID card and joining kit charges of\nRs 1,300 to UPI ID onboard.gamma.hr@okaxis within 24 hours to block your joining date.\nThanks, Onboarding Desk",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Pair 3: same UPI across Flipkart and Swiggy (campaign edge).",
+ "split": "holdout"
+}

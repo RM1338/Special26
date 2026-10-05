@@ -1,0 +1,14 @@
+{
+ "case_id": "F-LKF-02",
+ "label": "fraud",
+ "category": "lookalike_fee",
+ "template_group": "tg-lookalike-1",
+ "source_url": "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf",
+ "provenance": "constructed",
+ "text": "Hi <RECIPIENT>,\nGreetings from Tata Consultancy Services. You are selected as a Assistant System Engineer for our Chennai office. Kindly complete the training kit formality\nby paying Rs 3,000 via the link shared. Joining date will be confirmed after payment.\nThanks,\nTalent Acquisition\ncareers@tcs-careers.in",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Constructed lookalike domain tcs-careers.in; RDAP-unregistered status to be confirmed when recording.",
+ "split": "dev"
+}

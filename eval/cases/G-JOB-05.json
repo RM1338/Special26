@@ -1,0 +1,14 @@
+{
+ "case_id": "G-JOB-05",
+ "label": "genuine",
+ "category": "jobs_listing_message",
+ "template_group": "tg-listing-1",
+ "source_url": null,
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nYour application for Product Analyst (Noida) at Paytm has moved to the next stage. The hiring manager will meet you for a\ntechnical discussion. No payment is required at any stage of our hiring process.\nRegards,\nUniversity Relations, Paytm\nuniversity.relations@paytm.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "green",
+ "notes": "Constructed recruiter message for a real employer, real domain (consented_real substitute, D-49).",
+ "split": "holdout"
+}

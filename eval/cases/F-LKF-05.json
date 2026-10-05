@@ -1,0 +1,14 @@
+{
+ "case_id": "F-LKF-05",
+ "label": "fraud",
+ "category": "lookalike_fee",
+ "template_group": "tg-lookalike-1",
+ "source_url": "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf",
+ "provenance": "constructed",
+ "text": "Hi <RECIPIENT>,\nGreetings from Deloitte. You are selected as a Analyst for our Hyderabad office. Kindly complete the registration formality\nby paying Rs 999 via the link shared. Joining date will be confirmed after payment.\nThanks,\nTalent Acquisition\ncareers@de1oitte.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Constructed lookalike domain de1oitte.com; RDAP-unregistered status to be confirmed when recording.",
+ "split": "dev"
+}

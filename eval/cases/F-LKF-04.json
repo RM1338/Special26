@@ -1,0 +1,14 @@
+{
+ "case_id": "F-LKF-04",
+ "label": "fraud",
+ "category": "lookalike_fee",
+ "template_group": "tg-lookalike-0",
+ "source_url": "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nCongratulations! You have been selected for the position of Programmer Analyst Trainee at Cognizant, Pune.\nTo release your offer letter please pay Rs 2,200 towards background verification to UPI ID onboard.4desk@ybl within 48 hours.\nRegards,\nHR Onboarding Team\nhr@cognizant-hiring.in",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Constructed lookalike domain cognizant-hiring.in; RDAP-unregistered status to be confirmed when recording.",
+ "split": "holdout"
+}

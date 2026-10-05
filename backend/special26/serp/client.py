@@ -47,6 +47,8 @@ class SerpClient:
         params = {**loc, **params}
         key = cache_key(params)
         engine = params["engine"]
+        if engine in self.s.masked_engines:
+            raise ReplayMiss(f"{engine} masked for ablation")
         if self.s.mode == "replay":
             row = self.repo.demo_get(key)
             if row is None:

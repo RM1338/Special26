@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-09",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-cabin-crew",
+ "source_url": "https://morungexpress.com/airasia-india-cautions-job-seekers-against-frauds",
+ "provenance": "constructed",
+ "text": "AirAsia India walk-in recruitment for Cabin Crew and Ground Staff, freshers welcome, salary Rs 35,000 to 55,000.\nYou are shortlisted on the basis of your profile. Pay the registration and uniform charges of Rs 2,800 to confirm your\ninterview slot. Contact the recruitment officer on WhatsApp +91 90031 22045 immediately, limited seats.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}

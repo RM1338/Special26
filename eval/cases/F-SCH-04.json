@@ -1,0 +1,14 @@
+{
+ "case_id": "F-SCH-04",
+ "label": "fraud",
+ "category": "scheme_impersonation",
+ "template_group": "tg-scheme-telegram",
+ "source_url": "https://www.careerindia.com/features/internship-scams-2026-how-to-spot-fake-job-offers-and-avoid-paying-fees-011-66049.html",
+ "provenance": "constructed",
+ "text": "Digital India Internship by MeitY: work from home, stipend Rs 10,000. Join our Telegram group https://t.me/dIndiaIntern\nfor the interview on Telegram. Registration fee Rs 300 payable to meity.intern@ybl.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "holdout"
+}

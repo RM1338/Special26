@@ -206,3 +206,17 @@ async def test_p04_offsite_only_and_no_seed_gives_nothing():
 
 def test_p04_skipped_without_official():
     assert P04FraudNotice().applicable(ctx("Welcome to Infosys", official=[])) == "skipped_no_official_domain"
+
+
+async def test_p01_seed_domains_survive_search_failure():  # D-48
+    from special26.errors import ReplayMiss
+
+    class Down(FakeSerp):
+        async def search(self, check_id, params):
+            raise ReplayMiss()
+    res = await P01Entity().run(ctx("Offer from Infosys Limited", official=None, serp=Down()))
+    assert res.status == "skipped_replay_miss" and res.outputs["official_domains"] == ["infosys.com"]
+    assert codes(res) == ["P01_OFFICIAL_FOUND"]
+    import pytest as _p
+    with _p.raises(ReplayMiss):
+        await P01Entity().run(ctx("We at Nimbleleaf Analytics Pvt Ltd", official=None, serp=Down()))

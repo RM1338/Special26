@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-10",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-ncs-portal",
+ "source_url": "https://www.republicworld.com/india/fake-job-scam-in-karnataka-fraudsters-dupe-candidates-on-national-career-service-portal-articleshow",
+ "provenance": "constructed",
+ "text": "Dear Jobseeker,\nYour profile on the National Career Service portal has been shortlisted for a government contract job with salary of\nRs 28,000. Please pay the application processing fee of Rs 1,500 and document verification fee of Rs 2,000 through\nhttps://bit.ly/ncs-verify26 to receive the interview call letter. Do not share this message.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}

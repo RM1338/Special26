@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-03",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-cash-deposit-hrd",
+ "source_url": "https://techenclave.com/t/beware-of-scam-wipro-recruitment/161897",
+ "provenance": "constructed",
+ "text": "Dear Candidate,\nWith reference to your application you have been shortlisted for the post of Process Associate at Wipro, Pune.\nYou have to deposit the (Cash) as an initial amount in favor of Company HRD Department for Rs. 4,250/-.\nKindly deposit within 24 hours, 18 candidates have already paid. Send the slip to wipro.hrd.pune@gmail.com.\nHR Department",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "holdout"
+}

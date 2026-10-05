@@ -128,3 +128,11 @@ def test_lens_empty_result_fixture_is_empty():
     from special26.serp.client import is_empty_result
     d = json.loads((Path(__file__).parents[1] / "fixtures/serp/google_lens_exact_empty.json").read_text())
     assert is_empty_result(d)
+
+
+async def test_masked_engine_is_a_replay_miss(settings, repo):  # 11 §6 ablations
+    settings.masked_engines = ["google_lens"]
+    c, calls = client_with(settings, repo, ok)
+    with pytest.raises(ReplayMiss):
+        await c.search(None, {"engine": "google_lens", "url": "u", "image_sha256": "a", "type": "exact_matches"})
+    assert calls == []

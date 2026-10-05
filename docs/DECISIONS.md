@@ -452,3 +452,33 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - The genuine fixture offer scores 0.03, so there's no false template match.
 - **README limitation:** the corpus is constructed from reports, not collected from victims.
 **Files:** `data/seeds/scam_templates/*.txt`, `storage/retention.py`, `probes/p10_template.py`, `tests/unit/test_template.py`.
+
+### D-48 · 2026-10-06 · Probes keep local evidence when search is unavailable
+- **P01:** if its first search fails (replay miss, budget, upstream error, or an engine masked for ablation) and the org came from the dictionary, the verified seed domains still become the official set, with `P01_OFFICIAL_FOUND` citing the seed receipt. The status records the failure (`skipped_replay_miss` and so on), so coverage stays honest. With no seed, P01 still raises.
+- **P10:** if the quoted-sentence search fails, the local MinHash match is kept, with the failure status.
+- **Why:** a SerpApi outage shouldn't throw away evidence that needs no search. B3 "local only" (`11` §4) needs P10's local part and seed-based lookalike detection.
+- **Engine masking:** `Settings.masked_engines` makes `SerpClient.search` raise `ReplayMiss` for the masked engines (`11` §6).
+**Files:** `probes/p01_entity.py`, `probes/p10_template.py`, `serp/client.py`, `config.py`.
+
+### D-49 · 2026-10-06 · Evaluation set and harness
+**Context:** `11` §2 targets 100 cases (minimum 60), split by category. The user has no real material to share for now ("replicate stuff like it happens in real life"), and credits are scarce (D-46).
+**Decision:**
+- **60 constructed cases** (`eval/build_cases.py`, deterministic; files in `eval/cases/`):
+  - **Fraud, 30:**
+    - `public_report` ×10: each follows a cited report's pattern.
+    - `lookalike_fee` ×6: constructed lookalike domains of real brands.
+    - `scheme_impersonation` ×4.
+    - `persona` ×4: documents first, no fee, no photo, so expected amber; Lens would be needed for red.
+    - `campaign_variants` ×6: 3 pairs sharing a UPI ID across brands.
+  - **Genuine, 30:**
+    - `official_template` ×8: real employers, real domains, no fee.
+    - `jobs_listing_message` ×16: replaces `consented_real`, which has no data.
+    - `small_startup` ×6: fictional companies, amber or grey is correct.
+- **Split:** dev/holdout ≈ 40/60 per label by whole `template_group` (fraud 13/17, genuine 12/18).
+- **`eval/run_eval.py`** runs every case through `run_check` (the production path) on a fresh DB per system, in case-id order, so campaign memory builds up as in production.
+  - Systems: S26, B0, B3 (all six engines masked).
+  - Ablations: one engine (or `news+forums`) masked per run.
+  - Output: rows in `eval_runs`/`eval_results` and `eval/report.md`, with metrics plus 95% Wilson intervals, confusion matrices, an ablation delta table, every false red with its top 3 reasons, latency and credits.
+  - B1 and B2 are stretch (`12` §3) and not run.
+- **Recording S26:** needs about 9 searches per case, so roughly 540 for all 60. That waits for the extra credits. Until then only B0 and B3 can be reported.
+**Files:** `eval/*`.

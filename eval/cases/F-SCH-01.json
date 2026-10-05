@@ -1,0 +1,14 @@
+{
+ "case_id": "F-SCH-01",
+ "label": "fraud",
+ "category": "scheme_impersonation",
+ "template_group": "tg-scheme-whatsapp",
+ "source_url": "https://www.careerindia.com/features/internship-scams-2026-how-to-spot-fake-job-offers-and-avoid-paying-fees-011-66049.html",
+ "provenance": "constructed",
+ "text": "PM Internship Scheme Phase 3: get Rs 5,000 monthly and one time grant Rs 6,000. Registration charges Rs 599 for\nslot booking. Apply on WhatsApp +91 90012 33456 and pay on pmis.slots@paytm. Limited seats, last date today.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "holdout"
+}

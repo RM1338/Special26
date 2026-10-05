@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-02",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-internship-fee-form",
+ "source_url": "https://www.businesstoday.in/latest/trends/story/company-ko-pocket-money-chahiye-techie-shares-rs23000-internship-offer-letter-but-with-an-unexpected-demand-533454-2026-05-27",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nWe are pleased to offer you a remote internship as a Software Development Intern at Codexa Labs. Your monthly stipend\nwill be Rs 23,000 in hand. To confirm your enrollment please pay the internship fees of Rs 1,594 through the form\nlink: https://forms.gle/cdxIntern2026 within 48 hours. Your offer letter will be shared after payment.\nTeam HR, Codexa Labs",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}

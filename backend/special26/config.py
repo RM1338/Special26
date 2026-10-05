@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     gl: str = "in"
     hl: str = "en"
     uploads_dir: str = "data/uploads"
+    masked_engines: list[str] = []          # eval ablations (11 §6): treated as replay misses
 
     def model_post_init(self, _):
         if not self.share_salt:

@@ -7,6 +7,7 @@ from rapidfuzz import fuzz
 from special26 import seeds
 from special26.claims.models import ClaimType as T
 from special26.domains.classify import label, reg
+from special26.errors import BudgetExhausted, ReplayMiss, UpstreamError
 from special26.probes.base import Probe, ProbeContext, ProbeResult, Receipt, serp_receipt
 
 LEGAL = re.compile(r"\b(private limited|pvt\.?\s?ltd\.?|limited|ltd\.?|llp|inc\.?|technologies|solutions|services)\b")
@@ -67,7 +68,15 @@ class P01Entity(Probe):
         seed_domains = [reg(d) for d in entity["official_domains"]] if entity else []
 
         q = f'"{org}"'
-        data, key = await self.search(ctx, {"engine": "google", "q": q, "num": 10})
+        status = "ok"
+        try:
+            data, key = await self.search(ctx, {"engine": "google", "q": q, "num": 10})
+        except (ReplayMiss, BudgetExhausted, UpstreamError) as e:
+            if not seed_domains:
+                raise
+            # D-48: search unavailable, but a verified seed still gives the official set; status records the failure
+            status = {ReplayMiss: "skipped_replay_miss", BudgetExhausted: "skipped_budget"}.get(type(e), "error")
+            data, key = {}, None
         cands = candidates(data, org)
         accepted = [c["domain"] for c in cands if c["accepted"]][:3]
         if not accepted and not seed_domains:                   # Q2 only when nothing is known yet (D-32)
@@ -104,6 +113,7 @@ class P01Entity(Probe):
                              org=org, official=first)
         else:
             f = self.finding("P01_NO_PRESENCE", receipt=serp_receipt("google", q, key), claim_ids=claim_ids, org=org)
-        return self.result([f], {"official_domains": official, "candidates": cands[:5], "receipts": receipts,
-                                 "official_contacts": contacts})
+        out = self.result([f], {"official_domains": official, "candidates": cands[:5], "receipts": receipts,
+                                "official_contacts": contacts})
+        return out.model_copy(update={"status": status})
 

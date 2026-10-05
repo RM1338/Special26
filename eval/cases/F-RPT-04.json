@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-04",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-new-plant",
+ "source_url": "https://www.consumercomplaints.in/complaints/hcl-technologies-fake-job-offer-c809999.html",
+ "provenance": "constructed",
+ "text": "Your Resume has been selected from TIMESJOBS.COM for our new plant of HCLTech. The Company selected 65 candidates\nshortlist for Senior Engineer, Administration and Production. You have to deposit the (Cash) as an initial amount in\nfavor of our company accountant for Rs.6,725/- which is refundable with your first salary.\nContact HR: hcl.newplant.recruit@yahoo.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}

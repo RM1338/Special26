@@ -1,0 +1,14 @@
+{
+ "case_id": "F-CMP-02b",
+ "label": "fraud",
+ "category": "campaign_variants",
+ "template_group": "tg-campaign-2",
+ "source_url": "https://jobrise.io/en/blog/job-scams-india-avoid-2026/",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nYou are selected for the Graduate Trainee programme at HCLTech. Kindly pay the ID card and joining kit charges of\nRs 1,200 to UPI ID verify.beta.cell@ybl within 24 hours to block your joining date.\nThanks, Onboarding Desk",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Pair 2: same UPI across Tata Consultancy Services and HCLTech (campaign edge).",
+ "split": "dev"
+}

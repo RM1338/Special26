@@ -1,0 +1,14 @@
+{
+ "case_id": "G-JOB-15",
+ "label": "genuine",
+ "category": "jobs_listing_message",
+ "template_group": "tg-listing-2",
+ "source_url": null,
+ "provenance": "constructed",
+ "text": "Hi <RECIPIENT>,\nI am reaching out from Siemens regarding the Graduate Trainee Engineer opening in Pune. Your profile matches the role and we would like\nto invite you to an online assessment followed by interviews. Details are on our official careers page.\nThanks,\nTalent Partner\ntalent@siemens.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "green",
+ "notes": "Constructed recruiter message for a real employer, real domain (consented_real substitute, D-49).",
+ "split": "holdout"
+}

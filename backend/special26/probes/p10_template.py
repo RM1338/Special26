@@ -4,6 +4,7 @@ from urllib.parse import urlparse
 from special26.claims.models import ClaimType as T
 from special26.claims.regexes import has_scam_word
 from special26.domains.classify import reg
+from special26.errors import BudgetExhausted, ReplayMiss, UpstreamError
 from special26.probes.base import Probe, ProbeContext, ProbeResult, Receipt, serp_receipt
 from special26.storage.retention import seed_provenance
 from special26.template.minhash import signature
@@ -45,9 +46,14 @@ class P10Template(Probe):
                 f.append(self.finding(code, receipt, ids))   # no percentage in reasons (09 §4)
                 out["template_jaccard"] = round(best["jaccard"], 3)
         sentence = distinctive_sentence(text, ctx.claims)
+        status = "ok"
         if sentence:
             q = f'"{sentence}"'
-            data, key = await self.search(ctx, {"engine": "google", "q": q, "num": 10})
+            try:
+                data, key = await self.search(ctx, {"engine": "google", "q": q, "num": 10})
+            except (ReplayMiss, BudgetExhausted, UpstreamError) as e:      # keep the local match (D-48)
+                status = {ReplayMiss: "skipped_replay_miss", BudgetExhausted: "skipped_budget"}.get(type(e), "error")
+                return self.result(f, out).model_copy(update={"status": status})
             results = data.get("organic_results", [])
             official = set(ctx.official)
             rep = next((r for r in results if has_scam_word(f"{r.get('title', '')} {r.get('snippet', '')}")), None)

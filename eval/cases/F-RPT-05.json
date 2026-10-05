@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-05",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-airfare-deposit",
+ "source_url": "https://www.drreddys.com/caution-notice-recruitment-fraud",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nYou have cleared the preliminary rounds at Dr. Reddy's Laboratories and are invited for the final interview in\nHyderabad. The company will provide return air-fare. To book tickets pay a refundable security deposit of\nRs 7,500 to UPI drreddys.travel@okaxis today. Talent Acquisition Team\ntalent@drreddys-careers.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Dr. Reddy's is not in the seed dictionary; P01 must find it.",
+ "split": "dev"
+}

@@ -1,0 +1,14 @@
+{
+ "case_id": "F-SCH-02",
+ "label": "fraud",
+ "category": "scheme_impersonation",
+ "template_group": "tg-scheme-form",
+ "source_url": "https://www.careerindia.com/features/internship-scams-2026-how-to-spot-fake-job-offers-and-avoid-paying-fees-011-66049.html",
+ "provenance": "constructed",
+ "text": "Skill India NSDC Digital Internship 2026 for diploma and degree students. Stipend Rs 8,000 per month.\nEnrol through https://forms.gle/nsdcSkill2026 and pay the enrolment fee of Rs 399. Certificate from Skill India.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "holdout"
+}

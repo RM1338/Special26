@@ -1,0 +1,14 @@
+{
+ "case_id": "F-CMP-01a",
+ "label": "fraud",
+ "category": "campaign_variants",
+ "template_group": "tg-campaign-1",
+ "source_url": "https://jobrise.io/en/blog/job-scams-india-avoid-2026/",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nYou are selected for the Graduate Trainee programme at Infosys. Kindly pay the ID card and joining kit charges of\nRs 1,100 to UPI ID campaign.alpha.desk@ybl within 24 hours to block your joining date.\nThanks, Onboarding Desk",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Pair 1: same UPI across Infosys and Wipro (campaign edge).",
+ "split": "holdout"
+}

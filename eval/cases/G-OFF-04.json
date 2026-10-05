@@ -1,0 +1,14 @@
+{
+ "case_id": "G-OFF-04",
+ "label": "genuine",
+ "category": "official_template",
+ "template_group": "tg-official-1",
+ "source_url": null,
+ "provenance": "constructed",
+ "text": "Hi <RECIPIENT>,\nCongratulations on clearing the interview for Associate Software Engineer with Accenture. Please log in to the careers portal to accept the\noffer and upload your documents. Our Hyderabad office will contact you about the joining date.\nRegards,\nTalent Acquisition, Accenture\ncareers@accenture.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "green",
+ "notes": "Constructed message from the employer's real domain; no fee.",
+ "split": "holdout"
+}

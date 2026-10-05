@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-01",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-police-clearance",
+ "source_url": "https://www.dinamalar.com/news/kalvimalar-news-en/fraudsters-target-college-students-with-fake-internship-offers-warn-cyber-experts/57787",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nCongratulations, you are shortlisted for the Zoho Summer Internship 2026 with a stipend of Rs 15,000 per month.\nBefore we release your offer letter you must get a Police Clearance Certificate through our verification partner.\nKindly pay the PCC charges of Rs 2,000 to UPI ID zoho.intern.pcc@ybl within 24 hours and share the screenshot.\nRegards,\nDeepa R\nHR Executive\nzoho.internships.desk@gmail.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}

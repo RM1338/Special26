@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-06",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-appointment-deposit",
+ "source_url": "https://www.hrkatha.com/news/the-case-of-fake-ashok-leyland-appointment-letters/",
+ "provenance": "constructed",
+ "text": "Congratulations <RECIPIENT>!\nYou are selected as Graduate Engineer Trainee at Ashok Leyland, Chennai. Your appointment letter is ready.\nAs per company policy every new joinee has to submit a security deposit of Rs 8,000 which will be returned with the\nfirst salary. Transfer to our placement consultant and send the screenshot on WhatsApp +91 98765 11002.\nashokleyland.placements@gmail.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}

@@ -1,0 +1,14 @@
+{
+ "case_id": "G-SUP-02",
+ "label": "genuine",
+ "category": "small_startup",
+ "template_group": "tg-startup",
+ "source_url": null,
+ "provenance": "constructed",
+ "text": "Hi <RECIPIENT>,\nThanks for the conversation last week. We are happy to offer you the Embedded Systems Intern position at Kavya Robotics, Pune, for six months\nwith a monthly stipend of Rs 12,000. Please reply to accept and we will share the internship agreement.\nCheers,\nFounder, Kavya Robotics\nfounder@kavyarobotics.in",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "amber",
+ "notes": "Fictional small company (11 §2.2 small_startup): amber or grey is correct, not red.",
+ "split": "dev"
+}

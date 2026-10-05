@@ -1,0 +1,14 @@
+{
+ "case_id": "G-OFF-01",
+ "label": "genuine",
+ "category": "official_template",
+ "template_group": "tg-official-0",
+ "source_url": null,
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nWe are pleased to offer you the position of Assistant System Engineer at Tata Consultancy Services, Chennai, following your campus selection process.\nYour joining details, background verification steps and onboarding schedule are available on the official\ncandidate portal. Tata Consultancy Services does not charge any fee at any stage of recruitment.\nWarm regards,\nCampus Recruitment Team\ncampus.hiring@tcs.com",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "green",
+ "notes": "Constructed message from the employer's real domain; no fee.",
+ "split": "holdout"
+}

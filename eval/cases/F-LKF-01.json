@@ -1,0 +1,14 @@
+{
+ "case_id": "F-LKF-01",
+ "label": "fraud",
+ "category": "lookalike_fee",
+ "template_group": "tg-lookalike-0",
+ "source_url": "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf",
+ "provenance": "constructed",
+ "text": "Dear <RECIPIENT>,\nCongratulations! You have been selected for the position of Systems Engineer Trainee at Infosys, Mysuru.\nTo release your offer letter please pay Rs 1,500 towards document verification to UPI ID onboard.1desk@ybl within 48 hours.\nRegards,\nHR Onboarding Team\nhr@infosys-hr.xyz",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Constructed lookalike domain infosys-hr.xyz; RDAP-unregistered status to be confirmed when recording.",
+ "split": "holdout"
+}

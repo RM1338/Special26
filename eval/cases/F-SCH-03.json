@@ -1,0 +1,14 @@
+{
+ "case_id": "F-SCH-03",
+ "label": "fraud",
+ "category": "scheme_impersonation",
+ "template_group": "tg-scheme-form",
+ "source_url": "https://www.careerindia.com/features/internship-scams-2026-how-to-spot-fake-job-offers-and-avoid-paying-fees-011-66049.html",
+ "provenance": "constructed",
+ "text": "NITI Aayog internship 2026 applications open for all streams. Fill the Google Form https://forms.gle/nitiIntern2026\nand upload your resume. Selected candidates will be informed by email within a week.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "No fee: D2 via form; P11_SCHEME_OFF_PORTAL + FORM_OR_SHORTLINK.",
+ "split": "holdout"
+}

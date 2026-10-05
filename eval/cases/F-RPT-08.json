@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-08",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-aicte-fee",
+ "source_url": "https://www.careerindia.com/features/aicte-internship-scams-new-2026-rules-to-identify-fake-offers-and-protect-your-career-011-65999.html",
+ "provenance": "constructed",
+ "text": "Subject: Mandatory Internship Fee for AICTE Approved Internship\nDear Student, as per the new guidelines of AICTE the National Internship Portal requires every nominated student to\npay the mandatory internship fee of Rs 2,499 to activate the account. Pay now at https://aicte-internship-portal.in/pay\nbefore Friday or your internship credits will not be awarded.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}

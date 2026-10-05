@@ -1,0 +1,14 @@
+{
+ "case_id": "F-LKF-03",
+ "label": "fraud",
+ "category": "lookalike_fee",
+ "template_group": "tg-lookalike-2",
+ "source_url": "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf",
+ "provenance": "constructed",
+ "text": "Dear Candidate,\nThis is to inform you that your candidature for Associate Software Engineer at Accenture has been approved. A refundable laptop deposit payment of Rs 4,500\nis mandatory before onboarding. Pay to the account below today itself to avoid cancellation.\nRecruitment Cell\nrecruitment@accenture-jobs.co",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "Constructed lookalike domain accenture-jobs.co; RDAP-unregistered status to be confirmed when recording.",
+ "split": "holdout"
+}

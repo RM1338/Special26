@@ -1,0 +1,14 @@
+{
+ "case_id": "F-RPT-07",
+ "label": "fraud",
+ "category": "public_report",
+ "template_group": "tg-msme-form",
+ "source_url": "https://newsonair.gov.in/government-debunks-fake-internship-claim-circulating-on-social-media/",
+ "provenance": "constructed",
+ "text": "Ministry of MSME approved 2-month Internship Programme 2026 for medical, healthcare and B.Tech students.\nCertificate will be issued by the Government of India. Register through the Google Form: https://forms.gle/msmeIntern26\nA processing fee of Rs 750 is applicable for the government certificate. Last date to apply is this Sunday.",
+ "files": [],
+ "confirmed_claims": null,
+ "expected_tier": "red",
+ "notes": "",
+ "split": "dev"
+}
