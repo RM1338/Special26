@@ -162,3 +162,25 @@ Finding messages always use masked UPI, phone and email, so stored messages are 
 **Context:** P05 call A uses `-site:{o1}`, which is undefined when P01 found nothing.
 **Decision:** The clause is omitted. P05 still runs, since it needs only the org.
 **Files:** `probes/p05_chatter.py`.
+
+### D-27 · 2026-10-05 · Lens image path (task T0.6)
+**Context:** `04` §6 lists SerpApi image upload first, with a signed URL as the fallback.
+**Verified** (https://serpapi.com/google-lens-upload-an-image, read 2026-10-05):
+- `POST https://serpapi.com/image`, `multipart/form-data`, field `image`, max **500 KB**.
+- The response is `{"message": ..., "image_id": "..."}`. It is then passed as `engine=google_lens&image_id=...`, and `url` can be omitted.
+**Decision:**
+- Upload is the primary path. It works locally without a public URL.
+- Images are resized to 1024 px on the long side (`04` §6), then JPEG quality is stepped down until the file is ≤ 500 KB.
+- The signed URL is the fallback when an upload fails and `SPECIAL26_PUBLIC_BASE_URL` is set.
+- The upload is not a search, so it writes no ledger row. This still needs confirming against the account's search counter in the spike.
+- Cache key: by `image_sha256` (D-12).
+**Files:** `serp/client.py`, `probes/p09_image.py`, `intake/images.py`.
+
+### D-28 · 2026-10-05 · Engine field names verified against SerpApi docs
+Sources: https://serpapi.com/google-lens-api, /google-forums-api, /google-jobs-api, /maps-local-results, all read 2026-10-05. The live fixtures from T0.5 are still pending a key.
+- **google_lens:** `type` ∈ {all, products, exact_matches, visual_matches}. Localisation is `hl` + `country` (no `gl`), so the client sends `country = SPECIAL26_GL` for Lens. Match fields: `position, title, link, source, thumbnail, image`. The result array for `type=exact_matches` is assumed to be `exact_matches`; the fixture will confirm.
+- **google_forums:** results in `organic_results[]` with `title, link, snippet, source, displayed_meta`. There is no separate `date` field. The age shows in `displayed_meta` ("14 years ago"), so the P05 24-month rule parses relative ages from it.
+- **google_jobs:** `jobs_results[]` with `title, company_name, location, via, share_link, apply_options, job_id`, matching `08` P07. `location` and `uule` can't be combined, so P07 sends `location` only.
+- **google_maps** (`type=search`): `local_results[]` with `title, type, types, website, address, rating, reviews` (a count), and sometimes a truncated `user_review`. `place_results` appears for single-place answers.
+**Decision for P08_REVIEWS_SCAM:** Review text is read only from what the search response already holds: `user_review`, plus `place_results.user_reviews` snippets if present. No extra reviews call, since the budget doesn't allow it. This makes the signal weaker than `08` implies; the gap is recorded here and the code stays.
+**Files:** `serp/client.py`, `probes/p05_chatter.py`, `probes/p07_role.py`, `probes/p08_office.py`.
