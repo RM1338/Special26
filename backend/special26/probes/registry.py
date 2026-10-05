@@ -6,6 +6,7 @@ from special26.probes.p04_fraud_notice import P04FraudNotice
 from special26.probes.p07_role import P07Role
 from special26.probes.p08_office import P08Office
 from special26.probes.p09_image import P09Image
+from special26.probes.p10_template import P10Template
 from special26.probes.p11_policy import P11Policy
 
-PROBES = [P01Entity, P11Policy, P03Headers, P02Sender, P04FraudNotice, P07Role, P08Office, P09Image]
+PROBES = [P01Entity, P11Policy, P03Headers, P02Sender, P04FraudNotice, P07Role, P08Office, P09Image, P10Template]

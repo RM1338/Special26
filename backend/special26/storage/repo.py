@@ -225,6 +225,30 @@ class Repo:
         self.db.execute("UPDATE checks SET raw_text = NULL WHERE id = ?", (check_id,))
 
 
+    # ---- templates and LSH (08 §7) ------------------------------------------------
+    def save_template(self, check_id: str, label: str, sig: list[int], token_count: int,
+                      source_url: str | None = None) -> None:
+        from special26.template.minhash import band_keys, to_blob
+        self.db.execute("BEGIN")
+        self.db.execute("DELETE FROM lsh_bands WHERE check_id = ?", (check_id,))
+        self.db.execute("INSERT OR REPLACE INTO templates (check_id, label, signature, token_count, source_url, created_at)"
+                        " VALUES (?, ?, ?, ?, ?, ?)", (check_id, label, to_blob(sig), token_count, source_url, iso(now())))
+        self.db.executemany("INSERT OR IGNORE INTO lsh_bands (band_key, band_index, check_id) VALUES (?, ?, ?)",
+                            [(k, i, check_id) for i, k in enumerate(band_keys(sig))])
+        self.db.execute("COMMIT")
+
+    def template_candidates(self, sig: list[int], label: str | None = None, exclude: str | None = None) -> list[dict]:
+        """Templates sharing >= 1 LSH band, with estimated Jaccard, best first."""
+        from special26.template.minhash import band_keys, from_blob, jaccard_est
+        keys = band_keys(sig)
+        rows = self.db.execute(
+            f"SELECT DISTINCT t.check_id, t.label, t.signature, t.source_url FROM lsh_bands b JOIN templates t"
+            f" ON t.check_id = b.check_id WHERE b.band_key IN ({','.join('?' * len(keys))})", keys).fetchall()
+        out = [{"check_id": r[0], "label": r[1], "source_url": r[3], "jaccard": jaccard_est(sig, from_blob(r[2]))}
+               for r in rows if r[0] != exclude and (label is None or r[1] == label)]
+        return sorted(out, key=lambda x: (-x["jaccard"], x["check_id"]))
+
+
 def _put(conn: sqlite3.Connection, key: str, engine: str, params: dict, data: dict) -> None:
     body = json.dumps(data, ensure_ascii=False)
     conn.execute("INSERT OR REPLACE INTO serp_cache (cache_key, engine, params_json, response_json, fetched_at, bytes)"

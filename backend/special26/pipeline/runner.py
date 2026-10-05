@@ -75,6 +75,8 @@ async def run_check(state, check_id: str) -> None:
     from special26.probes.registry import PROBES
     from special26.scoring.aggregate import score
     from special26.scoring.nextsteps import official_contacts
+    from special26.template.minhash import signature
+    from special26.template.normalize import tokens
 
     repo, events, s = state.repo, state.events, state.settings
     check = repo.get_check(check_id)
@@ -100,6 +102,9 @@ async def run_check(state, check_id: str) -> None:
         findings = [f for pid in sorted(results) for f in results[pid].findings]
         repo.set_effective([(f.id, w) for f, w in zip(findings, v.effective)])
         repo.save_verdict(check_id, v, official_contacts(results))
+        toks = tokens(check["redacted_text"] or "", claims)
+        if sig := signature(toks):                                  # 08 §7.5: red checks join the scam corpus
+            repo.save_template(check_id, "scam" if v.tier == "red" else "unlabeled", sig, len(toks))
         repo.update_check(check_id, status="done")
         events.publish(check_id, "verdict.ready", {"tier": v.tier, "red_kind": v.red_kind, "campaign_id": None})
     except Exception:

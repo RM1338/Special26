@@ -38,8 +38,8 @@ COPY = {
     "P09_PHOTO_OTHER_NAMES": "Google Lens finds the HR photo on {n} other websites under other people's names.",
     "P09_PHOTO_OFFICIAL": "Google Lens finds the HR photo on {source} with the name {name}.",
     "P09_LETTER_REPORTED": "Google Lens finds this letter image in a public warning on {source}.",
-    "P10_TEMPLATE_MATCH_HIGH": "This offer's wording closely matches a known fake offer ({similarity}% similar).",
-    "P10_TEMPLATE_MATCH_MED": "This offer's wording partly matches a known fake offer ({similarity}% similar).",
+    "P10_TEMPLATE_MATCH_HIGH": "This offer's wording closely matches a known fake offer text.",
+    "P10_TEMPLATE_MATCH_MED": "This offer's wording partly matches a known fake offer text.",
     "P10_PHRASE_REPORTED": "Google Search finds a sentence from this offer in a public warning on {source}.",
     "P10_PHRASE_OFFICIAL": "Google Search finds a sentence from this offer on {org}'s official website.",
     "P11_CANDIDATE_PAYS": "The offer asks you to pay {amount} for {purpose}. Genuine employers do not charge "

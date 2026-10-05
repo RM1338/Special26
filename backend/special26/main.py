@@ -16,7 +16,7 @@ from special26.deps import build
 from special26.errors import Special26Error
 from special26.pipeline.events import Events
 from special26.probes.base import validate_ruleset
-from special26.storage.retention import run_retention, seed_known_entities
+from special26.storage.retention import run_retention, seed_known_entities, seed_templates
 
 log = logging.getLogger("special26")
 
@@ -45,6 +45,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         http = httpx.AsyncClient()
         repo, serp = build(settings, http)
         seed_known_entities(repo.db)
+        seed_templates(repo)
         run_retention(repo.db)
         app.state.s26 = State(settings, repo, serp, Events(repo), http)
 

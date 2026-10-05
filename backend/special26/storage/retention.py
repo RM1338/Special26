@@ -34,3 +34,20 @@ def seed_known_entities(conn) -> None:
                      (e["entity_id"], e["kind"], e["name"], json.dumps(e.get("aliases", [])),
                       json.dumps(e["official_domains"]), e.get("careers_url"), e.get("fraud_notice_url"),
                       e.get("source_url", ""), e.get("verified_on", "")))
+
+
+def seed_templates(repo) -> int:
+    """Load data/seeds/scam_templates/*.txt as label 'scam' (08 §7.5). First line: '# source: <url>'."""
+    from special26 import seeds
+    from special26.template.minhash import signature
+    from special26.template.normalize import tokens
+    n = 0
+    for f in sorted((seeds.DIR / "scam_templates").glob("*.txt")):
+        lines = f.read_text().splitlines()
+        src = lines[0].removeprefix("# source:").strip() if lines and lines[0].startswith("# source:") else None
+        body = "\n".join(lines[1:] if src else lines)
+        toks = tokens(body)
+        if sig := signature(toks):
+            repo.save_template(f"seed:{f.name}", "scam", sig, len(toks), src)
+            n += 1
+    return n

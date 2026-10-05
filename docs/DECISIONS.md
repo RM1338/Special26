@@ -345,3 +345,17 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **`skipped_forwarded`:** the Subject starts with `Fwd:` or `Fw:`, or there is no `from_headers` sender claim, meaning the student marked the From address "This is mine" (D-09).
 - **Receipts:** `rule` receipts carrying the topmost `Authentication-Results` header (trimmed to 400 characters) in `extra.header`.
 **Files:** `probes/p03_headers.py`, `probes/registry.py`.
+
+### D-40 · 2026-10-06 · Template fingerprinting and P10
+- **Normalisation** (`08` §7.1):
+  - Placeholders are applied in the `08` order.
+  - The dictionary entity's aliases also become `<org>`.
+  - Redaction placeholders `<RECIPIENT*>` map to `<recipient>`, and `<ID>` (Aadhaar/PAN) to `<num>`.
+  - Tokens are runs of word characters, so Devanagari survives; punctuation is dropped.
+- **No percentages in reasons:** `P10_TEMPLATE_MATCH_*` copy no longer includes "{similarity}%". A perfect match would have read "100% similar", which `09` §4 forbids in reasons. The estimated Jaccard is kept in `receipt.extra.similarity`.
+- **Receipts:**
+  - A seed match is `local_memory`, linking to the seed's `# source:` URL.
+  - A match with an earlier red check shows "An earlier check marked high risk" with no link, so no other student's check is exposed.
+- **Every check gets a template row:** `scam` if red, else `unlabeled` (`08` §7.5). Seeds load at startup as `seed:<file>`.
+- **Distinctive sentence:** sentences split on `.`, `!` or `?` plus whitespace, a blank line, or a line break followed by a capital. Sentences with `<RECIPIENT>` are never sent.
+**Files:** `template/*`, `probes/p10_template.py`, `scoring/copy.py`, `storage/repo.py`, `storage/retention.py`, `pipeline/runner.py`.
