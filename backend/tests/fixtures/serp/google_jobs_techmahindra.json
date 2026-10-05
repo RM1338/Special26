@@ -1,0 +1,268 @@
+{
+ "search_metadata": {
+  "id": "6ac3aa09fd81c8ad43d0781e",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/d8n6aI5FksKS11M0s2pdBW2riW6U1-5rzKMs8bG2Zw4/6ac3aa09fd81c8ad43d0781e.json",
+  "markdown_endpoint": "https://serpapi.com/searches/d8n6aI5FksKS11M0s2pdBW2riW6U1-5rzKMs8bG2Zw4/6ac3aa09fd81c8ad43d0781e.md",
+  "created_at": "2026-10-05 13:45:45 UTC",
+  "processed_at": "2026-10-05 13:45:45 UTC",
+  "google_jobs_url": "https://www.google.com/search?q=Data+Analyst+Intern+Tech+Mahindra&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&udm=8",
+  "raw_html_file": "https://serpapi.com/searches/d8n6aI5FksKS11M0s2pdBW2riW6U1-5rzKMs8bG2Zw4/6ac3aa09fd81c8ad43d0781e.html",
+  "total_time_taken": 1.27
+ },
+ "search_parameters": {
+  "q": "Data Analyst Intern Tech Mahindra",
+  "engine": "google_jobs",
+  "location_requested": "India",
+  "location_used": "India",
+  "google_domain": "google.com",
+  "hl": "en",
+  "gl": "in"
+ },
+ "filters": [
+  {
+   "name": "Remote",
+   "parameters": {
+    "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQgw1SXXjoy_Zvh3kGWq2V_6M4q6pcpo_PTC6u4syy6GfPD8bzs6-7s9JseoAU1B_GsFjMqZh1yQR-LscHuA_T51JYna-sN2xSVfKr7LqUJ8qjC291PsE8284VhUNAWaoJXW4InXPUfulWXIdEK1hE_HIkdjh",
+    "q": "Data Analyst Intern Tech Mahindra remote"
+   },
+   "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQgw1SXXjoy_Zvh3kGWq2V_6M4q6pcpo_PTC6u4syy6GfPD8bzs6-7s9JseoAU1B_GsFjMqZh1yQR-LscHuA_T51JYna-sN2xSVfKr7LqUJ8qjC291PsE8284VhUNAWaoJXW4InXPUfulWXIdEK1hE_HIkdjh&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQxKsJKAB6BAgYEAE&ictx=0",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQgw1SXXjoy_Zvh3kGWq2V_6M4q6pcpo_PTC6u4syy6GfPD8bzs6-7s9JseoAU1B_GsFjMqZh1yQR-LscHuA_T51JYna-sN2xSVfKr7LqUJ8qjC291PsE8284VhUNAWaoJXW4InXPUfulWXIdEK1hE_HIkdjh"
+  },
+  {
+   "name": "Date posted",
+   "options": [
+    {
+     "name": "Yesterday",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rBkJlZMNqFAWJ3TnYR_QPn9u9jy5DRk89l06VA3L7UjCt_IOhy2JJFAaiVkAEh13VEWGpwThhIwMdT8q7gUOp6yI83wFyaAGMPYndAnN1CR5E38wVefxq2l7lZys0WWmCvggT0Zhp63r31gPJQ7ont70dhAVPCflFqF5xhE6Pf7FARw8xCKxMoMVyr2Tmrp5-hO_Ez4SKt1KjUjbf5Vu8G8boB84Ml2DVDjvnoFFNxcgpddNK-FcET_btQ8bw1-0YSpuirXOawkh4eli1ZYtVztgRzu5DNuYmouOdiRFn4gH9Hq1mpJFIuDxJIc7KotRXOKIk_Rl2gyhXXTlpETo0RkjDbKBxRMO42P8SQjYUaVsQt8Zj",
+      "q": "Data Analyst Intern Tech Mahindra since yesterday"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rBkJlZMNqFAWJ3TnYR_QPn9u9jy5DRk89l06VA3L7UjCt_IOhy2JJFAaiVkAEh13VEWGpwThhIwMdT8q7gUOp6yI83wFyaAGMPYndAnN1CR5E38wVefxq2l7lZys0WWmCvggT0Zhp63r31gPJQ7ont70dhAVPCflFqF5xhE6Pf7FARw8xCKxMoMVyr2Tmrp5-hO_Ez4SKt1KjUjbf5Vu8G8boB84Ml2DVDjvnoFFNxcgpddNK-FcET_btQ8bw1-0YSpuirXOawkh4eli1ZYtVztgRzu5DNuYmouOdiRFn4gH9Hq1mpJFIuDxJIc7KotRXOKIk_Rl2gyhXXTlpETo0RkjDbKBxRMO42P8SQjYUaVsQt8Zj&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAC",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rBkJlZMNqFAWJ3TnYR_QPn9u9jy5DRk89l06VA3L7UjCt_IOhy2JJFAaiVkAEh13VEWGpwThhIwMdT8q7gUOp6yI83wFyaAGMPYndAnN1CR5E38wVefxq2l7lZys0WWmCvggT0Zhp63r31gPJQ7ont70dhAVPCflFqF5xhE6Pf7FARw8xCKxMoMVyr2Tmrp5-hO_Ez4SKt1KjUjbf5Vu8G8boB84Ml2DVDjvnoFFNxcgpddNK-FcET_btQ8bw1-0YSpuirXOawkh4eli1ZYtVztgRzu5DNuYmouOdiRFn4gH9Hq1mpJFIuDxJIc7KotRXOKIk_Rl2gyhXXTlpETo0RkjDbKBxRMO42P8SQjYUaVsQt8Zj"
+    },
+    {
+     "name": "Last 3 days",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjrniNLcFSFecEdfETPUaGluOpl9WkeGWwjZKEhIfXPzwUU7PBuJ7cZg6ns5U-kyS_f1wDDfN2iDEE2trhNaQ3zIXLbyOUGFqNPRFobv-ozDqEtOCkphaTVKTRKn6BG64zRRa5EwFG8qxOcJ4ciOY7toBRB2bN8TKxrOjLuAHpd2DUf2oTcNHJAwODrqsgd5H3VhXIqqXeROOYC67xy4QAP198akZ2YbNJeVCnaEb6qgRHEwyF2ALe70CIplf-CgGTKT5CBBkIR5SuZEK5kTodxnhmLw374ivomhjfuIEfuysC8GCPR51nf94Q0i-G_yL180uVi3KsvX-DBoE-celSeDaMzX7EZHxG7sPKvnQnYfABSuI",
+      "q": "Data Analyst Intern Tech Mahindra in the last 3 days"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjrniNLcFSFecEdfETPUaGluOpl9WkeGWwjZKEhIfXPzwUU7PBuJ7cZg6ns5U-kyS_f1wDDfN2iDEE2trhNaQ3zIXLbyOUGFqNPRFobv-ozDqEtOCkphaTVKTRKn6BG64zRRa5EwFG8qxOcJ4ciOY7toBRB2bN8TKxrOjLuAHpd2DUf2oTcNHJAwODrqsgd5H3VhXIqqXeROOYC67xy4QAP198akZ2YbNJeVCnaEb6qgRHEwyF2ALe70CIplf-CgGTKT5CBBkIR5SuZEK5kTodxnhmLw374ivomhjfuIEfuysC8GCPR51nf94Q0i-G_yL180uVi3KsvX-DBoE-celSeDaMzX7EZHxG7sPKvnQnYfABSuI&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAD",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjrniNLcFSFecEdfETPUaGluOpl9WkeGWwjZKEhIfXPzwUU7PBuJ7cZg6ns5U-kyS_f1wDDfN2iDEE2trhNaQ3zIXLbyOUGFqNPRFobv-ozDqEtOCkphaTVKTRKn6BG64zRRa5EwFG8qxOcJ4ciOY7toBRB2bN8TKxrOjLuAHpd2DUf2oTcNHJAwODrqsgd5H3VhXIqqXeROOYC67xy4QAP198akZ2YbNJeVCnaEb6qgRHEwyF2ALe70CIplf-CgGTKT5CBBkIR5SuZEK5kTodxnhmLw374ivomhjfuIEfuysC8GCPR51nf94Q0i-G_yL180uVi3KsvX-DBoE-celSeDaMzX7EZHxG7sPKvnQnYfABSuI"
+    },
+    {
+     "name": "Last week",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rQRcb7KT72pGyRC8onY3VxN5jPI4Z-FqfFqzcg6kCDZ0EDtKxTF3VQ-athWuY5wegxNHxgTMPZfBIAySSZTiWVCoVe30Ud65BtYCvCzQZ_77HDmC5WgNd6diwAWnNkxZHvqb51L4xvXOAzQtxd8RXTvtS5Fxdskq539us5qlD0cbnTzeZMlNfHKT5Oqky6wEf1TyBVtcNMQzvrDnpfauM51ULVh5Ogc25LIHLH21bZhCHiQnyeX6fIX6QLbnXwC9wrFKE0xOtc9vL-go8CNrxKojh7jTl5CHMOD1O2JqtOaKOmDlmoJdfPHwKqms0NS1Cz_ZK0Xf-kJ1meP_--SDnqyIZRiDf2cPJO_bxT2rk_6YQWdq4",
+      "q": "Data Analyst Intern Tech Mahindra in the last week"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rQRcb7KT72pGyRC8onY3VxN5jPI4Z-FqfFqzcg6kCDZ0EDtKxTF3VQ-athWuY5wegxNHxgTMPZfBIAySSZTiWVCoVe30Ud65BtYCvCzQZ_77HDmC5WgNd6diwAWnNkxZHvqb51L4xvXOAzQtxd8RXTvtS5Fxdskq539us5qlD0cbnTzeZMlNfHKT5Oqky6wEf1TyBVtcNMQzvrDnpfauM51ULVh5Ogc25LIHLH21bZhCHiQnyeX6fIX6QLbnXwC9wrFKE0xOtc9vL-go8CNrxKojh7jTl5CHMOD1O2JqtOaKOmDlmoJdfPHwKqms0NS1Cz_ZK0Xf-kJ1meP_--SDnqyIZRiDf2cPJO_bxT2rk_6YQWdq4&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAE",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rQRcb7KT72pGyRC8onY3VxN5jPI4Z-FqfFqzcg6kCDZ0EDtKxTF3VQ-athWuY5wegxNHxgTMPZfBIAySSZTiWVCoVe30Ud65BtYCvCzQZ_77HDmC5WgNd6diwAWnNkxZHvqb51L4xvXOAzQtxd8RXTvtS5Fxdskq539us5qlD0cbnTzeZMlNfHKT5Oqky6wEf1TyBVtcNMQzvrDnpfauM51ULVh5Ogc25LIHLH21bZhCHiQnyeX6fIX6QLbnXwC9wrFKE0xOtc9vL-go8CNrxKojh7jTl5CHMOD1O2JqtOaKOmDlmoJdfPHwKqms0NS1Cz_ZK0Xf-kJ1meP_--SDnqyIZRiDf2cPJO_bxT2rk_6YQWdq4"
+    },
+    {
+     "name": "Last month",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raGlu0fdFm5LfgyG3wJeHSgxvPDaCEcfHeMx3rUjJNwHLWghXtJzzWMHijZssBVXrXSVpYmwNDH3SuV0WPlk11eLEBa_GPGOKKBRlrobhmjZChcfZ-m8girAigbrKK8WUMqDmQvXFfJCiTpk-pcy7MBdNB-jw0BcaHLBLhOGcI8CtGhrMge7mgtcjBfVTeE3qmpeXyB9aruqfuoqqkNre1q1aIUBEydgOQFCxNt7q8Ni8N1GMIjihMrFGw55lhQtqIv_lM6ZzSnyabf_2VajKfN28YdeL1XNhjwZ1kvdocDT51_YcAA_1d1Dc53_V-1wXvaTvixy7JFxCux0A7FeG8wMyrEZNfy6lSU7hVe-T8FzGb2sl",
+      "q": "Data Analyst Intern Tech Mahindra in the last month"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raGlu0fdFm5LfgyG3wJeHSgxvPDaCEcfHeMx3rUjJNwHLWghXtJzzWMHijZssBVXrXSVpYmwNDH3SuV0WPlk11eLEBa_GPGOKKBRlrobhmjZChcfZ-m8girAigbrKK8WUMqDmQvXFfJCiTpk-pcy7MBdNB-jw0BcaHLBLhOGcI8CtGhrMge7mgtcjBfVTeE3qmpeXyB9aruqfuoqqkNre1q1aIUBEydgOQFCxNt7q8Ni8N1GMIjihMrFGw55lhQtqIv_lM6ZzSnyabf_2VajKfN28YdeL1XNhjwZ1kvdocDT51_YcAA_1d1Dc53_V-1wXvaTvixy7JFxCux0A7FeG8wMyrEZNfy6lSU7hVe-T8FzGb2sl&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAF",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raGlu0fdFm5LfgyG3wJeHSgxvPDaCEcfHeMx3rUjJNwHLWghXtJzzWMHijZssBVXrXSVpYmwNDH3SuV0WPlk11eLEBa_GPGOKKBRlrobhmjZChcfZ-m8girAigbrKK8WUMqDmQvXFfJCiTpk-pcy7MBdNB-jw0BcaHLBLhOGcI8CtGhrMge7mgtcjBfVTeE3qmpeXyB9aruqfuoqqkNre1q1aIUBEydgOQFCxNt7q8Ni8N1GMIjihMrFGw55lhQtqIv_lM6ZzSnyabf_2VajKfN28YdeL1XNhjwZ1kvdocDT51_YcAA_1d1Dc53_V-1wXvaTvixy7JFxCux0A7FeG8wMyrEZNfy6lSU7hVe-T8FzGb2sl"
+    }
+   ]
+  },
+  {
+   "name": "Date posted",
+   "options": [
+    {
+     "name": "Yesterday",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rBkJlZMNqFAWJ3TnYR_QPn9u9jy5DRk89l06VA3L7UjCt_IOhy2JJFAaiVkAEh13VEWGpwThhIwMdT8q7gUOp6yI83wFyaAGMPYndAnN1CR5E38wVefxq2l7lZys0WWmCvggT0Zhp63r31gPJQ7ont70dhAVPCflFqF5xhE6Pf7FARw8xCKxMoMVyr2Tmrp5-hO_Ez4SKt1KjUjbf5Vu8G8boB84Ml2DVDjvnoFFNxcgpddNK-FcET_btQ8bw1-0YSpuirXOawkh4eli1ZYtVztgRzu5DNuYmouOdiRFn4gH9Hq1mpJFIuDxJIc7KotRXOKIk_Rl2gyhXXTlpETo0RkjDbKBxRMO42P8SQjYUaVsQt8Zj",
+      "q": "Data Analyst Intern Tech Mahindra since yesterday"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rBkJlZMNqFAWJ3TnYR_QPn9u9jy5DRk89l06VA3L7UjCt_IOhy2JJFAaiVkAEh13VEWGpwThhIwMdT8q7gUOp6yI83wFyaAGMPYndAnN1CR5E38wVefxq2l7lZys0WWmCvggT0Zhp63r31gPJQ7ont70dhAVPCflFqF5xhE6Pf7FARw8xCKxMoMVyr2Tmrp5-hO_Ez4SKt1KjUjbf5Vu8G8boB84Ml2DVDjvnoFFNxcgpddNK-FcET_btQ8bw1-0YSpuirXOawkh4eli1ZYtVztgRzu5DNuYmouOdiRFn4gH9Hq1mpJFIuDxJIc7KotRXOKIk_Rl2gyhXXTlpETo0RkjDbKBxRMO42P8SQjYUaVsQt8Zj&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAC",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rBkJlZMNqFAWJ3TnYR_QPn9u9jy5DRk89l06VA3L7UjCt_IOhy2JJFAaiVkAEh13VEWGpwThhIwMdT8q7gUOp6yI83wFyaAGMPYndAnN1CR5E38wVefxq2l7lZys0WWmCvggT0Zhp63r31gPJQ7ont70dhAVPCflFqF5xhE6Pf7FARw8xCKxMoMVyr2Tmrp5-hO_Ez4SKt1KjUjbf5Vu8G8boB84Ml2DVDjvnoFFNxcgpddNK-FcET_btQ8bw1-0YSpuirXOawkh4eli1ZYtVztgRzu5DNuYmouOdiRFn4gH9Hq1mpJFIuDxJIc7KotRXOKIk_Rl2gyhXXTlpETo0RkjDbKBxRMO42P8SQjYUaVsQt8Zj"
+    },
+    {
+     "name": "Last 3 days",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rjrniNLcFSFecEdfETPUaGluOpl9WkeGWwjZKEhIfXPzwUU7PBuJ7cZg6ns5U-kyS_f1wDDfN2iDEE2trhNaQ3zIXLbyOUGFqNPRFobv-ozDqEtOCkphaTVKTRKn6BG64zRRa5EwFG8qxOcJ4ciOY7toBRB2bN8TKxrOjLuAHpd2DUf2oTcNHJAwODrqsgd5H3VhXIqqXeROOYC67xy4QAP198akZ2YbNJeVCnaEb6qgRHEwyF2ALe70CIplf-CgGTKT5CBBkIR5SuZEK5kTodxnhmLw374ivomhjfuIEfuysC8GCPR51nf94Q0i-G_yL180uVi3KsvX-DBoE-celSeDaMzX7EZHxG7sPKvnQnYfABSuI",
+      "q": "Data Analyst Intern Tech Mahindra in the last 3 days"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjrniNLcFSFecEdfETPUaGluOpl9WkeGWwjZKEhIfXPzwUU7PBuJ7cZg6ns5U-kyS_f1wDDfN2iDEE2trhNaQ3zIXLbyOUGFqNPRFobv-ozDqEtOCkphaTVKTRKn6BG64zRRa5EwFG8qxOcJ4ciOY7toBRB2bN8TKxrOjLuAHpd2DUf2oTcNHJAwODrqsgd5H3VhXIqqXeROOYC67xy4QAP198akZ2YbNJeVCnaEb6qgRHEwyF2ALe70CIplf-CgGTKT5CBBkIR5SuZEK5kTodxnhmLw374ivomhjfuIEfuysC8GCPR51nf94Q0i-G_yL180uVi3KsvX-DBoE-celSeDaMzX7EZHxG7sPKvnQnYfABSuI&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAD",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rjrniNLcFSFecEdfETPUaGluOpl9WkeGWwjZKEhIfXPzwUU7PBuJ7cZg6ns5U-kyS_f1wDDfN2iDEE2trhNaQ3zIXLbyOUGFqNPRFobv-ozDqEtOCkphaTVKTRKn6BG64zRRa5EwFG8qxOcJ4ciOY7toBRB2bN8TKxrOjLuAHpd2DUf2oTcNHJAwODrqsgd5H3VhXIqqXeROOYC67xy4QAP198akZ2YbNJeVCnaEb6qgRHEwyF2ALe70CIplf-CgGTKT5CBBkIR5SuZEK5kTodxnhmLw374ivomhjfuIEfuysC8GCPR51nf94Q0i-G_yL180uVi3KsvX-DBoE-celSeDaMzX7EZHxG7sPKvnQnYfABSuI"
+    },
+    {
+     "name": "Last week",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rQRcb7KT72pGyRC8onY3VxN5jPI4Z-FqfFqzcg6kCDZ0EDtKxTF3VQ-athWuY5wegxNHxgTMPZfBIAySSZTiWVCoVe30Ud65BtYCvCzQZ_77HDmC5WgNd6diwAWnNkxZHvqb51L4xvXOAzQtxd8RXTvtS5Fxdskq539us5qlD0cbnTzeZMlNfHKT5Oqky6wEf1TyBVtcNMQzvrDnpfauM51ULVh5Ogc25LIHLH21bZhCHiQnyeX6fIX6QLbnXwC9wrFKE0xOtc9vL-go8CNrxKojh7jTl5CHMOD1O2JqtOaKOmDlmoJdfPHwKqms0NS1Cz_ZK0Xf-kJ1meP_--SDnqyIZRiDf2cPJO_bxT2rk_6YQWdq4",
+      "q": "Data Analyst Intern Tech Mahindra in the last week"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rQRcb7KT72pGyRC8onY3VxN5jPI4Z-FqfFqzcg6kCDZ0EDtKxTF3VQ-athWuY5wegxNHxgTMPZfBIAySSZTiWVCoVe30Ud65BtYCvCzQZ_77HDmC5WgNd6diwAWnNkxZHvqb51L4xvXOAzQtxd8RXTvtS5Fxdskq539us5qlD0cbnTzeZMlNfHKT5Oqky6wEf1TyBVtcNMQzvrDnpfauM51ULVh5Ogc25LIHLH21bZhCHiQnyeX6fIX6QLbnXwC9wrFKE0xOtc9vL-go8CNrxKojh7jTl5CHMOD1O2JqtOaKOmDlmoJdfPHwKqms0NS1Cz_ZK0Xf-kJ1meP_--SDnqyIZRiDf2cPJO_bxT2rk_6YQWdq4&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAE",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rQRcb7KT72pGyRC8onY3VxN5jPI4Z-FqfFqzcg6kCDZ0EDtKxTF3VQ-athWuY5wegxNHxgTMPZfBIAySSZTiWVCoVe30Ud65BtYCvCzQZ_77HDmC5WgNd6diwAWnNkxZHvqb51L4xvXOAzQtxd8RXTvtS5Fxdskq539us5qlD0cbnTzeZMlNfHKT5Oqky6wEf1TyBVtcNMQzvrDnpfauM51ULVh5Ogc25LIHLH21bZhCHiQnyeX6fIX6QLbnXwC9wrFKE0xOtc9vL-go8CNrxKojh7jTl5CHMOD1O2JqtOaKOmDlmoJdfPHwKqms0NS1Cz_ZK0Xf-kJ1meP_--SDnqyIZRiDf2cPJO_bxT2rk_6YQWdq4"
+    },
+    {
+     "name": "Last month",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raGlu0fdFm5LfgyG3wJeHSgxvPDaCEcfHeMx3rUjJNwHLWghXtJzzWMHijZssBVXrXSVpYmwNDH3SuV0WPlk11eLEBa_GPGOKKBRlrobhmjZChcfZ-m8girAigbrKK8WUMqDmQvXFfJCiTpk-pcy7MBdNB-jw0BcaHLBLhOGcI8CtGhrMge7mgtcjBfVTeE3qmpeXyB9aruqfuoqqkNre1q1aIUBEydgOQFCxNt7q8Ni8N1GMIjihMrFGw55lhQtqIv_lM6ZzSnyabf_2VajKfN28YdeL1XNhjwZ1kvdocDT51_YcAA_1d1Dc53_V-1wXvaTvixy7JFxCux0A7FeG8wMyrEZNfy6lSU7hVe-T8FzGb2sl",
+      "q": "Data Analyst Intern Tech Mahindra in the last month"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raGlu0fdFm5LfgyG3wJeHSgxvPDaCEcfHeMx3rUjJNwHLWghXtJzzWMHijZssBVXrXSVpYmwNDH3SuV0WPlk11eLEBa_GPGOKKBRlrobhmjZChcfZ-m8girAigbrKK8WUMqDmQvXFfJCiTpk-pcy7MBdNB-jw0BcaHLBLhOGcI8CtGhrMge7mgtcjBfVTeE3qmpeXyB9aruqfuoqqkNre1q1aIUBEydgOQFCxNt7q8Ni8N1GMIjihMrFGw55lhQtqIv_lM6ZzSnyabf_2VajKfN28YdeL1XNhjwZ1kvdocDT51_YcAA_1d1Dc53_V-1wXvaTvixy7JFxCux0A7FeG8wMyrEZNfy6lSU7hVe-T8FzGb2sl&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIGxAF",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raGlu0fdFm5LfgyG3wJeHSgxvPDaCEcfHeMx3rUjJNwHLWghXtJzzWMHijZssBVXrXSVpYmwNDH3SuV0WPlk11eLEBa_GPGOKKBRlrobhmjZChcfZ-m8girAigbrKK8WUMqDmQvXFfJCiTpk-pcy7MBdNB-jw0BcaHLBLhOGcI8CtGhrMge7mgtcjBfVTeE3qmpeXyB9aruqfuoqqkNre1q1aIUBEydgOQFCxNt7q8Ni8N1GMIjihMrFGw55lhQtqIv_lM6ZzSnyabf_2VajKfN28YdeL1XNhjwZ1kvdocDT51_YcAA_1d1Dc53_V-1wXvaTvixy7JFxCux0A7FeG8wMyrEZNfy6lSU7hVe-T8FzGb2sl"
+    }
+   ]
+  },
+  {
+   "name": "Job type",
+   "options": [
+    {
+     "name": "Full time",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzNEcP8bSbYtKsOdwkRWFG2Srpu_IDGhRCWV4UhsqFIR-mGJiw2e-Tymhqa6zyqctVqvZONb40pFlXB2HRQvS7rJsQcWAo7RKe-vJgk88lT8goSjxoqbB4C_9hAQ7cufKDOqSwnsUN5ldslBbhLDmJtan0xpsFZ8bdal-NtRZ4fZz3wBZZnitXStZfJmCC5w1H79uWl8D1sWDeslIjY_D_rUOrQV94ubGpLnYe_YcLFGwrnsdGjGwqvh7j5MsxIvLHGPTjOM3-F-JqtEChElZov5mcAkJ8",
+      "q": "Data Analyst Intern Tech Mahindra full time"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzNEcP8bSbYtKsOdwkRWFG2Srpu_IDGhRCWV4UhsqFIR-mGJiw2e-Tymhqa6zyqctVqvZONb40pFlXB2HRQvS7rJsQcWAo7RKe-vJgk88lT8goSjxoqbB4C_9hAQ7cufKDOqSwnsUN5ldslBbhLDmJtan0xpsFZ8bdal-NtRZ4fZz3wBZZnitXStZfJmCC5w1H79uWl8D1sWDeslIjY_D_rUOrQV94ubGpLnYe_YcLFGwrnsdGjGwqvh7j5MsxIvLHGPTjOM3-F-JqtEChElZov5mcAkJ8&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAC",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzNEcP8bSbYtKsOdwkRWFG2Srpu_IDGhRCWV4UhsqFIR-mGJiw2e-Tymhqa6zyqctVqvZONb40pFlXB2HRQvS7rJsQcWAo7RKe-vJgk88lT8goSjxoqbB4C_9hAQ7cufKDOqSwnsUN5ldslBbhLDmJtan0xpsFZ8bdal-NtRZ4fZz3wBZZnitXStZfJmCC5w1H79uWl8D1sWDeslIjY_D_rUOrQV94ubGpLnYe_YcLFGwrnsdGjGwqvh7j5MsxIvLHGPTjOM3-F-JqtEChElZov5mcAkJ8"
+    },
+    {
+     "name": "Part time",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzN1SBdDO9RiX0hB7089MeOOcDJHfXY6lkfERQsCyToIhS_-z-ShTm60l7RPzHcbtUV1SlyucXABkKyNUXuGDWuXdtJDqHY7DX-gEXBm39O-zd7YHLhDDffSZ_sa1M-tuUmFga0aa8hvH1OY4ue8ciFVQebURvwbpyYXuiGoNxmfL8XkBJtAsw7RpUjXlx_soxwNLonQtZh96-GDyGAP3bV6E2BFXItAz6d7AZBtzJgHgAs0AfBFebifEPFmpcRGM0DhlbWiIqP1ixI_6848XBteU7Xsz0",
+      "q": "Data Analyst Intern Tech Mahindra part time"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzN1SBdDO9RiX0hB7089MeOOcDJHfXY6lkfERQsCyToIhS_-z-ShTm60l7RPzHcbtUV1SlyucXABkKyNUXuGDWuXdtJDqHY7DX-gEXBm39O-zd7YHLhDDffSZ_sa1M-tuUmFga0aa8hvH1OY4ue8ciFVQebURvwbpyYXuiGoNxmfL8XkBJtAsw7RpUjXlx_soxwNLonQtZh96-GDyGAP3bV6E2BFXItAz6d7AZBtzJgHgAs0AfBFebifEPFmpcRGM0DhlbWiIqP1ixI_6848XBteU7Xsz0&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAD",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzN1SBdDO9RiX0hB7089MeOOcDJHfXY6lkfERQsCyToIhS_-z-ShTm60l7RPzHcbtUV1SlyucXABkKyNUXuGDWuXdtJDqHY7DX-gEXBm39O-zd7YHLhDDffSZ_sa1M-tuUmFga0aa8hvH1OY4ue8ciFVQebURvwbpyYXuiGoNxmfL8XkBJtAsw7RpUjXlx_soxwNLonQtZh96-GDyGAP3bV6E2BFXItAz6d7AZBtzJgHgAs0AfBFebifEPFmpcRGM0DhlbWiIqP1ixI_6848XBteU7Xsz0"
+    },
+    {
+     "name": "Contract",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUCU8M_7NPM1bE2qT93Q0DGwpggBHHJAtiNK4eIVoeJxnIxoe0Q3n3_kbq_SMTowQDOoC6HbOt-KK5txVhM0pY7fOzXWI9aJcBfdbN_00VlUoqOfY3XtESKga7dRjIEag46LrWiyUhToedi8i1zzwVht1892Poe2x-XGUu4hjXOhrVLwAI2ihR49Bz5eqL8dHasO9ALAUQibdTg3diqu2TFK0b6A_HqRZ0QrIVW57eU5kAg_ryn3_TcQKbCOwOP9-VFtgCfyMr-ED_X7Br75VjevTwiKWdl_twfIzNznpOeYe1flFBotc-jGIS1v3rflswHgF1Jc",
+      "q": "Data Analyst Intern Tech Mahindra contract"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUCU8M_7NPM1bE2qT93Q0DGwpggBHHJAtiNK4eIVoeJxnIxoe0Q3n3_kbq_SMTowQDOoC6HbOt-KK5txVhM0pY7fOzXWI9aJcBfdbN_00VlUoqOfY3XtESKga7dRjIEag46LrWiyUhToedi8i1zzwVht1892Poe2x-XGUu4hjXOhrVLwAI2ihR49Bz5eqL8dHasO9ALAUQibdTg3diqu2TFK0b6A_HqRZ0QrIVW57eU5kAg_ryn3_TcQKbCOwOP9-VFtgCfyMr-ED_X7Br75VjevTwiKWdl_twfIzNznpOeYe1flFBotc-jGIS1v3rflswHgF1Jc&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAE",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUCU8M_7NPM1bE2qT93Q0DGwpggBHHJAtiNK4eIVoeJxnIxoe0Q3n3_kbq_SMTowQDOoC6HbOt-KK5txVhM0pY7fOzXWI9aJcBfdbN_00VlUoqOfY3XtESKga7dRjIEag46LrWiyUhToedi8i1zzwVht1892Poe2x-XGUu4hjXOhrVLwAI2ihR49Bz5eqL8dHasO9ALAUQibdTg3diqu2TFK0b6A_HqRZ0QrIVW57eU5kAg_ryn3_TcQKbCOwOP9-VFtgCfyMr-ED_X7Br75VjevTwiKWdl_twfIzNznpOeYe1flFBotc-jGIS1v3rflswHgF1Jc"
+    },
+    {
+     "name": "Internship",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOUJuCOSyS2Vyn-XKCAD7EcuemE2eFe7p6TNt340WVmDKpCkv_T84_IPGVkIWGBCLgMm8PdpqgXaIlk2bFMwXdaiwHdrX8UHeRzQ-ZjlEujNLoe6T6AeWnY7U9nPBFEwfrn8lAdUPh7l8LgbsHJN-gibg1IMYVrrpS9S4GO_kY-ItFSEGdXLkZq7i_jTFrlinckUMjIaOJ1wK8AwQsd0PXLxTtfx1dMkPRry9cFMREw8G48pzogtjABJHm5RhIchznv4K4EYUqEFhsuRzSVfadV4u3MyROr2v8DgE5is9RcwZdqtvQ-xd1b6xuSJfS7V_vdbZLS3TaF2jJ5Q7Q4fl_H6XqyI",
+      "q": "Data Analyst Intern Tech Mahindra internship"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOUJuCOSyS2Vyn-XKCAD7EcuemE2eFe7p6TNt340WVmDKpCkv_T84_IPGVkIWGBCLgMm8PdpqgXaIlk2bFMwXdaiwHdrX8UHeRzQ-ZjlEujNLoe6T6AeWnY7U9nPBFEwfrn8lAdUPh7l8LgbsHJN-gibg1IMYVrrpS9S4GO_kY-ItFSEGdXLkZq7i_jTFrlinckUMjIaOJ1wK8AwQsd0PXLxTtfx1dMkPRry9cFMREw8G48pzogtjABJHm5RhIchznv4K4EYUqEFhsuRzSVfadV4u3MyROr2v8DgE5is9RcwZdqtvQ-xd1b6xuSJfS7V_vdbZLS3TaF2jJ5Q7Q4fl_H6XqyI&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAF",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOUJuCOSyS2Vyn-XKCAD7EcuemE2eFe7p6TNt340WVmDKpCkv_T84_IPGVkIWGBCLgMm8PdpqgXaIlk2bFMwXdaiwHdrX8UHeRzQ-ZjlEujNLoe6T6AeWnY7U9nPBFEwfrn8lAdUPh7l8LgbsHJN-gibg1IMYVrrpS9S4GO_kY-ItFSEGdXLkZq7i_jTFrlinckUMjIaOJ1wK8AwQsd0PXLxTtfx1dMkPRry9cFMREw8G48pzogtjABJHm5RhIchznv4K4EYUqEFhsuRzSVfadV4u3MyROr2v8DgE5is9RcwZdqtvQ-xd1b6xuSJfS7V_vdbZLS3TaF2jJ5Q7Q4fl_H6XqyI"
+    }
+   ]
+  },
+  {
+   "name": "Job type",
+   "options": [
+    {
+     "name": "Full time",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzNEcP8bSbYtKsOdwkRWFG2Srpu_IDGhRCWV4UhsqFIR-mGJiw2e-Tymhqa6zyqctVqvZONb40pFlXB2HRQvS7rJsQcWAo7RKe-vJgk88lT8goSjxoqbB4C_9hAQ7cufKDOqSwnsUN5ldslBbhLDmJtan0xpsFZ8bdal-NtRZ4fZz3wBZZnitXStZfJmCC5w1H79uWl8D1sWDeslIjY_D_rUOrQV94ubGpLnYe_YcLFGwrnsdGjGwqvh7j5MsxIvLHGPTjOM3-F-JqtEChElZov5mcAkJ8",
+      "q": "Data Analyst Intern Tech Mahindra full time"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzNEcP8bSbYtKsOdwkRWFG2Srpu_IDGhRCWV4UhsqFIR-mGJiw2e-Tymhqa6zyqctVqvZONb40pFlXB2HRQvS7rJsQcWAo7RKe-vJgk88lT8goSjxoqbB4C_9hAQ7cufKDOqSwnsUN5ldslBbhLDmJtan0xpsFZ8bdal-NtRZ4fZz3wBZZnitXStZfJmCC5w1H79uWl8D1sWDeslIjY_D_rUOrQV94ubGpLnYe_YcLFGwrnsdGjGwqvh7j5MsxIvLHGPTjOM3-F-JqtEChElZov5mcAkJ8&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAC",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzNEcP8bSbYtKsOdwkRWFG2Srpu_IDGhRCWV4UhsqFIR-mGJiw2e-Tymhqa6zyqctVqvZONb40pFlXB2HRQvS7rJsQcWAo7RKe-vJgk88lT8goSjxoqbB4C_9hAQ7cufKDOqSwnsUN5ldslBbhLDmJtan0xpsFZ8bdal-NtRZ4fZz3wBZZnitXStZfJmCC5w1H79uWl8D1sWDeslIjY_D_rUOrQV94ubGpLnYe_YcLFGwrnsdGjGwqvh7j5MsxIvLHGPTjOM3-F-JqtEChElZov5mcAkJ8"
+    },
+    {
+     "name": "Part time",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzN1SBdDO9RiX0hB7089MeOOcDJHfXY6lkfERQsCyToIhS_-z-ShTm60l7RPzHcbtUV1SlyucXABkKyNUXuGDWuXdtJDqHY7DX-gEXBm39O-zd7YHLhDDffSZ_sa1M-tuUmFga0aa8hvH1OY4ue8ciFVQebURvwbpyYXuiGoNxmfL8XkBJtAsw7RpUjXlx_soxwNLonQtZh96-GDyGAP3bV6E2BFXItAz6d7AZBtzJgHgAs0AfBFebifEPFmpcRGM0DhlbWiIqP1ixI_6848XBteU7Xsz0",
+      "q": "Data Analyst Intern Tech Mahindra part time"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzN1SBdDO9RiX0hB7089MeOOcDJHfXY6lkfERQsCyToIhS_-z-ShTm60l7RPzHcbtUV1SlyucXABkKyNUXuGDWuXdtJDqHY7DX-gEXBm39O-zd7YHLhDDffSZ_sa1M-tuUmFga0aa8hvH1OY4ue8ciFVQebURvwbpyYXuiGoNxmfL8XkBJtAsw7RpUjXlx_soxwNLonQtZh96-GDyGAP3bV6E2BFXItAz6d7AZBtzJgHgAs0AfBFebifEPFmpcRGM0DhlbWiIqP1ixI_6848XBteU7Xsz0&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAD",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reZWwy-ge31WEtdDaCtBKISABVI_KBpaJxqI_C5VtsWu3LZjyMnZ5XTEUNd1IQDzN1SBdDO9RiX0hB7089MeOOcDJHfXY6lkfERQsCyToIhS_-z-ShTm60l7RPzHcbtUV1SlyucXABkKyNUXuGDWuXdtJDqHY7DX-gEXBm39O-zd7YHLhDDffSZ_sa1M-tuUmFga0aa8hvH1OY4ue8ciFVQebURvwbpyYXuiGoNxmfL8XkBJtAsw7RpUjXlx_soxwNLonQtZh96-GDyGAP3bV6E2BFXItAz6d7AZBtzJgHgAs0AfBFebifEPFmpcRGM0DhlbWiIqP1ixI_6848XBteU7Xsz0"
+    },
+    {
+     "name": "Contract",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUCU8M_7NPM1bE2qT93Q0DGwpggBHHJAtiNK4eIVoeJxnIxoe0Q3n3_kbq_SMTowQDOoC6HbOt-KK5txVhM0pY7fOzXWI9aJcBfdbN_00VlUoqOfY3XtESKga7dRjIEag46LrWiyUhToedi8i1zzwVht1892Poe2x-XGUu4hjXOhrVLwAI2ihR49Bz5eqL8dHasO9ALAUQibdTg3diqu2TFK0b6A_HqRZ0QrIVW57eU5kAg_ryn3_TcQKbCOwOP9-VFtgCfyMr-ED_X7Br75VjevTwiKWdl_twfIzNznpOeYe1flFBotc-jGIS1v3rflswHgF1Jc",
+      "q": "Data Analyst Intern Tech Mahindra contract"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUCU8M_7NPM1bE2qT93Q0DGwpggBHHJAtiNK4eIVoeJxnIxoe0Q3n3_kbq_SMTowQDOoC6HbOt-KK5txVhM0pY7fOzXWI9aJcBfdbN_00VlUoqOfY3XtESKga7dRjIEag46LrWiyUhToedi8i1zzwVht1892Poe2x-XGUu4hjXOhrVLwAI2ihR49Bz5eqL8dHasO9ALAUQibdTg3diqu2TFK0b6A_HqRZ0QrIVW57eU5kAg_ryn3_TcQKbCOwOP9-VFtgCfyMr-ED_X7Br75VjevTwiKWdl_twfIzNznpOeYe1flFBotc-jGIS1v3rflswHgF1Jc&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAE",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUCU8M_7NPM1bE2qT93Q0DGwpggBHHJAtiNK4eIVoeJxnIxoe0Q3n3_kbq_SMTowQDOoC6HbOt-KK5txVhM0pY7fOzXWI9aJcBfdbN_00VlUoqOfY3XtESKga7dRjIEag46LrWiyUhToedi8i1zzwVht1892Poe2x-XGUu4hjXOhrVLwAI2ihR49Bz5eqL8dHasO9ALAUQibdTg3diqu2TFK0b6A_HqRZ0QrIVW57eU5kAg_ryn3_TcQKbCOwOP9-VFtgCfyMr-ED_X7Br75VjevTwiKWdl_twfIzNznpOeYe1flFBotc-jGIS1v3rflswHgF1Jc"
+    },
+    {
+     "name": "Internship",
+     "parameters": {
+      "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOUJuCOSyS2Vyn-XKCAD7EcuemE2eFe7p6TNt340WVmDKpCkv_T84_IPGVkIWGBCLgMm8PdpqgXaIlk2bFMwXdaiwHdrX8UHeRzQ-ZjlEujNLoe6T6AeWnY7U9nPBFEwfrn8lAdUPh7l8LgbsHJN-gibg1IMYVrrpS9S4GO_kY-ItFSEGdXLkZq7i_jTFrlinckUMjIaOJ1wK8AwQsd0PXLxTtfx1dMkPRry9cFMREw8G48pzogtjABJHm5RhIchznv4K4EYUqEFhsuRzSVfadV4u3MyROr2v8DgE5is9RcwZdqtvQ-xd1b6xuSJfS7V_vdbZLS3TaF2jJ5Q7Q4fl_H6XqyI",
+      "q": "Data Analyst Intern Tech Mahindra internship"
+     },
+     "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&hl=en&gl=in&sxsrf=APpeQnumP9Lgs4v-3OdE2DaiUfaCRL_sUA:1791207946337&q=Data+Analyst+Intern+Tech+Mahindra+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOUJuCOSyS2Vyn-XKCAD7EcuemE2eFe7p6TNt340WVmDKpCkv_T84_IPGVkIWGBCLgMm8PdpqgXaIlk2bFMwXdaiwHdrX8UHeRzQ-ZjlEujNLoe6T6AeWnY7U9nPBFEwfrn8lAdUPh7l8LgbsHJN-gibg1IMYVrrpS9S4GO_kY-ItFSEGdXLkZq7i_jTFrlinckUMjIaOJ1wK8AwQsd0PXLxTtfx1dMkPRry9cFMREw8G48pzogtjABJHm5RhIchznv4K4EYUqEFhsuRzSVfadV4u3MyROr2v8DgE5is9RcwZdqtvQ-xd1b6xuSJfS7V_vdbZLS3TaF2jJ5Q7Q4fl_H6XqyI&udm=8&sa=X&ved=2ahUKEwiey_DKgaOXAxV6I0QIHbvhO9cQkbEKegQIHBAF",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=Data+Analyst+Intern+Tech+Mahindra+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOUJuCOSyS2Vyn-XKCAD7EcuemE2eFe7p6TNt340WVmDKpCkv_T84_IPGVkIWGBCLgMm8PdpqgXaIlk2bFMwXdaiwHdrX8UHeRzQ-ZjlEujNLoe6T6AeWnY7U9nPBFEwfrn8lAdUPh7l8LgbsHJN-gibg1IMYVrrpS9S4GO_kY-ItFSEGdXLkZq7i_jTFrlinckUMjIaOJ1wK8AwQsd0PXLxTtfx1dMkPRry9cFMREw8G48pzogtjABJHm5RhIchznv4K4EYUqEFhsuRzSVfadV4u3MyROr2v8DgE5is9RcwZdqtvQ-xd1b6xuSJfS7V_vdbZLS3TaF2jJ5Q7Q4fl_H6XqyI"
+    }
+   ]
+  }
+ ],
+ "jobs_results": [
+  {
+   "title": "Data Analyst Intern at Tech Mahindra",
+   "company_name": "Tech Mahindra",
+   "location": "Hyderabad, Telangana",
+   "via": "MyInternships.in",
+   "share_link": "https://www.google.com/search?ibp=htl;jobs&q=Data+Analyst+Intern+Tech+Mahindra&htidocid=DEB1y4NYCQzPQdI5AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpic&shndl=37&shmd=H4sIAAAAAAAA_1WOMQrCQBBFsfUIVtPYiGRFsFEsBEEt7OzDTzLsRtbZsDNF0nkHj-DNPImxtPnFg8f70_dkuj_CQAdBHNToIsZZCEY3rgNdEVppMujzfNE9VaSMPPIkdErJR57tglmnW-dUY-HVYG1d1OnhknCVejdK-ptSAzJ3EcblerPqi078Yv4faYXOQ8MZFZrleCBCPARf-DOHKqYAAAA&shmds=v1_ARwrE21GL1ild1mzE0W1OpanE_hKjZs88GG7Md8el3PC9VTEYQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=Data+Analyst+Intern+Tech+Mahindra&htidocid=DEB1y4NYCQzPQdI5AAAAAA%3D%3D",
+   "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAYFBMVEX____jGDfiACjypq7iACzjETPiACTiACL--PnyqbH0s7r3yM3rbnzhABzhABHypK363-LuipXkID798fPmN0_2wsjqZHPtg4787O71usDoV2j40tbse4fwl6DlL0jnR1zZnXcgAAAA2UlEQVRIie3U1w6CMACFYSgdUChl7_H-b2k1ahA7vVAveu6_5E86gsDP718XJ_QTlmYs586qKCsCQxC5qTpqGERh6AjbjoCrcoNFD8ldOcCBi8TwMDs4Ts9EBzgvGJ-UBRzW7TXRCsZ0z8-JFjDNoCTRCFtEpIlGyLGOaWAEPPw-xKqvQw_Fy2zdIcIwSxVMDRHIdxormQpCtq2DRskhwniZ9UoCESDTaFRvELKGGxIlULzMvrBTBygSO9WRqSESiVHtwm4Qkqq0T3yM50xzPTSjie56-Pn9dhdXDwkxuhtAUgAAAABJRU5ErkJggg.png",
+   "extensions": [
+    "₹22K a month",
+    "Internship"
+   ],
+   "source_link": "https://myinternships.in/internships/tech-mahindra-is-hiring-data-analyst-intern-hyderabad-186vfu",
+   "job_title": "Data Analyst Intern at Tech Mahindra",
+   "description": "Tech Mahindra is hiring a Data Analyst Intern in Hyderabad for a 3-month, fully mentored internship. This is real, reviewed work on live projects — not a training sandbox or a certificate mill.\n\nAbout the internship\nYou will join the analytics team and work alongside people who do this professionally every day. From week one you own a scoped piece of work, take it through review, and see it ship.\n\nDay-to-day responsibilities\n• Write SQL queries to answer business questions.\n• Build and maintain dashboards stakeholders rely on.\n• Clean and reconcile data from multiple sources.\n• Present insights and recommendations to the team.\n• Document your work clearly so the next person can pick it up.\n• Take part in stand-ups, planning and review sessions with the team.\n\nTools and technologies you will use\nSQL, Advanced Excel, Power BI, Tableau, Python, Data Visualization, Dashboards, Statistics, Reporting, Data Cleaning — plus the internal tooling Tech Mahindra uses day to day.\n\nWhat you will learn\nHow analysis turns into decisions: framing the question, trusting the data, and communicating what it means.\n\nTeam structure\nYou report to a senior team member who acts as your mentor, inside a pod of 6-10 people. Weekly 1:1s track progress and a mid-internship review tells you exactly where you stand.\n\nWhat we expect from you\nCuriosity, ownership and clear communication. You are not expected to know every tool listed — you are expected to have solid fundamentals, ask good questions, and document what you do.\n\nDetails: ₹22,000/month stipend · 3 months · Work From Office · 2 openings · Hyderabad.\n\nIf you want to start a career in data analytics in Hyderabad, apply now. Responsibilities: Write SQL queries to answer business questions.; Build and maintain dashboards stakeholders rely on.; Clean and reconcile data from multiple sources.; Present insights and recommendations to the team.; Document your work so the next person can pick it up. Requirements: Education: pursuing or completed any Bachelor's or Master's degree; Graduation year: 2025, 2026 or 2027 batch; Minimum 60% / 6.0 CGPA (relaxable for candidates with strong practical projects); Technical skills: working knowledge of SQL, Advanced Excel, Power BI, Tableau; Soft skills: clear written communication, ownership, willingness to document work; Experience: none required — freshers welcome; prior projects or certifications are a plus.",
+   "apply_options": [
+    {
+     "title": "MyInternships.in",
+     "link": "https://myinternships.in/internships/tech-mahindra-is-hiring-data-analyst-intern-hyderabad-186vfu?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    }
+   ],
+   "job_id": "eyJqb2JfdGl0bGUiOiJEYXRhIEFuYWx5c3QgSW50ZXJuIGF0IFRlY2ggTWFoaW5kcmEiLCJjb21wYW55X25hbWUiOiJUZWNoIE1haGluZHJhIiwiaHRpZG9jaWQiOiJERUIxeTROWUNRelBRZEk1QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNrWkpSRlZCWVZWd1lsbExWVmM1ZVhoNFlsSTFkR1ZHTjFaT00yTk9SUzFwUm5GVFNrOUhiM294VTFwTFN6ZHhlRTFCT1U5SFlWUklWWE5GZUZaYVEyNWpRVnB4ZUdwRldYRnJXak5DZGxoRlpXRTRSaTFoU2pZM2NESkdjRkJsUTNWT2VsOHdUMmQ0UWpaMGFtWjJkbFEzUTAxS2RGaFFSR2RQWjJGRlVXZEdWMUoxVUdnU0YwTnhja1JoY0RabFJsQnlSMnRRU1ZCMU9GQjJkVkV3R2lKQlJITnlPV1pUYm10bVFUaGZPV0o2UlRoNFJuUkhORU5GUnpCMVZUUkNWV2QzIiwiZmN2IjoiMyIsImZjX2lkIjoiREVCMXk0TllDUXpQUWRJNUFBQUFBQT09In0="
+  },
+  {
+   "title": "SQL Analyst Intern",
+   "company_name": "Tech Mahindra",
+   "location": "Puducherry",
+   "via": "MyInternships.in",
+   "share_link": "https://www.google.com/search?ibp=htl;jobs&q=Data+Analyst+Intern+Tech+Mahindra&htidocid=fcA8qPeGzWiPu5nMAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpic&shndl=37&shmd=H4sIAAAAAAAA_xXMMQrCQBBAUWxzBG2mVsiKYKOVlQgKivZhshmyCetM2JlA0tl5AG_oSYzN797P3rNsdb-d4cAYRzU4sVFi-L4-0EoJSph8AGE4itSR5vtg1unOOdWY12pojc-9PJ0wlTK4Cek_hQZM1EU0Kjbb9ZB3XC8XD5pmFwwNVwmhYbj2Ve8DpTT-AAXW0-WKAAAA&shmds=v1_ARwrE218u6eaiv-VMEd-P1zhSOzi5kHje3kX0DVLjiVYkGTVhg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=Data+Analyst+Intern+Tech+Mahindra&htidocid=fcA8qPeGzWiPu5nMAAAAAA%3D%3D",
+   "extensions": [
+    "₹16K a month",
+    "Internship"
+   ],
+   "source_link": "https://myinternships.in/internships/6a96aee4fa8e6c727f1bbd3d",
+   "job_title": "SQL Analyst Intern",
+   "description": "Tech Mahindra is hiring a SQL Analyst Intern in Puducherry — a hands-on, mentor-led internship built for students and 2026 freshers who want real exposure to SQL analysis rather than a certificate-only programme.\n\nAbout the role\nAs a SQL Analyst Intern at Tech Mahindra, your core focus will be answering business questions directly in SQL, and being sure the join did not double your rows. You are attached to a named mentor, join the team's stand-ups and reviews, and are trusted with work that matters rather than filler tasks. Questions are encouraged, your output is reviewed properly, and you get the feedback you need to actually improve.\n\nWhat you'll do day to day\n• Work on answering business questions directly in SQL, and being sure the join did not double your rows alongside the core team\n• Use SQL, Joins & Aggregations, Window Functions, Data Validation, Excel on live, production-facing problems\n• Turn your work into clear documentation, notes or decks for reviewers\n• Take part in reviews and act on the feedback you receive\n• Collaborate across functions — engineering, product, design or business as the work demands\n• Follow the team's quality, testing and documentation standards\n• Track and report your own progress against an agreed plan\n\nSkills you'll build\nYou will build practical, demonstrable experience in SQL, Joins & Aggregations, Window Functions, Data Validation, Excel, Business Metrics, Reporting, Power BI Basics, Documentation, Communication — the exact toolkit that separates a hireable fresher from a CV full of coursework. No prior work experience is required. Curiosity, problem-solving ability and a willingness to learn matter far more here than a polished résumé, and every one of these skills is taught on the job.\n\nWho should apply\nStudents in their final year or recent graduates from B.E./B.Tech (any branch), BCA/MCA, B.Sc (Statistics/Mathematics), B.Com/BBA or MBA based in or willing to work from Puducherry. You should be willing to learn SQL, Joins & Aggregations, Window Functions and able to communicate clearly in writing. Personal projects, coursework, certifications or open-source contributions strengthen your application, but none of them are mandatory.\n\nInternship details\nThis is a 2-month internship in Puducherry, Puducherry, with a stipend of ₹16,000 per month. You will be given a defined project so that you leave with a set of trusted SQL analyses the business reuses. Working hours follow the team's normal business hours and the internship includes a certificate on successful completion.\n\nYou will finish this internship with practical, demonstrable skills, real project work to point at, and a much clearer sense of how the industry actually operates day to day. Strong performers are considered for a Pre-Placement Offer (PPO) and a full-time role.\n\nAbout this employer — Large enterprise / multinational\nTech Mahindra is a large, well-established employer in IT Services & Consulting with a substantial India footprint. Expect a structured internship: formal onboarding, a named mentor, documented processes, defined review checkpoints and the chance to see how analytics works at scale across several business units.\n• Employer scale: Large enterprise / multinational\n• Industry: IT Services & Consulting\n• Careers page: https://careers.techmahindra.com/ (applications go to the company's own site — MyInternships.in never charges a candidate a fee)\n\nEligibility criteria\n• Education: B.E./B.Tech (any branch), BCA/MCA, B.Sc (Statistics/Mathematics), B.Com/BBA or MBA\n• Graduating batch: 2026, 2027 or 2028 — final-year students and recent graduates are both eligible\n• Academics: 60% / 6.0 CGPA and above preferred; consistent academics help, but a strong project or portfolio is weighed alongside marks\n• Technical skills: SQL, Joins & Aggregations, Window Functions, Data Validation, Excel\n• Also useful: Business Metrics, Reporting, Power BI Basics, Documentation, Communication\n• Soft skills: clear written and spoken English, ownership of your work, comfort asking questions, and the discipline to check your own work before you ship it\n• Experience: none required — this is a fresher internship. Academic projects, certifications, GitHub work or a previous internship strengthen an application but are not mandatory\n• Location: based in Puducherry, Puducherry or willing to work from there for the internship period\n\nAdditional information\n• Joining date: immediate / rolling — selected candidates usually start within 2-4 weeks of accepting the offer, and start dates can be adjusted around end-semester exams\n• Working hours: Monday to Friday, standard business hours (about 8-9 hours a day) at the office\n• Duration: 2 months, with a certificate issued on successful completion\n• Documents at joining: college ID or degree certificate, a government photo ID, and a No-Objection Certificate from your college where your programme requires one\n• Equipment: a workstation, software licences and all tool access are provided at the office — you do not need to bring your own machine\n• Bond: no bond and no service agreement is attached to this internship\n• Fees: Tech Mahindra and MyInternships.in never charge a candidate any fee at any stage of the application, selection or onboarding process. Report anyone who asks you for money in the name of this internship\n\nHow to apply\nClick Apply Now. If you are not logged in you will be asked to sign in and register first, after which you will be taken to Tech Mahindra's official careers page to complete your application. Applications are reviewed on a rolling basis and seats are limited, so apply early.",
+   "apply_options": [
+    {
+     "title": "MyInternships.in",
+     "link": "https://myinternships.in/internships/6a96aee4fa8e6c727f1bbd3d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    }
+   ],
+   "job_id": "eyJqb2JfdGl0bGUiOiJTUUwgQW5hbHlzdCBJbnRlcm4iLCJjb21wYW55X25hbWUiOiJUZWNoIE1haGluZHJhIiwiaHRpZG9jaWQiOiJmY0E4cVBlR3pXaVB1NW5NQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNscG1Sa1ZrZERNd1lrZDZhVkJKVlVKcVJtTmFMV0UzV21ZM1MzQlZlVkZaTlhKeWJsQnZaRmxHVkVWS2NXWk1TVnBWWTNocVdDMDBabVJQT1dOeWRrRm9ja0ZLWld4WVRHTmZXRE14TmpCM2JHUk1VSEp3TFVFMWIzUjFkM2g0YjBsdmFsbFZZMU13UTJGWWEwWlhiM1p1YTJGNVYwUm9UVEpWVDNwT00wdFBRVTFtVm1vU0YwTnhja1JoY0RabFJsQnlSMnRRU1ZCMU9GQjJkVkV3R2lKQlJITnlPV1pTTVUxYWVrMXBjVFZ2ZW0xM2JGRjVYM05MWDBsWk1XeFhVMkpuIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNBOHFQZUd6V2lQdTVuTUFBQUFBQT09In0="
+  },
+  {
+   "title": "Supply Chain Analyst Intern at Tech Mahindra",
+   "company_name": "Tech Mahindra",
+   "location": "Pune, Maharashtra",
+   "via": "MyInternships.in",
+   "share_link": "https://www.google.com/search?ibp=htl;jobs&q=Data+Analyst+Intern+Tech+Mahindra&htidocid=y4Bl93P6kHEFSjm4AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe,sdpic&shndl=37&shmd=H4sIAAAAAAAA_1WOMQrCQBBFsc0RrAZLkawINlqJiFgIgvZhEodsZJ1ZdiaQdN7BS3guT2JS2rziweP_7DPJDtc2xtDD3mPDsGMMvRqc2CgxoMGNKg9n9A3fE8L39YaHlKCEafDCcBSpA0233izqxjnVkNdqaE2VV_J0wlRK54ZIRxTqMVEMaFSs1ssuj1zPZ_8jw49Ly7QYDSZUbwl_3Zb1p6sAAAA&shmds=v1_ARwrE22ZilUAlC3FEIqnZU6WidBmP3h7TvFEskYPzGZmiLVmww&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=Data+Analyst+Intern+Tech+Mahindra&htidocid=y4Bl93P6kHEFSjm4AAAAAA%3D%3D",
+   "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAYFBMVEX____jGDfiACjypq7iACzjETPiACTiACL--PnyqbH0s7r3yM3rbnzhABzhABHypK363-LuipXkID798fPmN0_2wsjqZHPtg4787O71usDoV2j40tbse4fwl6DlL0jnR1zZnXcgAAAA2UlEQVRIie3U1w6CMACFYSgdUChl7_H-b2k1ahA7vVAveu6_5E86gsDP718XJ_QTlmYs586qKCsCQxC5qTpqGERh6AjbjoCrcoNFD8ldOcCBi8TwMDs4Ts9EBzgvGJ-UBRzW7TXRCsZ0z8-JFjDNoCTRCFtEpIlGyLGOaWAEPPw-xKqvQw_Fy2zdIcIwSxVMDRHIdxormQpCtq2DRskhwniZ9UoCESDTaFRvELKGGxIlULzMvrBTBygSO9WRqSESiVHtwm4Qkqq0T3yM50xzPTSjie56-Pn9dhdXDwkxuhtAUgAAAABJRU5ErkJggg.png",
+   "extensions": [
+    "₹30K a month",
+    "Internship"
+   ],
+   "source_link": "https://myinternships.in/internships/tech-mahindra-is-hiring-supply-chain-analyst-intern-pune-mdmtn",
+   "job_title": "Supply Chain Analyst Intern at Tech Mahindra",
+   "description": "Tech Mahindra is hiring a Supply Chain Analyst Intern in Pune for a 6-month, fully mentored internship. This is real, reviewed work on live projects — not a training sandbox or a certificate mill.\n\nAbout the internship\nYou will join the supply chain analytics team and work alongside people who do this professionally every day. From week one you own a scoped piece of work, take it through review, and see it ship.\n\nDay-to-day responsibilities\n• Analyse inventory, demand and fulfilment data.\n• Build dashboards tracking supply chain KPIs.\n• Identify cost and service-level improvements.\n• Support planning cycles with clean analysis.\n• Document your work clearly so the next person can pick it up.\n• Take part in stand-ups, planning and review sessions with the team.\n\nTools and technologies you will use\nSupply Chain, Advanced Excel, SQL, Data Analysis, Inventory Management, Demand Planning, Power BI, Reporting, Forecasting, Problem Solving — plus the internal tooling Tech Mahindra uses day to day.\n\nWhat you will learn\nHow supply chain decisions are driven by data — forecasting, service levels and the cost of getting it wrong.\n\nTeam structure\nYou report to a senior team member who acts as your mentor, inside a pod of 6-10 people. Weekly 1:1s track progress and a mid-internship review tells you exactly where you stand.\n\nWhat we expect from you\nCuriosity, ownership and clear communication. You are not expected to know every tool listed — you are expected to have solid fundamentals, ask good questions, and document what you do.\n\nDetails: ₹30,000/month stipend · 6 months · Work From Office · 2 openings · Pune.\n\nIf you want to start a career in supply chain analytics in Pune, apply now. Responsibilities: Analyse inventory, demand and fulfilment data.; Build dashboards tracking supply chain KPIs.; Identify cost and service-level improvements.; Support planning cycles with clean analysis.; Document your work so the next person can pick it up. Requirements: Education: pursuing or completed BBA/MBA/PGDM or an equivalent degree; Graduation year: 2025, 2026 or 2027 batch; Minimum 60% / 6.0 CGPA (relaxable for candidates with strong practical projects); Technical skills: working knowledge of Supply Chain, Advanced Excel, SQL, Data Analysis; Soft skills: clear written communication, ownership, willingness to document work; Experience: none required — freshers welcome; prior projects or certifications are a plus.",
+   "apply_options": [
+    {
+     "title": "MyInternships.in",
+     "link": "https://myinternships.in/internships/tech-mahindra-is-hiring-supply-chain-analyst-intern-pune-mdmtn?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    }
+   ],
+   "job_id": "eyJqb2JfdGl0bGUiOiJTdXBwbHkgQ2hhaW4gQW5hbHlzdCBJbnRlcm4gYXQgVGVjaCBNYWhpbmRyYSIsImNvbXBhbnlfbmFtZSI6IlRlY2ggTWFoaW5kcmEiLCJodGlkb2NpZCI6Ink0Qmw5M1A2a0hFRlNqbTRBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEdoUk9WZE1XRE5IUWtoNGVrMDVRMWMxZGs5c1NXSnlaRzV0ZWpobFZWZDVRMHB2UzI1SWVraE9WMXB5U1UxbWMwTkpRbFpXWmpCTU9GZDNlRWxhUjFkR1ppMVpXWEUxTVdSM1pIbFVXWEJXT1ZJeFRXNTFNVzV3ZUd0VWJVeEVTbGhMUlVNdFNDMVdNMUJ3VUc5UFJ6SnJWVms1Y0hGNmFUTlFRVUpoYVRWQ1NsaG5OMjBTRjBOeGNrUmhjRFpsUmxCeVIydFFTVkIxT0ZCMmRWRXdHaUpCUkhOeU9XWlVSRXg2TFVkZlF6aHFXVWcwVkRKM09XbGhWbFpGTlZKMloybFIiLCJmY3YiOiIzIiwiZmNfaWQiOiJ5NEJsOTNQNmtIRUZTam00QUFBQUFBPT0ifQ=="
+  }
+ ],
+ "serpapi_pagination": {
+  "next_page_token": "eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTa1pKUkZWQllWVndZbGxMVlZjNWVYaDRZbEkxZEdWR04xWk9NMk5PUlMxcFJuRlRTazlIYjNveFUxcExTemR4ZUUxQk9VOUhZVlJJVlhORmVGWmFRMjVqUVZweGVHcEZXWEZyV2pOQ2RsaEZaV0U0UmkxaFNqWTNjREpHY0ZCbFEzVk9lbDh3VDJkNFFqWjBhbVoyZGxRM1EwMUtkRmhRUkdkUFoyRkZVV2RHVjFKMVVHZ1NGME54Y2tSaGNEWmxSbEJ5UjJ0UVNWQjFPRkIyZFZFd0dpSkJSSE55T1daVGJtdG1RVGhmT1dKNlJUaDRSblJITkVORlJ6QjFWVFJDVldkMyIsImZjdiI6IjMifQ==",
+  "next": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTa1pKUkZWQllWVndZbGxMVlZjNWVYaDRZbEkxZEdWR04xWk9NMk5PUlMxcFJuRlRTazlIYjNveFUxcExTemR4ZUUxQk9VOUhZVlJJVlhORmVGWmFRMjVqUVZweGVHcEZXWEZyV2pOQ2RsaEZaV0U0UmkxaFNqWTNjREpHY0ZCbFEzVk9lbDh3VDJkNFFqWjBhbVoyZGxRM1EwMUtkRmhRUkdkUFoyRkZVV2RHVjFKMVVHZ1NGME54Y2tSaGNEWmxSbEJ5UjJ0UVNWQjFPRkIyZFZFd0dpSkJSSE55T1daVGJtdG1RVGhmT1dKNlJUaDRSblJITkVORlJ6QjFWVFJDVldkMyIsImZjdiI6IjMifQ%3D%3D&q=Data+Analyst+Intern+Tech+Mahindra"
+ }
+}

@@ -1,0 +1,692 @@
+{
+ "search_metadata": {
+  "id": "6ac3aa0bec900d8ff3273e94",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/xK-n_1U-x9UCAW8fbCKDx3SmQ-481zLOczt_KMfctUE/6ac3aa0bec900d8ff3273e94.json",
+  "markdown_endpoint": "https://serpapi.com/searches/xK-n_1U-x9UCAW8fbCKDx3SmQ-481zLOczt_KMfctUE/6ac3aa0bec900d8ff3273e94.md",
+  "created_at": "2026-10-05 13:45:47 UTC",
+  "processed_at": "2026-10-05 13:45:47 UTC",
+  "google_maps_url": "https://www.google.com/maps/search/Tech+Mahindra+office+Noida//data=!3m1!4b1!4m2!2m1!6e5?hl=en&gl=in",
+  "raw_html_file": "https://serpapi.com/searches/xK-n_1U-x9UCAW8fbCKDx3SmQ-481zLOczt_KMfctUE/6ac3aa0bec900d8ff3273e94.html",
+  "prettify_html_file": "https://serpapi.com/searches/xK-n_1U-x9UCAW8fbCKDx3SmQ-481zLOczt_KMfctUE/6ac3aa0bec900d8ff3273e94.prettify",
+  "total_time_taken": 1.22
+ },
+ "search_parameters": {
+  "engine": "google_maps",
+  "type": "search",
+  "q": "Tech Mahindra office Noida",
+  "google_domain": "google.com",
+  "hl": "en",
+  "gl": "in"
+ },
+ "search_information": {
+  "local_results_state": "Results for exact spelling",
+  "query_displayed": "Tech Mahindra office Noida"
+ },
+ "local_results": [
+  {
+   "position": 1,
+   "title": "Tech Mahindra Limited",
+   "place_id": "ChIJfcfNL_fvDDkRyK2BeMWN9LI",
+   "data_id": "0x390ceff72fcdc77d:0xb2f48dc57881adc8",
+   "data_cid": "12895087512338410952",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ceff72fcdc77d%3A0xb2f48dc57881adc8&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ceff72fcdc77d%3A0xb2f48dc57881adc8&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.6145975,
+    "longitude": 77.37711569999999
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJfcfNL_fvDDkRyK2BeMWN9LI",
+   "provider_id": "/g/1tjs39q0",
+   "rating": 3.9,
+   "reviews": 4002,
+   "type": "Software company",
+   "types": [
+    "Software company",
+    "BPO Company"
+   ],
+   "type_id": "software_company",
+   "type_ids": [
+    "software_company",
+    "bpo_company"
+   ],
+   "address": "A-6, A Block Rd, Block A, Sector 64, Noida, Uttar Pradesh 201309",
+   "country": "India",
+   "open_state": "Closed · Opens 9:30 am Tue",
+   "hours": "Closed · Opens 9:30 am Tue",
+   "operating_hours": {
+    "monday": "9:30 am–6 pm",
+    "tuesday": "9:30 am–6 pm",
+    "wednesday": "9:30 am–6 pm",
+    "thursday": "9:30 am–6 pm",
+    "friday": "9:30 am–6 pm",
+    "saturday": "Closed",
+    "sunday": "Closed"
+   },
+   "website": "http://www.techmahindra.com/",
+   "extensions": [
+    {
+     "service_options": [
+      "On-site services"
+     ]
+    },
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    },
+    {
+     "parking": [
+      "Free parking lot",
+      "Free street parking",
+      "Paid parking lot"
+     ]
+    }
+   ],
+   "service_options": {
+    "on_site_services": true
+   },
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QzzM7v9DMZxfishSWo5N1shfdJp_BE1Vz-kMzp6-2BmEIj9XFVjtxsLbHd8aOwezvUOu-KShWP-7BuZP5UiLQqgqjWLhBVKbqa925q841Z2N5_a0ite5D0w61kMc_MQmPOC2LryA=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/8K_wFXicHcRJDoIwAADAF1VatComHsQlLpQlRDBcCNZKQaFgi2h_6BP8jYlzmO-HK9XImWHc-XCQC5HfWSfZg4pasVoNqKiMvJGASiCNhRsXbyvQmkye1ookr2sheRgL7CLJr5d9k9prFGlwI7oZA9Ou1rvSOm2iUr2kc95eppnXM_08eh04hDz2wcTuEh8fCydo87aMHW5Hh3ObWSZupyOUmC5OM1gohlewH6MboSkJKt9bms7jvZj3CEII-H8K6h8TakTU"
+  },
+  {
+   "position": 2,
+   "title": "Tech Mahindra Limited",
+   "place_id": "ChIJ52XSc_zlDDkRPNiQ-Em4nv8",
+   "data_id": "0x390ce5fc73d265e7:0xff9eb849f890d83c",
+   "data_cid": "18419362153834272828",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce5fc73d265e7%3A0xff9eb849f890d83c&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce5fc73d265e7%3A0xff9eb849f890d83c&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.6206602,
+    "longitude": 77.3624671
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ52XSc_zlDDkRPNiQ-Em4nv8",
+   "provider_id": "/g/11j4k6qgt6",
+   "rating": 4.2,
+   "reviews": 336,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "B19, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309",
+   "country": "India",
+   "open_state": "Open · Closes 9:01 pm",
+   "hours": "Open · Closes 9:01 pm",
+   "operating_hours": {
+    "monday": "10 am–9:01 pm",
+    "tuesday": "10 am–9:01 pm",
+    "wednesday": "10 am–9:01 pm",
+    "thursday": "10 am–9:01 pm",
+    "friday": "10 am–9:01 pm",
+    "saturday": "10 am–9:01 pm",
+    "sunday": "10 am–10:01 pm"
+   },
+   "website": "https://www.techmahindra.com/",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance",
+      "Wheelchair-accessible toilet"
+     ]
+    },
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "user_review": "\"Good office space and facilities\"",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tw19XnbgAoYDj7fUwCVzSQVhTsK0_RenfH-QrnqKPwzH_WaKs1TTr-moy994r79HdWfoqduSs5eubhRmPYFZNBqB6TvPA2-Btc7tktvD8iPzj10OQ3GMRzTKJuDSu4wb6ovmtrCg=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/t8Vy5HicHcRZjoIwAADQE1XKuDCdZD5A4pAhOixV1B8jtbQutNKFRm7oEeY2Jr6P9__kxtz1l-fd-HjEpGQ3ajVVRApDhRkR2XrsrgHRQHvhqjo_EHY-2oqahXIXX4Jm7eabocw3HOsUHgoqmgTkSnRp5obkUB1T7WOsQCsfCE1UgJJT1cjuZEs9pbbmRZvtFvtV1EUz3GfhB4gMCczV9PHnORsuPvzLxz_LYsDpr41LO3H1TPatUXP27XwIIeDvCRAvXMNGdA"
+  },
+  {
+   "position": 3,
+   "title": "Tech Mahindra",
+   "place_id": "ChIJVVVV5W_lDDkRDOaiJNpm3nk",
+   "data_id": "0x390ce56fe5555555:0x79de66da24a2e60c",
+   "data_cid": "8781569410522605068",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce56fe5555555%3A0x79de66da24a2e60c&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce56fe5555555%3A0x79de66da24a2e60c&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.6049263,
+    "longitude": 77.368878
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVVVV5W_lDDkRDOaiJNpm3nk",
+   "provider_id": "/g/1tffxwmx",
+   "rating": 4,
+   "reviews": 2039,
+   "type": "Software company",
+   "types": [
+    "Software company"
+   ],
+   "type_id": "software_company",
+   "type_ids": [
+    "software_company"
+   ],
+   "address": "A20, Block A, Sector 60, Noida, Uttar Pradesh 201309",
+   "country": "India",
+   "open_state": "Open 24 hours",
+   "hours": "Open 24 hours",
+   "operating_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+   },
+   "phone": "0120 400 8000",
+   "website": "https://www.techmahindra.com/",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    }
+   ],
+   "user_review": "\"Comfortable and better office than nsez,\"",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RiioSwAiTbd_tOdJ_8oLVI-J4rNKxC-GFnYjGZ_xKdbNkhDsxSg8EzkBpgHBXt_UpZsVJczEZJI0D3I_6sY8JPZuiuNFAp6aQZURhzvpSPZRLVby6vMNn58FE1R_zuJBle6O8=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/gxq4HHicHcRRboIwAADQE1UwTlJN_AABR3XVgbLZn2YU0laxbWxR5IDeYbcx8X28_6dwzti557ViMuJa87bpbHNlWrlGuRHTF48bC5gF1gvxj3zMcil1cQ_lvqqp29aIQr0pM4A-rnjdL8EqVcfTitB-XVf4LGLbFxwmwzky_DP6dfRgiC0RGxKCMj-eZDSwR4h2pJMdTkMT_H2TQy6Gmyl2JN-U1SO4fWE1hWkyzunQoahtgi1c3Me-7wPxngH1An-1RPI"
+  },
+  {
+   "position": 4,
+   "title": "Tech Mahindra",
+   "place_id": "ChIJXQfNL7foDDkRCZrrsxzH1Ps",
+   "data_id": "0x390ce8b72fcd075d:0xfbd4c71cb3eb9a09",
+   "data_cid": "18146347724674144777",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce8b72fcd075d%3A0xfbd4c71cb3eb9a09&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce8b72fcd075d%3A0xfbd4c71cb3eb9a09&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.5391616,
+    "longitude": 77.3963189
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXQfNL7foDDkRCZrrsxzH1Ps",
+   "provider_id": "/g/113jf7512",
+   "rating": 4.2,
+   "reviews": 1278,
+   "unclaimed_listing": true,
+   "type": "Software company",
+   "types": [
+    "Software company"
+   ],
+   "type_id": "software_company",
+   "type_ids": [
+    "software_company"
+   ],
+   "address": "Sez Tech Mahindra, SDF B - 1, Dadri Main Rd, Noida Special Economic Zone, Phase-2, Noida, Uttar Pradesh 201305",
+   "country": "India",
+   "open_state": "Open 24 hours",
+   "hours": "Open 24 hours",
+   "operating_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Closed"
+   },
+   "website": "http://www.techmahindra.com/",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    }
+   ],
+   "user_review": "\"It was a beautiful office space, the protocols were followed rightfully.\"",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SAQ2OmNVDpHYn1nGqRLKPTdDSxnmW4XdIsrw5qqd8MgzXKbVVpL0iUdOtIZJSstrs7pMzBXd-agqCmPERKY5RPAEGCe25cIfvbmGnGHaDb9zB5BSky0gMD5Vq2N6jZAfwX4Li7=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/czcwk3icHcRLcoIwAADQE0UimvqZcQHiIOUjhYrAThIMqAkJiaVywZ7B23TGt3ivv0ZrodaGcW9mE9p19F4_VN3jjuua6wnumEGFAlgBZVjRqX2uUuvLPLAoc8S-4FPuyiTw42_ipL-cneY58VQ_ICnJMqRj7ldZJgLYHslBe-VnqnSvFiIc7ZyAM5VbFu8Sv0BJbO3cbW0i7F1-KuZyd392qtVoIzu9PSENHZRJM_q4ltZlyOdBu9gMUwghaN5jwP8Bj_FEhw"
+  },
+  {
+   "position": 5,
+   "title": "Tech Mahindra",
+   "place_id": "ChIJiyENjIrlDDkRnfG_dhFCL0Y",
+   "data_id": "0x390ce58a8c0d218b:0x462f421176bff19d",
+   "data_cid": "5057333549334524317",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce58a8c0d218b%3A0x462f421176bff19d&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce58a8c0d218b%3A0x462f421176bff19d&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.629959399999997,
+    "longitude": 77.36805249999999
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJiyENjIrlDDkRnfG_dhFCL0Y",
+   "provider_id": "/g/11h6q7t7rx",
+   "rating": 4.1,
+   "reviews": 677,
+   "type": "BPO Company",
+   "types": [
+    "BPO Company",
+    "Software company"
+   ],
+   "type_id": "bpo_company",
+   "type_ids": [
+    "bpo_company",
+    "software_company"
+   ],
+   "address": "A Block, Block A, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309",
+   "country": "India",
+   "open_state": "Open 24 hours",
+   "hours": "Open 24 hours",
+   "operating_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+   },
+   "phone": "0120 488 6800",
+   "website": "http://www.techmahindra.com/",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    }
+   ],
+   "user_review": "\"Huge premises and very nice working area inside with good amenities.\"",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLV3CEwOiwZVV_7b2TNZKN9BCFWGhq7-AWZODRx9hwDAGzUUwmsyby4_qdXbqHVPXjKW3Zgk0yrOkMdzKk3sAPQ_Vlfafxk-gbGqvQQzX66zxZEsEqEorTwkNxtBqMCpHkT9Oc6g=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/FQkzYXicHcRRDoIgAADQE5GWzWZbH2Zmm6XZDB0_LsmgMBGhUG_YEbpNW-_jfT9UqVYuDaOm1oRwTurqJasO80ZVjZpg_jRIKwGWQBpulN0HJ9lDy_N1fNcIwmJRztIIhZGz9rZZQMUCuBmKN6feoXrjBuP5rJ9yKId5Ia55KXbwmD_CzEKEmUMXs8N1DJkl3WNSwPp2ufUMkDIQ7yQZc9see-RLX_i8SzWLerUWB6_dsdSJsU1WemqaJqD_MWh-KrhGzA"
+  },
+  {
+   "position": 6,
+   "title": "Tech Mahindra Limited",
+   "place_id": "ChIJ____v7boDDkRxHN76hYKBGI",
+   "data_id": "0x390ce8b6bfffffff:0x62040a16ea7b73c4",
+   "data_cid": "7062781209163297732",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce8b6bfffffff%3A0x62040a16ea7b73c4&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce8b6bfffffff%3A0x62040a16ea7b73c4&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.5432177,
+    "longitude": 77.3961456
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ____v7boDDkRxHN76hYKBGI",
+   "provider_id": "/g/11f3vmnmtd",
+   "rating": 4.1,
+   "reviews": 140,
+   "unclaimed_listing": true,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "Tech Mahindra Building 2, Plot 131-133, Noida Special Economic Zone, Block A, Phase-2, Noida, Uttar Pradesh 201305",
+   "country": "India",
+   "open_state": "Open · Closes 12 am",
+   "hours": "Open · Closes 12 am",
+   "operating_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "8:45 am–6 pm",
+    "wednesday": "8:45 am–6 pm",
+    "thursday": "8:45 am–6 pm",
+    "friday": "8:45 am–6 pm",
+    "saturday": "Closed",
+    "sunday": "Closed"
+   },
+   "phone": "0120 617 6000",
+   "website": "http://techmahindra.com/",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance",
+      "Wheelchair-accessible toilet"
+     ]
+    },
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "user_review": "\"They do take virtual interviews which is the best thing to do while hiring.\"",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TrO-wOoy7CZJiD82MGIU2NC4flD2dEth5VPXvqN0sytIDvtOD6GC48-eSp9tKq7mKUIAsSs5_1cBpgAY8ttUs4bKl3XOGYoZfTd_lUo3tDMvsfVOwdSQvnDCHlUXPacrXEOcKl8A=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/rwMuz3icHcRLDoIwFADAE1UQUMHEBVKDSKQYLKIbo-VnUinynhCO6BG8jYmzmO-nRmxhqWmyNieVUpUs3lB0QjVYNDgR6qlVLRABBDQ3Oj1G59gxMjA1LrzL7kFtY-8H3Ig8q5TUyDdYz9I461-RDiMGtEdG575n2aRIWgfD1-IZ8sCFBGbXqVi3lXu2ETlY91CaGfPP6lIe86vkykS676FM2ZAnh76h3lbyLL6JLtswEUrbXQ1TXddJ_V-Q5genzUUT"
+  },
+  {
+   "position": 7,
+   "title": "Tech Mahindra Ltd",
+   "place_id": "ChIJdegrZPjvDDkRRXbeSO_mbwQ",
+   "data_id": "0x390ceff8642be875:0x46fe6ef48de7645",
+   "data_cid": "319728013960705605",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ceff8642be875%3A0x46fe6ef48de7645&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ceff8642be875%3A0x46fe6ef48de7645&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.629585499999997,
+    "longitude": 77.3794353
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdegrZPjvDDkRRXbeSO_mbwQ",
+   "provider_id": "/g/11f332kt41",
+   "rating": 3.9,
+   "reviews": 755,
+   "unclaimed_listing": true,
+   "type": "BPO Company",
+   "types": [
+    "BPO Company"
+   ],
+   "type_id": "bpo_company",
+   "type_ids": [
+    "bpo_company"
+   ],
+   "address": "H-33, Sector 63 Rd, A Block, Sector 63, Noida, Uttar Pradesh 201309",
+   "country": "India",
+   "open_state": "Open 24 hours",
+   "hours": "Open 24 hours",
+   "operating_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+   },
+   "phone": "0120 484 6560",
+   "website": "http://www.techmahindra.com/",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    }
+   ],
+   "user_review": "\"Best ever company in all over India.\"",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QsFcgLCHDQg3-v25kcVih8UXXlAXoBApxMMG0azxs2vm7DHvaXoipu_c91LOUoXnUYBP7A3aXh06tymn_3DHx-mFMgu2snQQjQKColNvQJrXmLhcKro1NcYXeDb9ps-2xbgMe_=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/xxxD33icHc5BjoIwFADQE1UKZFQmmQVKlCjgdIFTVwR_mhal_YQWRC_oGeY2Gjdv_f6fyrnOfnteq8KZRJStGKzoAY0Txs0AtSc7S8AS68XFX3OPmN2AzNZpwmRIxuDrCsdGLUvO25jjKu6mPN_S-jHZYNSLJB1rjk03VBD52aFEbsrT6ncRhzVXdO7u2lRhkk5Eb3I5BNYwdmH7NbbFyHY915mCfY9-AScuknP0ngTTWeai-rn5lFKiPgIxL4U6RV4"
+  },
+  {
+   "position": 8,
+   "title": "Tech Mahindra",
+   "place_id": "ChIJ51o7WwDlDDkRed4acPWYfwA",
+   "data_id": "0x390ce5005b3b5ae7:0x7f98f5701ade79",
+   "data_cid": "35915501957471865",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce5005b3b5ae7%3A0x7f98f5701ade79&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce5005b3b5ae7%3A0x7f98f5701ade79&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.6256222,
+    "longitude": 77.37069679999999
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ51o7WwDlDDkRed4acPWYfwA",
+   "provider_id": "/g/11mdhfdytn",
+   "rating": 3.9,
+   "reviews": 30,
+   "unclaimed_listing": true,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "J9GC+67W, Sushil Marg, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309",
+   "country": "India",
+   "open_state": "Open 24 hours",
+   "hours": "Open 24 hours",
+   "operating_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+   },
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    },
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TKqSrKOge1g6QTRDDDg8HeN20_Jd8_cU84zz4zFIYj3lW0GiMIP-cA1w-ACh3rPBmB9--GAOJ7e3L5xvc5xzX4ASVTimgpnf3qbss0zui99_hYK08zuyTe_03CahoU8IA5wr8LY1PN9hYk=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/rVGO7nicHcRLUoMwAADQEwWCAU2ccRHKiJRKsdAPK0ZjTGiBUAICuWTXvY0zvsW73-QwdPrZtmuJLKGUqPmoec9UO_B2sJhqbNFpwDTQNk2O1ULy-Jr18VZwRzx-5LsgCAR-48kDLNffuGR77BrjmteoOKP6CMPqPUoBo84E6EqiPvUbnwAQ0u36iaONN_8ybzYnl2aHvGpE1_6g65fW0IwVIaUsYojNuOS8hGj1KdUeR9SberwpnDQhsri8TA6EEMj_GWj_ANiaRWs"
+  },
+  {
+   "position": 9,
+   "title": "Tech Mahindra G-15",
+   "place_id": "ChIJi2gU68noDDkR5A-Qke-QUgY",
+   "data_id": "0x390ce8c9eb14688b:0x65290ef91900fe4",
+   "data_cid": "455585870931562468",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce8c9eb14688b%3A0x65290ef91900fe4&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce8c9eb14688b%3A0x65290ef91900fe4&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.5421797,
+    "longitude": 77.4026681
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJi2gU68noDDkR5A-Qke-QUgY",
+   "provider_id": "/g/11cs1sfk2k",
+   "rating": 3.9,
+   "reviews": 15,
+   "unclaimed_listing": true,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "SDF-I/7A, Noida-Dadri Rd, Noida Special Economic Zone, Block A, Phase-2, Noida, Uttar Pradesh 201305",
+   "country": "India",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    },
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ra7FNLqWIHM3mUavF5xSOUh8D5o4v83om0ygNE-VWfqeIA_pfogFfIgG2sr_nGPJfu7uCjNFsMFIdR8DwoALMt8Rev_5_cOLoY0YXzT7_Su4_hxx2jxSX_0ymxckpJoDdRHAl9qA=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/zndHznicHcRBjoIwFADQE1WqSEATF80wVQyggVF01Zha2nGAD7Zg8YZzBG9j4lu8178yptVLx6mUO5EAshK9FncOjRGNmXCoHdlqxDXSDkmL33GRXXyaxl0RbRK3PlwG6tl8d1BB6MF8CFyo8SjTb3Qsyk5EhLUlSFpGcj3Td9as99uy9_uvW0p1QqNrFoQPIHFigkwMzGN8F8MZn0_PH5_l_Zwpa2c3m58YHmvL_9othNdsQ6pFR1aPKcYYqc8cNW_0d0Xu"
+  },
+  {
+   "position": 10,
+   "title": "Tech Mahindra Training Office",
+   "place_id": "ChIJ9_R0X8vlDDkR9X9Xnd_smxU",
+   "data_id": "0x390ce5cb5f74f4f7:0x159becdf9d577ff5",
+   "data_cid": "1557098541348257781",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce5cb5f74f4f7%3A0x159becdf9d577ff5&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce5cb5f74f4f7%3A0x159becdf9d577ff5&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.6273587,
+    "longitude": 77.3760455
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9_R0X8vlDDkR9X9Xnd_smxU",
+   "provider_id": "/g/11h4ttj4s0",
+   "rating": 5,
+   "reviews": 1,
+   "unclaimed_listing": true,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "J9GG+WCV, H Block, Sector 63, Noida, Uttar Pradesh 201309",
+   "country": "India",
+   "extensions": [
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kon3AiWHcfZggByGxyizqA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=63.688557&pitch=0&thumbfov=100",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/L6FKtXicHc3BDcIgFADQbbgJ1Ka1mvyYetENTLwYShF-pIAFS-s0ruU2Ghd47_M2KYW4YyymUak0ocoBZ2XjKgiqvddWiYCRSj-wqWDJPIfOCbT7IJzHHu7elS2eT_J20fqwHOcFX4-WyO4qLSqXICoxSkN1_omj76kOkWRoODGwXZNFZKhLWjdNVW1IwCQNcPJfbn6CgvMvuOw6VQ"
+  },
+  {
+   "position": 11,
+   "title": "Tech Mahindra NSEZ (Main Gate)",
+   "place_id": "ChIJfULWWADpDDkRgx-tjBLIxMM",
+   "data_id": "0x390ce90058d6427d:0xc3c4c8128cad1f83",
+   "data_cid": "14106619914826358659",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce90058d6427d%3A0xc3c4c8128cad1f83&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce90058d6427d%3A0xc3c4c8128cad1f83&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.539217999999998,
+    "longitude": 77.39646499999999
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJfULWWADpDDkRgx-tjBLIxMM",
+   "provider_id": "/g/11ydwc9syq",
+   "rating": 4.7,
+   "reviews": 12,
+   "unclaimed_listing": true,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "58A, Noida Special Economic Zone, Sector 81, Phase-2, Noida, Uttar Pradesh 201305",
+   "country": "India",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance",
+      "Wheelchair-accessible toilet"
+     ]
+    },
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RqL6ilkXYwETCchB7vYr4jXaEZaJFouTNsg01hdid5jFNY1QNkDT1L260ljiVhe-YbFdBkH233MmxEa91AQCZxXE8W7UXDIq9NWScCEjbRFf4kgvfGVjn4BtUNN674j81JtrpR_1_PKrg=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/qb6fvHicHcRLjoIwAADQE1VaYUBMXAgW_40iCrgxWLClIEVaxbmke28zybzF-3641q0aG0bNzQGTktXFUxUdlY0uGj2g8m6wVgGqgDKmJC5_3fCxscu6StIeRz7lnvNKO0skGT5nq0A-I6IYRDwv8x8RkBTtSTWL0GZow1qUJ16A9BrkXrUYmub2_saZi6Z7__xO8Ch2jsls-XBJfKA-FtcwuFkVe93mJ9FYnj4SYjuWGKGV7trwgi67dccmPYIQAv4_Bc0fC7lFqg"
+  },
+  {
+   "position": 12,
+   "title": "Tech Mahindra B1-2-C1 iPolicy",
+   "place_id": "ChIJVXrvagDpDDkRpys0hJPILwU",
+   "data_id": "0x390ce9006aef7a55:0x52fc89384342ba7",
+   "data_cid": "373737829998799783",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce9006aef7a55%3A0x52fc89384342ba7&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce9006aef7a55%3A0x52fc89384342ba7&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.5360327,
+    "longitude": 77.3983993
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVXrvagDpDDkRpys0hJPILwU",
+   "provider_id": "/g/11vyzsl1mt",
+   "unclaimed_listing": true,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "B13, Noida Special Economic Zone, Sector 81, Phase-2, Noida, Uttar Pradesh 201305",
+   "country": "India",
+   "open_state": "Open 24 hours",
+   "hours": "Open 24 hours",
+   "operating_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+   },
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance"
+     ]
+    },
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RXfjTwbnzF7hP4kzAycGlGXbwAE5-xhe5ff7P_-Muq1RxNYdXTUCB-dxRsTfkhweiR9zOinQWQOm5AQ-Emq82AzQ83mK_Ed-n1XUHMY13HszWnkIlGESdqBoy2jpgYXbJ7CjUr=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/tuPoRXicHcRJDoIwFADQE30BkaAmLqpBHOIAQigrE0qhTC1YDNALegZvY-JbvO-H9X0r15pWM3OWC5HX9C3piwjeU97PiGi0vJVAJEgNXaNiWvk4K4Mh4Wpvs_uiUmgibu3iZECOBSOjVpbZ9ydc3p3hj9c4xUG420I6-jLIKjbQwl-pW8G9yLs1FvLAabrlHClvaTbnp5MCN3B4uMSGeZAq4tWxdp1H2m3FNC_bPMbJyd6V4WszGLquA_tPgP8ArHtFIg"
+  },
+  {
+   "position": 13,
+   "title": "Tech Mahindra",
+   "place_id": "ChIJTQ7F9a7nDDkR_aumHlXuLkg",
+   "data_id": "0x390ce7aef5c50e4d:0x482eee551ea6abfd",
+   "data_cid": "5201356669013371901",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce7aef5c50e4d%3A0x482eee551ea6abfd&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x390ce7aef5c50e4d%3A0x482eee551ea6abfd&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 28.5349938,
+    "longitude": 77.34683989999999
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJTQ7F9a7nDDkR_aumHlXuLkg",
+   "provider_id": "/g/11fmlg4d2t",
+   "rating": 4.2,
+   "reviews": 191,
+   "type": "Corporate office",
+   "types": [
+    "Corporate office"
+   ],
+   "type_id": "corporate_office",
+   "type_ids": [
+    "corporate_office"
+   ],
+   "address": "Tower C, Plot No 6, Noida-Greater Noida Expy, Sector 127, Noida, Uttar Pradesh 201313",
+   "country": "India",
+   "open_state": "Permanently closed",
+   "hours": "Permanently closed",
+   "phone": "0120 465 2000",
+   "website": "http://www.techmahindra.com/",
+   "extensions": [
+    {
+     "accessibility": [
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible entrance",
+      "Wheelchair-accessible toilet"
+     ]
+    },
+    {
+     "amenities": [
+      "Restroom"
+     ]
+    }
+   ],
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tz4xKOP7nkTjxC1EjewoZ5tLZABAT1r0ME6GTcgQG7UwkF7k4zGuywniDzZCbVThUJgmc6SydbY3u7NpIc5aKLdFAG7S8_sK2ymVyL7UiNtFJ2k_8W1u-dM9T-3UjjQcCp1Xez=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/GTZPMHicHcRdDoIgAADgE5GSGdXWg1m60qwmWvnSChn-JLjAGV6wM3Sbtr6H7_splGrlwjCehTViQrAn7SR9EcEV5WpERGOwVgIigTSc6FzqOR4m7-BwRLzG1duFm4r2IrNVmDkrB8OXud9MfUzYyUdJX3uongx-p3terofMfaS4SHasIdNY54-r1aGo3RL7HoS55_gont1kMNZNqkOUlJHyduP6NjvDDuT7OQZWUlUn4rbwQodlD03TBMV_AvgPYo1EOg"
+  }
+ ]
+}

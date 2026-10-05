@@ -1,0 +1,488 @@
+{
+ "search_metadata": {
+  "id": "6ac3aa05bf04d550426f89a3",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/X7fSYq323YQ9MzZF2cLMiStXcuJGY3KupAoP2y7IRK4/6ac3aa05bf04d550426f89a3.json",
+  "markdown_endpoint": "https://serpapi.com/searches/X7fSYq323YQ9MzZF2cLMiStXcuJGY3KupAoP2y7IRK4/6ac3aa05bf04d550426f89a3.md",
+  "created_at": "2026-10-05 13:45:41 UTC",
+  "processed_at": "2026-10-05 13:45:41 UTC",
+  "google_news_url": "https://news.google.com/search?q=%22Tech+Mahindra%22+fake+job+offer&hl=en&gl=IN",
+  "raw_html_file": "https://serpapi.com/searches/X7fSYq323YQ9MzZF2cLMiStXcuJGY3KupAoP2y7IRK4/6ac3aa05bf04d550426f89a3.html",
+  "total_time_taken": 1.24
+ },
+ "search_parameters": {
+  "engine": "google_news",
+  "gl": "in",
+  "hl": "en",
+  "q": "\"Tech Mahindra\" fake job offer"
+ },
+ "news_results": [
+  {
+   "position": 1,
+   "title": "Tech Mahindra rejects social media claims of 30,000 layoffs, calls rumours false",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/tech-mahindra-rejects-social-media-claims-of-30-000-layoffs-calls-rumours-false-13854440.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2025/07/20250717041735_tech-mahindra1.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhiRTB6V0VsMlYxZG5Oamt4VFJDZkF4ampCU2dLTWdhNVlJN1NyQVk",
+   "date": "03/09/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-03-09T07:00:00Z"
+  },
+  {
+   "position": 2,
+   "title": "LinkedIn rolls out new tools to tackle fake profiles, false work histories and impersonation",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Pragya Singha"
+    ]
+   },
+   "link": "https://www.livemint.com/technology/apps/linkedin-rolls-out-new-tools-to-tackle-fake-profiles-false-work-histories-and-impersonation-11790235917975.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/09/24/1600x900/logo/linkedin_1790236293313_UupK_1790236299526_8DBK_c1e3b210-13b6-455e-a912-bc54d2d15fdf_p6yh.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNjV05EZVU5RlJXNTNSamRoVFJDZkF4ampCU2dLTWdZQkFJN2lKZ1k",
+   "date": "09/24/2026, 08:27 AM, +0000 UTC",
+   "iso_date": "2026-09-24T08:27:02Z"
+  },
+  {
+   "position": 3,
+   "title": "Tech Mahindra denies rumours of major layoffs, says no proposal under consideration",
+   "source": {
+    "name": "The Economic Times",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://m.economictimes.com/news/company/corporate-trends/tech-mahindra-denies-rumours-of-major-layoffs-says-no-proposal-under-consideration/articleshow/129305279.cms",
+   "thumbnail": "https://m.economictimes.com/thumb/msid-129305612,width-1200,height-900,resizemode-4,imgsize-8496/tech-mahindra-nvidia-partner-to-launch-education-focused-ai-model-under-project-indus.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdkbHBLUzA5T1QyUjJVamRhVFJEZ0F4aUFCU2dLTWdZVm81Ukx0UVk",
+   "date": "03/09/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-03-09T07:00:00Z"
+  },
+  {
+   "position": 4,
+   "title": "Tech Mahindra denies layoff reports; issues statement to NSE",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/tech-mahindra-denies-layoff-reports-issues-statement-to-nse/articleshow/129391757.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-129391768,width-1280,height-720,imgsize-26954,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDNja1JsVWs1aFV6UXlRVVZDVFJDZkF4ampCU2dLTWdhbGdvcE5OUVU",
+   "date": "03/10/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-03-10T07:00:00Z"
+  },
+  {
+   "position": 5,
+   "title": "Tech Mahindra and Nuix Partner to Accelerate Data Protection and Fraud Detection for Enterprises Globally",
+   "source": {
+    "name": "Tech Mahindra",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.techmahindra.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.techmahindra.com/insights/press-releases/tech-mahindra-and-nuix-partner-accelerate-data-protection-and-fraud-detection-enterprises/",
+   "thumbnail": "https://insights.techmahindra.com/inline-images/nuix-1.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJSRXAwY1ROSU16TnlOMFF3VFJERUF4aW1CU2dLTWdhVmtvU3R0UWM",
+   "date": "04/02/2025, 07:00 AM, +0000 UTC",
+   "iso_date": "2025-04-02T07:00:00Z"
+  },
+  {
+   "position": 6,
+   "title": "Onboarding delays at Tech Mahindra; over 1,000 freshers await offer letters",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Debangana Ghosh"
+    ]
+   },
+   "link": "https://www.moneycontrol.com/news/business/information-technology/onboarding-delays-at-tech-mahindra-over-1-000-freshers-await-offer-letters-13858001.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2025/07/20250716112442_tech-mahindra1.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhiRTB6V0VsMlYxZG5Oamt4VFJDZkF4ampCU2dLTWdhNVlJN1NyQVk",
+   "date": "03/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-03-12T07:00:00Z"
+  },
+  {
+   "position": 7,
+   "title": "Amid TCS Nashik row, Tech Mahindra denies religious bias allegations at Mumbai’s Goregaon office",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/city/mumbai/amid-tcs-nashik-row-tech-mahindra-denies-religious-bias-allegations-at-mumbais-goregaon-office/articleshow/130301309.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-130301367,width-1280,height-720,imgsize-20956,resizemode-72,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUNhREYxV1dkWGFGcFlkMHB2VFJDZkF4ampCU2dLTWdrQlVJQW9LaVFzOWdB",
+   "date": "04/16/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-04-16T07:00:00Z"
+  },
+  {
+   "position": 8,
+   "title": "Fake job racket: TechM turns to digital signatures to counter hiring scams",
+   "source": {
+    "name": "Firstpost",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.firstpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sunainaa Chadha"
+    ]
+   },
+   "link": "https://www.firstpost.com/business/fake-job-racket-techm-turns-to-digital-signatures-to-counter-hiring-scams-1323821.html",
+   "thumbnail": "https://images.firstpost.com/wp-content/uploads/2012/09/mahindra-satyam_Reuters1.jpg?im=Resize,width=720,aspect=fit,type=normal",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1SRUpUVFdaalVHRjZWM3BQVFJEZ0F4aUFCU2dLTWdhRjRJYVl6QU0",
+   "date": "01/06/2014, 08:00 AM, +0000 UTC",
+   "iso_date": "2014-01-06T08:00:00Z"
+  },
+  {
+   "position": 9,
+   "title": "28 U.S. Companies That Sponsor H-1B Visas",
+   "source": {
+    "name": "Built In",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://builtin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Olivia Mcclure"
+    ]
+   },
+   "link": "https://builtin.com/diversity-inclusion/companies-that-sponsor-h1b-visas",
+   "thumbnail": "https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=480,h=300,q=90/sites/www.builtin.com/files/companies-that-sponsor-h1b-visas.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUhNa1J0UmtFM1puRm1kR0pWVFJDc0FoamdBeWdLTWdtVkFvb0lTbVE5SWdN",
+   "date": "11/14/2025, 08:00 AM, +0000 UTC",
+   "iso_date": "2025-11-14T08:00:00Z"
+  },
+  {
+   "position": 10,
+   "title": "ED raids 15 locations in 'fake govt job' scam, gang paid initial salaries to gain trust",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Mausam Jha"
+    ]
+   },
+   "link": "https://www.livemint.com/news/india/ed-raids-15-locations-in-fake-govt-job-scam-gang-paid-initial-salaries-to-gain-trust-11767851472642.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/01/08/1600x900/logo/Tamil-Nadu_1767852816660_1767852816829.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTVkR2hyZFhKT1dHTkxkSE51VFJDZkF4ampCU2dLTWdB",
+   "date": "01/08/2026, 08:00 AM, +0000 UTC",
+   "iso_date": "2026-01-08T08:00:00Z"
+  },
+  {
+   "position": 11,
+   "title": "Hyderabad: Two arrested for duping aspirants by promising jobs in IT companies",
+   "source": {
+    "name": "The Indian Express",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://indianexpress.com/article/cities/hyderabad/hyderabad-two-arrested-for-duping-job-aspirants-by-promising-jobs-in-it-companies-6276397/",
+   "thumbnail": "https://images.indianexpress.com/2020/02/arrest-chan.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDFWR1UwYzBGM2QxVktjMEZNVFJDZEF4am5CU2dLTWdZNVFvTHpwQVU",
+   "date": "02/19/2020, 08:00 AM, +0000 UTC",
+   "iso_date": "2020-02-19T08:00:00Z"
+  },
+  {
+   "position": 12,
+   "title": "How scammers are cashing in on India's job problem",
+   "source": {
+    "name": "The Economic Times",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://m.economictimes.com/jobs/breaking-the-code-of-job-racketeers/articleshow/65715370.cms",
+   "thumbnail": "https://m.economictimes.com/thumb/msid-65715681,width-1200,height-900,resizemode-4,imgsize-481083/job-racket.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iNkNnNVRZVXBZZFUxWFNGQXlUR3hmVFJEZ0F4aUFCU2dLTWc0QkFZYXN1U1UxNFFvMExZNmNJZw",
+   "date": "09/07/2018, 07:00 AM, +0000 UTC",
+   "iso_date": "2018-09-07T07:00:00Z"
+  },
+  {
+   "position": 13,
+   "title": "₹1,000 crore cyber crime racket: CBI chargesheets four Chinese, 111 shell companies unmasked",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/news/india/rs-1-000-crore-cyber-crime-racket-cbi-chargesheets-four-chinese-111-shell-companies-unmasked-11765691376275.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2025/12/14/1600x900/logo/The-CBI-has-been-investigating-multiple-digital-ar_1765691411532_1765691419389.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBabWRRWWtkc1JVSmlhbkpoVFJDZkF4ampCU2dLTWdhdEJJYk9GUWc",
+   "date": "12/14/2025, 08:00 AM, +0000 UTC",
+   "iso_date": "2025-12-14T08:00:00Z"
+  },
+  {
+   "position": 14,
+   "title": "IIM graduate scammed with job offer, spends ₹75,000 to relocate to Delhi, no office found: ‘CEO blocked me’",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sneha Biswas"
+    ]
+   },
+   "link": "https://www.livemint.com/news/trends/iim-graduate-scammed-with-job-offer-spends-rs-75-000-to-relocate-to-delhi-no-office-found-ceo-blocked-me-11779332664271.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/05/21/1600x900/logo/pexels-photo-12526862_1779334682408_1779334691828_6683f685-df57-4fcb-86f8-e5a3143b44aa.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVJZWGszVmtSMmFXZHJkRU5WVFJDZkF4ampCU2dLTWdB",
+   "date": "05/21/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-05-21T07:00:00Z"
+  },
+  {
+   "position": 15,
+   "title": "Govt warns against fake SMS peddling job offers at NIC",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Gulveen Aulakh"
+    ]
+   },
+   "link": "https://www.livemint.com/news/india/govt-warns-against-fake-sms-peddling-job-offers-at-nic-11667542988545.html",
+   "thumbnail": "https://images.livemint.com/img/2022/11/04/1600x900/1f767748-9fe5-11ec-9dea-cf986250bae9_1649177423024_1667543884538_1667543884538.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNURjRGRoVEdWbVNXNU9ObkZ3VFJDZkF4amlCU2dLTWdtdElZUXh0V00xYVFJ",
+   "date": "11/04/2022, 07:00 AM, +0000 UTC",
+   "iso_date": "2022-11-04T07:00:00Z"
+  },
+  {
+   "position": 16,
+   "title": "Job scam: Here are 5 ways to identify a fake job offer letter",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/technology/tech-news/job-scam-here-are-5-ways-to-identify-a-fake-job-offer-letter-11665628755479.html",
+   "thumbnail": "https://images.livemint.com/img/2022/10/13/1600x900/job_scam_1665631164620_1665631181690_1665631181690.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTRSRXcxU0VNMGQxbDBkSGQ0VFJDZkF4amlCU2dLTWdhSlZJYUdQZ1E",
+   "date": "10/13/2022, 07:00 AM, +0000 UTC",
+   "iso_date": "2022-10-13T07:00:00Z"
+  },
+  {
+   "position": 17,
+   "title": "Railway job scam: 28 unemployed youth duped of over ₹2.5 crore in Delhi",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/news/india/railway-job-scam-28-unemployed-youth-duped-of-over-rs-2-5-crore-in-delhi-11671507500380.html",
+   "thumbnail": "https://images.livemint.com/img/2022/12/20/1600x900/Indian_railways_1671508637266_1671508637565_1671508637565.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNW9NMVEyTm5GWll5MXJXV2Q0VFJDZkF4ampCU2dLTWdrQklJeTF3R1JaeHdJ",
+   "date": "12/20/2022, 08:00 AM, +0000 UTC",
+   "iso_date": "2022-12-20T08:00:00Z"
+  },
+  {
+   "position": 18,
+   "title": "Infosys tweaks hiring process, not to send job offer letters via email; here’s the reason",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/companies/news/infosys-tweaks-hiring-process-not-to-send-job-offer-letters-via-email-here-s-the-reason-11728637302409.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2024/10/11/1600x900/INFOSYS-MOVES--0_1707982092330_1728637329449.JPG",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWxkek5ZYUZwa1JHbFFlWGxPVFJDZkF4ampCU2dLTWdhUmdvd3NQUVU",
+   "date": "10/11/2024, 07:00 AM, +0000 UTC",
+   "iso_date": "2024-10-11T07:00:00Z"
+  },
+  {
+   "position": 19,
+   "title": "Fake job scam alert! Amazon HR imposter steals ₹3.42 lakh in Mumbai. Here’s what happened",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/technology/tech-news/fake-job-scam-alert-amazon-hr-imposter-steals-rs-3-42-lakh-in-mumbai-here-s-what-happened-11682319289736.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2023/04/24/1600x900/3-0-58230984-2BJP1XN-0_1679807674932_1682320128848.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNURjaTFZY2xwbVYydHhkVnBpVFJDZkF4ampCU2dLTWdhQmNZelRNQWM",
+   "date": "04/24/2023, 07:00 AM, +0000 UTC",
+   "iso_date": "2023-04-24T07:00:00Z"
+  },
+  {
+   "position": 20,
+   "title": "Shine.com cautions people against fake job offers",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/companies/news/shinecom-cautions-people-against-fake-job-offers-11658380020956.html",
+   "thumbnail": "https://images.livemint.com/img/2022/07/21/1600x900/Jobs_1658381434548_1658381434757_1658381434757.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZRWEl6WlZaU1JIVkhUelpWVFJDZkF4ampCU2dLTWdhQkVaUkVtUWc",
+   "date": "07/21/2022, 07:00 AM, +0000 UTC",
+   "iso_date": "2022-07-21T07:00:00Z"
+  },
+  {
+   "position": 21,
+   "title": "Satyam Scam Case Study: How Tech Mahindra Restored The Lost Glory Of Satyam Computers - The Indian Wire",
+   "source": {
+    "name": "The Indian Wire",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.theindianwire.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.theindianwire.com/business/satyam-scam-case-study-how-tech-mahindra-restored-the-lost-glory-of-satyam-computers-344027/",
+   "thumbnail": "https://www.theindianwire.com/wp-content/uploads/2023/12/Satyam-Scam.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVSVjlMVFZSbGNtTk9UVkZDVFJEUkF4aVRCU2dLTWdhVklvQ3RtUWs",
+   "date": "12/20/2023, 08:00 AM, +0000 UTC",
+   "iso_date": "2023-12-20T08:00:00Z"
+  },
+  {
+   "position": 22,
+   "title": "KTR slams CM for false narratives on job creation",
+   "source": {
+    "name": "Telangana Today",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://telanganatoday.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://telanganatoday.com/ktr-slams-cm-for-false-narratives-on-job-creation",
+   "thumbnail": "https://media.telanganatoday.com/wp-content/uploads/2024/05/KTR-5.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVViVWt5YWpac09GZE9MVWxVVFJDTUF4aUhCaWdLTWdrQlFJcEF0Q1c0YVFJ",
+   "date": "05/25/2024, 07:00 AM, +0000 UTC",
+   "iso_date": "2024-05-25T07:00:00Z"
+  },
+  {
+   "position": 23,
+   "title": "Job racket: Three held for duping youth of Rs 1.2 crore",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/city/hyderabad/job-racket-three-held-for-duping-youth-of-rs-1-2-crore/articleshow/64595333.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-64595402,width-1280,height-720,resizemode-72/64595402.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUxRaTFxU1ZGd2FuWXphMTlLVFJDZkF4ampCU2dLTWdB",
+   "date": "06/15/2018, 07:00 AM, +0000 UTC",
+   "iso_date": "2018-06-15T07:00:00Z"
+  },
+  {
+   "position": 24,
+   "title": "Nasscom Denies Report Of Job Cuts in IT Sector, Says More Will be Created",
+   "source": {
+    "name": "India.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.india.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.india.com/business/nasscom-says-it-industry-will-continue-to-be-a-net-creator-of-jobs-4749713/",
+   "thumbnail": "https://static.india.com/wp-content/uploads/2021/06/Nasscom.jpg?impolicy=Medium_Widthonly&w=400",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNHpTRlZJVlZrMmFWQkNiRzl1VFJDTEFoaVFBeWdLTWdB",
+   "date": "06/19/2021, 07:00 AM, +0000 UTC",
+   "iso_date": "2021-06-19T07:00:00Z"
+  },
+  {
+   "position": 25,
+   "title": "Satyam Scandal Impact: From Corporate Fraud to Tax Reform",
+   "source": {
+    "name": "taxscan.in",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.taxscan.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Kavi Priya"
+    ]
+   },
+   "link": "https://www.taxscan.in/satyam-scandal-impact-from-corporate-fraud-to-tax-reform/446075",
+   "thumbnail": "https://documents.taxscan.in/images/2024/1368561-cover-Satyam-Scandal-Impact-Corporate-Fraud-Ramalinga-Raju-Corporate-fraud-in-Satyam-case-taxscan.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVhbWh6YkhabVVXdDVWa2hYVFJDUkF4ajhCU2dLTWdZWmNwTDFzQVk",
+   "date": "10/13/2024, 07:00 AM, +0000 UTC",
+   "iso_date": "2024-10-13T07:00:00Z"
+  },
+  {
+   "position": 26,
+   "title": "Wipro employee and 6 others held for duping job seekers of Rs 15 lakh",
+   "source": {
+    "name": "India.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.india.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.india.com/business/wipro-employee-and-6-others-held-for-duping-job-seekers-of-rs-15-lakh-20765/",
+   "thumbnail": "https://static.india.com/wp-content/uploads/2014/03/wipro.jpg?impolicy=Medium_Resize&w=1200&h=800",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTZZbFpIV1RCTmFVaE1TRlpTVFJERUF4aW1CU2dLTWdB",
+   "date": "03/07/2014, 08:00 AM, +0000 UTC",
+   "iso_date": "2014-03-07T08:00:00Z"
+  },
+  {
+   "position": 27,
+   "title": "30,000 Layoffs At Tech Mahindra? Company Issues Official Clarification On AI Job Fears",
+   "source": {
+    "name": "ABP Live English",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://news.abplive.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://news.abplive.com/business/tech-mahindra-denies-mass-layoffs-rumours-social-media-claims-clarification-1830604",
+   "thumbnail": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/10/1e962bf8393e3bdf775090809420f15e17731213725531379_original.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxkRTQxTUZWS1RYZ3lNMWhKVFJDZkF4ampCU2dLTWdhQllvSnBxUWM",
+   "date": "03/10/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-03-10T07:00:00Z"
+  },
+  {
+   "position": 28,
+   "title": "More Than 60% Employees Are Muslims: Religious Bias Allegation At Tech Mahindra Goregaon BPO Amid TCS Nashik",
+   "source": {
+    "name": "Free Press Journal",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.freepressjournal.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sarah Lobo"
+    ]
+   },
+   "link": "https://www.freepressjournal.in/mumbai/employees-message-to-advocate-ashitosh-dubey-flags-alleged-hiring-bias-policy-gaps-at-tech-mahindras-goregaon-bpo-unit-see-message",
+   "thumbnail": "https://media.assettype.com/freepressjournal/2026-04-12/951sciic/TECH-MAHINDRA-EMPLOYEE-MESSAGE-TO-ADVOCATE-FLAGS-HIRINGPolicy-Concerns.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHllQzFNV0RCRVFYUjJZVzVrVFJDZkF4ampCU2dLTWdZVm9JeXlRQVU",
+   "date": "04/13/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-04-13T07:00:00Z"
+  },
+  {
+   "position": 29,
+   "title": "Beware of this Job Scam Carried Out in the name of IndiGo Airlines… |",
+   "source": {
+    "name": "english.factcrescendo.com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://english.factcrescendo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Mary Princy Deepa"
+    ]
+   },
+   "link": "https://english.factcrescendo.com/2024/06/08/indigo-airlines-job-offer-not-real-but-scam/",
+   "thumbnail": "http://english.factcrescendo.com/wp-content/uploads/2024/06/Hindi_20240608_220742_0000-1024x576.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZZa2xSUjJwcVYxQTVTR0p5VFJDZkF4ampCU2dLTWdtSklZeG5KcWMwcFFJ",
+   "date": "06/08/2024, 07:00 AM, +0000 UTC",
+   "iso_date": "2024-06-08T07:00:00Z"
+  },
+  {
+   "position": 30,
+   "title": "Pune: PCET And Nutan Group Colleges Secure 1,500+ Jobs; Highest Package ₹61L At Uber",
+   "source": {
+    "name": "Free Press Journal",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.freepressjournal.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.freepressjournal.in/pune/pune-pcet-and-nutan-group-colleges-secure-1500-jobs-highest-package-61l-at-uber",
+   "thumbnail": "https://media.assettype.com/freepressjournal/2025-08-01/uza0gajn/WhatsApp-Image-2025-08-01-at-2.03.28-PM.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUZNRFl3YlZOTFYzZ3dlRVJFVFJEZ0F4aUFCU2dLTWdZQm9JeEpRUVU",
+   "date": "08/01/2025, 07:00 AM, +0000 UTC",
+   "iso_date": "2025-08-01T07:00:00Z"
+  }
+ ],
+ "menu_links": [
+  {
+   "title": "India",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE"
+  },
+  {
+   "title": "World",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Your local news",
+   "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+  },
+  {
+   "title": "Business",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Technology",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Entertainment",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Sports",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Science",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Health",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE"
+  }
+ ]
+}

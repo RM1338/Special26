@@ -1,0 +1,677 @@
+{
+ "search_metadata": {
+  "id": "6ac3a9fc018c483fd71480fc",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/137zwwOpdApbHm5HjosTrWmZslUp0AJBWenmmKat7Tg/6ac3a9fc018c483fd71480fc.json",
+  "markdown_endpoint": "https://serpapi.com/searches/137zwwOpdApbHm5HjosTrWmZslUp0AJBWenmmKat7Tg/6ac3a9fc018c483fd71480fc.md",
+  "pixel_position_endpoint": "https://serpapi.com/searches/137zwwOpdApbHm5HjosTrWmZslUp0AJBWenmmKat7Tg/6ac3a9fc018c483fd71480fc.json_with_pixel_position",
+  "created_at": "2026-10-05 13:45:32 UTC",
+  "processed_at": "2026-10-05 13:45:32 UTC",
+  "google_url": "https://www.google.com/search?q=%22Tech+Mahindra%22&oq=%22Tech+Mahindra%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+  "raw_html_file": "https://serpapi.com/searches/137zwwOpdApbHm5HjosTrWmZslUp0AJBWenmmKat7Tg/6ac3a9fc018c483fd71480fc.html",
+  "total_time_taken": 7.91
+ },
+ "search_parameters": {
+  "engine": "google",
+  "q": "\"Tech Mahindra\"",
+  "google_domain": "google.com",
+  "hl": "en",
+  "gl": "in",
+  "device": "desktop"
+ },
+ "search_information": {
+  "query_displayed": "\"Tech Mahindra\"",
+  "total_results": 2540000,
+  "time_taken_displayed": 0.47,
+  "organic_results_state": "Results for exact spelling"
+ },
+ "knowledge_graph": {
+  "title": "Tech Mahindra Americas inc.",
+  "type": "Corporate office in Plano, Texas",
+  "entity_type": "local_nav",
+  "kgmid": "/g/11fn2qlj3y",
+  "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/11fn2qlj3y&hl=en-IN&q=Tech+Mahindra+Americas+inc.",
+  "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en-IN&kgmid=%2Fg%2F11fn2qlj3y&q=Tech+Mahindra+Americas+inc.",
+  "place_id": "ChIJSQkqFPMjTIYRetocCKpRxEo",
+  "website": "http://www.techmahindra.com/",
+  "local_map": {
+   "image": "https://serpapi.com/searches/6ac3a9fc018c483fd71480fc/images/2qCQkWlJhySJm1Zku0P_sQ10RVJyDLiQzmIpBV3UnnI.webp",
+   "link": "https://www.google.com/maps/place/Tech+Mahindra+Americas+inc./data=!4m2!3m1!1s0x0:0x4ac451aa081cda7a?sa=X&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ_BJ6BAgrEAA&hl=en&gl=in"
+  },
+  "rating": 4.3,
+  "review_count": 52,
+  "address": "5850 Granite Pkwy Ste 1200, Plano, TX 75024, United States",
+  "address_links": [
+   {
+    "text": "Address",
+    "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&q=tech+mahindra+americas+inc.+address&ludocid=5387520844964354682&sa=X&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ6BN6BAglEAI"
+   }
+  ],
+  "phone": "+1 214-974-9907",
+  "phone_links": [
+   {
+    "text": "Phone",
+    "link": "https://www.google.com/search?sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&q=tech+mahindra+americas+inc.+phone&ludocid=5387520844964354682&sa=X&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ6BN6BAgmEAI"
+   }
+  ],
+  "raw_hours": "Opens soon · 9 am",
+  "hours": {
+   "monday": {
+    "opens": "9 am",
+    "closes": "5 pm"
+   },
+   "tuesday": {
+    "opens": "9 am",
+    "closes": "5 pm"
+   },
+   "wednesday": {
+    "opens": "9 am",
+    "closes": "5 pm"
+   },
+   "thursday": {
+    "opens": "9 am",
+    "closes": "5 pm"
+   },
+   "friday": {
+    "opens": "9 am",
+    "closes": "5 pm"
+   },
+   "saturday": {
+    "opens": "Closed"
+   },
+   "sunday": {
+    "opens": "Closed"
+   }
+  },
+  "profiles": [
+   {
+    "name": "Facebook",
+    "link": "https://www.facebook.com/@TechMahindra/",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22",
+    "image": "https://ssl.gstatic.com/kpui/social/fb_32x32.png"
+   },
+   {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/techmahindra_official/",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22",
+    "image": "https://ssl.gstatic.com/kpui/social/instagram_32x32.png"
+   },
+   {
+    "name": "YouTube",
+    "link": "https://www.youtube.com/channel/UCEWNj8sgWiJ5OjENhcmr8Sg",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22",
+    "image": "https://ssl.gstatic.com/kpui/social/youtube_32x32.png"
+   },
+   {
+    "name": "X (Twitter)",
+    "link": "https://twitter.com/tech_mahindra",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22",
+    "image": "https://ssl.gstatic.com/kpui/social/x_32x32.png"
+   }
+  ]
+ },
+ "inline_images": [
+  {
+   "source": "https://www.mahindra.com/news-room/press-release/en/tech-mahindra-reports-ebit-of-rupees-1892-crores-up-40.1-percent-yoy-new-deal-wins-at-usd-1096-mn-up-47-percent-yoy-up-34-percent-qoq",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJi6zYyxIHoCsnjNa7xGu56sgPefTnREHWW8YUBxyGwB0R3U8LxEuC40k&s",
+   "original": "https://www.mahindra.com/sites/default/files/social-thumbnail/TM_Logo_Color_Pos_RGB%20%282%29.webp",
+   "title": "Tech Mahindra reports EBIT of ₹ 1,892 Crores, up 40.1% YoY ...",
+   "source_name": "Mahindra"
+  },
+  {
+   "source": "https://ec.linkedin.com/company/tech-mahindra?trk=ppro_cprof",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ235f42RHEZfHU20XvcH8va4xK1zdc-G8JXv8__VBLvWDlsmNFZqbHeLk&s",
+   "original": "https://media.licdn.com/dms/image/v2/D5622AQFepOyhbdyu0Q/feedshare-shrink_800/B56aA94VJRJ4Ac-/0/1787744572262?e=2147483647&v=beta&t=SLU-XeeUGd0l7GM1q8_Hzmtru9mrZenNy-ngpesEp9k",
+   "title": "Tech Mahindra | LinkedIn",
+   "source_name": "LinkedIn"
+  },
+  {
+   "source": "https://www.youtube.com/channel/UCEWNj8sgWiJ5OjENhcmr8Sg/videos",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8zK3IGLNWnFi1Foj2i7sBnQ_NISYJeoTdS6IPppr6E1rL_Q52lQ9ozRA&s",
+   "original": "https://yt3.googleusercontent.com/PJ8AvF_Y2uywYZHchjAMrOzpX5HZQEFjbWhAb_SAv69iDtA2T0DSkIqoh0QG8ZqC6dS_ggvKodc=s160-c-k-c0x00ffffff-no-rj",
+   "title": "Tech Mahindra - YouTube",
+   "source_name": "YouTube"
+  },
+  {
+   "source": "https://ga.linkedin.com/company/tech-mahindra?trk=ppro_cprof",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk6dLkvY9OA76R96IJMscFo73StVuRc3TPmvxmLknK_9jyZABLSBJeF0Q&s",
+   "original": "https://media.licdn.com/dms/image/v2/D5605AQE8bNIkfK2f9A/videocover-high/B56Z.2qIJDHUBQ-/0/1785475927924?e=2147483647&v=beta&t=rqf1bVsZx50hKZcP8Pd_HshdBnIpu7FkWlJf2UEhyn0",
+   "title": "Tech Mahindra | LinkedIn",
+   "source_name": "ga.linkedin.com"
+  },
+  {
+   "source": "https://wateractionhub.org/organizations/855/d/tech-mahindra/",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0NEsN7h4CQkomsGVVQ--CnRAwf4fAE0MM0yYOUmH8-1oYwrzuTn1q6g&s",
+   "original": "https://wateractionhubfrontdoor-d6dwaqhbgwebcfg2.z01.azurefd.net/media/CACHE/images/organizations/2023/07/12/Logo-True-Colors-original/c6e7652544d44a8c60998efc52870599.png",
+   "title": "Water Action Hub | Tech Mahindra",
+   "source_name": "Water Action Hub"
+  },
+  {
+   "source": "https://x.com/tech_mahindra?lang=es",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR07Bwaj_86bHUL9onqvO6PtXYgG7Gy3TXzWfoa5XIj8sZJdGFBW_XQ7og&s",
+   "original": "https://pbs.twimg.com/media/HTTxDpIasAAgK0y?format=webp&name=large",
+   "title": "Tech Mahindra (@tech_mahindra) / X",
+   "source_name": "X"
+  },
+  {
+   "source": "https://www.ptc.com/en/partners/partner-search/tech-mahindra-limited?srsltid=AU7gw4XFUtSXB0rtK6EG13UhlZcQc_k9cadh4ATbQ7918zSA1ZyZgnH2",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUygdgUrQDMQ-USfaX5T3aZ61jjD1hkFaEPtv0c_ShGH9wAJa9UvEynNksg&s",
+   "original": "https://ptc.my.salesforce.com/servlet/servlet.ImageServer?id=0155A00000A7JTNQA3&oid=00DA0000000YLPa",
+   "title": "TECH MAHINDRA LIMITED",
+   "source_name": "PTC"
+  },
+  {
+   "source": "https://www.linkedin.com/company/tech-mahindra/life",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpS47-PpvvcqZDXM4a9qhXJ_Cum3RpybrBH8xIDH6jROZ9yXIT2wmdpAc&s",
+   "original": "https://media.licdn.com/dms/image/v2/D563DAQHZrQs-WxvlkA/image-scale_191_1128/B56Zp7sxIdH8Ak-/0/1763011925582/tech_mahindra_cover?e=2147483647&v=beta&t=5frnA_bLdUhq6KDjJ6KhFFqxdUDVPiCOaU29b8zo4Dc",
+   "title": "Tech Mahindra: Culture | LinkedIn",
+   "source_name": "LinkedIn"
+  },
+  {
+   "source": "https://www.zycus.com/company/strategic-partners/tech-mahindra",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFS7YOwbYihsmBgGeaT68uyBjiRw4ClEUjVsPNhNM4FnvzjqL7OzEQ_fc&s",
+   "original": "https://www.zycus.com/wp-content/uploads/2025/09/New-Project-7.webp",
+   "title": "Zycus Strategic Partners: Tech Mahindra",
+   "source_name": "Zycus"
+  }
+ ],
+ "inline_videos": [
+  {
+   "position": 1,
+   "title": "Tech Mahindra Communications Experience Center (CEC) ...",
+   "link": "https://www.youtube.com/watch?v=KaBcqGIRGSE",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUUnT5ErDnlz2hNBtfbOVEV5D-o2iyvjx3KqoTTB1Fz7AfGC9fNkZkdg&s",
+   "channel": "Tech Mahindra",
+   "duration": "2:05",
+   "platform": "YouTube",
+   "date": "14 May 2026"
+  },
+  {
+   "position": 2,
+   "title": "Tech Mahindra 's Silicon Engineering Services",
+   "link": "https://www.youtube.com/watch?v=_I0R2DRnnRw",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuNYSuM-NbT86lZKrVwACTrSTjt3yfPjfN4Vr_vv0bnXWtJ6oxJC6c1w&s",
+   "channel": "Tech Mahindra",
+   "duration": "2:57",
+   "platform": "YouTube",
+   "date": "18 Dec 2024",
+   "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRHCzQWPMyFOvRbyUq0FDAzUgRMVO_3SbIoag"
+  },
+  {
+   "position": 3,
+   "title": "Adaptive Manufacturing with Tech Mahindra | Scale at Speed",
+   "link": "https://www.youtube.com/watch?v=EbnmGxzx8IM",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEOc2KZAYv_NLUwuR85ZaJhed7YNpG6G4x7UohSDmhC4sKGmrR2gj1A&s",
+   "channel": "Tech Mahindra",
+   "duration": "2:16",
+   "platform": "YouTube",
+   "date": "5 Aug 2024"
+  }
+ ],
+ "related_questions": [
+  {
+   "question": "What is Tech Mahindra known for?",
+   "type": "ai_overview",
+   "page_token": "NPtXqnicHZBBUoMwFEDHy7i0QKmOnek4EwktKLFAfgJsnJC0pZAA2lpKd97FU3kaO67f5r33_aP3bfN7c6qOx_4wn0yGYbjbdd1Ob-5kZybiMLZyIoXWpZDN_P7h3n7aygX-CtDzR4Bi6HvmJRZdqogYcPM2rAUvaOnMImr5bQyJlfDzHlqkReaP3MTjKycxb_waPMJY0wepV7xIir4Ko31lV0E-VSJzHjNh4xldhnQDhVvSYs29MIqbKgcapmxaVRSrdTplDlzImnBykMv-kJv8WOLdSP0eCBAXHDvc1NgiqZ3kWaijqxO9KHplnmqlHWk_gBo1CrQpgHCwCN4wleBKIdKGOM-SiFj2ABd2VisSl3Aer66IoG5_bbvIWhvIWMANdtMVMm-scVmtX4mthXJCXzT9Z0xVq4bbrTwtprf_PxfvW3Oc95_d7g-NdoLf",
+   "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=NPtXqnicHZBBUoMwFEDHy7i0QKmOnek4EwktKLFAfgJsnJC0pZAA2lpKd97FU3kaO67f5r33_aP3bfN7c6qOx_4wn0yGYbjbdd1Ob-5kZybiMLZyIoXWpZDN_P7h3n7aygX-CtDzR4Bi6HvmJRZdqogYcPM2rAUvaOnMImr5bQyJlfDzHlqkReaP3MTjKycxb_waPMJY0wepV7xIir4Ko31lV0E-VSJzHjNh4xldhnQDhVvSYs29MIqbKgcapmxaVRSrdTplDlzImnBykMv-kJv8WOLdSP0eCBAXHDvc1NgiqZ3kWaijqxO9KHplnmqlHWk_gBo1CrQpgHCwCN4wleBKIdKGOM-SiFj2ABd2VisSl3Aer66IoG5_bbvIWhvIWMANdtMVMm-scVmtX4mthXJCXzT9Z0xVq4bbrTwtprf_PxfvW3Oc95_d7g-NdoLf",
+   "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBUZWNoIE1haGluZHJhIGtub3duIGZvcj8iLCJsayI6IkdpTmxlSEJzWVdsdUlHRmliM1YwSUhSbFkyZ2diV0ZvYVc1a2NtRWdZMjl0Y0dGdWVRIiwiYnMiOiJjMjNPc1E2Q01CQ0E0YmplNUtpTm1rc1VINkFMWXdmandHQllURG9mV0d4amFVa3RRZDdlR0dRUW5PLTdfdzR5UUtrcG9ubmlWWlVhTDZTTnV3WENoX09kdzhvSHdSTzJWNl9Ha25GSWhXOGp4by1zUjFuNnVpSFhnNEN0MVAyOFZKRzF4dDBGMzdGTk40RGZ3QmRBQ211cF9UeHdPdWVDTTdicWh1SGt1dktRUTVKTmx3aURhdHBJaFZYamg0SWYyV0VXLUFPWGl6YyIsImlkIjoiZmNfQTZyRGF0TDdNcFM1cXRzUG1McnEwQTRfNiJ9",
+   "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBUZWNoIE1haGluZHJhIGtub3duIGZvcj8iLCJsayI6IkdpTmxlSEJzWVdsdUlHRmliM1YwSUhSbFkyZ2diV0ZvYVc1a2NtRWdZMjl0Y0dGdWVRIiwiYnMiOiJjMjNPc1E2Q01CQ0E0YmplNUtpTm1rc1VINkFMWXdmandHQllURG9mV0d4amFVa3RRZDdlR0dRUW5PLTdfdzR5UUtrcG9ubmlWWlVhTDZTTnV3WENoX09kdzhvSHdSTzJWNl9Ha25GSWhXOGp4by1zUjFuNnVpSFhnNEN0MVAyOFZKRzF4dDBGMzdGTk40RGZ3QmRBQ211cF9UeHdPdWVDTTdicWh1SGt1dktRUTVKTmx3aURhdHBJaFZYamg0SWYyV0VXLUFPWGl6YyIsImlkIjoiZmNfQTZyRGF0TDdNcFM1cXRzUG1McnEwQTRfNiJ9"
+  },
+  {
+   "question": "Why is Tech Mahindra falling?",
+   "type": "ai_overview",
+   "page_token": "W-aRQ3icHdDPToMwAIDx-DIeXUudf5YsJrjWjdgqhZbRi2HtNhxtQcHBuPkuPpVP4-L9-12-7x_77qvfi2PZdU07m0z6vr_a1_Xebq907SZFe_J6ogtrN4WuZje3N_Bhp-f4axU-fqzCWDSNXHCQIOnMgSmJuKLLatyA5quwGmp4nzGcwxgYTvEQGGkyUymsU55oQnwRQJxVXZUA9qHSCHFirws3JZs0RklgLMvqgK5XHZccFIgOxkdHjqIyT-npbF0Cutetk89bsurpQkYpuYOCKJ54wlXGdsoNPgd3iD8NjLs20E6fXQvpGAXn7kVgMohDKbdLruRYxmqtXuiCh7g0IfMRztecMgB7McrBLFm8EcNJp2HIwvo9FnzUB-sEuG9zZCLhTUE9vuZPtpGSUIOnnqVkqjBcm_5yp49zdPn_c_62c92s-az3fxOsgdw",
+   "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=W-aRQ3icHdDPToMwAIDx-DIeXUudf5YsJrjWjdgqhZbRi2HtNhxtQcHBuPkuPpVP4-L9-12-7x_77qvfi2PZdU07m0z6vr_a1_Xebq907SZFe_J6ogtrN4WuZje3N_Bhp-f4axU-fqzCWDSNXHCQIOnMgSmJuKLLatyA5quwGmp4nzGcwxgYTvEQGGkyUymsU55oQnwRQJxVXZUA9qHSCHFirws3JZs0RklgLMvqgK5XHZccFIgOxkdHjqIyT-npbF0Cutetk89bsurpQkYpuYOCKJ54wlXGdsoNPgd3iD8NjLs20E6fXQvpGAXn7kVgMohDKbdLruRYxmqtXuiCh7g0IfMRztecMgB7McrBLFm8EcNJp2HIwvo9FnzUB-sEuG9zZCLhTUE9vuZPtpGSUIOnnqVkqjBcm_5yp49zdPn_c_62c92s-az3fxOsgdw",
+   "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiV2h5IGlzIFRlY2ggTWFoaW5kcmEgZmFsbGluZz8iLCJsayI6IkdoeDNhSGtnYVhNZ2RHVmphQ0J0WVdocGJtUnlZU0JtWVd4c2FXNW4iLCJicyI6ImMyM09zUTZDTUJDQTRiamU1S2lObWtzVUg2QUxZd2Zqd0dCWVREb2ZXR3hqYVVrdFFkN2VHR1FRbk8tN193NHlRS2twb25uaVZaVWFMNlNOdXdYQ2hfT2R3OG9Id1JPMlY2X0drbkZJaFc4anhvLXNSMW42dWlIWGc0Q3QxUDI4VkpHMXh0MEYzN0ZOTjREZndCZEFDbXVwX1R4d091ZUNNN2JxaHVIa3V2S1FRNUpObHdpRGF0cEloVlhqaDRJZjJXRVctQU9YaXpjIiwiaWQiOiJmY19BNnJEYXRMN01wUzVxdHNQbUxycTBBNF82In0=",
+   "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiV2h5IGlzIFRlY2ggTWFoaW5kcmEgZmFsbGluZz8iLCJsayI6IkdoeDNhSGtnYVhNZ2RHVmphQ0J0WVdocGJtUnlZU0JtWVd4c2FXNW4iLCJicyI6ImMyM09zUTZDTUJDQTRiamU1S2lObWtzVUg2QUxZd2Zqd0dCWVREb2ZXR3hqYVVrdFFkN2VHR1FRbk8tN193NHlRS2twb25uaVZaVWFMNlNOdXdYQ2hfT2R3OG9Id1JPMlY2X0drbkZJaFc4anhvLXNSMW42dWlIWGc0Q3QxUDI4VkpHMXh0MEYzN0ZOTjREZndCZEFDbXVwX1R4d091ZUNNN2JxaHVIa3V2S1FRNUpObHdpRGF0cEloVlhqaDRJZjJXRVctQU9YaXpjIiwiaWQiOiJmY19BNnJEYXRMN01wUzVxdHNQbUxycTBBNF82In0%3D"
+  },
+  {
+   "question": "Who is Tech Mahindra CEO?",
+   "type": "ai_overview",
+   "page_token": "fEXQqXicHdBdboIwAADg7DI-jj9x0cQsY7QioTWWtlReFmxRlAINkgF72112qp1myb4jfN8_-tbWv0-iGgbz2FjWOI7P16676vJZdo1VPOZWWrLQ-lzIerN6WTmvF7kFjzF478bgyIzhIbFTHazw19uS1KRXLRSKkSO7H-eSr0HO1gyLOEK2uWS19EsW-5I5O-yYMBXVgQgVosbvEMsLRHOUZHGK7srPxdVTDZ5OLd8hl7DCkwPTYMmhIWe38iXke9bwuIigyCCbKFzzczP0MtJeHjIvEfBIw70rAb5ljcpOPB5LjtxzCLFyWApt4MqaVAqMHhUBxQLa0gkGGsUTAsDe3eKARHg-ZDnjrp_mme6LHZjLO8cJM30i-JR7MVXQHGiog8VFfm69xf_Y9uPSDBvTd9c_YLp25A",
+   "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=fEXQqXicHdBdboIwAADg7DI-jj9x0cQsY7QioTWWtlReFmxRlAINkgF72112qp1myb4jfN8_-tbWv0-iGgbz2FjWOI7P16676vJZdo1VPOZWWrLQ-lzIerN6WTmvF7kFjzF478bgyIzhIbFTHazw19uS1KRXLRSKkSO7H-eSr0HO1gyLOEK2uWS19EsW-5I5O-yYMBXVgQgVosbvEMsLRHOUZHGK7srPxdVTDZ5OLd8hl7DCkwPTYMmhIWe38iXke9bwuIigyCCbKFzzczP0MtJeHjIvEfBIw70rAb5ljcpOPB5LjtxzCLFyWApt4MqaVAqMHhUBxQLa0gkGGsUTAsDe3eKARHg-ZDnjrp_mme6LHZjLO8cJM30i-JR7MVXQHGiog8VFfm69xf_Y9uPSDBvTd9c_YLp25A",
+   "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiV2hvIGlzIFRlY2ggTWFoaW5kcmEgQ0VPPyIsImxrIjoiR2hoM2FHOGdhWE1nZEdWamFDQnRZV2hwYm1SeVlTQmpaVzgiLCJicyI6ImMyM09zUTZDTUJDQTRiamU1S2lObWtzVUg2QUxZd2Zqd0dCWVREb2ZXR3hqYVVrdFFkN2VHR1FRbk8tN193NHlRS2twb25uaVZaVWFMNlNOdXdYQ2hfT2R3OG9Id1JPMlY2X0drbkZJaFc4anhvLXNSMW42dWlIWGc0Q3QxUDI4VkpHMXh0MEYzN0ZOTjREZndCZEFDbXVwX1R4d091ZUNNN2JxaHVIa3V2S1FRNUpObHdpRGF0cEloVlhqaDRJZjJXRVctQU9YaXpjIiwiaWQiOiJmY19BNnJEYXRMN01wUzVxdHNQbUxycTBBNF82In0=",
+   "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiV2hvIGlzIFRlY2ggTWFoaW5kcmEgQ0VPPyIsImxrIjoiR2hoM2FHOGdhWE1nZEdWamFDQnRZV2hwYm1SeVlTQmpaVzgiLCJicyI6ImMyM09zUTZDTUJDQTRiamU1S2lObWtzVUg2QUxZd2Zqd0dCWVREb2ZXR3hqYVVrdFFkN2VHR1FRbk8tN193NHlRS2twb25uaVZaVWFMNlNOdXdYQ2hfT2R3OG9Id1JPMlY2X0drbkZJaFc4anhvLXNSMW42dWlIWGc0Q3QxUDI4VkpHMXh0MEYzN0ZOTjREZndCZEFDbXVwX1R4d091ZUNNN2JxaHVIa3V2S1FRNUpObHdpRGF0cEloVlhqaDRJZjJXRVctQU9YaXpjIiwiaWQiOiJmY19BNnJEYXRMN01wUzVxdHNQbUxycTBBNF82In0%3D"
+  },
+  {
+   "question": "Is Tech Mahindra a reputable company?",
+   "type": "ai_overview",
+   "page_token": "ULJU4nicHdBbboJAGEDhdDM-VlCxjYlpMgIC0bHM5efy0siMVwYYb4zy1r10VV1NTXfwnfP9ow51-fvS7q9XfZn0-8aY113T7NTmVTRVf3151KIv1koVa1FOxm9j-2Mrpt4tRLNTiGKuNbjEogpuxeDaYghHJIg--dEfFh0QOngfJil6AGRODljlrjCcQ7Kp8VzW-3bpRaOlK2fCamxInAcdagYze5FwHJJAhWwuDwvQ7spH5yTwCZQ6Y0F0LurGSG5XDFBHa5THJTi0yld5GRk896w8ER21ZcUBOSIlZWHheVbpdA1ymTPIaCnPMSOnmPvO05lzyxvwWo4KJu40AOTtJcJ15GUpWWLLNryDuwxwXPD7QzCEMGoOMSedOKoKAuVvnn0c_Jb5yMTpfkuo3WVcu6zCT5seSNPbinY67P3_nH5tq-tEn5vdH_aNg6s",
+   "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ULJU4nicHdBbboJAGEDhdDM-VlCxjYlpMgIC0bHM5efy0siMVwYYb4zy1r10VV1NTXfwnfP9ow51-fvS7q9XfZn0-8aY113T7NTmVTRVf3151KIv1koVa1FOxm9j-2Mrpt4tRLNTiGKuNbjEogpuxeDaYghHJIg--dEfFh0QOngfJil6AGRODljlrjCcQ7Kp8VzW-3bpRaOlK2fCamxInAcdagYze5FwHJJAhWwuDwvQ7spH5yTwCZQ6Y0F0LurGSG5XDFBHa5THJTi0yld5GRk896w8ER21ZcUBOSIlZWHheVbpdA1ymTPIaCnPMSOnmPvO05lzyxvwWo4KJu40AOTtJcJ15GUpWWLLNryDuwxwXPD7QzCEMGoOMSedOKoKAuVvnn0c_Jb5yMTpfkuo3WVcu6zCT5seSNPbinY67P3_nH5tq-tEn5vdH_aNg6s",
+   "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiSXMgVGVjaCBNYWhpbmRyYSBhIHJlcHV0YWJsZSBjb21wYW55PyIsImxrIjoiR2lScGN5QjBaV05vSUcxaGFHbHVaSEpoSUdFZ2NtVndkWFJoWW14bElHTnZiWEJoYm5rIiwiYnMiOiJjMjNPc1E2Q01CQ0E0YmplNUtpTm1rc1VINkFMWXdmandHQllURG9mV0d4amFVa3RRZDdlR0dRUW5PLTdfdzR5UUtrcG9ubmlWWlVhTDZTTnV3WENoX09kdzhvSHdSTzJWNl9Ha25GSWhXOGp4by1zUjFuNnVpSFhnNEN0MVAyOFZKRzF4dDBGMzdGTk40RGZ3QmRBQ211cF9UeHdPdWVDTTdicWh1SGt1dktRUTVKTmx3aURhdHBJaFZYamg0SWYyV0VXLUFPWGl6YyIsImlkIjoiZmNfQTZyRGF0TDdNcFM1cXRzUG1McnEwQTRfNiJ9",
+   "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFkwbFZRMUV3YVZGVWFVbFlhelZTVUhoclVVMVpWMmMxUWpSd2FEUTVXVVF6U1hOUVRrSlVlWGhIVXpOa1NtTlNNM2h4WDBaelFVOWhTM1pDWjA5SWRUaGljekp2VUdvd1pGRTFXRVJxZVhVeVFXVjVZbUZMUmkxeFFSSVhRVFp5UkdGMFREZE5jRk0xY1hSelVHMU1jbkV3UVRRYUlrRkVjM0k1WmxKV1FrWm5SRjlwVEMxcGJuUlhYMnhWU0Zsd1F6RnZPVWszWm5jIiwiZmN2IjoiMyIsImVpIjoiQTZyRGF0TDdNcFM1cXRzUG1McnEwQTQiLCJxYyI6IkNnMTBaV05vSUcxaGFHbHVaSEpoRUFCOUI2Y3lQdyIsInF1ZXN0aW9uIjoiSXMgVGVjaCBNYWhpbmRyYSBhIHJlcHV0YWJsZSBjb21wYW55PyIsImxrIjoiR2lScGN5QjBaV05vSUcxaGFHbHVaSEpoSUdFZ2NtVndkWFJoWW14bElHTnZiWEJoYm5rIiwiYnMiOiJjMjNPc1E2Q01CQ0E0YmplNUtpTm1rc1VINkFMWXdmandHQllURG9mV0d4amFVa3RRZDdlR0dRUW5PLTdfdzR5UUtrcG9ubmlWWlVhTDZTTnV3WENoX09kdzhvSHdSTzJWNl9Ha25GSWhXOGp4by1zUjFuNnVpSFhnNEN0MVAyOFZKRzF4dDBGMzdGTk40RGZ3QmRBQ211cF9UeHdPdWVDTTdicWh1SGt1dktRUTVKTmx3aURhdHBJaFZYamg0SWYyV0VXLUFPWGl6YyIsImlkIjoiZmNfQTZyRGF0TDdNcFM1cXRzUG1McnEwQTRfNiJ9"
+  }
+ ],
+ "ai_overview": {
+  "text_blocks": [
+   {
+    "type": "paragraph",
+    "snippet": "Tech Mahindra is a major global technology consulting and digital solutions company headquartered in Pune and Mumbai, India.",
+    "snippet_links": [
+     {
+      "text": "Tech Mahindra",
+      "link": "https://www.techmahindra.com/"
+     }
+    ],
+    "snippet_highlighted_words": [
+     "a major global technology consulting and digital solutions company headquartered in Pune and Mumbai, India"
+    ],
+    "reference_indexes": [
+     0,
+     1
+    ]
+   },
+   {
+    "type": "heading",
+    "snippet": "Company Overview"
+   },
+   {
+    "type": "list",
+    "list": [
+     {
+      "snippet": "Parent Company: Part of the Mahindra Group, which was founded in 1945.",
+      "reference_indexes": [
+       0
+      ]
+     },
+     {
+      "snippet": "Founded: Incorporated in 1986 as a joint venture with BT Group.",
+      "reference_indexes": [
+       1,
+       2
+      ]
+     },
+     {
+      "snippet": "Leadership: Led by Managing Director and CEO Mohit Joshi.",
+      "reference_indexes": [
+       1
+      ]
+     },
+     {
+      "snippet": "Scale: Employs over 149,000 professionals across 90+ countries and serves more than 1,100 global clients."
+     }
+    ],
+    "reference_indexes": [
+     0
+    ]
+   },
+   {
+    "type": "heading",
+    "snippet": "Core Services"
+   },
+   {
+    "type": "list",
+    "list": [
+     {
+      "snippet": "IT & Digital Services: Offers application development, cloud infrastructure, and enterprise software solutions.",
+      "reference_indexes": [
+       0
+      ]
+     },
+     {
+      "snippet": "Network & 5G Services: Specializes in next-generation network services and telecom solutions.",
+      "reference_indexes": [
+       2,
+       3
+      ]
+     },
+     {
+      "snippet": "Artificial Intelligence: Focuses on generative AI, agentic workflows, and automation platforms like TechM Orion.",
+      "reference_indexes": [
+       4,
+       5
+      ]
+     },
+     {
+      "snippet": "Engineering Services: Provides industrial design and R&D through subsidiaries like Pininfarina."
+     }
+    ],
+    "reference_indexes": [
+     2,
+     3
+    ]
+   },
+   {
+    "type": "heading",
+    "snippet": "Financial Snapshot"
+   },
+   {
+    "type": "list",
+    "list": [
+     {
+      "snippet": "Market Capitalization: Approximately ₹1,50,376 Crore.",
+      "reference_indexes": [
+       6
+      ]
+     },
+     {
+      "snippet": "Stock Price: Trading around ₹1,534 per share (tracked via Tech Mahindra Ltd share price).",
+      "snippet_links": [
+       {
+        "text": "Tech Mahindra Ltd share price",
+        "link": "https://www.screener.in/company/TECHM/consolidated/"
+       }
+      ]
+     }
+    ],
+    "reference_indexes": [
+     6
+    ]
+   },
+   {
+    "type": "paragraph",
+    "snippet": "If you want to know more, let me know if you would like details on:"
+   },
+   {
+    "type": "list",
+    "list": [
+     {
+      "snippet": "Their latest AI partnerships"
+     },
+     {
+      "snippet": "Open job openings or careers"
+     },
+     {
+      "snippet": "Specific office locations in India or globally"
+     }
+    ]
+   }
+  ],
+  "references": [
+   {
+    "index": 0,
+    "title": "Tech Mahindra | LinkedIn",
+    "link": "https://in.linkedin.com/company/tech-mahindra",
+    "snippet": "Tech Mahindra offers technology consulting and digital solutions to global enterprises across industries, enabling transformative scale at unparalleled speed. With...",
+    "source": "LinkedIn India",
+    "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://in.linkedin.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOFBtVSuTtTEk7U-69crh11zFy947LIbe9xTqIcTeyFufRrVg4CWLTkSonKEopVxV8zWRo_tVDwwWrRRtTgZUvLQkG36A89SoLxAxJ6JQ"
+   },
+   {
+    "index": 1,
+    "title": "Tech Mahindra - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Tech_Mahindra",
+    "snippet": "Company: Tech Mahindra (founded 1986 as Mahindra British Telecom joint venture; headquartered Pune/Mumbai, India; Chairman Anand Mahindra, MD & CEO Mohit Joshi). H...",
+    "source": "Wikipedia",
+    "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://en.wikipedia.org&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0gXqPZgYmjM7aHOjhK5EbLSZjw-cVBDKekF6E8wbqyv2UMRs2snxJ1osbArBGZ9i2OWSmAb2rH90FhNxw_XQpzkecg7SB7dL5VRQ4Iek"
+   },
+   {
+    "index": 2,
+    "title": "Technology Services | Mahindra",
+    "link": "https://www.mahindra.com/our-business/technology-services/tech-mahindra",
+    "snippet": "TECH MAHINDRA * Business Process Services​ * Integrated Engineering Services. * Infrastructure & Cloud Services. * ​5G & Network Services. * Experience Design Serv...",
+    "source": "Mahindra",
+    "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.mahindra.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNKn739b7xGKL9wuCwaPpgw2StlXToq80UzLIHi-pZwXVHzLYrLJAvt2gVjSB_TCx4VdcN4GOoV6fnvsQ7BGi0StivMlqVc3uepLdcB90"
+   },
+   {
+    "index": 3,
+    "title": "Engineering Services | Tech Mahindra",
+    "link": "https://www.techmahindra.com/services/engineering-services/",
+    "snippet": "Tech Mahindra: Global leader in engineering services with 30+ years expertise, 83+ patents, 50+ engineering centers, and 72+ global customers. Services: Future of ...",
+    "source": "Tech Mahindra",
+    "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.techmahindra.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnjuoAW59e66sVLwN9i2zgqwMA48O-gF6Scc-HaWD3RSEdwfwF38EqcyWsCwMHXH4XwpBi1tVCnldMmNRAvn5_GaOep0ykwTUZKsJznnc"
+   },
+   {
+    "index": 4,
+    "title": "Tech Mahindra | Scale at Speed",
+    "link": "https://www.techmahindra.com/",
+    "snippet": "* Sep 22, 2026: CoRover.ai + Tech Mahindra partner for India-Origin AI. * Sep 10, 2026: Wandelbots + Tech Mahindra partner for Physical AI automation. * Sep 09, 20...",
+    "source": "Tech Mahindra",
+    "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.techmahindra.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUhfWMmFNorCYqJ6YLUms1QoPdWKaiHB6_pmoukFunIuxRaoWsnvPxbSS0hnwi56NKTzThqULZJOm2XQPBUbMeKNg5KkCdmEH8evFqLxw"
+   },
+   {
+    "index": 5,
+    "title": "Products and Platforms | Tech Mahindra",
+    "link": "https://www.techmahindra.com/products-and-platforms/",
+    "snippet": "Tech Mahindra Products and Platforms: TechM Orion (agentic AI workflow execution); Yantr.ai (end-to-end operational visibility); Kornea (AI computer vision employe...",
+    "source": "Tech Mahindra",
+    "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.techmahindra.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLVgd52Vy3UEfaRkwswy1h1ufGdVSpH4wLpnXg0kw6eW2piyp2kDudzPla_tthi-C_1JehL8Qj7lwmynCdz39gN5HZEpsWUZp-kgxk_00"
+   },
+   {
+    "index": 6,
+    "title": "Tech Mahindra Ltd share price | Key Insights - Screener",
+    "link": "https://www.screener.in/company/TECHM/consolidated/",
+    "snippet": "Tech Mahindra Ltd · Market Cap ₹ 1,50,376 Cr. · Current Price ₹ 1,534 · High / Low ₹ 1,854 / 1,304 · Stock P/E 28.3 · Book Value ₹ 302 · Dividend Yield 3.30 ...",
+    "source": "Screener",
+    "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.screener.in&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   }
+  ]
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "Not all who wander are lost At Tech Mahindra, we welcome ...",
+   "link": "https://www.facebook.com/TechMahindra/videos/not-all-who-wander-are-lostat-tech-mahindra-we-welcome-the-ones-who-explore-and-/1245226707670490/",
+   "displayed_link": "60+ reactions · 8 months ago",
+   "thumbnail": "https://serpapi.com/searches/6ac3a9fc018c483fd71480fc/images/HFeHSNoe5q32gS6MSIbfn1VPB2haA44a-A-D3aONn98.jpeg",
+   "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+   "snippet": "Not all who wander are lost At Tech Mahindra, we welcome the ones who explore and the ones who stay the course.",
+   "duration": "0:14",
+   "about_this_result": {
+    "source": {
+     "description": "Not all who wander are lost At Tech Mahindra, we welcome the ones who explore and the ones who stay the course.",
+     "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+    }
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqACL2dvdG8_dXJsPUNBRVN5d0VCNnpzd0ZTaHhzSF81LTZEdFlucm9NSEM4WW1rc1hMMV9qTGM3LVJuR3p2amMwNlA0dDQzb1ZCOUJsWE1QU2xBRWlCLWVHN0Y1SzNaWVB5VFZ1NzZTVXc5a3N1RklObFdZSGdjd3ZEYXFQclNaYkJrS1RIbjd2RGs3bFRTREswMEtjb2NCaUtOT3JtUHdMS2dHcm41bnBWejJWOW9pRTgzdU1JM1c1SF8yVGJVVFZURDlkVzNQcUpuWEx0bUZpR1RiR1liUXY2WHFLWWlvRWxQSUJQWkFId0VfUEk0MktlUFU4MFdxWUFhbTBoUmc0eUE4bjExUVdHTXkzVW1FS0hJMDgxOTFrQXBWZnlyTjNREhYKEAoECDBIAgoECEhIAgoCCD8aAggAGhYSABoAIgAqADIAOgBCAEoAWgByAHoAIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqACL2dvdG8_dXJsPUNBRVN5d0VCNnpzd0ZTaHhzSF81LTZEdFlucm9NSEM4WW1rc1hMMV9qTGM3LVJuR3p2amMwNlA0dDQzb1ZCOUJsWE1QU2xBRWlCLWVHN0Y1SzNaWVB5VFZ1NzZTVXc5a3N1RklObFdZSGdjd3ZEYXFQclNaYkJrS1RIbjd2RGs3bFRTREswMEtjb2NCaUtOT3JtUHdMS2dHcm41bnBWejJWOW9pRTgzdU1JM1c1SF8yVGJVVFZURDlkVzNQcUpuWEx0bUZpR1RiR1liUXY2WHFLWWlvRWxQSUJQWkFId0VfUEk0MktlUFU4MFdxWUFhbTBoUmc0eUE4bjExUVdHTXkzVW1FS0hJMDgxOTFrQXBWZnlyTjNREhYKEAoECDBIAgoECEhIAgoCCD8aAggAGhYSABoAIgAqADIAOgBCAEoAWgByAHoAIgIQAUgAWABoAA",
+   "source": "Facebook · Tech Mahindra"
+  },
+  {
+   "position": 2,
+   "title": "Tech Mahindra Limited (TECHM.NS)",
+   "link": "https://finance.yahoo.com/quote/TECHM.NS/press-releases/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScwHrOzAV03_T-ik4YB2d6Vooe4MevLLLb906vcIsrWrN2s0jEsaN_7DxDpnUaJ2dEei8CzLvo2KruNvswUDdAZqlFu8LT3U81vlTdazxC7BY5Eiz2zwrxX7QOxtb-5_EDeoph7Ocq8nref91QAtouoffetw&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQFnoECEgQAQ&uoh=1",
+   "displayed_link": "https://finance.yahoo.com › TECHM.NS › press-releases",
+   "favicon": "https://serpapi.com/images/i/UklGRlYBAABXRUJQVlA4IEoBAABwBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAQYBvFpQHfOmzn6gH6l76b-pIdmjJGZ4m35Uw9CATIxWriFg-wAAD-6OGEI-4oAlLykJEwEVA4_7Qmruc1nJ-K5d8PpakkD-iWYQ7aoX7XSAqfu__jeNrSiZ6K8MK6q9RmeVWYHai83QRTaDhWlbGXn3v0qUd_BcKU17rr0cmkvrjkA9fvDaEOAgU_khsP_GLKEBn85GWrTpV5B0LnvvFBrB357sGpV1lld8cPpcxBs8I_CtAqu-X6qLnK-nmKtsms3HXSPSvb2f3GkspJva4__2xXX_ecsxCo7uAljX9BVFBx5dlZJjxOcCckzLNBH5sr6Lv1I28OfCvLlLDa6BWqZS5x1cwWXFZBtpYOW-ZP7nIQ_-UWrGNw6Tw1UgP7PEKkDHN8-6t7vK6-gAA.webp",
+   "snippet": "NSE - Delayed Quote • INR. Tech Mahindra Limited (TECHM.NS). 1,533.00 +9.00 (+0.59%). At close: October 1 at 3:15:00 PM GMT+5:30.",
+   "snippet_highlighted_words": [
+    "Tech Mahindra"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "NSE - Delayed Quote • INR. Tech Mahindra Limited (TECHM.NS). 1,533.00 +9.00 (+0.59%). At close: October 1 at 3:15:00 PM GMT+5:30.",
+     "source_info_link": "https://finance.yahoo.com/quote/TECHM.NS/press-releases/",
+     "icon": "https://serpapi.com/images/i/UklGRlYBAABXRUJQVlA4IEoBAABwBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHAQYBvFpQHfOmzn6gH6l76b-pIdmjJGZ4m35Uw9CATIxWriFg-wAAD-6OGEI-4oAlLykJEwEVA4_7Qmruc1nJ-K5d8PpakkD-iWYQ7aoX7XSAqfu__jeNrSiZ6K8MK6q9RmeVWYHai83QRTaDhWlbGXn3v0qUd_BcKU17rr0cmkvrjkA9fvDaEOAgU_khsP_GLKEBn85GWrTpV5B0LnvvFBrB357sGpV1lld8cPpcxBs8I_CtAqu-X6qLnK-nmKtsms3HXSPSvb2f3GkspJva4__2xXX_ecsxCo7uAljX9BVFBx5dlZJjxOcCckzLNBH5sr6Lv1I28OfCvLlLDa6BWqZS5x1cwWXFZBtpYOW-ZP7nIQ_-UWrGNw6Tw1UgP7PEKkDHN8-6t7vK6-gAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVjAzX1QtaWs0WUIyZDZWb29lNE1ldkxMTGI5MDZ2Y0lzcldyTjJzMGpFc2FOXzdEeERwblVhSjJkRWVpOEN6THZvMktydU52c3dVRGRBWnFsRnU4TFQzVTgxdmxUZGF6eEM3Qlk1RWl6Mnp3cnhYN1FPeHRiLTVfRURlb3BoN09jcThucmVmOTFRQXRvdW9mZmV0dxIEGgIIABq8AxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCYAwgAEAAYACAAKgsKBHRlY2gVtE2BQCoPCghtYWhpbmRyYRVOS3JAMqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVjAzX1QtaWs0WUIyZDZWb29lNE1ldkxMTGI5MDZ2Y0lzcldyTjJzMGpFc2FOXzdEeERwblVhSjJkRWVpOEN6THZvMktydU52c3dVRGRBWnFsRnU4TFQzVTgxdmxUZGF6eEM3Qlk1RWl6Mnp3cnhYN1FPeHRiLTVfRURlb3BoN09jcThucmVmOTFRQXRvdW9mZmV0dzo3PGI-VGVjaCBNYWhpbmRyYTwvYj4gTGltaXRlZCAoVEVDSE0uTlMpIC0gWWFob28gRmluYW5jZUKKAU5TRSAtIERlbGF5ZWQgUXVvdGUg4oCiIElOUi4gPGI-VGVjaCBNYWhpbmRyYTwvYj4gTGltaXRlZCAoVEVDSE0uTlMpLiAxLDUzMy4wMCArOS4wMCAoKzAuNTklKS4gQXQgY2xvc2U6IE9jdG9iZXIgMSBhdCAzOjE1OjAwIFBNIEdNVCs1OjMwLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVjAzX1QtaWs0WUIyZDZWb29lNE1ldkxMTGI5MDZ2Y0lzcldyTjJzMGpFc2FOXzdEeERwblVhSjJkRWVpOEN6THZvMktydU52c3dVRGRBWnFsRnU4TFQzVTgxdmxUZGF6eEM3Qlk1RWl6Mnp3cnhYN1FPeHRiLTVfRURlb3BoN09jcThucmVmOTFRQXRvdW9mZmV0dxIEGgIIABq8AxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCYAwgAEAAYACAAKgsKBHRlY2gVtE2BQCoPCghtYWhpbmRyYRVOS3JAMqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVjAzX1QtaWs0WUIyZDZWb29lNE1ldkxMTGI5MDZ2Y0lzcldyTjJzMGpFc2FOXzdEeERwblVhSjJkRWVpOEN6THZvMktydU52c3dVRGRBWnFsRnU4TFQzVTgxdmxUZGF6eEM3Qlk1RWl6Mnp3cnhYN1FPeHRiLTVfRURlb3BoN09jcThucmVmOTFRQXRvdW9mZmV0dzo3PGI-VGVjaCBNYWhpbmRyYTwvYj4gTGltaXRlZCAoVEVDSE0uTlMpIC0gWWFob28gRmluYW5jZUKKAU5TRSAtIERlbGF5ZWQgUXVvdGUg4oCiIElOUi4gPGI-VGVjaCBNYWhpbmRyYTwvYj4gTGltaXRlZCAoVEVDSE0uTlMpLiAxLDUzMy4wMCArOS4wMCAoKzAuNTklKS4gQXQgY2xvc2U6IE9jdG9iZXIgMSBhdCAzOjE1OjAwIFBNIEdNVCs1OjMwLiICEAFIAFgAaAA",
+   "source": "Yahoo Finance",
+   "read_more_link": "https://finance.yahoo.com/quote/TECHM.NS/press-releases/#:~:text=NSE%20%2D%20Delayed%20Quote%20%E2%80%A2,1%20at%203%3A15%3A00%20PM%20GMT%2B5%3A30"
+  },
+  {
+   "position": 3,
+   "title": "Tech Mahindra Ltd share price",
+   "link": "https://www.screener.in/company/532755/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYgHrOzAV3PPNHpku2gyeGcIAvDuPh3u7p-JXEXeGgcush72I6v3bqXMDEt-SYcHMuybIvq8nJIP0L8-_rNLp7JtCXuOtP333oPe2iussAtnkuxIsFJHZ6ir_w08XsmfLWXrH&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQFnoECEcQAQ&uoh=1",
+   "displayed_link": "https://www.screener.in › company",
+   "favicon": "https://serpapi.com/images/i/UklGRs4AAABXRUJQVlA4IMIAAADQBACdASocABwAPtE8tFooIigoFAEAGglsALsdgEyVg0yAWmo49vJ44uZiI78NgAD--QqevXC_eNabk_T_YkcLwIDC7yT5iDJ8zlYNfmTv74OflOj5wHYgFD-OB6OxcSGJ2Try7Z7VaALtwUapNtJLdyi_HXsmu7krIfuFmDF1-JzZapjuBtccE7rIv68Hjd_d-rDZarbXUS26lH8d5PNxp9IW8qbqzS3KsbUR3x0VJR2WaXev9Q4F-TiYV_dXZKwAAA.webp",
+   "snippet": "Tech Mahindra Ltd · Market Cap ₹ 1,48,404 Cr. · Current Price ₹ 1,524 · High / Low ₹ 1,854 / 1,304 · Stock P/E 37.2 · Book Value ₹ 222 · Dividend Yield 3.35 % ...",
+   "snippet_highlighted_words": [
+    "Tech Mahindra"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Tech Mahindra Ltd · Market Cap ₹ 1,48,404 Cr. · Current Price ₹ 1,524 · High / Low ₹ 1,854 / 1,304 · Stock P/E 37.2 · Book Value ₹ 222 · Dividend Yield 3.35 % ...",
+     "source_info_link": "https://www.screener.in/company/532755/",
+     "icon": "https://serpapi.com/images/i/UklGRs4AAABXRUJQVlA4IMIAAADQBACdASocABwAPtE8tFooIigoFAEAGglsALsdgEyVg0yAWmo49vJ44uZiI78NgAD--QqevXC_eNabk_T_YkcLwIDC7yT5iDJ8zlYNfmTv74OflOj5wHYgFD-OB6OxcSGJ2Try7Z7VaALtwUapNtJLdyi_HXsmu7krIfuFmDF1-JzZapjuBtccE7rIv68Hjd_d-rDZarbXUS26lH8d5PNxp9IW8qbqzS3KsbUR3x0VJR2WaXev9Q4F-TiYV_dXZKwAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpIBL2dvdG8_dXJsPUNBRVNZZ0hyT3pBVjNQUE5IcGt1Mmd5ZUdjSUF2RHVQaDN1N3AtSlhFWGVHZ2N1c2g3Mkk2djNicVhNREV0LVNZY0hNdXliSXZxOG5KSVAwTDgtX3JOTHA3SnRDWHVPdFAzMzNvUGUyaXVzc0F0bmt1eElzRkpIWjZpcl93MDhYc21mTFdYckgSBBoCCAAaggQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA3gMIABAAGAAgACoLCgR0ZWNoFWb7hEAqDwoIbWFoaW5kcmEVwg-IQDKSAS9nb3RvP3VybD1DQUVTWWdIck96QVYzUFBOSHBrdTJneWVHY0lBdkR1UGgzdTdwLUpYRVhlR2djdXNoNzJJNnYzYnFYTURFdC1TWWNITXV5Ykl2cThuSklQMEw4LV9yTkxwN0p0Q1h1T3RQMzMzb1BlMml1c3NBdG5rdXhJc0ZKSFo2aXJfdzA4WHNtZkxXWHJIOj48Yj5UZWNoIE1haGluZHJhPC9iPiBMdGQgc2hhcmUgcHJpY2UgfCBLZXkgSW5zaWdodHMgLSBTY3JlZW5lckLgATxiPlRlY2ggTWFoaW5kcmE8L2I-IEx0ZCAmbWlkZG90OyBNYXJrZXQgQ2FwIOKCuSAxLDQ4LDQwNCBDci4gJm1pZGRvdDsgQ3VycmVudCBQcmljZSDigrkgMSw1MjQgJm1pZGRvdDsgSGlnaCAvIExvdyDigrkgMSw4NTQgLyAxLDMwNCAmbWlkZG90OyBTdG9jayBQL0UgMzcuMiAmbWlkZG90OyBCb29rIFZhbHVlIOKCuSAyMjIgJm1pZGRvdDsgRGl2aWRlbmQgWWllbGQgMy4zNSAlJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpIBL2dvdG8_dXJsPUNBRVNZZ0hyT3pBVjNQUE5IcGt1Mmd5ZUdjSUF2RHVQaDN1N3AtSlhFWGVHZ2N1c2g3Mkk2djNicVhNREV0LVNZY0hNdXliSXZxOG5KSVAwTDgtX3JOTHA3SnRDWHVPdFAzMzNvUGUyaXVzc0F0bmt1eElzRkpIWjZpcl93MDhYc21mTFdYckgSBBoCCAAaggQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA3gMIABAAGAAgACoLCgR0ZWNoFWb7hEAqDwoIbWFoaW5kcmEVwg-IQDKSAS9nb3RvP3VybD1DQUVTWWdIck96QVYzUFBOSHBrdTJneWVHY0lBdkR1UGgzdTdwLUpYRVhlR2djdXNoNzJJNnYzYnFYTURFdC1TWWNITXV5Ykl2cThuSklQMEw4LV9yTkxwN0p0Q1h1T3RQMzMzb1BlMml1c3NBdG5rdXhJc0ZKSFo2aXJfdzA4WHNtZkxXWHJIOj48Yj5UZWNoIE1haGluZHJhPC9iPiBMdGQgc2hhcmUgcHJpY2UgfCBLZXkgSW5zaWdodHMgLSBTY3JlZW5lckLgATxiPlRlY2ggTWFoaW5kcmE8L2I-IEx0ZCAmbWlkZG90OyBNYXJrZXQgQ2FwIOKCuSAxLDQ4LDQwNCBDci4gJm1pZGRvdDsgQ3VycmVudCBQcmljZSDigrkgMSw1MjQgJm1pZGRvdDsgSGlnaCAvIExvdyDigrkgMSw4NTQgLyAxLDMwNCAmbWlkZG90OyBTdG9jayBQL0UgMzcuMiAmbWlkZG90OyBCb29rIFZhbHVlIOKCuSAyMjIgJm1pZGRvdDsgRGl2aWRlbmQgWWllbGQgMy4zNSAlJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Screener",
+   "read_more_link": "https://www.screener.in/company/532755/#:~:text=%E2%82%B9%201%2C524%200.89%25&text=Market%20Cap%20%E2%82%B9%201%2C48%2C404%20Cr.&text=Current%20Price%20%E2%82%B9%201%2C524&text=High%20%2F%20Low%20%E2%82%B9%201%2C854,%2F%201%2C304&text=Stock%20P%2FE%2037.2&text=Book%20Value%20%E2%82%B9%20222&text=Dividend%20Yield%203.35%20%25"
+  },
+  {
+   "position": 4,
+   "title": "Tech Mahindra",
+   "link": "https://es.weforum.org/organizations/tech-mahindra-limited/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdgHrOzAVN0UM-jkZWD7H6czWrFCkdn-YLpoawK5vrRf958MGsHLqYjeLTj2dbWPQA0meYJr70jjYN-kRKMpq8bBlL9RSLeM_pzgrOiFLOESZwynxjn_FV1MlCFo8KV8kmJa8T9JMQDTMpmIN9xul6HtmQTDT7mY&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQFnoECEYQAQ&uoh=1",
+   "displayed_link": "https://es.weforum.org › tech-mahindra-limited",
+   "favicon": "https://serpapi.com/images/i/UklGRrwAAABXRUJQVlA4ILAAAADQBACdASocABwAPtE-tFooIigoFAEAGglpAAPiuQr9qrGeSGJEUTKXDGKpdTJAAAD-9gFndBn1Y_x1Lx8-D_5S5QRTInROtHsawjWhwoXK7Jyb_uXgcJ4zmcXm8afiLb4qKNYO3XNOhhdkqAi0kbuMX_RLEPb_YVkFxuWBDtVGSSU5cPoc4nkrffhayx4tqQK-YKOibSZeBah7oi-4PW65VHpNzDW_rGkRe207unAAAA.webp",
+   "snippet": "Tech Mahindra (NSE: TECHM) offers technology consulting and digital solutions to global enterprises across industries. With 150,000 professionals across 90 ...",
+   "snippet_highlighted_words": [
+    "Tech Mahindra"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Tech Mahindra (NSE: TECHM) offers technology consulting and digital solutions to global enterprises across industries. With 150,000 professionals across 90 ...",
+     "source_info_link": "https://es.weforum.org/organizations/tech-mahindra-limited/",
+     "icon": "https://serpapi.com/images/i/UklGRrwAAABXRUJQVlA4ILAAAADQBACdASocABwAPtE-tFooIigoFAEAGglpAAPiuQr9qrGeSGJEUTKXDGKpdTJAAAD-9gFndBn1Y_x1Lx8-D_5S5QRTInROtHsawjWhwoXK7Jyb_uXgcJ4zmcXm8afiLb4qKNYO3XNOhhdkqAi0kbuMX_RLEPb_YVkFxuWBDtVGSSU5cPoc4nkrffhayx4tqQK-YKOibSZeBah7oi-4PW65VHpNzDW_rGkRe207unAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVk4wVU0tamtaV0Q3SDZjeldyRkNrZG4tWUxwb2F3SzV2clJmOTU4TUdzSExxWWplTFRqMmRiV1BRQTBtZVlKcjcwampZTi1rUktNcHE4YkJsTDlSU0xlTV9wemdyT2lGTE9FU1p3eW54am5fRlYxTWxDRm84S1Y4a21KYThUOUpNUURUTXBtSU45eHVsNkh0bVFURFQ3bVkSBBoCCAAa2AMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAtAMIABAAGAAgACoLCgR0ZWNoFfO2rEAqDwoIbWFoaW5kcmEVKgixQDKtAS9nb3RvP3VybD1DQUVTZGdIck96QVZOMFVNLWprWldEN0g2Y3pXckZDa2RuLVlMcG9hd0s1dnJSZjk1OE1Hc0hMcVlqZUxUajJkYldQUUEwbWVZSnI3MGpqWU4ta1JLTXBxOGJCbEw5UlNMZU1fcHpnck9pRkxPRVNad3lueGpuX0ZWMU1sQ0ZvOEtWOGttSmE4VDlKTVFEVE1wbUlOOXh1bDZIdG1RVERUN21ZOi48Yj5UZWNoIE1haGluZHJhPC9iPiB8IEZvcm8gRWNvbsOzbWljbyBNdW5kaWFsQqsBPGI-VGVjaCBNYWhpbmRyYTwvYj4gKE5TRTogVEVDSE0pIG9mZmVycyB0ZWNobm9sb2d5IGNvbnN1bHRpbmcgYW5kIGRpZ2l0YWwgc29sdXRpb25zIHRvIGdsb2JhbCBlbnRlcnByaXNlcyBhY3Jvc3MgaW5kdXN0cmllcy4gV2l0aCAxNTAsMDAwIHByb2Zlc3Npb25hbHMgYWNyb3NzIDkwJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVk4wVU0tamtaV0Q3SDZjeldyRkNrZG4tWUxwb2F3SzV2clJmOTU4TUdzSExxWWplTFRqMmRiV1BRQTBtZVlKcjcwampZTi1rUktNcHE4YkJsTDlSU0xlTV9wemdyT2lGTE9FU1p3eW54am5fRlYxTWxDRm84S1Y4a21KYThUOUpNUURUTXBtSU45eHVsNkh0bVFURFQ3bVkSBBoCCAAa2AMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAtAMIABAAGAAgACoLCgR0ZWNoFfO2rEAqDwoIbWFoaW5kcmEVKgixQDKtAS9nb3RvP3VybD1DQUVTZGdIck96QVZOMFVNLWprWldEN0g2Y3pXckZDa2RuLVlMcG9hd0s1dnJSZjk1OE1Hc0hMcVlqZUxUajJkYldQUUEwbWVZSnI3MGpqWU4ta1JLTXBxOGJCbEw5UlNMZU1fcHpnck9pRkxPRVNad3lueGpuX0ZWMU1sQ0ZvOEtWOGttSmE4VDlKTVFEVE1wbUlOOXh1bDZIdG1RVERUN21ZOi48Yj5UZWNoIE1haGluZHJhPC9iPiB8IEZvcm8gRWNvbsOzbWljbyBNdW5kaWFsQqsBPGI-VGVjaCBNYWhpbmRyYTwvYj4gKE5TRTogVEVDSE0pIG9mZmVycyB0ZWNobm9sb2d5IGNvbnN1bHRpbmcgYW5kIGRpZ2l0YWwgc29sdXRpb25zIHRvIGdsb2JhbCBlbnRlcnByaXNlcyBhY3Jvc3MgaW5kdXN0cmllcy4gV2l0aCAxNTAsMDAwIHByb2Zlc3Npb25hbHMgYWNyb3NzIDkwJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "El Foro Económico Mundial",
+   "read_more_link": "https://es.weforum.org/organizations/tech-mahindra-limited/#:~:text=Tech%20Mahindra%20(NSE%3A%20TECHM)%20offers,With%20150%2C000%20professionals%20across%2090"
+  },
+  {
+   "position": 5,
+   "title": "Tech Mahindra",
+   "link": "https://ae.linkedin.com/company/tech-mahindra?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrwEB6zswFUrd0em0kQLmNLMIPB-ML8fBOkjbnmjmozg_Ni5Cp3C5uEAuSa7NcaQumhtCqEfMcweyhPvA8PiiyqDjQiC53AVJuaXApKJkVrDgUdti194AhgWpBONmDW24ryu7EZ1Sa61mty_aynTCp-gbamTK8ff5srO-Y9lg0pUizrkFIVpCCHxtSX41c3TDNyAOL9w8y_UPEGfUntPl2LTJ4uMxgX1P60C16hroEN-3&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQFnoECEkQAQ&uoh=1",
+   "displayed_link": "81.8L+ followers",
+   "favicon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQAwCdASoQABAAAsBMJbACdLoBLf4oANRJj6d2SZLhF7_ohAD-4n1FofdRna1o8FCt-OiJvVc8lzO8Rt17R6yr0CRJL0FBwsd8OIDxQ356R55Xei0KcLjbfh5C05X1nTKIh8X8ekP3RBUogy_jZ3kCUPbBWjzINpJUmDhbtDZS1e3a8_aUBwnkYz0mnTj4n4__aq6btWmAus7Zjw7JLZ_kNfUgtaLPXB6k1U8MVzX5_C1AAAA.webp",
+   "snippet": "Tech Mahindra offers technology consulting and digital solutions to global enterprises across industries, enabling transformative scale at unparalleled ...",
+   "snippet_highlighted_words": [
+    "Tech Mahindra"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "Tech Mahindra offers technology consulting and digital solutions to global enterprises across industries, enabling transformative scale at unparalleled ...",
+     "source_info_link": "https://ae.linkedin.com/company/tech-mahindra?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+     "icon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQAwCdASoQABAAAsBMJbACdLoBLf4oANRJj6d2SZLhF7_ohAD-4n1FofdRna1o8FCt-OiJvVc8lzO8Rt17R6yr0CRJL0FBwsd8OIDxQ356R55Xei0KcLjbfh5C05X1nTKIh8X8ekP3RBUogy_jZ3kCUPbBWjzINpJUmDhbtDZS1e3a8_aUBwnkYz0mnTj4n4__aq6btWmAus7Zjw7JLZ_kNfUgtaLPXB6k1U8MVzX5_C1AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZVcmQwZW0wa1FMbU5MTUlQQi1NTDhmQk9ramJubWptb3pnX05pNUNwM0M1dUVBdVNhN05jYVF1bWh0Q3FFZk1jd2V5aFB2QThQaWl5cURqUWlDNTNBVkp1YVhBcEtKa1ZyRGdVZHRpMTk0QWhnV3BCT05tRFcyNHJ5dTdFWjFTYTYxbXR5X2F5blRDcC1nYmFtVEs4ZmY1c3JPLVk5bGcwcFVpenJrRklWcENDSHh0U1g0MWMzVEROeUFPTDl3OHlfVVBFR2ZVbnRQbDJMVEo0dU14Z1gxUDYwQzE2aHJvRU4tMxIEGgIIABqYBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD0AwgAEAAYACAAKgsKBHRlY2gVK6SsQCoPCghtYWhpbmRyYRUsa69AMvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZVcmQwZW0wa1FMbU5MTUlQQi1NTDhmQk9ramJubWptb3pnX05pNUNwM0M1dUVBdVNhN05jYVF1bWh0Q3FFZk1jd2V5aFB2QThQaWl5cURqUWlDNTNBVkp1YVhBcEtKa1ZyRGdVZHRpMTk0QWhnV3BCT05tRFcyNHJ5dTdFWjFTYTYxbXR5X2F5blRDcC1nYmFtVEs4ZmY1c3JPLVk5bGcwcFVpenJrRklWcENDSHh0U1g0MWMzVEROeUFPTDl3OHlfVVBFR2ZVbnRQbDJMVEo0dU14Z1gxUDYwQzE2aHJvRU4tMzol4oCPPGI-VGVjaCBNYWhpbmRyYTwvYj7igI8gfCBMaW5rZWRJbkKnATxiPlRlY2ggTWFoaW5kcmE8L2I-IG9mZmVycyB0ZWNobm9sb2d5IGNvbnN1bHRpbmcgYW5kIGRpZ2l0YWwgc29sdXRpb25zIHRvIGdsb2JhbCBlbnRlcnByaXNlcyBhY3Jvc3MgaW5kdXN0cmllcywgZW5hYmxpbmcgdHJhbnNmb3JtYXRpdmUgc2NhbGUgYXQgdW5wYXJhbGxlbGVkJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZVcmQwZW0wa1FMbU5MTUlQQi1NTDhmQk9ramJubWptb3pnX05pNUNwM0M1dUVBdVNhN05jYVF1bWh0Q3FFZk1jd2V5aFB2QThQaWl5cURqUWlDNTNBVkp1YVhBcEtKa1ZyRGdVZHRpMTk0QWhnV3BCT05tRFcyNHJ5dTdFWjFTYTYxbXR5X2F5blRDcC1nYmFtVEs4ZmY1c3JPLVk5bGcwcFVpenJrRklWcENDSHh0U1g0MWMzVEROeUFPTDl3OHlfVVBFR2ZVbnRQbDJMVEo0dU14Z1gxUDYwQzE2aHJvRU4tMxIEGgIIABqYBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD0AwgAEAAYACAAKgsKBHRlY2gVK6SsQCoPCghtYWhpbmRyYRUsa69AMvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZVcmQwZW0wa1FMbU5MTUlQQi1NTDhmQk9ramJubWptb3pnX05pNUNwM0M1dUVBdVNhN05jYVF1bWh0Q3FFZk1jd2V5aFB2QThQaWl5cURqUWlDNTNBVkp1YVhBcEtKa1ZyRGdVZHRpMTk0QWhnV3BCT05tRFcyNHJ5dTdFWjFTYTYxbXR5X2F5blRDcC1nYmFtVEs4ZmY1c3JPLVk5bGcwcFVpenJrRklWcENDSHh0U1g0MWMzVEROeUFPTDl3OHlfVVBFR2ZVbnRQbDJMVEo0dU14Z1gxUDYwQzE2aHJvRU4tMzol4oCPPGI-VGVjaCBNYWhpbmRyYTwvYj7igI8gfCBMaW5rZWRJbkKnATxiPlRlY2ggTWFoaW5kcmE8L2I-IG9mZmVycyB0ZWNobm9sb2d5IGNvbnN1bHRpbmcgYW5kIGRpZ2l0YWwgc29sdXRpb25zIHRvIGdsb2JhbCBlbnRlcnByaXNlcyBhY3Jvc3MgaW5kdXN0cmllcywgZW5hYmxpbmcgdHJhbnNmb3JtYXRpdmUgc2NhbGUgYXQgdW5wYXJhbGxlbGVkJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "LinkedIn · Tech Mahindra",
+   "read_more_link": "https://ae.linkedin.com/company/tech-mahindra?trk=public_profile_experience-item_profile-section-card_subtitle-click#:~:text=Tech%20Mahindra%20offers%20technology%20consulting,transformative%20scale%20at%20unparalleled%20speed."
+  },
+  {
+   "position": 6,
+   "title": "Tech Mahindra-Labor Condition Applications",
+   "link": "https://careers.techmahindra.com/LCA/AllPostingLCA.aspx?ID=AP",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeAHrOzAVVQvUNBk5WqxJiJOop_bbrIM4zkz0-_TSbbgXPWLhMzUicRuNrwKNJqW0V20rMO2ZTsr_9mPcWCbM4HnQAnZ3-9IUlh27gmLF6HwzLtimLPsQWlWFG_qO4hvmqmjVxmnriStQHDh3iI5chfSgd4abC-xK7g&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQFnoECEUQAQ&uoh=1",
+   "displayed_link": "https://careers.techmahindra.com › LCA › AllPostingLCA",
+   "favicon": "https://serpapi.com/images/i/UklGRpQAAABXRUJQVlA4IIgAAADwBACdASocABwAPtEytFooIigoGAEAGglsALUahH9QKkfQ_JgzRxY2u1tC2a5YIAAA_vC69xySngkfbg2wA-pO9TrLC7Xyjjty9l7fszJBE31ptzof3tjrkA2v20VOJePeRI_fUpbtoXmNLEwMU9lae_CgrnmJMolSaJHZsyivSyAtGitnzAAA.webp",
+   "about_this_result": {
+    "source": {
+     "source_info_link": "https://careers.techmahindra.com/LCA/AllPostingLCA.aspx?ID=AP",
+     "icon": "https://serpapi.com/images/i/UklGRpQAAABXRUJQVlA4IIgAAADwBACdASocABwAPtEytFooIigoGAEAGglsALUahH9QKkfQ_JgzRxY2u1tC2a5YIAAA_vC69xySngkfbg2wA-pO9TrLC7Xyjjty9l7fszJBE31ptzof3tjrkA2v20VOJePeRI_fUpbtoXmNLEwMU9lae_CgrnmJMolSaJHZsyivSyAtGitnzAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVlZRdlVOQms1V3F4SmlKT29wX2JicklNNHprejAtX1RTYmJnWFBXTGhNelVpY1J1TnJ3S05KcVcwVjIwck1PMlpUc3JfOW1QY1dDYk00SG5RQW5aMy05SVVsaDI3Z21MRjZId3pMdGltTFBzUVdsV0ZHX3FPNGh2bXFtalZ4bW5yaVN0UUhEaDNpSTVjaGZTZ2Q0YWJDLXhLN2cSBBoCCAAasAISABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAjAIIABAAGAAgACoLCgR0ZWNoFc3MFkEqDwoIbWFoaW5kcmEVzcwWQTKwAS9nb3RvP3VybD1DQUVTZUFIck96QVZWUXZVTkJrNVdxeEppSk9vcF9iYnJJTTR6a3owLV9UU2JiZ1hQV0xoTXpVaWNSdU5yd0tOSnFXMFYyMHJNTzJaVHNyXzltUGNXQ2JNNEhuUUFuWjMtOUlVbGgyN2dtTEY2SHd6THRpbUxQc1FXbFdGR19xTzRodm1xbWpWeG1ucmlTdFFIRGgzaUk1Y2hmU2dkNGFiQy14SzdnOjE8Yj5UZWNoIE1haGluZHJhPC9iPi1MYWJvciBDb25kaXRpb24gQXBwbGljYXRpb25zIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVlZRdlVOQms1V3F4SmlKT29wX2JicklNNHprejAtX1RTYmJnWFBXTGhNelVpY1J1TnJ3S05KcVcwVjIwck1PMlpUc3JfOW1QY1dDYk00SG5RQW5aMy05SVVsaDI3Z21MRjZId3pMdGltTFBzUVdsV0ZHX3FPNGh2bXFtalZ4bW5yaVN0UUhEaDNpSTVjaGZTZ2Q0YWJDLXhLN2cSBBoCCAAasAISABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAjAIIABAAGAAgACoLCgR0ZWNoFc3MFkEqDwoIbWFoaW5kcmEVzcwWQTKwAS9nb3RvP3VybD1DQUVTZUFIck96QVZWUXZVTkJrNVdxeEppSk9vcF9iYnJJTTR6a3owLV9UU2JiZ1hQV0xoTXpVaWNSdU5yd0tOSnFXMFYyMHJNTzJaVHNyXzltUGNXQ2JNNEhuUUFuWjMtOUlVbGgyN2dtTEY2SHd6THRpbUxQc1FXbFdGR19xTzRodm1xbWpWeG1ucmlTdFFIRGgzaUk1Y2hmU2dkNGFiQy14SzdnOjE8Yj5UZWNoIE1haGluZHJhPC9iPi1MYWJvciBDb25kaXRpb24gQXBwbGljYXRpb25zIgIQAUgAWABoAA",
+   "source": "Tech Mahindra"
+  },
+  {
+   "position": 7,
+   "title": "Tech Mahindra Reviews, Ratings & Features 2026",
+   "link": "https://www.gartner.com/reviews/market/mobile-application-testing-services/vendor/tech-mahindra",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmgEB6zswFdoswaTkTxsmfJRR_BEX_A1dF0f7MrfAjnEYmwOKFv4bhnaHQlH5w9BKkZ4Gm8kushf24LvldHRGeEK4ivRVP4FG1kXIwsHRK6ZEWsRQyWaTvThKD5c3w2uTYiRRFbKgqsN9ZGGPx6Yt_1XQtzqsGVxZ2oPxcPjyabZVKBJZ9w31asGFNXygTDO-tXezRprjkcS1PEak&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQFnoECEoQAQ&uoh=1",
+   "displayed_link": "https://www.gartner.com › reviews › market › vendor",
+   "favicon": "https://serpapi.com/images/i/UklGRhoBAABXRUJQVlA4IA4BAACwBQCdASocABwAPtEutFooIagoGAEAGgloAKwBjE7fby1LBL3XKv0cTOPsI-8ymbglxuP2U0AA_vYJ0mPBAKhqlx6rwJOFYUZZZymgh5pLItE7DtbG_tDfZyxO5hU0BF2DsaH0j548LDn-z7a0nQa6AeSy0PiXfR_KvZ_9otIlMn-PK3xuHOWiwjrDD__qlT-Kiy2k5mAYlP2fN-C1f_83sZvfdTmlSd_KmORlla2dtdLLQGPUBPWXsC2Ix4cHJhstIaFyw2-458liMMmBkwYQNnEByaDkGfz1RWOjJJt9HTeY5B_iQOMhss0-cJVqxnfhcoGGPVA3cZYVKMdxdN_dLn7SQ_-hIDKdm5AAAAA.webp",
+   "date": "25 Feb 2025",
+   "snippet": "Tech Mahindra is a global information technology company that operates across 90 countries with a workforce of over 148,000 professionals.",
+   "snippet_highlighted_words": [
+    "Tech Mahindra"
+   ],
+   "rich_snippet": {
+    "top": {
+     "detected_extensions": {
+      "rating": 5.0,
+      "reviews": 1
+     },
+     "extensions": [
+      "5.0(1)"
+     ]
+    }
+   },
+   "about_this_result": {
+    "source": {
+     "description": "Tech Mahindra is a global information technology company that operates across 90 countries with a workforce of over 148,000 professionals.",
+     "source_info_link": "https://www.gartner.com/reviews/market/mobile-application-testing-services/vendor/tech-mahindra",
+     "icon": "https://serpapi.com/images/i/UklGRhoBAABXRUJQVlA4IA4BAACwBQCdASocABwAPtEutFooIagoGAEAGgloAKwBjE7fby1LBL3XKv0cTOPsI-8ymbglxuP2U0AA_vYJ0mPBAKhqlx6rwJOFYUZZZymgh5pLItE7DtbG_tDfZyxO5hU0BF2DsaH0j548LDn-z7a0nQa6AeSy0PiXfR_KvZ_9otIlMn-PK3xuHOWiwjrDD__qlT-Kiy2k5mAYlP2fN-C1f_83sZvfdTmlSd_KmORlla2dtdLLQGPUBPWXsC2Ix4cHJhstIaFyw2-458liMMmBkwYQNnEByaDkGfz1RWOjJJt9HTeY5B_iQOMhss0-cJVqxnfhcoGGPVA3cZYVKMdxdN_dLn7SQ_-hIDKdm5AAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0Zkb3N3YVRrVHhzbWZKUlJfQkVYX0ExZEYwZjdNcmZBam5FWW13T0tGdjRiaG5hSFFsSDV3OUJLa1o0R204a3VzaGYyNEx2bGRIUkdlRUs0aXZSVlA0Rkcxa1hJd3NIUks2WkVXc1JReVdhVHZUaEtENWMzdzJ1VFlpUlJGYktncXNOOVpHR1B4Nll0XzFYUXR6cXNHVnhaMm9QeGNQanlhYlpWS0JKWjl3MzFhc0dGTlh5Z1RETy10WGV6UnByamtjUzFQRWFrEgQaAggAGoQEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQOADCAAQABgAIAAqCwoEdGVjaBXQPI5AKg8KCG1haGluZHJhFRfKj0Ay3gEvZ290bz91cmw9Q0FFU21nRUI2enN3RmRvc3dhVGtUeHNtZkpSUl9CRVhfQTFkRjBmN01yZkFqbkVZbXdPS0Z2NGJobmFIUWxINXc5QktrWjRHbThrdXNoZjI0THZsZEhSR2VFSzRpdlJWUDRGRzFrWEl3c0hSSzZaRVdzUlF5V2FUdlRoS0Q1YzN3MnVUWWlSUkZiS2dxc045WkdHUHg2WXRfMVhRdHpxc0dWeFoyb1B4Y1BqeWFiWlZLQkpaOXczMWFzR0ZOWHlnVERPLXRYZXpScHJqa2NTMVBFYWs6QzxiPlRlY2ggTWFoaW5kcmE8L2I-IFJldmlld3MsIFJhdGluZ3MgJmFtcDsgRmVhdHVyZXMgMjAyNiAtIEdhcnRuZXJCkQE8Yj5UZWNoIE1haGluZHJhPC9iPiBpcyBhIGdsb2JhbCBpbmZvcm1hdGlvbiB0ZWNobm9sb2d5IGNvbXBhbnkgdGhhdCBvcGVyYXRlcyBhY3Jvc3MgOTAgY291bnRyaWVzIHdpdGggYSB3b3JrZm9yY2Ugb2Ygb3ZlciAxNDgsMDAwIHByb2Zlc3Npb25hbHMuIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0Zkb3N3YVRrVHhzbWZKUlJfQkVYX0ExZEYwZjdNcmZBam5FWW13T0tGdjRiaG5hSFFsSDV3OUJLa1o0R204a3VzaGYyNEx2bGRIUkdlRUs0aXZSVlA0Rkcxa1hJd3NIUks2WkVXc1JReVdhVHZUaEtENWMzdzJ1VFlpUlJGYktncXNOOVpHR1B4Nll0XzFYUXR6cXNHVnhaMm9QeGNQanlhYlpWS0JKWjl3MzFhc0dGTlh5Z1RETy10WGV6UnByamtjUzFQRWFrEgQaAggAGoQEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQOADCAAQABgAIAAqCwoEdGVjaBXQPI5AKg8KCG1haGluZHJhFRfKj0Ay3gEvZ290bz91cmw9Q0FFU21nRUI2enN3RmRvc3dhVGtUeHNtZkpSUl9CRVhfQTFkRjBmN01yZkFqbkVZbXdPS0Z2NGJobmFIUWxINXc5QktrWjRHbThrdXNoZjI0THZsZEhSR2VFSzRpdlJWUDRGRzFrWEl3c0hSSzZaRVdzUlF5V2FUdlRoS0Q1YzN3MnVUWWlSUkZiS2dxc045WkdHUHg2WXRfMVhRdHpxc0dWeFoyb1B4Y1BqeWFiWlZLQkpaOXczMWFzR0ZOWHlnVERPLXRYZXpScHJqa2NTMVBFYWs6QzxiPlRlY2ggTWFoaW5kcmE8L2I-IFJldmlld3MsIFJhdGluZ3MgJmFtcDsgRmVhdHVyZXMgMjAyNiAtIEdhcnRuZXJCkQE8Yj5UZWNoIE1haGluZHJhPC9iPiBpcyBhIGdsb2JhbCBpbmZvcm1hdGlvbiB0ZWNobm9sb2d5IGNvbXBhbnkgdGhhdCBvcGVyYXRlcyBhY3Jvc3MgOTAgY291bnRyaWVzIHdpdGggYSB3b3JrZm9yY2Ugb2Ygb3ZlciAxNDgsMDAwIHByb2Zlc3Npb25hbHMuIgIQAUgAWABoAA",
+   "source": "Gartner",
+   "read_more_link": "https://www.gartner.com/reviews/market/mobile-application-testing-services/vendor/tech-mahindra#:~:text=Tech%20Mahindra%20is%20a%20global,workforce%20of%20over%20148%2C000%20professionals."
+  }
+ ],
+ "pagination": {
+  "current": 1,
+  "next": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=10&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8NMDegQIZRAW",
+  "other_pages": {
+   "2": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=10&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAE",
+   "3": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=20&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAG",
+   "4": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=30&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAI",
+   "5": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=40&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAK",
+   "6": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=50&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAM",
+   "7": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=60&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAO",
+   "8": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=70&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAQ",
+   "9": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=80&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAS",
+   "10": "https://www.google.com/search?q=%22Tech+Mahindra%22&sca_esv=0bdd03951d38706d&gl=in&hl=en&sxsrf=APpeQnua4wXDBkD-ScyJRLU2ZVQAz2rQ3g:1791207939841&ei=A6rDatL7MpS5qtsPmLrq0A4&start=90&sa=N&sstk=AS6-VmJcQmZpGB8IxBfCR_8zmaWMOawQrWs0uBHLbNx-U3Y3IbZ_vjefMddqMrp6zVvvFyxa98l85xQeGQAUGYxVb1FxZBPobtLByA&ved=2ahUKEwiSieTHgaOXAxWUnGoFHRidGuoQ8tMDegQIZRAU"
+  }
+ },
+ "serpapi_pagination": {
+  "current": 1,
+  "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=10",
+  "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=10",
+  "other_pages": {
+   "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=10",
+   "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=20",
+   "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=30",
+   "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=40",
+   "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=50",
+   "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=60",
+   "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=70",
+   "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=80",
+   "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&q=%22Tech+Mahindra%22&start=90"
+  }
+ }
+}

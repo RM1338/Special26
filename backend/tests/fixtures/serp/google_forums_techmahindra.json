@@ -1,0 +1,354 @@
+{
+ "search_metadata": {
+  "id": "6ac3aa07636cb036c831c74b",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/mDKeRqv6pf3V9NpZYGCQcpElykxpC09sNdb3ifK3rU4/6ac3aa07636cb036c831c74b.json",
+  "markdown_endpoint": "https://serpapi.com/searches/mDKeRqv6pf3V9NpZYGCQcpElykxpC09sNdb3ifK3rU4/6ac3aa07636cb036c831c74b.md",
+  "created_at": "2026-10-05 13:45:43 UTC",
+  "processed_at": "2026-10-05 13:45:43 UTC",
+  "google_forums_url": "https://www.google.com/search?q=Tech+Mahindra+offer+letter+fee+scam&hl=en&gl=in&device=desktop&udm=18",
+  "raw_html_file": "https://serpapi.com/searches/mDKeRqv6pf3V9NpZYGCQcpElykxpC09sNdb3ifK3rU4/6ac3aa07636cb036c831c74b.html",
+  "total_time_taken": 2.0
+ },
+ "search_parameters": {
+  "q": "Tech Mahindra offer letter fee scam",
+  "engine": "google_forums",
+  "device": "desktop",
+  "gl": "in",
+  "hl": "en"
+ },
+ "search_information": {
+  "organic_results_state": "Results for exact spelling"
+ },
+ "organic_results": [
+  {
+   "position": 1,
+   "title": "Friend got a email from Tech Mahindra. Need to know if ...",
+   "link": "https://www.reddit.com/r/IsThisAScamIndia/comments/1g6f28q/friend_got_a_email_from_tech_mahindra_need_to/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpAEB6zswFVCdCwCqv2NtORTNjnwqFjXiSGsgmW_xnohA6kK1kvY57VJGVMtwESC5O1az_9juMhYdA50HLjP9BabqJuGe7iW46ZzTzzrrb3jVsc4cKdlBtbfhCmxtaA2-yzV4q4rkHMkDvApxIPh5IhNyrbwiCY4vXqRLKX9jFxfzzhFGhln7RKRZjuXXRfmbQ-ybJm7Yi7jni5kumH0UsCvOl1Gurg&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECBsQAQ&uoh=1",
+   "displayed_meta": "10+ comments · 1 year ago",
+   "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+   "snippet": "Hi All, My friend attended an interview in Tech Mahindra yesterday and today they sent an email asking to do Back Ground Verification(BGV). He is ...",
+   "sitelinks": {
+    "list": [
+     {
+      "title": "Got a call from HR in Tech Mahindra. I am currently ...",
+      "link": "https://www.reddit.com/r/developersIndia/comments/1fcn3bo/got_a_call_from_hr_in_tech_mahindra_i_am/",
+      "answer_count": 15,
+      "date": "9 Sept 2024"
+     },
+     {
+      "title": "Legit or Scam? Tech Mahindra HR asking to install ...",
+      "link": "https://www.reddit.com/r/IndianWorkplace/comments/1q8y8st/legit_or_scam_tech_mahindra_hr_asking_to_install/",
+      "answer_count": 18,
+      "date": "10 Jan 2026"
+     }
+    ]
+   },
+   "about_this_result": {
+    "source": {
+     "description": "It is asking you to login to ITR site, not legit. It is the exact mail you receive from Tech Mahindra to complete Background Verification.",
+     "source_info_link": "https://www.reddit.com/r/IsThisAScamIndia/comments/1g6f28q/friend_got_a_email_from_tech_mahindra_need_to/",
+     "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZWQ2RDd0NxdjJOdE9SVE5qbndxRmpYaVNHc2dtV194bm9oQTZrSzFrdlk1N1ZKR1ZNdHdFU0M1TzFhel85anVNaFlkQTUwSExqUDlCYWJxSnVHZTdpVzQ2WnpUenpycmIzalZzYzRjS2RsQnRiZmhDbXh0YUEyLXl6VjRxNHJrSE1rRHZBcHhJUGg1SWhOeXJid2lDWTR2WHFSTEtYOWpGeGZ6emhGR2hsbjdSS1JaanVYWFJmbWJRLXliSm03WWk3am5pNWt1bUgwVXNDdk9sMUd1cmcSBBoCCAAavwYSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAmwYIABAAGAAgACoZCgR0ZWNoFTT1mEAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRVqAppAGgx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVma4JQBoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchWNbQ1AGgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFZMpC0AaBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcy7AEvZ290bz91cmw9Q0FFU3BBRUI2enN3RlZDZEN3Q3F2Mk50T1JUTmpud3FGalhpU0dzZ21XX3hub2hBNmtLMWt2WTU3VkpHVk10d0VTQzVPMWF6XzlqdU1oWWRBNTBITGpQOUJhYnFKdUdlN2lXNDZaelR6enJyYjNqVnNjNGNLZGxCdGJmaENteHRhQTIteXpWNHE0cmtITWtEdkFweElQaDVJaE55cmJ3aUNZNHZYcVJMS1g5akZ4Znp6aEZHaGxuN1JLUlpqdVhYUmZtYlEteWJKbTdZaTdqbmk1a3VtSDBVc0N2T2wxR3VyZzpJRnJpZW5kIGdvdCBhIGVtYWlsIGZyb20gPGI-VGVjaCBNYWhpbmRyYTwvYj4uIE5lZWQgdG8ga25vdyBpZiB0aGlzIGlzIC4uLkKRAUl0IGlzIGFza2luZyB5b3UgdG8gbG9naW4gdG8gSVRSIHNpdGUsIG5vdCBsZWdpdC4gSXQgaXMgdGhlIGV4YWN0IG1haWwgeW91IHJlY2VpdmUgZnJvbSA8Yj5UZWNoIE1haGluZHJhPC9iPiB0byBjb21wbGV0ZSBCYWNrZ3JvdW5kIFZlcmlmaWNhdGlvbi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZWQ2RDd0NxdjJOdE9SVE5qbndxRmpYaVNHc2dtV194bm9oQTZrSzFrdlk1N1ZKR1ZNdHdFU0M1TzFhel85anVNaFlkQTUwSExqUDlCYWJxSnVHZTdpVzQ2WnpUenpycmIzalZzYzRjS2RsQnRiZmhDbXh0YUEyLXl6VjRxNHJrSE1rRHZBcHhJUGg1SWhOeXJid2lDWTR2WHFSTEtYOWpGeGZ6emhGR2hsbjdSS1JaanVYWFJmbWJRLXliSm03WWk3am5pNWt1bUgwVXNDdk9sMUd1cmcSBBoCCAAavwYSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAmwYIABAAGAAgACoZCgR0ZWNoFTT1mEAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRVqAppAGgx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVma4JQBoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchWNbQ1AGgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFZMpC0AaBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcy7AEvZ290bz91cmw9Q0FFU3BBRUI2enN3RlZDZEN3Q3F2Mk50T1JUTmpud3FGalhpU0dzZ21XX3hub2hBNmtLMWt2WTU3VkpHVk10d0VTQzVPMWF6XzlqdU1oWWRBNTBITGpQOUJhYnFKdUdlN2lXNDZaelR6enJyYjNqVnNjNGNLZGxCdGJmaENteHRhQTIteXpWNHE0cmtITWtEdkFweElQaDVJaE55cmJ3aUNZNHZYcVJMS1g5akZ4Znp6aEZHaGxuN1JLUlpqdVhYUmZtYlEteWJKbTdZaTdqbmk1a3VtSDBVc0N2T2wxR3VyZzpJRnJpZW5kIGdvdCBhIGVtYWlsIGZyb20gPGI-VGVjaCBNYWhpbmRyYTwvYj4uIE5lZWQgdG8ga25vdyBpZiB0aGlzIGlzIC4uLkKRAUl0IGlzIGFza2luZyB5b3UgdG8gbG9naW4gdG8gSVRSIHNpdGUsIG5vdCBsZWdpdC4gSXQgaXMgdGhlIGV4YWN0IG1haWwgeW91IHJlY2VpdmUgZnJvbSA8Yj5UZWNoIE1haGluZHJhPC9iPiB0byBjb21wbGV0ZSBCYWNrZ3JvdW5kIFZlcmlmaWNhdGlvbi4iAhABSABYAGgA",
+   "source": "Reddit · r/IsThisAScamIndia"
+  },
+  {
+   "position": 2,
+   "title": "I got one mail from Tech Mahindra regarding the backdoor ...",
+   "link": "https://www.quora.com/I-got-one-mail-from-Tech-Mahindra-regarding-the-backdoor-process-and-they-sent-some-proofs-offer-letter-and-all-How-I-can-believe-Do-you-have-any-information-They-are-asking-for-money",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiQIB6zswFbcXVh6Tyq1eHYCBruz1y_VlNcu8OF6OIvLOZYhf_DVKmR0of2ALys6ZSFe50sipxr1Bx7Xj2L4_ZDUMp_98ovMta0mcx7S997i51WtiXj00vTuPnWIFs_ZnedmA1gnJx4CLKW8i8ipPvoTJIWdB02oqjkbsHHdtpD5mUgJJJ-JicPe65Xp6zG_9L1aIqwxmRTVEtLkAUbwTitLiMiu3ouzVVZp5bmmK-fTtxhJrA0xyTskIY3JGB_xKRT0E6HGtXAMWFrdWJt__9Mq4WQdzfAbuZS5NU1umW0UbEeV061yHIVEptg5M2Eclpy0okM-vMh6mGysjr6yK5X46S3Hej9lzAOgE&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECCQQAQ&uoh=1",
+   "displayed_meta": "30+ answers · 8 years ago",
+   "favicon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp",
+   "snippet": "I got one mail from Tech Mahindra regarding the backdoor process, and they sent some proofs, offer letter and all. How I can believe? Do you ...",
+   "sitelinks": {
+    "list": [
+     {
+      "title": "I have joined Tech Mahindra today, and after 2 hours ...",
+      "link": "https://www.quora.com/I-have-joined-Tech-Mahindra-today-and-after-2-hours-sent-them-a-regret-mail-for-not-joining-Will-I-have-any-consequences-for-the-same",
+      "answer_count": 32,
+      "date": "28 Nov 2024"
+     },
+     {
+      "title": "In how many weeks does Tech Mahindra provides offer ...",
+      "link": "https://www.quora.com/In-how-many-weeks-does-Tech-Mahindra-provides-offer-letter-to-experienced-after-HR-interview-and-salary-negotiation",
+      "answer_count": 37,
+      "date": "5 Nov 2016"
+     }
+    ]
+   },
+   "about_this_result": {
+    "source": {
+     "description": "It's a recurring scam and the people who're behind it are frauds. Once you give them money, you'll not hear back from them. Request you to be ...",
+     "source_info_link": "https://www.quora.com/I-got-one-mail-from-Tech-Mahindra-regarding-the-backdoor-process-and-they-sent-some-proofs-offer-letter-and-all-How-I-can-believe-Do-you-have-any-information-They-are-asking-for-money",
+     "icon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvICL2dvdG8_dXJsPUNBRVNpUUlCNnpzd0ZiY1hWaDZUeXExZUhZQ0JydXoxeV9WbE5jdThPRjZPSXZMT1pZaGZfRFZLbVIwb2YyQUx5czZaU0ZlNTBzaXB4cjFCeDdYajJMNF9aRFVNcF85OG92TXRhMG1jeDdTOTk3aTUxV3RpWGowMHZUdVBuV0lGc19abmVkbUExZ25KeDRDTEtXOGk4aXBQdm9USklXZEIwMm9xamtic0hIZHRwRDVtVWdKSkotSmljUGU2NVhwNnpHXzlMMWFJcXd4bVJUVkV0TGtBVWJ3VGl0TGlNaXUzb3V6VlZacDVibW1LLWZUdHhoSnJBMHh5VHNrSVkzSkdCX3hLUlQwRTZIR3RYQU1XRnJkV0p0X185TXE0V1FkemZBYnVaUzVOVTF1bVcwVWJFZVYwNjF5SElWRXB0ZzVNMkVjbHB5MG9rTS12TWg2bUd5c2pyNnlLNVg0NlMzSGVqOWx6QU9nRRIEGgIIABrXBxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCzBwgAEAAYACAAKhkKBHRlY2gV2CiDQBoMdGVjaG1haGluZHJhKiwKCG1haGluZHJhFaLVgkAaDHRlY2htYWhpbmRyYRoNaXY7cDttYWhpbmRyYSosCgVvZmZlchXZox9AGgdqb2luaW5nGghvZmZlcmluZxoLb2ZmZXJsZXR0ZXIqIwoGbGV0dGVyFeyeHUAaB2xldHRlcnMaC29mZmVybGV0dGVyKlIKA2ZlZRVsssg9GgZjaGFyZ2UaB2NoYXJnZXMaBGNvc3QaBWNvc3RzGgRmYXJlGgRmZWVzGgZwcmljZXMaB3ByaWNpbmcaBHJhdGUaBXJhdGVzKlMKBHNjYW0V9LhVPhoFZnJhdWQaB3NjYW1tZWQaCHNjYW1tZXJzGgVzY2FtcxoJaXY7cDtzY2FtGgpmcmF1ZHVsZW50GgRmYWtlGghwaGlzaGluZzLyAi9nb3RvP3VybD1DQUVTaVFJQjZ6c3dGYmNYVmg2VHlxMWVIWUNCcnV6MXlfVmxOY3U4T0Y2T0l2TE9aWWhmX0RWS21SMG9mMkFMeXM2WlNGZTUwc2lweHIxQng3WGoyTDRfWkRVTXBfOThvdk10YTBtY3g3Uzk5N2k1MVd0aVhqMDB2VHVQbldJRnNfWm5lZG1BMWduSng0Q0xLVzhpOGlwUHZvVEpJV2RCMDJvcWprYnNISGR0cEQ1bVVnSkpKLUppY1BlNjVYcDZ6R185TDFhSXF3eG1SVFZFdExrQVVid1RpdExpTWl1M291elZWWnA1Ym1tSy1mVHR4aEpyQTB4eVRza0lZM0pHQl94S1JUMEU2SEd0WEFNV0ZyZFdKdF9fOU1xNFdRZHpmQWJ1WlM1TlUxdW1XMFViRWVWMDYxeUhJVkVwdGc1TTJFY2xweTBva00tdk1oNm1HeXNqcjZ5SzVYNDZTM0hlajlsekFPZ0U6Q0kgZ290IG9uZSBtYWlsIGZyb20gPGI-VGVjaCBNYWhpbmRyYTwvYj4gcmVnYXJkaW5nIHRoZSBiYWNrZG9vciAuLi5CqQE8Yj5JdCYjMzk7cyBhIHJlY3VycmluZyBzY2FtPC9iPiBhbmQgdGhlIHBlb3BsZSB3aG8mIzM5O3JlIGJlaGluZCBpdCBhcmUgZnJhdWRzLiBPbmNlIHlvdSBnaXZlIHRoZW0gbW9uZXksIHlvdSYjMzk7bGwgbm90IGhlYXIgYmFjayBmcm9tIHRoZW0uIFJlcXVlc3QgeW91IHRvIGJlJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvICL2dvdG8_dXJsPUNBRVNpUUlCNnpzd0ZiY1hWaDZUeXExZUhZQ0JydXoxeV9WbE5jdThPRjZPSXZMT1pZaGZfRFZLbVIwb2YyQUx5czZaU0ZlNTBzaXB4cjFCeDdYajJMNF9aRFVNcF85OG92TXRhMG1jeDdTOTk3aTUxV3RpWGowMHZUdVBuV0lGc19abmVkbUExZ25KeDRDTEtXOGk4aXBQdm9USklXZEIwMm9xamtic0hIZHRwRDVtVWdKSkotSmljUGU2NVhwNnpHXzlMMWFJcXd4bVJUVkV0TGtBVWJ3VGl0TGlNaXUzb3V6VlZacDVibW1LLWZUdHhoSnJBMHh5VHNrSVkzSkdCX3hLUlQwRTZIR3RYQU1XRnJkV0p0X185TXE0V1FkemZBYnVaUzVOVTF1bVcwVWJFZVYwNjF5SElWRXB0ZzVNMkVjbHB5MG9rTS12TWg2bUd5c2pyNnlLNVg0NlMzSGVqOWx6QU9nRRIEGgIIABrXBxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCzBwgAEAAYACAAKhkKBHRlY2gV2CiDQBoMdGVjaG1haGluZHJhKiwKCG1haGluZHJhFaLVgkAaDHRlY2htYWhpbmRyYRoNaXY7cDttYWhpbmRyYSosCgVvZmZlchXZox9AGgdqb2luaW5nGghvZmZlcmluZxoLb2ZmZXJsZXR0ZXIqIwoGbGV0dGVyFeyeHUAaB2xldHRlcnMaC29mZmVybGV0dGVyKlIKA2ZlZRVsssg9GgZjaGFyZ2UaB2NoYXJnZXMaBGNvc3QaBWNvc3RzGgRmYXJlGgRmZWVzGgZwcmljZXMaB3ByaWNpbmcaBHJhdGUaBXJhdGVzKlMKBHNjYW0V9LhVPhoFZnJhdWQaB3NjYW1tZWQaCHNjYW1tZXJzGgVzY2FtcxoJaXY7cDtzY2FtGgpmcmF1ZHVsZW50GgRmYWtlGghwaGlzaGluZzLyAi9nb3RvP3VybD1DQUVTaVFJQjZ6c3dGYmNYVmg2VHlxMWVIWUNCcnV6MXlfVmxOY3U4T0Y2T0l2TE9aWWhmX0RWS21SMG9mMkFMeXM2WlNGZTUwc2lweHIxQng3WGoyTDRfWkRVTXBfOThvdk10YTBtY3g3Uzk5N2k1MVd0aVhqMDB2VHVQbldJRnNfWm5lZG1BMWduSng0Q0xLVzhpOGlwUHZvVEpJV2RCMDJvcWprYnNISGR0cEQ1bVVnSkpKLUppY1BlNjVYcDZ6R185TDFhSXF3eG1SVFZFdExrQVVid1RpdExpTWl1M291elZWWnA1Ym1tSy1mVHR4aEpyQTB4eVRza0lZM0pHQl94S1JUMEU2SEd0WEFNV0ZyZFdKdF9fOU1xNFdRZHpmQWJ1WlM1TlUxdW1XMFViRWVWMDYxeUhJVkVwdGc1TTJFY2xweTBva00tdk1oNm1HeXNqcjZ5SzVYNDZTM0hlajlsekFPZ0U6Q0kgZ290IG9uZSBtYWlsIGZyb20gPGI-VGVjaCBNYWhpbmRyYTwvYj4gcmVnYXJkaW5nIHRoZSBiYWNrZG9vciAuLi5CqQE8Yj5JdCYjMzk7cyBhIHJlY3VycmluZyBzY2FtPC9iPiBhbmQgdGhlIHBlb3BsZSB3aG8mIzM5O3JlIGJlaGluZCBpdCBhcmUgZnJhdWRzLiBPbmNlIHlvdSBnaXZlIHRoZW0gbW9uZXksIHlvdSYjMzk7bGwgbm90IGhlYXIgYmFjayBmcm9tIHRoZW0uIFJlcXVlc3QgeW91IHRvIGJlJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Quora"
+  },
+  {
+   "position": 3,
+   "title": "Hi s/w Testing jobs family ....I fall into fake post regarding ...",
+   "link": "https://www.facebook.com/groups/1140170813678988/posts/1298929541136447/",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFcuka34Or3vgr4XAFzzU1qAM_cW_VtR6VSnrU2OtoVf2qxkXO5H_h6mF0gYvXMTl1WGBaVBnaMTyeeyByPYIvjLXgpOrnvqYwcsQLY6UNTNlU55d3XZn9XJtVCqTUkZOADGIyjp-OSkQdsskmv0eeoAzdzKMNx66gRPd1lY-FQ&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECCEQAQ&uoh=1",
+   "displayed_meta": "7 comments · 1 year ago",
+   "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+   "snippet": "The email also requested a payment of ₹670 to \"release my job offer letter.\" Here's why this email is a scam: Real companies never ask for ...",
+   "snippet_highlighted_words": [
+    "offer letter",
+    "scam"
+   ],
+   "sitelinks": {
+    "list": [
+     {
+      "title": "Ishwar Sagar P . His working on Tech Mahindra as ... - Facebook",
+      "link": "https://www.facebook.com/groups/231672554590005/posts/1302804220810161/",
+      "date": "5 Apr 2025"
+     },
+     {
+      "title": "How to handle background verification for Tech Mahindra?",
+      "link": "https://www.facebook.com/groups/1846963785461516/posts/3435349006622978/",
+      "date": "23 Mar 2026"
+     }
+    ]
+   },
+   "about_this_result": {
+    "source": {
+     "description": "The email also requested a payment of ₹670 to \"release my job offer letter.\" Here's why this email is a scam: Real companies never ask for ...",
+     "source_info_link": "https://www.facebook.com/groups/1140170813678988/posts/1298929541136447/",
+     "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZjdWthMzRPcjN2Z3I0WEFGenpVMXFBTV9jV19WdFI2VlNuclUyT3RvVmYycXhrWE81SF9oNm1GMGdZdlhNVGwxV0dCYVZCbmFNVHllZXlCeVBZSXZqTFhncE9ybnZxWXdjc1FMWTZVTlRObFU1NWQzWFpuOVhKdFZDcVRVa1pPQURHSXlqcC1PU2tRZHNza212MGVlb0F6ZHpLTU54NjZnUlBkMWxZLUZREgQaAggAGrAGEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQIwGCAAQABgAIAAqGQoEdGVjaBVxAQxAGgx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVEiHyPxoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFZ8hAkAaB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVjfnDPxoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFYw4Gj4aBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRXlmfw-GgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZjdWthMzRPcjN2Z3I0WEFGenpVMXFBTV9jV19WdFI2VlNuclUyT3RvVmYycXhrWE81SF9oNm1GMGdZdlhNVGwxV0dCYVZCbmFNVHllZXlCeVBZSXZqTFhncE9ybnZxWXdjc1FMWTZVTlRObFU1NWQzWFpuOVhKdFZDcVRVa1pPQURHSXlqcC1PU2tRZHNza212MGVlb0F6ZHpLTU54NjZnUlBkMWxZLUZROkZIaSBzL3cgVGVzdGluZyBqb2JzIGZhbWlseSAuLi4uSSBmYWxsIGludG8gZmFrZSBwb3N0IHJlZ2FyZGluZyB0aGUgLi4uQrEBVGhlIGVtYWlsIGFsc28gcmVxdWVzdGVkIGEgcGF5bWVudCBvZiDigrk2NzAgdG8gJnF1b3Q7cmVsZWFzZSBteSBqb2IgPGI-b2ZmZXIgbGV0dGVyPC9iPi4mcXVvdDsgSGVyZSYjMzk7cyB3aHkgdGhpcyBlbWFpbCBpcyBhIDxiPnNjYW08L2I-OiBSZWFsIGNvbXBhbmllcyBuZXZlciBhc2sgZm9yJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZjdWthMzRPcjN2Z3I0WEFGenpVMXFBTV9jV19WdFI2VlNuclUyT3RvVmYycXhrWE81SF9oNm1GMGdZdlhNVGwxV0dCYVZCbmFNVHllZXlCeVBZSXZqTFhncE9ybnZxWXdjc1FMWTZVTlRObFU1NWQzWFpuOVhKdFZDcVRVa1pPQURHSXlqcC1PU2tRZHNza212MGVlb0F6ZHpLTU54NjZnUlBkMWxZLUZREgQaAggAGrAGEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQIwGCAAQABgAIAAqGQoEdGVjaBVxAQxAGgx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVEiHyPxoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFZ8hAkAaB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVjfnDPxoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFYw4Gj4aBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRXlmfw-GgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZjdWthMzRPcjN2Z3I0WEFGenpVMXFBTV9jV19WdFI2VlNuclUyT3RvVmYycXhrWE81SF9oNm1GMGdZdlhNVGwxV0dCYVZCbmFNVHllZXlCeVBZSXZqTFhncE9ybnZxWXdjc1FMWTZVTlRObFU1NWQzWFpuOVhKdFZDcVRVa1pPQURHSXlqcC1PU2tRZHNza212MGVlb0F6ZHpLTU54NjZnUlBkMWxZLUZROkZIaSBzL3cgVGVzdGluZyBqb2JzIGZhbWlseSAuLi4uSSBmYWxsIGludG8gZmFrZSBwb3N0IHJlZ2FyZGluZyB0aGUgLi4uQrEBVGhlIGVtYWlsIGFsc28gcmVxdWVzdGVkIGEgcGF5bWVudCBvZiDigrk2NzAgdG8gJnF1b3Q7cmVsZWFzZSBteSBqb2IgPGI-b2ZmZXIgbGV0dGVyPC9iPi4mcXVvdDsgSGVyZSYjMzk7cyB3aHkgdGhpcyBlbWFpbCBpcyBhIDxiPnNjYW08L2I-OiBSZWFsIGNvbXBhbmllcyBuZXZlciBhc2sgZm9yJm5ic3A7Li4uIgIQAUgAWABoAA",
+   "source": "Facebook · Software Testing Jobs",
+   "read_more_link": "https://www.facebook.com/groups/1140170813678988/posts/1298929541136447/#:~:text=The%20email%20also%20requested%20a,payment%20during%20the%20hiring%20process."
+  },
+  {
+   "position": 4,
+   "title": "Warning: Naukri Email Scam Offering Fake Certificates",
+   "link": "https://www.linkedin.com/posts/mohammed-nafeesha-86305a216_beaware-jobscams-naukri-activity-7368870268557012994-rz_7",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrwEB6zswFXzFUOKzui6Z1kgsW45JVkra7qDbBDCU1uMW2HxLnlBprqEE7ERJbTg1abIe3G0X9mGdtHe2eJJd9KTV_WApzyNrmt7v9rcEOQG2DCVCf4gecFCzPg3qqkGMpI-QNDMqFlMAXZVteJVitQaQuUVqFCckpa1onU4lVpum9-1rdXPdZSyBZn3tm1h2UvMzz1wGhgKbaJDLRVo2EoyWq6Ta-dMqyUrj0nwJ6135&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECBkQAQ&uoh=1",
+   "displayed_meta": "90+ reactions · 1 year ago",
+   "favicon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQAwCdASoQABAAAsBMJbACdLoBLf4oANRJj6d2SZLhF7_ohAD-4n1FofdRna1o8FCt-OiJvVc8lzO8Rt17R6yr0CRJL0FBwsd8OIDxQ356R55Xei0KcLjbfh5C05X1nTKIh8X8ekP3RBUogy_jZ3kCUPbBWjzINpJUmDhbtDZS1e3a8_aUBwnkYz0mnTj4n4__aq6btWmAus7Zjw7JLZ_kNfUgtaLPXB6k1U8MVzX5_C1AAAA.webp",
+   "snippet": "For a fee, they promise to provide you with an offer letter, This is a classic employment fraud scam.",
+   "snippet_highlighted_words": [
+    "For a fee, they promise to provide you with an offer letter"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "For a fee, they promise to provide you with an offer letter, This is a classic employment fraud scam.",
+     "source_info_link": "https://www.linkedin.com/posts/mohammed-nafeesha-86305a216_beaware-jobscams-naukri-activity-7368870268557012994-rz_7",
+     "icon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQAwCdASoQABAAAsBMJbACdLoBLf4oANRJj6d2SZLhF7_ohAD-4n1FofdRna1o8FCt-OiJvVc8lzO8Rt17R6yr0CRJL0FBwsd8OIDxQ356R55Xei0KcLjbfh5C05X1nTKIh8X8ekP3RBUogy_jZ3kCUPbBWjzINpJUmDhbtDZS1e3a8_aUBwnkYz0mnTj4n4__aq6btWmAus7Zjw7JLZ_kNfUgtaLPXB6k1U8MVzX5_C1AAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZYekZVT0t6dWk2WjFrZ3NXNDVKVmtyYTdxRGJCRENVMXVNVzJIeExubEJwcnFFRTdFUkpiVGcxYWJJZTNHMFg5bUdkdEhlMmVKSmQ5S1RWX1dBcHp5TnJtdDd2OXJjRU9RRzJEQ1ZDZjRnZWNGQ3pQZzNxcWtHTXBJLVFORE1xRmxNQVhaVnRlSlZpdFFhUXVVVnFGQ2NrcGExb25VNGxWcHVtOS0xcmRYUGRaU3lCWm4zdG0xaDJVdk16ejF3R2hnS2JhSkRMUlZvMkVveVdxNlRhLWRNcXlVcmowbndKNjEzNRIEGgIIABqcBhIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD4BQgAEAAYACAAKhkKBHRlY2gVZ8XFPhoMdGVjaG1haGluZHJhKiwKCG1haGluZHJhFWfFxT4aDHRlY2htYWhpbmRyYRoNaXY7cDttYWhpbmRyYSosCgVvZmZlchXLplA_Ggdqb2luaW5nGghvZmZlcmluZxoLb2ZmZXJsZXR0ZXIqIwoGbGV0dGVyFSqdkz8aB2xldHRlcnMaC29mZmVybGV0dGVyKlIKA2ZlZRWigwg_GgZjaGFyZ2UaB2NoYXJnZXMaBGNvc3QaBWNvc3RzGgRmYXJlGgRmZWVzGgZwcmljZXMaB3ByaWNpbmcaBHJhdGUaBXJhdGVzKlMKBHNjYW0VLESHPxoFZnJhdWQaB3NjYW1tZWQaCHNjYW1tZXJzGgVzY2FtcxoJaXY7cDtzY2FtGgpmcmF1ZHVsZW50GgRmYWtlGghwaGlzaGluZzL6AS9nb3RvP3VybD1DQUVTcndFQjZ6c3dGWHpGVU9LenVpNloxa2dzVzQ1SlZrcmE3cURiQkRDVTF1TVcySHhMbmxCcHJxRUU3RVJKYlRnMWFiSWUzRzBYOW1HZHRIZTJlSkpkOUtUVl9XQXB6eU5ybXQ3djlyY0VPUUcyRENWQ2Y0Z2VjRkN6UGczcXFrR01wSS1RTkRNcUZsTUFYWlZ0ZUpWaXRRYVF1VVZxRkNja3BhMW9uVTRsVnB1bTktMXJkWFBkWlN5QlpuM3RtMWgyVXZNenoxd0doZ0tiYUpETFJWbzJFb3lXcTZUYS1kTXF5VXJqMG53SjYxMzU6Pk5hdWtyaSBFbWFpbCA8Yj5TY2FtIE9mZmVyaW5nPC9iPiBGYWtlIENlcnRpZmljYXRlcyAtIExpbmtlZEluQmw8Yj5Gb3IgYSBmZWUsIHRoZXkgcHJvbWlzZSB0byBwcm92aWRlIHlvdSB3aXRoIGFuIG9mZmVyIGxldHRlcjwvYj4sIFRoaXMgaXMgYSBjbGFzc2ljIGVtcGxveW1lbnQgZnJhdWQgc2NhbS4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvoBL2dvdG8_dXJsPUNBRVNyd0VCNnpzd0ZYekZVT0t6dWk2WjFrZ3NXNDVKVmtyYTdxRGJCRENVMXVNVzJIeExubEJwcnFFRTdFUkpiVGcxYWJJZTNHMFg5bUdkdEhlMmVKSmQ5S1RWX1dBcHp5TnJtdDd2OXJjRU9RRzJEQ1ZDZjRnZWNGQ3pQZzNxcWtHTXBJLVFORE1xRmxNQVhaVnRlSlZpdFFhUXVVVnFGQ2NrcGExb25VNGxWcHVtOS0xcmRYUGRaU3lCWm4zdG0xaDJVdk16ejF3R2hnS2JhSkRMUlZvMkVveVdxNlRhLWRNcXlVcmowbndKNjEzNRIEGgIIABqcBhIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD4BQgAEAAYACAAKhkKBHRlY2gVZ8XFPhoMdGVjaG1haGluZHJhKiwKCG1haGluZHJhFWfFxT4aDHRlY2htYWhpbmRyYRoNaXY7cDttYWhpbmRyYSosCgVvZmZlchXLplA_Ggdqb2luaW5nGghvZmZlcmluZxoLb2ZmZXJsZXR0ZXIqIwoGbGV0dGVyFSqdkz8aB2xldHRlcnMaC29mZmVybGV0dGVyKlIKA2ZlZRWigwg_GgZjaGFyZ2UaB2NoYXJnZXMaBGNvc3QaBWNvc3RzGgRmYXJlGgRmZWVzGgZwcmljZXMaB3ByaWNpbmcaBHJhdGUaBXJhdGVzKlMKBHNjYW0VLESHPxoFZnJhdWQaB3NjYW1tZWQaCHNjYW1tZXJzGgVzY2FtcxoJaXY7cDtzY2FtGgpmcmF1ZHVsZW50GgRmYWtlGghwaGlzaGluZzL6AS9nb3RvP3VybD1DQUVTcndFQjZ6c3dGWHpGVU9LenVpNloxa2dzVzQ1SlZrcmE3cURiQkRDVTF1TVcySHhMbmxCcHJxRUU3RVJKYlRnMWFiSWUzRzBYOW1HZHRIZTJlSkpkOUtUVl9XQXB6eU5ybXQ3djlyY0VPUUcyRENWQ2Y0Z2VjRkN6UGczcXFrR01wSS1RTkRNcUZsTUFYWlZ0ZUpWaXRRYVF1VVZxRkNja3BhMW9uVTRsVnB1bTktMXJkWFBkWlN5QlpuM3RtMWgyVXZNenoxd0doZ0tiYUpETFJWbzJFb3lXcTZUYS1kTXF5VXJqMG53SjYxMzU6Pk5hdWtyaSBFbWFpbCA8Yj5TY2FtIE9mZmVyaW5nPC9iPiBGYWtlIENlcnRpZmljYXRlcyAtIExpbmtlZEluQmw8Yj5Gb3IgYSBmZWUsIHRoZXkgcHJvbWlzZSB0byBwcm92aWRlIHlvdSB3aXRoIGFuIG9mZmVyIGxldHRlcjwvYj4sIFRoaXMgaXMgYSBjbGFzc2ljIGVtcGxveW1lbnQgZnJhdWQgc2NhbS4iAhABSABYAGgA",
+   "source": "LinkedIn · Mohammed Nafeesha"
+  },
+  {
+   "position": 5,
+   "title": "Recently I am receiving job offer calls from Tech Mahindra ...",
+   "link": "https://www.glassdoor.co.in/Community/tech-india/recently-i-am-receiving-job-offer-calls-from-tech-mahindra-tcs-ltmindtree-etc-companies-they-are-asking-all-the-details",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAES5AEB6zswFfgedBT7Rmsnin5ZWBLtaHW7BFldA2fvBiojR2GlWC6KIcyE78dGLOzvLnP0mA9SsYfCX6K4Bz8GFTSUqoaIjoTTSTF9Rd42rKlW5tO9M4UsnkmPI3ciJW4ILzm0iNXUVgtcR4kf06S5c96SWIjrOeQWYok7c2pXwW3WH2BhDjacgZ_N8ifP5aU_JNKJHkZyYTfLRPICu7JTXTvXMDVAA7JpFJQH7ld6aUQH8oPzgh4f_QV4CwrA0wHYWKnRRLe39KZv8PZUKjKS1Efkl77qlEeNIhmN4mTMgH77U78f6Q8&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECD0QAQ&uoh=1",
+   "displayed_link": "https://www.glassdoor.co.in › Community › tech-india",
+   "favicon": "https://serpapi.com/images/i/UklGRrAAAABXRUJQVlA4IKQAAACQBACdASocABwAPtEutFooIagoGAEAGglsAM7saF_XElmMaLG_KCQCvZpciAAA_v7CJie1yWsSMQay3bxkbCDg7QbT_JTP8U8d7XkD8LO6-5-7Qe8_1Pf4nS2K4HSOvWmMQHKAXaN1VOxNWFQNWN1-7nUbUIspZr6WPaQrhzuSMFc6JoZ2pUHgoU_G1G4j_nwLdFrIc1OHAtnJ-TrXcj8HtwAAAA.webp",
+   "date": "27 Jun 2025",
+   "snippet": "I am receiving job offer calls from Tech Mahindra, They are asking all the details which is required in screening call . But at the end of the ...",
+   "snippet_highlighted_words": [
+    "They are asking all the details which is required in screening call"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "I am receiving job offer calls from Tech Mahindra, They are asking all the details which is required in screening call . But at the end of the ...",
+     "source_info_link": "https://www.glassdoor.co.in/Community/tech-india/recently-i-am-receiving-job-offer-calls-from-tech-mahindra-tcs-ltmindtree-etc-companies-they-are-asking-all-the-details",
+     "icon": "https://serpapi.com/images/i/UklGRrAAAABXRUJQVlA4IKQAAACQBACdASocABwAPtEutFooIagoGAEAGglsAM7saF_XElmMaLG_KCQCvZpciAAA_v7CJie1yWsSMQay3bxkbCDg7QbT_JTP8U8d7XkD8LO6-5-7Qe8_1Pf4nS2K4HSOvWmMQHKAXaN1VOxNWFQNWN1-7nUbUIspZr6WPaQrhzuSMFc6JoZ2pUHgoU_G1G4j_nwLdFrIc1OHAtnJ-TrXcj8HtwAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsECL2dvdG8_dXJsPUNBRVM1QUVCNnpzd0ZmZ2VkQlQ3Um1zbmluNVpXQkx0YUhXN0JGbGRBMmZ2QmlvalIyR2xXQzZLSWN5RTc4ZEdMT3p2TG5QMG1BOVNzWWZDWDZLNEJ6OEdGVFNVcW9hSWpvVFRTVEY5UmQ0MnJLbFc1dE85TTRVc25rbVBJM2NpSlc0SUx6bTBpTlhVVmd0Y1I0a2YwNlM1Yzk2U1dJanJPZVFXWW9rN2MycFh3VzNXSDJCaERqYWNnWl9OOGlmUDVhVV9KTktKSGtaeVlUZkxSUElDdTdKVFhUdlhNRFZBQTdKcEZKUUg3bGQ2YVVRSDhvUHpnaDRmX1FWNEN3ckEwd0hZV0tuUlJMZTM5S1p2OFBaVUtqS1MxRWZrbDc3cWxFZU5JaG1ONG1UTWdINzdVNzhmNlE4EgQaAggAGqQHEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQIAHCAAQABgAIAAqGQoEdGVjaBU-P31AGgx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVmF1OQBoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFQbeaUAaB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVAAAAABoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFQAAAAAaBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRUAAAAAGgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMsECL2dvdG8_dXJsPUNBRVM1QUVCNnpzd0ZmZ2VkQlQ3Um1zbmluNVpXQkx0YUhXN0JGbGRBMmZ2QmlvalIyR2xXQzZLSWN5RTc4ZEdMT3p2TG5QMG1BOVNzWWZDWDZLNEJ6OEdGVFNVcW9hSWpvVFRTVEY5UmQ0MnJLbFc1dE85TTRVc25rbVBJM2NpSlc0SUx6bTBpTlhVVmd0Y1I0a2YwNlM1Yzk2U1dJanJPZVFXWW9rN2MycFh3VzNXSDJCaERqYWNnWl9OOGlmUDVhVV9KTktKSGtaeVlUZkxSUElDdTdKVFhUdlhNRFZBQTdKcEZKUUg3bGQ2YVVRSDhvUHpnaDRmX1FWNEN3ckEwd0hZV0tuUlJMZTM5S1p2OFBaVUtqS1MxRWZrbDc3cWxFZU5JaG1ONG1UTWdINzdVNzhmNlE4OkxSZWNlbnRseSBJIGFtIHJlY2VpdmluZyBqb2IgPGI-b2ZmZXI8L2I-IGNhbGxzIGZyb20gPGI-VGVjaCBNYWhpbmRyYTwvYj4gLi4uQp4BSSBhbSByZWNlaXZpbmcgam9iIG9mZmVyIGNhbGxzIGZyb20gVGVjaCBNYWhpbmRyYSwgPGI-VGhleSBhcmUgYXNraW5nIGFsbCB0aGUgZGV0YWlscyB3aGljaCBpcyByZXF1aXJlZCBpbiBzY3JlZW5pbmcgY2FsbDwvYj4gLiBCdXQgYXQgdGhlIGVuZCBvZiB0aGUmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsECL2dvdG8_dXJsPUNBRVM1QUVCNnpzd0ZmZ2VkQlQ3Um1zbmluNVpXQkx0YUhXN0JGbGRBMmZ2QmlvalIyR2xXQzZLSWN5RTc4ZEdMT3p2TG5QMG1BOVNzWWZDWDZLNEJ6OEdGVFNVcW9hSWpvVFRTVEY5UmQ0MnJLbFc1dE85TTRVc25rbVBJM2NpSlc0SUx6bTBpTlhVVmd0Y1I0a2YwNlM1Yzk2U1dJanJPZVFXWW9rN2MycFh3VzNXSDJCaERqYWNnWl9OOGlmUDVhVV9KTktKSGtaeVlUZkxSUElDdTdKVFhUdlhNRFZBQTdKcEZKUUg3bGQ2YVVRSDhvUHpnaDRmX1FWNEN3ckEwd0hZV0tuUlJMZTM5S1p2OFBaVUtqS1MxRWZrbDc3cWxFZU5JaG1ONG1UTWdINzdVNzhmNlE4EgQaAggAGqQHEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQIAHCAAQABgAIAAqGQoEdGVjaBU-P31AGgx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVmF1OQBoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFQbeaUAaB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVAAAAABoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFQAAAAAaBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRUAAAAAGgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMsECL2dvdG8_dXJsPUNBRVM1QUVCNnpzd0ZmZ2VkQlQ3Um1zbmluNVpXQkx0YUhXN0JGbGRBMmZ2QmlvalIyR2xXQzZLSWN5RTc4ZEdMT3p2TG5QMG1BOVNzWWZDWDZLNEJ6OEdGVFNVcW9hSWpvVFRTVEY5UmQ0MnJLbFc1dE85TTRVc25rbVBJM2NpSlc0SUx6bTBpTlhVVmd0Y1I0a2YwNlM1Yzk2U1dJanJPZVFXWW9rN2MycFh3VzNXSDJCaERqYWNnWl9OOGlmUDVhVV9KTktKSGtaeVlUZkxSUElDdTdKVFhUdlhNRFZBQTdKcEZKUUg3bGQ2YVVRSDhvUHpnaDRmX1FWNEN3ckEwd0hZV0tuUlJMZTM5S1p2OFBaVUtqS1MxRWZrbDc3cWxFZU5JaG1ONG1UTWdINzdVNzhmNlE4OkxSZWNlbnRseSBJIGFtIHJlY2VpdmluZyBqb2IgPGI-b2ZmZXI8L2I-IGNhbGxzIGZyb20gPGI-VGVjaCBNYWhpbmRyYTwvYj4gLi4uQp4BSSBhbSByZWNlaXZpbmcgam9iIG9mZmVyIGNhbGxzIGZyb20gVGVjaCBNYWhpbmRyYSwgPGI-VGhleSBhcmUgYXNraW5nIGFsbCB0aGUgZGV0YWlscyB3aGljaCBpcyByZXF1aXJlZCBpbiBzY3JlZW5pbmcgY2FsbDwvYj4gLiBCdXQgYXQgdGhlIGVuZCBvZiB0aGUmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "glassdoor.co.in"
+  },
+  {
+   "position": 6,
+   "title": "Case of absconding after 2 days of employment with Tech ...",
+   "link": "https://www.kaanoon.com/143670/case-of-absconding-after-2-days-of-employment-with-tech-mahindra",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmgEB6zswFRJIrEag7uqeu59jMXkPS3oH-n7OBi7EHu8OZgat8eWyKZcIZncraz0LvvZPUihSHv2ChOyGNft6iKtyl0Yfrkkt0jVN_vXHATNVqJiKF_ru_YL7KihZrr-3oP-Ebnw-0oGfHRkGRvIFzpd6z3EiA_Y-a27fNi1uWyHBGZtPUy3MJ2PFnKCo05mR_M7FdEXJKv_LcIcG&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECDkQAQ&uoh=1",
+   "displayed_link": "https://www.kaanoon.com › case-of-absconding-after-2-...",
+   "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEUAAAAwcZvQ9V4kAAAAAXRSTlMAQObYZgAAAClJREFUeAFjgADGBga7GiACMQQ4GDREGFyUGJocGf7Vg1CNHYOFDEQhALArB_w9zMmqAAAAAElFTkSuQmCC.png",
+   "snippet": "My Offer letter clearly mentions that 7 days leave without approval and intimation will lead to termination. But nowhere It mentions that I need to pay anything ...",
+   "snippet_highlighted_words": [
+    "Offer letter"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "My Offer letter clearly mentions that 7 days leave without approval and intimation will lead to termination. But nowhere It mentions that I need to pay anything ...",
+     "source_info_link": "https://www.kaanoon.com/143670/case-of-absconding-after-2-days-of-employment-with-tech-mahindra",
+     "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEUAAAAwcZvQ9V4kAAAAAXRSTlMAQObYZgAAAClJREFUeAFjgADGBga7GiACMQQ4GDREGFyUGJocGf7Vg1CNHYOFDEQhALArB_w9zMmqAAAAAElFTkSuQmCC.png"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZSSklyRWFnN3VxZXU1OWpNWGtQUzNvSC1uN09CaTdFSHU4T1pnYXQ4ZVd5S1pjSVpuY3JhejBMdnZaUFVpaFNIdjJDaE95R05mdDZpS3R5bDBZZnJra3QwalZOX3ZYSEFUTlZxSmlLRl9ydV9ZTDdLaWhacnItM29QLUVibnctMG9HZkhSa0dSdklGenBkNnozRWlBX1ktYTI3Zk5pMXVXeUhCR1p0UFV5M01KMlBGbktDbzA1bVJfTTdGZEVYSkt2X0xjSWNHEgQaAggAGskGEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKUGCAAQABgAIAAqGQoEdGVjaBWqdIhAGgx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVqnSIQBoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFcR6D0AaB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVZ2jnPxoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFQAAAAAaBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRUAAAAAGgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMt4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZSSklyRWFnN3VxZXU1OWpNWGtQUzNvSC1uN09CaTdFSHU4T1pnYXQ4ZVd5S1pjSVpuY3JhejBMdnZaUFVpaFNIdjJDaE95R05mdDZpS3R5bDBZZnJra3QwalZOX3ZYSEFUTlZxSmlLRl9ydV9ZTDdLaWhacnItM29QLUVibnctMG9HZkhSa0dSdklGenBkNnozRWlBX1ktYTI3Zk5pMXVXeUhCR1p0UFV5M01KMlBGbktDbzA1bVJfTTdGZEVYSkt2X0xjSWNHOkJDYXNlIG9mIGFic2NvbmRpbmcgYWZ0ZXIgMiBkYXlzIG9mIGVtcGxveW1lbnQgd2l0aCA8Yj5UZWNoPC9iPiAuLi5CsAFNeSA8Yj5PZmZlciBsZXR0ZXI8L2I-IGNsZWFybHkgbWVudGlvbnMgdGhhdCA3IGRheXMgbGVhdmUgd2l0aG91dCBhcHByb3ZhbCBhbmQgaW50aW1hdGlvbiB3aWxsIGxlYWQgdG8gdGVybWluYXRpb24uIEJ1dCBub3doZXJlIEl0IG1lbnRpb25zIHRoYXQgSSBuZWVkIHRvIHBheSBhbnl0aGluZyZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZSSklyRWFnN3VxZXU1OWpNWGtQUzNvSC1uN09CaTdFSHU4T1pnYXQ4ZVd5S1pjSVpuY3JhejBMdnZaUFVpaFNIdjJDaE95R05mdDZpS3R5bDBZZnJra3QwalZOX3ZYSEFUTlZxSmlLRl9ydV9ZTDdLaWhacnItM29QLUVibnctMG9HZkhSa0dSdklGenBkNnozRWlBX1ktYTI3Zk5pMXVXeUhCR1p0UFV5M01KMlBGbktDbzA1bVJfTTdGZEVYSkt2X0xjSWNHEgQaAggAGskGEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKUGCAAQABgAIAAqGQoEdGVjaBWqdIhAGgx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVqnSIQBoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFcR6D0AaB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVZ2jnPxoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFQAAAAAaBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRUAAAAAGgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMt4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZSSklyRWFnN3VxZXU1OWpNWGtQUzNvSC1uN09CaTdFSHU4T1pnYXQ4ZVd5S1pjSVpuY3JhejBMdnZaUFVpaFNIdjJDaE95R05mdDZpS3R5bDBZZnJra3QwalZOX3ZYSEFUTlZxSmlLRl9ydV9ZTDdLaWhacnItM29QLUVibnctMG9HZkhSa0dSdklGenBkNnozRWlBX1ktYTI3Zk5pMXVXeUhCR1p0UFV5M01KMlBGbktDbzA1bVJfTTdGZEVYSkt2X0xjSWNHOkJDYXNlIG9mIGFic2NvbmRpbmcgYWZ0ZXIgMiBkYXlzIG9mIGVtcGxveW1lbnQgd2l0aCA8Yj5UZWNoPC9iPiAuLi5CsAFNeSA8Yj5PZmZlciBsZXR0ZXI8L2I-IGNsZWFybHkgbWVudGlvbnMgdGhhdCA3IGRheXMgbGVhdmUgd2l0aG91dCBhcHByb3ZhbCBhbmQgaW50aW1hdGlvbiB3aWxsIGxlYWQgdG8gdGVybWluYXRpb24uIEJ1dCBub3doZXJlIEl0IG1lbnRpb25zIHRoYXQgSSBuZWVkIHRvIHBheSBhbnl0aGluZyZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Kaanoon",
+   "read_more_link": "https://www.kaanoon.com/143670/case-of-absconding-after-2-days-of-employment-with-tech-mahindra#:~:text=My%20Offer%20letter%20clearly%20mentions,I%20need%20to%20pay%20anything."
+  },
+  {
+   "position": 7,
+   "title": "Credit Card Lifetime Free Issues | Page 4 | TechnoFino - #1 ...",
+   "link": "https://technofino.in/community/threads/credit-card-lifetime-free-issues.21706/page-4",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkAEB6zswFblYsRCM0u9VXduG85S_NhmCsJULAvwOwz8oPqDPvzuWGCTLQ8DvZj6BR3crfveJve-eVHCP71pSScMAGeLYMtZqhquLWfh4P9KOfF08TQeN1WvYbhvmca8Xps5RClmLDeHuV2KsBeWBadGmfsQFrwIydljBXhHwJm_u3dbOWx0O22o9m0KlQcF2eTA&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECDQQAQ&uoh=1",
+   "displayed_link": "https://technofino.in › community › threads › page-4",
+   "favicon": "https://serpapi.com/images/i/UklGRvgBAABXRUJQVlA4IOwBAADQCQCdASogACAAPtEutFooIagoGAEAGglpABRgfE3wB79iLv8xXaywNJHMO8ZX0L_0fcK_MLrzejh-xyo0_88e92bZHkxxPv_a-oTOZkmWPBRkayjztAAA_v7DmqHWeIcssmEXHu-LPAITfsPxgwiw0edX_dBe6tkEanYy5J9tg1vf8JZtVvfiW2Aj_tGofaOYL2rnV3EGh3I-pJj8Jr77rs8JKvng7GRfOjn_aCF_4O5f7NJz4Z6jkXTn_lKDyjAfC08wMNzIE8UMk2me6RUPWT63u2s94Pio2ZUdrzbk7_EpCLNt56_ojcz8EbIHuUozgFRoZjwsh9fYA8ZsOGMipiVpX2sRJffNk86XvM3PvKG_w7bZ20mVbHQdcOXuTYTN88d_31C1fBgpzQVbCeUq7oHevqvd25_3T5Mg4rSL3_y71kirTxpjCX4EoSzH8EmHEvbTaCrGVE90xoXBqzB0deWwA8kz2_nlty0VC7hX0cHYTZv8q6TQNuTKqhA4WbWkCiE03txe2FStw34hmZ3qFuTr-1iPRgxNC-E5KNbKQFffAijo54lAwm9sYsvw09OfDevnO-6UP487fPtZao9nIhSAC_Wdc8SH4Ez6aMVeVPwjFF2pKIJeN5F5eTlE7bJx99LR9zs8DmEAAAA.webp",
+   "date": "10 Jan 2024",
+   "snippet": "I received a call from an agent of Kotak Mahindra Bank that A lifetime free credit card was being offered to me based on a pre-approved offer. ...",
+   "snippet_highlighted_words": [
+    "Mahindra",
+    "offer"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "I received a call from an agent of Kotak Mahindra Bank that A lifetime free credit card was being offered to me based on a pre-approved offer.  ...",
+     "source_info_link": "https://technofino.in/community/threads/credit-card-lifetime-free-issues.21706/page-4",
+     "icon": "https://serpapi.com/images/i/UklGRvgBAABXRUJQVlA4IOwBAADQCQCdASogACAAPtEutFooIagoGAEAGglpABRgfE3wB79iLv8xXaywNJHMO8ZX0L_0fcK_MLrzejh-xyo0_88e92bZHkxxPv_a-oTOZkmWPBRkayjztAAA_v7DmqHWeIcssmEXHu-LPAITfsPxgwiw0edX_dBe6tkEanYy5J9tg1vf8JZtVvfiW2Aj_tGofaOYL2rnV3EGh3I-pJj8Jr77rs8JKvng7GRfOjn_aCF_4O5f7NJz4Z6jkXTn_lKDyjAfC08wMNzIE8UMk2me6RUPWT63u2s94Pio2ZUdrzbk7_EpCLNt56_ojcz8EbIHuUozgFRoZjwsh9fYA8ZsOGMipiVpX2sRJffNk86XvM3PvKG_w7bZ20mVbHQdcOXuTYTN88d_31C1fBgpzQVbCeUq7oHevqvd25_3T5Mg4rSL3_y71kirTxpjCX4EoSzH8EmHEvbTaCrGVE90xoXBqzB0deWwA8kz2_nlty0VC7hX0cHYTZv8q6TQNuTKqhA4WbWkCiE03txe2FStw34hmZ3qFuTr-1iPRgxNC-E5KNbKQFffAijo54lAwm9sYsvw09OfDevnO-6UP487fPtZao9nIhSAC_Wdc8SH4Ez6aMVeVPwjFF2pKIJeN5F5eTlE7bJx99LR9zs8DmEAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZibFlzUkNNMHU5VlhkdUc4NVNfTmhtQ3NKVUxBdndPd3o4b1BxRFB2enVXR0NUTFE4RHZaajZCUjNjcmZ2ZUp2ZS1lVkhDUDcxcFNTY01BR2VMWU10WnFocXVMV2ZoNFA5S09mRjA4VFFlTjFXdlliaHZtY2E4WHBzNVJDbG1MRGVIdVYyS3NCZVdCYWRHbWZzUUZyd0l5ZGxqQlhoSHdKbV91M2RiT1d4ME8yMm85bTBLbFFjRjJlVEESBBoCCAAatgYSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAkgYIABAAGAAgACoZCgR0ZWNoFQAAAAAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRXcpC49Ggx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVPJe3PhoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchW7OIA9GgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFZjoiDwaBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcy0QEvZ290bz91cmw9Q0FFU2tBRUI2enN3RmJsWXNSQ00wdTlWWGR1Rzg1U19OaG1Dc0pVTEF2d093ejhvUHFEUHZ6dVdHQ1RMUThEdlpqNkJSM2NyZnZlSnZlLWVWSENQNzFwU1NjTUFHZUxZTXRacWhxdUxXZmg0UDlLT2ZGMDhUUWVOMVd2WWJodm1jYThYcHM1UkNsbUxEZUh1VjJLc0JlV0JhZEdtZnNRRnJ3SXlkbGpCWGhId0ptX3UzZGJPV3gwTzIybzltMEtsUWNGMmVUQTo_Q3JlZGl0IENhcmQgTGlmZXRpbWUgRnJlZSBJc3N1ZXMgfCBQYWdlIDQgfCBUZWNobm9GaW5vIC0gIzEgLi4uQq0BSSByZWNlaXZlZCBhIGNhbGwgZnJvbSBhbiBhZ2VudCBvZiBLb3RhayA8Yj5NYWhpbmRyYTwvYj4gQmFuayB0aGF0IEEgbGlmZXRpbWUgZnJlZSBjcmVkaXQgY2FyZCB3YXMgYmVpbmcgb2ZmZXJlZCB0byBtZSBiYXNlZCBvbiBhIHByZS1hcHByb3ZlZCA8Yj5vZmZlcjwvYj4uIDxiPjwvYj4mbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZibFlzUkNNMHU5VlhkdUc4NVNfTmhtQ3NKVUxBdndPd3o4b1BxRFB2enVXR0NUTFE4RHZaajZCUjNjcmZ2ZUp2ZS1lVkhDUDcxcFNTY01BR2VMWU10WnFocXVMV2ZoNFA5S09mRjA4VFFlTjFXdlliaHZtY2E4WHBzNVJDbG1MRGVIdVYyS3NCZVdCYWRHbWZzUUZyd0l5ZGxqQlhoSHdKbV91M2RiT1d4ME8yMm85bTBLbFFjRjJlVEESBBoCCAAatgYSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAkgYIABAAGAAgACoZCgR0ZWNoFQAAAAAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRXcpC49Ggx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVPJe3PhoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchW7OIA9GgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFZjoiDwaBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcy0QEvZ290bz91cmw9Q0FFU2tBRUI2enN3RmJsWXNSQ00wdTlWWGR1Rzg1U19OaG1Dc0pVTEF2d093ejhvUHFEUHZ6dVdHQ1RMUThEdlpqNkJSM2NyZnZlSnZlLWVWSENQNzFwU1NjTUFHZUxZTXRacWhxdUxXZmg0UDlLT2ZGMDhUUWVOMVd2WWJodm1jYThYcHM1UkNsbUxEZUh1VjJLc0JlV0JhZEdtZnNRRnJ3SXlkbGpCWGhId0ptX3UzZGJPV3gwTzIybzltMEtsUWNGMmVUQTo_Q3JlZGl0IENhcmQgTGlmZXRpbWUgRnJlZSBJc3N1ZXMgfCBQYWdlIDQgfCBUZWNobm9GaW5vIC0gIzEgLi4uQq0BSSByZWNlaXZlZCBhIGNhbGwgZnJvbSBhbiBhZ2VudCBvZiBLb3RhayA8Yj5NYWhpbmRyYTwvYj4gQmFuayB0aGF0IEEgbGlmZXRpbWUgZnJlZSBjcmVkaXQgY2FyZCB3YXMgYmVpbmcgb2ZmZXJlZCB0byBtZSBiYXNlZCBvbiBhIHByZS1hcHByb3ZlZCA8Yj5vZmZlcjwvYj4uIDxiPjwvYj4mbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "technofino.in"
+  },
+  {
+   "position": 8,
+   "title": "Ive wanted to join AI in Chennai Institute of Technology but ...",
+   "link": "https://collegedunia.com/qna/question/37106-ive-wanted-to-join-ai-in-chennai-institute-of-technology-but-all-the-reviews-about-the-college-seems-to-be-forced-to-look-good-is-this-a-scam-or-is-it-really-that-good",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwIB6zswFaSYGrCYJ7lySKKPMxnA-lpuxCYPepeyOKqGMhN_26cJoiM6R5Y03iCgfjYaU6xhWa8polwt6one7_o7OMATFhdbC0hsy99iBURbg3dcleUpI3eNtI-aE9yiT2j8KqRrXf82zgA06VwqN5rhxad_9s6qUUccGqjryYe_S03kwN6SYPqdhLF2baFOjBVz6_N4k_Z3SorWkAmFciQTQwPhBzDUMeJfDu--aBbkXChuTLxj7L3SBadG344yReodajsFXY3JJ3kEtTYEHJdcgkI1Mt0_SjKiP1D6ss5Jvd0lmJvLrvXRORxZfZ86u91mSzQ1BEm6TFcbL1S4W3RFVqn4aZ3Z-d0MShk-KDS0&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECDMQAQ&uoh=1",
+   "displayed_link": "https://collegedunia.com › Q&A",
+   "favicon": "https://serpapi.com/images/i/UklGRsgAAABXRUJQVlA4ILwAAABwBQCdASocABwAPtE-tFooIigoFAEAGglkALEfND4B0SSFfx1Ay7Qrjl8wxtzN30SEDwAAAP6cgYRBzbhg9S6aLwaGlI1lweJ9ZVa8g3BWh3L0hEebRoxA6Xj5DUfebYHt1Two71NSeTdbsV4qhmSdWYpeK9xIT6VnknhMjXTMZJNln2bls7qZxzbSNfItb_T5D3djhZGMMWsuvyDfunPPUXJRTSdP4OrBKd8KH9P8ArCnevCImdNLAAAAAA.webp",
+   "date": "1 Feb 2026",
+   "snippet": "Ive wanted to join AI in Chennai Institute of Technology but all the reviews about the college seems to be forced to look good. Is this a scam or is it ...",
+   "about_this_result": {
+    "source": {
+     "description": "It's not really a scam; it's just marketing. Tech Mahindra visiting for recruitment. The fee structure includes around 150,000 per year, which ...",
+     "source_info_link": "https://collegedunia.com/qna/question/37106-ive-wanted-to-join-ai-in-chennai-institute-of-technology-but-all-the-reviews-about-the-college-seems-to-be-forced-to-look-good-is-this-a-scam-or-is-it-really-that-good",
+     "icon": "https://serpapi.com/images/i/UklGRsgAAABXRUJQVlA4ILwAAABwBQCdASocABwAPtE-tFooIigoFAEAGglkALEfND4B0SSFfx1Ay7Qrjl8wxtzN30SEDwAAAP6cgYRBzbhg9S6aLwaGlI1lweJ9ZVa8g3BWh3L0hEebRoxA6Xj5DUfebYHt1Two71NSeTdbsV4qhmSdWYpeK9xIT6VnknhMjXTMZJNln2bls7qZxzbSNfItb_T5D3djhZGMMWsuvyDfunPPUXJRTSdP4OrBKd8KH9P8ArCnevCImdNLAAAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvoCL2dvdG8_dXJsPUNBRVNqd0lCNnpzd0ZhU1lHckNZSjdseVNLS1BNeG5BLWxwdXhDWVBlcGV5T0txR01oTl8yNmNKb2lNNlI1WTAzaUNnZmpZYVU2eGhXYThwb2x3dDZvbmU3X283T01BVEZoZGJDMGhzeTk5aUJVUmJnM2RjbGVVcEkzZU50SS1hRTl5aVQyajhLcVJyWGY4MnpnQTA2VndxTjVyaHhhZF85czZxVVVjY0dxanJ5WWVfUzAza3dONlNZUHFkaExGMmJhRk9qQlZ6Nl9ONGtfWjNTb3JXa0FtRmNpUVRRd1BoQnpEVU1lSmZEdS0tYUJia1hDaHVUTHhqN0wzU0JhZEczNDR5UmVvZGFqc0ZYWTNKSjNrRXRUWUVISmRjZ2tJMU10MF9TaktpUDFENnNzNUp2ZDBsbUp2THJ2WFJPUnhaZlo4NnU5MW1TelExQkVtNlRGY2JMMVM0VzNSRlZxbjRhWjNaLWQwTVNoay1LRFMwEgQaAggAGusHEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQMcHCAAQABgAIAAqGQoEdGVjaBVGIDE_Ggx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVRiAxPxoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFcECzT0aB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVd-HOPRoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFRLcUz4aBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRWg5KA_GgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMvoCL2dvdG8_dXJsPUNBRVNqd0lCNnpzd0ZhU1lHckNZSjdseVNLS1BNeG5BLWxwdXhDWVBlcGV5T0txR01oTl8yNmNKb2lNNlI1WTAzaUNnZmpZYVU2eGhXYThwb2x3dDZvbmU3X283T01BVEZoZGJDMGhzeTk5aUJVUmJnM2RjbGVVcEkzZU50SS1hRTl5aVQyajhLcVJyWGY4MnpnQTA2VndxTjVyaHhhZF85czZxVVVjY0dxanJ5WWVfUzAza3dONlNZUHFkaExGMmJhRk9qQlZ6Nl9ONGtfWjNTb3JXa0FtRmNpUVRRd1BoQnpEVU1lSmZEdS0tYUJia1hDaHVUTHhqN0wzU0JhZEczNDR5UmVvZGFqc0ZYWTNKSjNrRXRUWUVISmRjZ2tJMU10MF9TaktpUDFENnNzNUp2ZDBsbUp2THJ2WFJPUnhaZlo4NnU5MW1TelExQkVtNlRGY2JMMVM0VzNSRlZxbjRhWjNaLWQwTVNoay1LRFMwOkRJdmUgd2FudGVkIHRvIGpvaW4gQUkgaW4gQ2hlbm5haSBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSBidXQgYWxsIC4uLkK0AUl0JiMzOTtzIG5vdCByZWFsbHkgYSA8Yj5zY2FtPC9iPjsgaXQmIzM5O3MganVzdCBtYXJrZXRpbmcuIDxiPlRlY2ggTWFoaW5kcmE8L2I-IHZpc2l0aW5nIGZvciByZWNydWl0bWVudC4gVGhlIDxiPmZlZTwvYj4gc3RydWN0dXJlIGluY2x1ZGVzIGFyb3VuZCAxNTAsMDAwIHBlciB5ZWFyLCB3aGljaCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvoCL2dvdG8_dXJsPUNBRVNqd0lCNnpzd0ZhU1lHckNZSjdseVNLS1BNeG5BLWxwdXhDWVBlcGV5T0txR01oTl8yNmNKb2lNNlI1WTAzaUNnZmpZYVU2eGhXYThwb2x3dDZvbmU3X283T01BVEZoZGJDMGhzeTk5aUJVUmJnM2RjbGVVcEkzZU50SS1hRTl5aVQyajhLcVJyWGY4MnpnQTA2VndxTjVyaHhhZF85czZxVVVjY0dxanJ5WWVfUzAza3dONlNZUHFkaExGMmJhRk9qQlZ6Nl9ONGtfWjNTb3JXa0FtRmNpUVRRd1BoQnpEVU1lSmZEdS0tYUJia1hDaHVUTHhqN0wzU0JhZEczNDR5UmVvZGFqc0ZYWTNKSjNrRXRUWUVISmRjZ2tJMU10MF9TaktpUDFENnNzNUp2ZDBsbUp2THJ2WFJPUnhaZlo4NnU5MW1TelExQkVtNlRGY2JMMVM0VzNSRlZxbjRhWjNaLWQwTVNoay1LRFMwEgQaAggAGusHEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQMcHCAAQABgAIAAqGQoEdGVjaBVGIDE_Ggx0ZWNobWFoaW5kcmEqLAoIbWFoaW5kcmEVRiAxPxoMdGVjaG1haGluZHJhGg1pdjtwO21haGluZHJhKiwKBW9mZmVyFcECzT0aB2pvaW5pbmcaCG9mZmVyaW5nGgtvZmZlcmxldHRlciojCgZsZXR0ZXIVd-HOPRoHbGV0dGVycxoLb2ZmZXJsZXR0ZXIqUgoDZmVlFRLcUz4aBmNoYXJnZRoHY2hhcmdlcxoEY29zdBoFY29zdHMaBGZhcmUaBGZlZXMaBnByaWNlcxoHcHJpY2luZxoEcmF0ZRoFcmF0ZXMqUwoEc2NhbRWg5KA_GgVmcmF1ZBoHc2NhbW1lZBoIc2NhbW1lcnMaBXNjYW1zGglpdjtwO3NjYW0aCmZyYXVkdWxlbnQaBGZha2UaCHBoaXNoaW5nMvoCL2dvdG8_dXJsPUNBRVNqd0lCNnpzd0ZhU1lHckNZSjdseVNLS1BNeG5BLWxwdXhDWVBlcGV5T0txR01oTl8yNmNKb2lNNlI1WTAzaUNnZmpZYVU2eGhXYThwb2x3dDZvbmU3X283T01BVEZoZGJDMGhzeTk5aUJVUmJnM2RjbGVVcEkzZU50SS1hRTl5aVQyajhLcVJyWGY4MnpnQTA2VndxTjVyaHhhZF85czZxVVVjY0dxanJ5WWVfUzAza3dONlNZUHFkaExGMmJhRk9qQlZ6Nl9ONGtfWjNTb3JXa0FtRmNpUVRRd1BoQnpEVU1lSmZEdS0tYUJia1hDaHVUTHhqN0wzU0JhZEczNDR5UmVvZGFqc0ZYWTNKSjNrRXRUWUVISmRjZ2tJMU10MF9TaktpUDFENnNzNUp2ZDBsbUp2THJ2WFJPUnhaZlo4NnU5MW1TelExQkVtNlRGY2JMMVM0VzNSRlZxbjRhWjNaLWQwTVNoay1LRFMwOkRJdmUgd2FudGVkIHRvIGpvaW4gQUkgaW4gQ2hlbm5haSBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSBidXQgYWxsIC4uLkK0AUl0JiMzOTtzIG5vdCByZWFsbHkgYSA8Yj5zY2FtPC9iPjsgaXQmIzM5O3MganVzdCBtYXJrZXRpbmcuIDxiPlRlY2ggTWFoaW5kcmE8L2I-IHZpc2l0aW5nIGZvciByZWNydWl0bWVudC4gVGhlIDxiPmZlZTwvYj4gc3RydWN0dXJlIGluY2x1ZGVzIGFyb3VuZCAxNTAsMDAwIHBlciB5ZWFyLCB3aGljaCZuYnNwOy4uLiICEAFIAFgAaAA",
+   "source": "Collegedunia"
+  },
+  {
+   "position": 9,
+   "title": "Tech Mahindra H1B Sponsor - Report Fraud to USCIS",
+   "link": "https://forum.redbus2us.com/t/tech-mahindra-h1b-sponsor-report-fraud-to-uscis/83327",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFYpgr9F-V_n2WZxP8Alza3xKEksuApIQnpj5xCYGmq4yz1Rok865QQ5h-UOBuCDRXypEdGb0oDkXpVuSGgLZGpJsY6Yp1brk5m08-oD44PkE5yjRN7BYD5vMZGL2oYtHkDHTQB7pQsdCV0rU1NtF5jFSNhVI_xDUfs9U5i_3FrclhgsoRJOHCnuo&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECDgQAQ&uoh=1",
+   "displayed_link": "https://forum.redbus2us.com › USA › H1B Visa",
+   "favicon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAABQBgCdASocABwAPtEutFooIagoGAEAGglsALT0Fklnh-BObS3FJG4ceTZzkmyl5DHp1A_DKpQuTjKRAAD-9hLf63cTVQXB-3nobstZTHGsEdehSfWNlso-On2jUSwc2AF8U_02MNkO-6R7prH5h8a_LBrMPjJUyJQCwE6irIJwuK5j2GZYAbe2dVXCn_-v9Qkn30q8_r68m1cSt2KoLfHQv97L_9sR7oEg3-apH1Dr8Yekrs5gzXCnM1XyvsX_2lu8Pzm8Jqt_7Ok2es8PJP3dMDiy7piz7lt_3P_LnipGR854y5uKRj8NaB3g8Ne12EX7SZt-URJ1_u_j9fnj2SfWVicxLE9uB3oyShnodztx_8FCP2gLY6vbnD5VpAeaR5P5bFkxdKZjJWlqEvPzh3P1Ls4KJPLMz-cvL5uhHJLdtBGAdWYQ8y0POIfivJ74ooojEJwcaRHZwMEfbHwa_6_gUYOqOAAA.webp",
+   "date": "27 May 2020",
+   "snippet": "You can report fraud to USCIS using their H1B Visa Tip form. USCIS Tip Form | USCIS. Check more at : Combating Fraud and Abuse in the H-1B ...",
+   "snippet_highlighted_words": [
+    "fraud",
+    "Fraud"
+   ],
+   "about_this_result": {
+    "source": {
+     "description": "You can report fraud to USCIS using their H1B Visa Tip form. USCIS Tip Form | USCIS. Check more at : Combating Fraud and Abuse in the H-1B ...",
+     "source_info_link": "https://forum.redbus2us.com/t/tech-mahindra-h1b-sponsor-report-fraud-to-uscis/83327",
+     "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAABQBgCdASocABwAPtEutFooIagoGAEAGglsALT0Fklnh-BObS3FJG4ceTZzkmyl5DHp1A_DKpQuTjKRAAD-9hLf63cTVQXB-3nobstZTHGsEdehSfWNlso-On2jUSwc2AF8U_02MNkO-6R7prH5h8a_LBrMPjJUyJQCwE6irIJwuK5j2GZYAbe2dVXCn_-v9Qkn30q8_r68m1cSt2KoLfHQv97L_9sR7oEg3-apH1Dr8Yekrs5gzXCnM1XyvsX_2lu8Pzm8Jqt_7Ok2es8PJP3dMDiy7piz7lt_3P_LnipGR854y5uKRj8NaB3g8Ne12EX7SZt-URJ1_u_j9fnj2SfWVicxLE9uB3oyShnodztx_8FCP2gLY6vbnD5VpAeaR5P5bFkxdKZjJWlqEvPzh3P1Ls4KJPLMz-cvL5uhHJLdtBGAdWYQ8y0POIfivJ74ooojEJwcaRHZwMEfbHwa_6_gUYOqOAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZZcGdyOUYtVl9uMldaeFA4QWx6YTN4S0Vrc3VBcElRbnBqNXhDWUdtcTR5ejFSb2s4NjVRUTVoLVVPQnVDRFJYeXBFZEdiMG9Ea1hwVnVTR2dMWkdwSnNZNllwMWJyazVtMDgtb0Q0NFBrRTV5alJON0JZRDV2TVpHTDJvWXRIa0RIVFFCN3BRc2RDVjByVTFOdEY1akZTTmhWSV94RFVmczlVNWlfM0ZyY2xoZ3NvUkpPSENudW8SBBoCCAAapwYSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAgwYIABAAGAAgACoZCgR0ZWNoFWdygEAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRVncoBAGgx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVAAAAABoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchUHz6A-GgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFQAAAAAaBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcyzgEvZ290bz91cmw9Q0FFU2pnRUI2enN3RllwZ3I5Ri1WX24yV1p4UDhBbHphM3hLRWtzdUFwSVFucGo1eENZR21xNHl6MVJvazg2NVFRNWgtVU9CdUNEUlh5cEVkR2Iwb0RrWHBWdVNHZ0xaR3BKc1k2WXAxYnJrNW0wOC1vRDQ0UGtFNXlqUk43QllENXZNWkdMMm9ZdEhrREhUUUI3cFFzZENWMHJVMU50RjVqRlNOaFZJX3hEVWZzOVU1aV8zRnJjbGhnc29SSk9IQ251bzo_PGI-VGVjaCBNYWhpbmRyYTwvYj4gSDFCIFNwb25zb3IgLSBSZXBvcnQgPGI-RnJhdWQ8L2I-IHRvIFVTQ0lTQqEBWW91IGNhbiByZXBvcnQgPGI-ZnJhdWQ8L2I-IHRvIFVTQ0lTIHVzaW5nIHRoZWlyIEgxQiBWaXNhIFRpcCBmb3JtLiBVU0NJUyBUaXAgRm9ybSB8IFVTQ0lTLiBDaGVjayBtb3JlIGF0IDogQ29tYmF0aW5nIDxiPkZyYXVkPC9iPiBhbmQgQWJ1c2UgaW4gdGhlIEgtMUImbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZZcGdyOUYtVl9uMldaeFA4QWx6YTN4S0Vrc3VBcElRbnBqNXhDWUdtcTR5ejFSb2s4NjVRUTVoLVVPQnVDRFJYeXBFZEdiMG9Ea1hwVnVTR2dMWkdwSnNZNllwMWJyazVtMDgtb0Q0NFBrRTV5alJON0JZRDV2TVpHTDJvWXRIa0RIVFFCN3BRc2RDVjByVTFOdEY1akZTTmhWSV94RFVmczlVNWlfM0ZyY2xoZ3NvUkpPSENudW8SBBoCCAAapwYSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAgwYIABAAGAAgACoZCgR0ZWNoFWdygEAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRVncoBAGgx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVAAAAABoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchUHz6A-GgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFQAAAAAaBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcyzgEvZ290bz91cmw9Q0FFU2pnRUI2enN3RllwZ3I5Ri1WX24yV1p4UDhBbHphM3hLRWtzdUFwSVFucGo1eENZR21xNHl6MVJvazg2NVFRNWgtVU9CdUNEUlh5cEVkR2Iwb0RrWHBWdVNHZ0xaR3BKc1k2WXAxYnJrNW0wOC1vRDQ0UGtFNXlqUk43QllENXZNWkdMMm9ZdEhrREhUUUI3cFFzZENWMHJVMU50RjVqRlNOaFZJX3hEVWZzOVU1aV8zRnJjbGhnc29SSk9IQ251bzo_PGI-VGVjaCBNYWhpbmRyYTwvYj4gSDFCIFNwb25zb3IgLSBSZXBvcnQgPGI-RnJhdWQ8L2I-IHRvIFVTQ0lTQqEBWW91IGNhbiByZXBvcnQgPGI-ZnJhdWQ8L2I-IHRvIFVTQ0lTIHVzaW5nIHRoZWlyIEgxQiBWaXNhIFRpcCBmb3JtLiBVU0NJUyBUaXAgRm9ybSB8IFVTQ0lTLiBDaGVjayBtb3JlIGF0IDogQ29tYmF0aW5nIDxiPkZyYXVkPC9iPiBhbmQgQWJ1c2UgaW4gdGhlIEgtMUImbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "RedBus2US",
+   "read_more_link": "https://forum.redbus2us.com/t/tech-mahindra-h1b-sponsor-report-fraud-to-uscis/83327#:~:text=You%20can%20report%20fraud%20to,H%2D1B%20Visa%20Program%20%7C%20USCIS"
+  },
+  {
+   "position": 10,
+   "title": "google meet link - real or fake",
+   "link": "https://support.google.com/meet/thread/351223546/google-meet-link-real-or-fake?hl=en",
+   "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://support.google.com/meet/thread/351223546/google-meet-link-real-or-fake%3Fhl%3Den&ved=2ahUKEwimp9jJgaOXAxVzVfEDHa_wC-YQFnoECDoQAQ",
+   "displayed_link": "https://support.google.com › meet › thread › google-mee...",
+   "favicon": "https://serpapi.com/images/i/UklGRq4AAABXRUJQVlA4IKIAAADwAgCdASoQABAAAsBMJbACdDiAN4z-0AFj302FejU2AAD-9nwIHnctDt4yPbFvK77LGPb6brAEqY6T1zYyWbjXB1uF9_Uj7wHz6zN7NYUQSHV49IiqjS-X2Ma8SvIJ1Yz1zaTOUQdbJFjhPMWxQQ-L8rWiceEEj1--p48_g8UrXrinoKsbx2bf93Q4BjOi9thY669Kz4H3_8YLw06o8JwAAAA.webp",
+   "date": "16 Jun 2025",
+   "snippet": "Hi! I was gonna have a job interview today and the recruiter sent me this https://meet.google.webconnect38.com/ktk-rkc-xha/ but I kept getting an unusual ...",
+   "about_this_result": {
+    "source": {
+     "description": "This is definately fake as it makes you install software to use it. Whoever they are is I would stop talking to them and it doesn't sound like a ...",
+     "source_info_link": "https://support.google.com/meet/thread/351223546/google-meet-link-real-or-fake?hl=en",
+     "icon": "https://serpapi.com/images/i/UklGRq4AAABXRUJQVlA4IKIAAADwAgCdASoQABAAAsBMJbACdDiAN4z-0AFj302FejU2AAD-9nwIHnctDt4yPbFvK77LGPb6brAEqY6T1zYyWbjXB1uF9_Uj7wHz6zN7NYUQSHV49IiqjS-X2Ma8SvIJ1Yz1zaTOUQdbJFjhPMWxQQ-L8rWiceEEj1--p48_g8UrXrinoKsbx2bf93Q4BjOi9thY669Kz4H3_8YLw06o8JwAAAA.webp"
+    },
+    "languages": [
+     "en"
+    ],
+    "regions": [
+     "IN"
+    ]
+   },
+   "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=ClRodHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9tZWV0L3RocmVhZC8zNTEyMjM1NDYvZ29vZ2xlLW1lZXQtbGluay1yZWFsLW9yLWZha2U_aGw9ZW4SBBoCCAAaiAUSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA5AQIABAAGAAgACoZCgR0ZWNoFQAAAAAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRUAAAAAGgx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVAAAAABoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchUAAAAAGgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFZ-FXj4aBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcyVGh0dHBzOi8vc3VwcG9ydC5nb29nbGUuY29tL21lZXQvdGhyZWFkLzM1MTIyMzU0Ni9nb29nbGUtbWVldC1saW5rLXJlYWwtb3ItZmFrZT9obD1lbjofZ29vZ2xlIG1lZXQgbGluayAtIHJlYWwgb3IgZmFrZUKdAVRoaXMgaXMgZGVmaW5hdGVseSBmYWtlIGFzIGl0IG1ha2VzIHlvdSBpbnN0YWxsIHNvZnR3YXJlIHRvIHVzZSBpdC4gV2hvZXZlciB0aGV5IGFyZSBpcyBJIHdvdWxkIHN0b3AgdGFsa2luZyB0byB0aGVtIGFuZCBpdCBkb2VzbiYjMzk7dCBzb3VuZCBsaWtlIGEmbmJzcDsuLi4iAhABSABYAGgA",
+   "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=ClRodHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9tZWV0L3RocmVhZC8zNTEyMjM1NDYvZ29vZ2xlLW1lZXQtbGluay1yZWFsLW9yLWZha2U_aGw9ZW4SBBoCCAAaiAUSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA5AQIABAAGAAgACoZCgR0ZWNoFQAAAAAaDHRlY2htYWhpbmRyYSosCghtYWhpbmRyYRUAAAAAGgx0ZWNobWFoaW5kcmEaDWl2O3A7bWFoaW5kcmEqLAoFb2ZmZXIVAAAAABoHam9pbmluZxoIb2ZmZXJpbmcaC29mZmVybGV0dGVyKiMKBmxldHRlchUAAAAAGgdsZXR0ZXJzGgtvZmZlcmxldHRlcipSCgNmZWUVAAAAABoGY2hhcmdlGgdjaGFyZ2VzGgRjb3N0GgVjb3N0cxoEZmFyZRoEZmVlcxoGcHJpY2VzGgdwcmljaW5nGgRyYXRlGgVyYXRlcypTCgRzY2FtFZ-FXj4aBWZyYXVkGgdzY2FtbWVkGghzY2FtbWVycxoFc2NhbXMaCWl2O3A7c2NhbRoKZnJhdWR1bGVudBoEZmFrZRoIcGhpc2hpbmcyVGh0dHBzOi8vc3VwcG9ydC5nb29nbGUuY29tL21lZXQvdGhyZWFkLzM1MTIyMzU0Ni9nb29nbGUtbWVldC1saW5rLXJlYWwtb3ItZmFrZT9obD1lbjofZ29vZ2xlIG1lZXQgbGluayAtIHJlYWwgb3IgZmFrZUKdAVRoaXMgaXMgZGVmaW5hdGVseSBmYWtlIGFzIGl0IG1ha2VzIHlvdSBpbnN0YWxsIHNvZnR3YXJlIHRvIHVzZSBpdC4gV2hvZXZlciB0aGV5IGFyZSBpcyBJIHdvdWxkIHN0b3AgdGFsa2luZyB0byB0aGVtIGFuZCBpdCBkb2VzbiYjMzk7dCBzb3VuZCBsaWtlIGEmbmJzcDsuLi4iAhABSABYAGgA",
+   "source": "Google Help"
+  }
+ ],
+ "serpapi_pagination": {
+  "current": 1,
+  "next": "https://serpapi.com/search.json?device=desktop&engine=google_forums&gl=in&hl=en&q=Tech+Mahindra+offer+letter+fee+scam&start=10"
+ }
+}
