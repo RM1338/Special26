@@ -237,3 +237,19 @@ Fixtures are in `backend/tests/fixtures/serp/`. 7 credits spent: 5 engines, 1 Le
 - **"non-refundable"** is normalised to "nonrefundable" before purpose matching, extending D-23 to purpose classification.
 - **A process claim** is emitted only when at least one flag is true.
 **Files:** `claims/org.py`, `claims/regexes.py`, `claims/extract.py`, `claims/amounts.py`, `data/seeds/lexicons.yaml`.
+
+### D-32 · 2026-10-05 · P01, P02, P11 and scorer details
+- **P01 Q2:** The second query (`"{org}" careers`) runs only when Q1 accepted nothing *and* the org has no seed domains. When the org came from the dictionary, its verified seed domains already form the official set (`08` unions them), so Q2 would spend a credit to learn nothing. `P01_NO_PRESENCE` keeps its meaning: nothing is known after Q2.
+- **P01 careers contact:**
+  - An organic link on an official domain counts if its path contains `/careers` or `/jobs` (as in `08`), or if its host starts with `careers.` or `jobs.`. The live fixture's only careers link is `careers.techmahindra.com/LCA/...`, whose path has neither.
+  - The KG phone is listed only when an official domain exists.
+- **P01 receipts:** P01 stores a receipt per official domain in `outputs.receipts`: the KG website, else the first organic result, else the seed `source_url` as a `rule` receipt. P02 cites these, which matches the `07` §4 example (the COMBOSQUAT receipt is the P01 knowledge graph).
+- **P02 lookalike copy:** "The {what} {domain} ...", where what ∈ {sender domain, reply-to domain, link domain}. For the sender this reproduces the `07`/`08` string exactly.
+- **P11 PERSONAL_UPI target** is one of:
+  - "a personal UPI ID (te****@ybl)"
+  - "through a payment link (host)"
+  - "by scanning a QR code"
+- **Runner:** dependency-driven (D-03). Unknown dependencies are ignored, so the registry can grow probe by probe. A probe that fails keeps the credits it spent in its result.
+- **CLI:** runs with `check_id = None`. It's a developer tool, so only the daily cap applies; there is no check row to budget against.
+- **Scorer:** `Verdict.effective` gives the per-finding effective weights for `findings.effective_weight`. Each finding keeps its message `vars` so decisive copy (D1, D2, D4) can name the org, amount and scheme without re-deriving them.
+**Files:** `probes/p01_entity.py`, `probes/p02_sender.py`, `probes/p11_policy.py`, `pipeline/runner.py`, `scoring/aggregate.py`, `cli.py`.

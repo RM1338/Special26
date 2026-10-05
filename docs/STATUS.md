@@ -29,3 +29,29 @@
 1. T1.1 to T1.5: regexes, org resolution, amounts, redaction, eml/pdf intake, domain classification table (tests first).
 2. T0.8 seeds: `known_entities.json` (≥ 40 with `source_url`), freemail, aggregators, stock, platform hosts, lure tokens, lexicons.
 3. T1.6 to T1.10: probe base, weights.yaml, copy, P01, P02, P11, scorer, worked-example test, CLI (M1).
+
+## M1 Core logic (due Tue 6 Oct 23:59 IST), done 2026-10-05
+
+**Works**
+- Seeds (T0.8): 54 companies and 6 schemes, all verified over HTTPS (D-30). `bank.in` handled. Freemail, aggregator, stock, platform, lure, lexicon and city lists.
+- Claim extraction (T1.1 to T1.4, except `.eml`/PDF intake): every `08` §2.1 type, plus redaction. ≥ 3 positive and 2 negative tests per type. All golden inputs extract as expected.
+- Domain classification (T1.5): all 12 rows of the `05` §5 table plus 11 extras.
+- Probe base, `weights.yaml` (46 codes, `08` order), copy for every code and decisive rule, startup ruleset check (T1.6).
+- P01 (on the live fixture), P02, P11: one test per finding code (T1.7, T1.8).
+- Scorer (T1.9): the worked example passes exactly (S = 8.0, D1 + D3, red, impersonation, strength 0.62, reasons in `08` order). Also: determinism over 100 shuffled runs, green gate, grey, D2, D4.
+- Runner with dependency scheduling and failure statuses. CLI (T1.10): `PYTHONPATH=backend .venv/bin/python -m special26.cli check backend/tests/golden/inputs/g1.txt` prints RED (impersonation) with D3. D1 arrives with P04 in M2.
+- 260 tests offline in about 2 s. 91% line coverage overall; claims, domains, probes and scoring are 94 to 100%.
+
+**Demoable:** the CLI verdict for G1, G2 and G4.
+
+**Behind**
+- T1.4 `.eml` and PDF intake: moved to the start of M2 (needed by the API).
+- T1.11 and T1.12 frontend components: not started (lane B).
+- Seed target of 80 companies: 54 so far.
+
+**Credits used so far:** 7, unchanged (the G1 CLI run was served from cache).
+
+**Next three tasks**
+1. Intake (`.eml`, PDF, images), then the API: create, PUT claims, run, GET, error envelope, rate limit (T2.1).
+2. Pipeline persistence and events, SSE with `Last-Event-ID`, then P04 + D1 (T2.2 to T2.4).
+3. Frontend scaffold and the four screens wired to the API, then deploy (T0.7, T2.5 to T2.7) for M2 on Wed 7 Oct 21:00.

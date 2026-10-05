@@ -1,0 +1,56 @@
+# Ruleset 2026.10.1. Must match docs/08-algorithm.md §4 exactly.
+# Order matters: it is the reason tiebreak (D-05), so codes follow 08's tables top to bottom.
+ruleset_version: "2026.10.1"
+
+codes:
+  P01_OFFICIAL_FOUND:            {weight: 0.0,  family: identity}
+  P01_NO_PRESENCE:               {weight: 1.0,  family: identity}
+  P02_SENDER_OFFICIAL:           {weight: -1.0, family: identity}
+  P02_HOMOGLYPH:                 {weight: 3.5,  family: identity}
+  P02_TYPOSQUAT:                 {weight: 3.0,  family: identity}
+  P02_COMBOSQUAT:                {weight: 3.0,  family: identity}
+  P02_TLD_SWAP:                  {weight: 2.5,  family: identity}
+  P02_FREEMAIL:                  {weight: 1.5,  family: identity}
+  P02_FREEMAIL_NO_PRESENCE:      {weight: 0.8,  family: identity}
+  P02_UNRELATED:                 {weight: 1.0,  family: identity}
+  P02_REPLY_DIVERTED:            {weight: 2.0,  family: identity}
+  P03_DKIM_ALIGNED_OFFICIAL:     {weight: -3.0, family: identity}
+  P03_AUTH_FAIL:                 {weight: 2.0,  family: identity}
+  P03_REPLY_DIVERTED:            {weight: 2.0,  family: identity}
+  P04_NOTICE_FOUND:              {weight: 0.3,  family: reputation}
+  P05_COMPLAINTS_GENERAL:        {weight: 0.7,  family: reputation}
+  P05_COMPLAINT_NAMES_SENDER:    {weight: 2.0,  family: reputation}
+  P05_PIB_FACTCHECK:             {weight: 1.5,  family: reputation}
+  P06_ID_REPORTED:               {weight: 3.0,  family: reputation}   # probe cap +4.0
+  P06_ID_ON_OFFICIAL:            {weight: -1.5, family: reputation}
+  P06_ID_SEEN_LOCALLY:           {weight: 2.0,  family: reputation}
+  P07_ROLE_LISTED:               {weight: -1.0, family: existence}
+  P07_COMPANY_LISTS_OTHER_ROLES: {weight: 0.2,  family: existence}
+  P08_OFFICE_MATCH:              {weight: -1.0, family: existence}
+  P08_RESIDENTIAL:               {weight: 1.0,  family: existence}
+  P08_COWORKING:                 {weight: 0.5,  family: existence}
+  P08_NOT_FOUND:                 {weight: 0.5,  family: existence}
+  P08_REVIEWS_SCAM:              {weight: 1.5,  family: reputation}
+  P09_STOCK_PHOTO:               {weight: 3.0,  family: artifact}
+  P09_PHOTO_OTHER_NAMES:         {weight: 2.5,  family: artifact}
+  P09_PHOTO_OFFICIAL:            {weight: -1.0, family: artifact}
+  P09_LETTER_REPORTED:           {weight: 2.5,  family: artifact}
+  P10_TEMPLATE_MATCH_HIGH:       {weight: 3.0,  family: artifact}
+  P10_TEMPLATE_MATCH_MED:        {weight: 1.5,  family: artifact}
+  P10_PHRASE_REPORTED:           {weight: 2.0,  family: artifact}
+  P10_PHRASE_OFFICIAL:           {weight: -0.5, family: artifact}
+  P11_CANDIDATE_PAYS:            {weight: 2.5,  family: process}
+  P11_REFUNDABLE_BAIT:           {weight: 0.5,  family: process}
+  P11_PERSONAL_UPI:              {weight: 1.0,  family: process}
+  P11_SCHEME_OFF_PORTAL:         {weight: 3.0,  family: process}
+  P11_FORM_OR_SHORTLINK:         {weight: 0.7,  family: process}
+  P11_URGENCY:                   {weight: 0.5,  family: process}
+  P11_NO_INTERVIEW:              {weight: 1.0,  family: process}
+  P11_CHAT_INTERVIEW:            {weight: 0.7,  family: process}
+  P12_VERY_NEW:                  {weight: 1.5,  family: identity}
+  P12_NEW:                       {weight: 0.7,  family: identity}
+
+# Decisive flags carried on a finding, not findings themselves (D-02)
+flags: [P04_NOTICE_NO_FEE]
+
+decisive: [D1_FEE_VS_NOTICE, D2_SCHEME_IMPERSONATION, D3_LOOKALIKE_PLUS_FEE, D4_IDENTIFIER_REPORTED]
