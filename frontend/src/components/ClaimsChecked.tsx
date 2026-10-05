@@ -52,7 +52,9 @@ export default function ClaimsChecked({ claims, findings, probes }: { claims: Cl
   const p01 = byProbe["P01_ENTITY"];
   const official = p01?.status === "ok" ? ((p01.outputs?.official_domains as string[] | undefined) ?? []) : null;
   const org = claims.find((c) => c.type === "org")?.value.name ?? "the company";
-  const rows = claims.filter((c) => LABEL[c.type]).sort((a, b) => ORDER.indexOf(a.type) - ORDER.indexOf(b.type));
+  const firstImage = new Set(["hr_photo", "offer_image"].map((r) => claims.find((c) => c.type === "image" && c.value.role === r)?.id));
+  const rows = claims.filter((c) => LABEL[c.type] && (c.type !== "image" || firstImage.has(c.id)))   // P09 checks one of each
+    .sort((a, b) => ORDER.indexOf(a.type) - ORDER.indexOf(b.type));
   if (!rows.length) return null;
 
   return (
