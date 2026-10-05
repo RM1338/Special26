@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import "@fontsource/public-sans/400.css";
+@import "@fontsource/public-sans/600.css";
+@import "@fontsource/public-sans/800.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/600.css";
+
+@theme {
+  --font-sans: "Public Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-page: #f5f6f8;
+  --color-surface: #ffffff;
+  --color-ink: #1c2433;
+  --color-muted: #5a6475;
+  --color-rule: #d5dae2;
+  --color-action: #2b3fa0;
+  --color-action-dark: #1f2f7a;
+  --color-red: #b42318;
+  --color-amber: #b54708;
+  --color-green: #067647;
+  --color-grey: #475467;
+  --color-slip: #fdfdfb;
+}
+
+html { background: var(--color-page); color: var(--color-ink); }
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 3px solid var(--color-action); outline-offset: 2px; border-radius: 4px; }
+
+/* The one memorable thing: a receipt is a printed slip with a torn, perforated top edge. */
+.slip {
+  background: var(--color-slip);
+  font-family: var(--font-mono);
+  position: relative;
+  box-shadow: 0 1px 0 var(--color-rule), 0 18px 40px -24px rgb(28 36 51 / 0.45);
+}
+.slip::before {
+  content: "";
+  position: absolute; left: 0; right: 0; top: -9px; height: 10px;
+  background:
+    radial-gradient(circle at 6px 0, transparent 5px, var(--color-slip) 5.5px) repeat-x;
+  background-size: 12px 10px;
+}
+.slip-rule { border-top: 1px dashed #b9bfca; }
+
+@keyframes print-in { from { transform: translateY(100%); } to { transform: translateY(0); } }
+.printing { animation: print-in 260ms cubic-bezier(.2,.8,.2,1); }
+@media (prefers-reduced-motion: reduce) {
+  .printing { animation: none; }
+  *, *::before, *::after { transition: none !important; }
+}

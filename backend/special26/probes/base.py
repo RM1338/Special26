@@ -145,7 +145,8 @@ class Probe(ABC):
 
 
 def rule_receipt(rule_id: str, **extra) -> Receipt:
-    return Receipt(kind="rule", rule_id=rule_id, extra=extra)
+    from special26.scoring.copy import RULE_COPY
+    return Receipt(kind="rule", rule_id=rule_id, extra={"text": RULE_COPY.get(rule_id), **extra})
 
 
 def serp_receipt(engine: str, query: str, key: str, r: dict | None = None, **extra) -> Receipt:

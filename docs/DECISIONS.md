@@ -304,3 +304,13 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - Org names typed by the student go through the dictionary, so "TCS" becomes "Tata Consultancy Services" with its `entity_id`.
 - **SSE:** subscribe first, then replay from `check_events`, so no event falls between the two. `?last_event_id=` works as well as the header. The stream ends immediately for a terminal check once its stored events have been sent.
 **Files:** `api/checks.py`, `intake/ingest.py`, `api/health.py`, `main.py`.
+
+### D-36 · 2026-10-05 · Frontend build choices
+- **Stack:** the Vite scaffold installed React 19, React Router 7, Tailwind 4 (`@tailwindcss/vite`) and TanStack Query 5. `05` names React 18, but nothing in the spec depends on React 18 APIs, so the newer versions stay.
+- **Fonts:** Public Sans (civic, form-like) for everything; IBM Plex Mono only inside receipt slips. Both are self-hosted via `@fontsource`, so offline replay in Docker renders the real fonts.
+- **Palette:** page `#F5F6F8`, ink `#1C2433`, action ballpoint blue `#2B3FA0`, plus the `09` §5 tier colours exactly. A receipt opens as a printed slip with a perforated edge, the one deliberate visual flourish.
+- **Example chips:** "WhatsApp offer with a fee" (G1), "PM Internship form" (G2), and "Startup offer, documents first" (G4). The third one stands in for G3 until the consented `.eml` exists (D-14). `09`'s "Real offer email" label isn't used for G4, because that wouldn't be true.
+- **Receipt drawer:** opened from a reason, "Why it matters" shows that reason's sentence. Opened from All findings, it shows the finding's own message. The employer's seed notice is labelled "Employer's own notice" with its verified date (D-34).
+- **Rule receipts** carry their `09` S5 sentence in `receipt.extra.text`, so the copy lives only in `scoring/copy.py`.
+- **Serving:** FastAPI serves `frontend/dist` (`SPECIAL26_STATIC_DIR` in Docker), with an SPA fallback for every non-`/api`, non-`/public` path.
+**Files:** `frontend/*`, `backend/special26/api/web.py`, `backend/special26/probes/base.py`.

@@ -1,6 +1,5 @@
 """FastAPI app factory, error envelope, request ids, lifespan (05 §1, 07 §9)."""
 import asyncio
-import contextlib
 import logging
 import secrets
 from contextlib import asynccontextmanager
@@ -11,7 +10,7 @@ from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 
-from special26.api import checks, health
+from special26.api import checks, health, web
 from special26.config import Settings, get_settings
 from special26.deps import build
 from special26.errors import Special26Error
@@ -89,7 +88,5 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     app.include_router(checks.router)
     app.include_router(health.router)
-    with contextlib.suppress(ImportError):
-        from special26.api import web
-        web.mount(app)
+    web.mount(app)                             # after the API routers: the SPA fallback must come last
     return app
