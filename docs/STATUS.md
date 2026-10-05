@@ -56,7 +56,7 @@
 2. Pipeline persistence and events, SSE with `Last-Event-ID`, then P04 + D1 (T2.2 to T2.4).
 3. Frontend scaffold and the four screens wired to the API, then deploy (T0.7, T2.5 to T2.7) for M2 on Wed 7 Oct 21:00.
 
-## M2 Vertical slice (due Wed 7 Oct 21:00 IST), 2026-10-05, everything except the deploy
+## M2 Vertical slice (due Wed 7 Oct 21:00 IST), done 2026-10-05
 
 **Works**
 - Intake (T1.4): `.eml` (auth results, HTML or plain body), PDF text and images, images resized with EXIF stripped and pHash, Lens sizing, optional OCR.
@@ -69,16 +69,19 @@
 - G1 end to end through the API (replay test) and in the browser (live, from cache): red, impersonation, D1 + D3, reason 1 = D1.
 - 284 backend tests in about 5 s.
 
-**Demoable:** locally, the full G1 flow in the browser.
+**Deployed:** https://web-production-4b8c8.up.railway.app (Railway project `special26`, service `web`, volume at `/app/data`, live mode).
+
+**M2 exit met:** G1 run in a real browser (360 px) on the public URL, live. Red, impersonation, D1 + D3, reasons with clickable receipts. Verdict 3.9 s after "Run checks". 2 SerpApi credits (P01 1.7 s, P04).
+
+**Demoable:** the full G1 flow on the public URL.
 
 **Blocked on the user**
-- `railway login`, plus `SERPAPI_API_KEY` and `SPECIAL26_SHARE_SALT` set as Railway variables.
 - The local Docker daemon isn't reachable (the user isn't in the `docker` group), so the image builds only on Railway for now. M5's offline `docker run` check needs local Docker.
 - G3 consented `.eml` (D-14).
 
-**Credits used so far:** 15 (8 of them on the D-34 site-restriction investigation).
+**Credits used so far:** 17 (15 local, 2 on the deployed G1 run; 8 of them on the D-34 site-restriction investigation).
 
 **Next three tasks**
-1. Deploy to Railway with a volume at `/app/data`, then a live G1 on the public URL (M2 exit).
-2. P07, P08, P09 (Lens upload path, D-27), P03, P10, P06, P05 (T3.1 to T3.8).
-3. Share token, share page with OG tags (D-18), campaigns.
+1. P07, P08, P09 (Lens upload path, D-27), P03, P10, P06, P05 (T3.1 to T3.8).
+2. Share token, share page with OG tags (D-18), campaigns.
+3. Scam template seed corpus (≥ 25) and eval cases (lane B).
