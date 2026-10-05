@@ -10,14 +10,15 @@ from pathlib import Path
 import httpx
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "backend"))
-from special26.config import Settings  # noqa: E402
-from special26.serp.client import SerpClient  # noqa: E402
-from special26.storage.db import connect, migrate  # noqa: E402
-from special26.storage.repo import Repo  # noqa: E402
+from special26.config import Settings
+from special26.errors import Special26Error
+from special26.serp.client import SerpClient
+from special26.storage.db import connect, migrate
+from special26.storage.repo import Repo
 
 OUT = Path(__file__).resolve().parents[1] / "backend/tests/fixtures/serp"
-# Public image of a well-known person, so exact matches exist.
-LENS_URL = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Anand_Mahindra.jpg/440px-Anand_Mahindra.jpg"
+# Widely reused Pexels stock portrait: 400 exact matches incl. pexels.com (D-29).
+LENS_URL = "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?w=800"
 
 CALLS = {
     "google_entity_techmahindra": {"engine": "google", "q": "\"Tech Mahindra\"", "num": 10},
@@ -25,7 +26,7 @@ CALLS = {
     "google_forums_techmahindra": {"engine": "google_forums", "q": "Tech Mahindra offer letter fee scam"},
     "google_jobs_techmahindra": {"engine": "google_jobs", "q": "Data Analyst Intern Tech Mahindra", "location": "India"},
     "google_maps_techmahindra": {"engine": "google_maps", "type": "search", "q": "Tech Mahindra office Noida"},
-    "google_lens_exact": {"engine": "google_lens", "url": LENS_URL, "type": "exact_matches", "image_sha256": "spike"},
+    "google_lens_exact_stock": {"engine": "google_lens", "url": LENS_URL, "type": "exact_matches", "image_sha256": "spike"},
 }
 
 
@@ -40,7 +41,7 @@ async def main():
         for name, params in CALLS.items():
             try:
                 data, _, hit = await c.search(None, params)
-            except Exception as e:
+            except Special26Error as e:
                 print(f"{name}: FAILED {type(e).__name__}: {e}")
                 continue
             data.get("search_parameters", {}).pop("api_key", None)

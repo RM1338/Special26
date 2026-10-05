@@ -111,3 +111,20 @@ async def test_api_key_never_logged_or_in_errors(settings, repo, caplog):
     with pytest.raises(UpstreamError) as e:
         await c.search(None, {"engine": "google", "q": "a"})
     assert "SECRET" not in str(e.value) and "SECRET" not in caplog.text
+
+
+async def test_timeout_is_charged_not_refunded(settings, repo, check_id, db):  # D-29
+    def slow(request):
+        raise httpx.ReadTimeout("slow")
+    c, _ = client_with(settings, repo, slow)
+    with pytest.raises(UpstreamError):
+        await c.search(check_id, {"engine": "google_lens", "url": "u", "image_sha256": "a", "type": "exact_matches"})
+    assert db.execute("SELECT status FROM credit_ledger").fetchone()[0] == "spent"
+
+
+def test_lens_empty_result_fixture_is_empty():
+    from pathlib import Path
+
+    from special26.serp.client import is_empty_result
+    d = json.loads((Path(__file__).parents[1] / "fixtures/serp/google_lens_exact_empty.json").read_text())
+    assert is_empty_result(d)

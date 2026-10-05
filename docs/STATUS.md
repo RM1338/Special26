@@ -20,13 +20,12 @@
 **Demoable:** nothing user-facing yet.
 
 **Behind / blocked**
-- T0.5 live spike: needs `SERPAPI_API_KEY`. The script is ready at `scripts/spike_engines.py` (6 credits).
 - T0.7 frontend scaffold, T0.8 seed entities (40 verified domains): not started.
 - G3 needs a consented real offer `.eml` with `dkim=pass` from the team (D-14).
 
-**Credits used so far:** 0.
+**Credits used so far:** 7 (T0.5 spike: 5 engines plus 2 Lens calls, D-29). M0 exit criterion met: real responses for all 6 engines are stored as fixtures.
 
 **Next three tasks**
-1. Run the spike and store fixtures. Confirm the Lens `exact_matches` key and the Maps review fields.
-2. T1.1 to T1.5: regexes, org resolution, amounts, redaction, eml/pdf intake, domain classification table (tests first).
-3. T0.8 seeds: `known_entities.json` (≥ 40 with `source_url`), freemail, aggregators, stock, platform hosts, lure tokens, lexicons.
+1. T1.1 to T1.5: regexes, org resolution, amounts, redaction, eml/pdf intake, domain classification table (tests first).
+2. T0.8 seeds: `known_entities.json` (≥ 40 with `source_url`), freemail, aggregators, stock, platform hosts, lure tokens, lexicons.
+3. T1.6 to T1.10: probe base, weights.yaml, copy, P01, P02, P11, scorer, worked-example test, CLI (M1).

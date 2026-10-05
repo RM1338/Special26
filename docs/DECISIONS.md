@@ -184,3 +184,17 @@ Sources: https://serpapi.com/google-lens-api, /google-forums-api, /google-jobs-a
 - **google_maps** (`type=search`): `local_results[]` with `title, type, types, website, address, rating, reviews` (a count), and sometimes a truncated `user_review`. `place_results` appears for single-place answers.
 **Decision for P08_REVIEWS_SCAM:** Review text is read only from what the search response already holds: `user_review`, plus `place_results.user_reviews` snippets if present. No extra reviews call, since the budget doesn't allow it. This makes the signal weaker than `08` implies; the gap is recorded here and the code stays.
 **Files:** `serp/client.py`, `probes/p05_chatter.py`, `probes/p07_role.py`, `probes/p08_office.py`.
+
+### D-29 · 2026-10-05 · Live spike results (task T0.5)
+Fixtures are in `backend/tests/fixtures/serp/`. 7 credits spent: 5 engines, 1 Lens call that timed out but was billed, 1 Lens stock test.
+- **Lens latency:** SerpApi reported `total_time_taken` 13.6 s on one call, and 16.6 s wall clock on another. Both exceed the 10 s HTTP timeout and the FR-25 12 s probe timeout.
+  - **Decision:** HTTP timeout is 30 s for `google_lens` and stays 10 s for other engines. P09's probe timeout is 30 s and every other probe keeps 12 s. P09 runs in parallel, so this keeps NFR-01 (p95 ≤ 45 s). A timed-out request is recorded as `spent`, not `refunded`, because SerpApi completes and bills it anyway: the retry came back in 0.3 s from SerpApi's own cache.
+- **Lens exact matches:**
+  - A Wikimedia portrait returned `"error": "Google Lens hasn't returned any results for this query."`. The empty-result rule catches it, and it's kept as fixture `google_lens_exact_empty.json`.
+  - A popular Pexels portrait returned 400 `exact_matches[]` with fields `position, title, link, source, source_icon, thumbnail, date, actual_image_width, actual_image_height`. `pexels.com` hits came at positions 13, 92 and 105. P09 scans all returned matches, not just the top 10, so `P09_STOCK_PHOTO` works as specified.
+- **google (entity):** `knowledge_graph.website` = `http://www.techmahindra.com/`, which registers as `techmahindra.com` ✓. The KG `phone` is a US number (`+1 214-974-9907`). It is still listed as an official contact per `08`, labelled with its source. `careers.techmahindra.com/...` appears in organic results (position 6), which gives the careers contact.
+- **google_jobs:** `jobs_results[]` has both `title` and `job_title`. P07 uses `title`. The query "Data Analyst Intern Tech Mahindra" returns a real listing, "Data Analyst Intern at Tech Mahindra". So in the live G1 run, `P07_ROLE_LISTED` (-1.0 existence) will likely fire and S drops from 8.0 to 7.0. Tier, red_kind, decisive set and reason 1 are unchanged. The worked-example unit test keeps the `08` §6.1 findings exactly, and the G1 golden test asserts only what `14` §3 lists.
+- **google_news:** `news_results[]` with `date` and `iso_date`. P05 uses `iso_date` for the 24-month rule.
+- **google_forums:** `organic_results[]`. Its age is only in `displayed_meta` ("10+ comments · 1 year ago"), as D-28 predicted.
+- **google_maps:** `local_results[]` with `type`, `types`, `website` (`techmahindra.com` ✓), `reviews_link`, and `user_review` on 2 of 3 places. Types seen: "Software company", "Corporate office", which are in the P08 match list ✓.
+**Files:** `serp/client.py`, `scripts/spike_engines.py`, `pipeline/runner.py` (per-probe timeout), `probes/p05`, `p07`, `p09`.
