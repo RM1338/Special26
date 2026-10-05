@@ -221,3 +221,40 @@ def test_p03_skipped_without_eml():
     c = ctx("hello")
     c.repo, c.check_id = SimpleNamespace(artifacts=lambda _cid: []), "chk_x"
     assert P03Headers().applicable(c) == "skipped_no_input"
+
+
+# ---- P06 (D-41) ------------------------------------------------------------------------------------------------
+from special26.errors import ReplayMiss
+from special26.probes.p06_identifier_trace import P06IdentifierTrace
+
+G1_TEXT = (Path(__file__).parents[1] / "golden/inputs/g1.txt").read_text()
+
+
+async def test_p06_reported_per_source_and_query_order():
+    data = {"organic_results": [
+        {"position": 1, "title": "Fraud alert: techm.hr@ybl", "snippet": "students cheated", "link": "https://a.in/x"},
+        {"position": 2, "title": "Scam warning", "snippet": "pay to techm.hr@ybl", "link": "https://www.a.in/y"},
+        {"position": 3, "title": "Beware fake offers", "snippet": "call 98765 43210", "link": "https://b.com/z"},
+        {"position": 4, "title": "Jobs portal", "snippet": "techm.hr@ybl", "link": "https://c.com/z"}]}
+    serp = AnySerp(data)
+    res = await P06IdentifierTrace().run(ctx(G1_TEXT, official=["techmahindra.com"], serp=serp))
+    assert codes(res) == ["P06_ID_REPORTED", "P06_ID_REPORTED"]               # a.in once, b.com once, c.com no scam word
+    assert serp.calls[0]["q"] == '"techm.hr@ybl" OR "9876543210" OR "techmahindra-careers.in" OR ' \
+                                 '"hr.onboarding@techmahindra-careers.in"'
+    assert res.findings[0].message == "The UPI ID te****@ybl from this offer appears in a public warning on a.in."
+
+
+async def test_p06_on_official():
+    data = {"organic_results": [{"position": 1, "title": "Contact us", "snippet": "HR helpline 98765 43210",
+                                 "link": "https://www.techmahindra.com/contact"}]}
+    res = await P06IdentifierTrace().run(ctx(G1_TEXT, official=["techmahindra.com"], serp=AnySerp(data)))
+    assert codes(res) == ["P06_ID_ON_OFFICIAL"] and "+91 ******3210" in res.findings[0].message
+
+
+async def test_p06_search_failure_keeps_status():
+    res = await P06IdentifierTrace().run(ctx(G1_TEXT, official=["techmahindra.com"], serp=AnySerp(ReplayMiss())))
+    assert res.status == "skipped_replay_miss" and res.findings == []
+
+
+def test_p06_freemail_only_is_not_applicable():
+    assert P06IdentifierTrace().applicable(ctx("Regards\nme.hr@gmail.com", official=[])) == "skipped_no_input"

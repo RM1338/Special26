@@ -249,6 +249,94 @@ class Repo:
         return sorted(out, key=lambda x: (-x["jaccard"], x["check_id"]))
 
 
+    # ---- identifiers and campaigns (08 §8) ----------------------------------------
+    def save_identifiers(self, check_id: str, ids: list[dict]) -> None:
+        self.db.executemany("INSERT OR IGNORE INTO identifiers (check_id, kind, value_norm, domain_class)"
+                            " VALUES (?, ?, ?, ?)", [(check_id, i["kind"], i["value"], i["domain_class"]) for i in ids])
+
+    def checks_with_identifier(self, kind: str, value: str, tiers=("red",), exclude: str | None = None) -> list[str]:
+        rows = self.db.execute(
+            f"SELECT DISTINCT i.check_id FROM identifiers i JOIN verdicts v ON v.check_id = i.check_id"
+            f" WHERE i.kind = ? AND i.value_norm = ? AND v.tier IN ({','.join('?' * len(tiers))}) AND i.check_id != ?"
+            f" ORDER BY i.check_id", (kind, value, *tiers, exclude or ""))
+        return [r[0] for r in rows]
+
+    def tier_of(self, check_id: str) -> str | None:
+        r = self.db.execute("SELECT tier FROM verdicts WHERE check_id = ?", (check_id,)).fetchone()
+        return r[0] if r else None
+
+    def phashes(self, check_id: str) -> list[str]:
+        return [r[0] for r in self.db.execute("SELECT phash FROM artifacts WHERE check_id = ? AND phash IS NOT NULL"
+                                              " AND role IN ('hr_photo', 'offer_image')", (check_id,))]
+
+    def phash_neighbours(self, check_id: str, tiers=("red", "amber"), max_hamming: int = 6) -> list[str]:
+        mine = [int(h, 16) for h in self.phashes(check_id)]
+        if not mine:
+            return []
+        rows = self.db.execute(
+            f"SELECT DISTINCT a.check_id, a.phash FROM artifacts a JOIN verdicts v ON v.check_id = a.check_id"
+            f" WHERE a.phash IS NOT NULL AND a.role IN ('hr_photo', 'offer_image') AND a.check_id != ?"
+            f" AND v.tier IN ({','.join('?' * len(tiers))})", (check_id, *tiers)).fetchall()
+        return sorted({cid for cid, h in rows if any((int(h, 16) ^ m).bit_count() <= max_hamming for m in mine)})
+
+    def campaign_of(self, check_id: str) -> int | None:
+        r = self.db.execute("SELECT campaign_id FROM campaign_members WHERE check_id = ?", (check_id,)).fetchone()
+        return r[0] if r else None
+
+    def create_campaign(self) -> int:
+        ts = iso(now())
+        return self.db.execute("INSERT INTO campaigns (created_at, updated_at) VALUES (?, ?)", (ts, ts)).lastrowid
+
+    def merge_campaign(self, src: int, dst: int) -> None:
+        self.db.execute("UPDATE campaign_members SET campaign_id = ? WHERE campaign_id = ?", (dst, src))
+        self.db.execute("UPDATE campaigns SET merged_into = ?, member_count = 0, updated_at = ? WHERE id = ?",
+                        (dst, iso(now()), src))
+
+    def add_member(self, campaign_id: int, check_id: str, via_edge: str) -> None:
+        self.db.execute("INSERT INTO campaign_members (check_id, campaign_id, joined_at, via_edge) VALUES (?, ?, ?, ?)"
+                        " ON CONFLICT(check_id) DO UPDATE SET campaign_id = excluded.campaign_id",
+                        (check_id, campaign_id, iso(now()), via_edge))
+
+    def refresh_campaign_stats(self, campaign_id: int) -> None:
+        members = [r[0] for r in self.db.execute(
+            "SELECT m.check_id FROM campaign_members m JOIN checks c ON c.id = m.check_id WHERE m.campaign_id = ?"
+            " ORDER BY c.created_at, c.rowid", (campaign_id,))]                   # orgs in first-seen order
+        orgs, tiers, edges = [], {}, {}
+        for cid in members:
+            org = next((c.value.get("name") for c in self.claims(cid) if c.type.value == "org"), None)
+            if org and org not in orgs:
+                orgs.append(org)
+            t = self.tier_of(cid)
+            if t:
+                tiers[t] = tiers.get(t, 0) + 1
+        for (e,) in self.db.execute("SELECT via_edge FROM campaign_members WHERE campaign_id = ? AND via_edge != 'seed'",
+                                    (campaign_id,)):
+            edges[e] = edges.get(e, 0) + 1
+        seen = self.db.execute(f"SELECT MIN(created_at), MAX(created_at) FROM checks WHERE id IN "
+                               f"({','.join('?' * len(members))})", members).fetchone() if members else (None, None)
+        self.db.execute("UPDATE campaigns SET member_count = ?, orgs_json = ?, edge_counts_json = ?, tier_counts_json = ?,"
+                        " first_seen = ?, last_seen = ?, updated_at = ? WHERE id = ?",
+                        (len(members), json.dumps(orgs), json.dumps(edges), json.dumps(tiers), seen[0], seen[1],
+                         iso(now()), campaign_id))
+
+    def campaign(self, campaign_id: int) -> dict | None:
+        r = self.db.execute("SELECT * FROM campaigns WHERE id = ?", (campaign_id,)).fetchone()
+        if r is None:
+            return None
+        d = dict(r)
+        for k in ("orgs", "edge_counts", "tier_counts"):
+            d[k] = json.loads(d.pop(f"{k}_json"))
+        return d
+
+    def campaign_members(self, campaign_id: int) -> list[dict]:
+        rows = self.db.execute(
+            "SELECT m.check_id, m.via_edge, c.created_at, v.tier, s.token FROM campaign_members m"
+            " JOIN checks c ON c.id = m.check_id LEFT JOIN verdicts v ON v.check_id = m.check_id"
+            " LEFT JOIN share_tokens s ON s.check_id = m.check_id WHERE m.campaign_id = ? ORDER BY c.created_at, c.rowid",
+            (campaign_id,))
+        return [dict(r) for r in rows]
+
+
 def _put(conn: sqlite3.Connection, key: str, engine: str, params: dict, data: dict) -> None:
     body = json.dumps(data, ensure_ascii=False)
     conn.execute("INSERT OR REPLACE INTO serp_cache (cache_key, engine, params_json, response_json, fetched_at, bytes)"

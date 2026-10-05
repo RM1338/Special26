@@ -270,6 +270,9 @@ def check_view(state, check_id: str, public: bool = False) -> dict:
             "family_scores": v["family_scores"], "decisive": v["decisive"], "coverage": v["coverage"],
             "strength": strength(v["score"]), "reasons": v["reasons"], "official_contacts": v["official_contacts"],
             "next_steps": next_steps(v["tier"], cs, v["official_contacts"]), "ruleset_version": v["ruleset_version"]}
+    camp_id = repo.campaign_of(check_id)
+    if camp_id and (camp := repo.campaign(camp_id)):
+        view["campaign"] = {"campaign_id": camp_id, "member_count": camp["member_count"], "orgs": camp["orgs"]}
     if public:
         return mask_view(view)
     used, hits = repo.credits_for_check(check_id)

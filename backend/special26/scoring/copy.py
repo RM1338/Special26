@@ -26,7 +26,7 @@ COPY = {
     "P05_PIB_FACTCHECK": "PIB Fact Check has published a warning about offers using this scheme's name.",
     "P06_ID_REPORTED": "{identifier} from this offer appears in a public warning on {source}.",
     "P06_ID_ON_OFFICIAL": "{identifier} appears on {org}'s official website.",
-    "P06_ID_SEEN_LOCALLY": "{identifier} appeared in {count} earlier checks marked high risk.",
+    "P06_ID_SEEN_LOCALLY": "{identifier} appeared in {count_text} marked high risk.",
     "P07_ROLE_LISTED": "Google Jobs lists a {role} role at {org}.",
     "P07_COMPANY_LISTS_OTHER_ROLES": "Google Jobs lists roles at {org}, but none like {role}.",
     "P08_OFFICE_MATCH": "Google Maps shows {org}'s office at this location.",

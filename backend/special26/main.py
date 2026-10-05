@@ -10,7 +10,7 @@ from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 
-from special26.api import checks, health, public_img, web
+from special26.api import campaigns, checks, health, public_img, web
 from special26.config import Settings, get_settings
 from special26.deps import build
 from special26.errors import Special26Error
@@ -89,6 +89,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     app.include_router(checks.router)
     app.include_router(health.router)
+    app.include_router(campaigns.router)
     app.include_router(public_img.router)
     web.mount(app)                             # after the API routers: the SPA fallback must come last
     return app

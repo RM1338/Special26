@@ -71,6 +71,8 @@ async def run_check(state, check_id: str) -> None:
     """Probes -> score -> persist -> verdict.ready; raw data purged at the end (05 §8, NFR-06)."""
     from datetime import datetime
 
+    from special26.campaign.identifiers import hard_identifiers
+    from special26.campaign.link import link_campaign
     from special26.claims.models import ClaimSet
     from special26.probes.registry import PROBES
     from special26.scoring.aggregate import score
@@ -105,8 +107,13 @@ async def run_check(state, check_id: str) -> None:
         toks = tokens(check["redacted_text"] or "", claims)
         if sig := signature(toks):                                  # 08 §7.5: red checks join the scam corpus
             repo.save_template(check_id, "scam" if v.tier == "red" else "unlabeled", sig, len(toks))
+        ids = hard_identifiers(claims, set(results.get("P01_ENTITY").outputs.get("official_domains", []))
+                               if "P01_ENTITY" in results else set())
+        repo.save_identifiers(check_id, ids)                                       # D-10
+        campaign_id = link_campaign(repo, check_id, ids, check["redacted_text"] or "", claims) \
+            if v.tier in ("red", "amber") else None
         repo.update_check(check_id, status="done")
-        events.publish(check_id, "verdict.ready", {"tier": v.tier, "red_kind": v.red_kind, "campaign_id": None})
+        events.publish(check_id, "verdict.ready", {"tier": v.tier, "red_kind": v.red_kind, "campaign_id": campaign_id})
     except Exception:
         log.exception("check_failed", extra={"check_id": check_id})
         repo.update_check(check_id, status="failed", error_code="INTERNAL")

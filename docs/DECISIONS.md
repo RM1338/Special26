@@ -359,3 +359,18 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **Every check gets a template row:** `scam` if red, else `unlabeled` (`08` §7.5). Seeds load at startup as `seed:<file>`.
 - **Distinctive sentence:** sentences split on `.`, `!` or `?` plus whitespace, a blank line, or a line break followed by a capital. Sentences with `<RECIPIENT>` are never sent.
 **Files:** `template/*`, `probes/p10_template.py`, `scoring/copy.py`, `storage/repo.py`, `storage/retention.py`, `pipeline/runner.py`.
+
+### D-41 · 2026-10-06 · P06, identifiers and campaigns
+- **Identifiers:** one helper (`campaign/identifiers.py`) produces `08`'s hard identifiers in priority order (upi, phone, domain, email) for P06, the `identifiers` table (D-10) and campaign edges.
+  - Domains come from the sender, the reply-to and `other`/`document` links whose class is typosquat, combosquat, tld_swap, homoglyph or unrelated.
+  - Emails count unless they are official or freemail.
+- **P06 keeps local memory when search fails:** if the Google part fails (replay miss, budget, upstream), the probe keeps that status, so coverage stays honest, but still returns any `P06_ID_SEEN_LOCALLY` findings. The earlier red checks are local evidence that needs no search. (G6b in replay depends on this.)
+- **"Present" in a result:** identifier matched in title + snippet + link, phones by digits only. `P06_ID_REPORTED`: one finding per distinct registrable source domain. `P06_ID_ON_OFFICIAL`: phone or email only, as in `08`.
+- **Copy:** `P06_ID_SEEN_LOCALLY` reads "...appeared in 1 earlier check / 3 earlier checks marked high risk" (pluralised). Its receipt links to `/campaign/{id}` when the earlier check is already in one.
+- **Campaigns:**
+  - Union-find works over persisted `campaign_members`. Neighbours are red or amber checks sharing an identifier, an image within pHash Hamming distance 6, or a template with J ≥ 0.6 (seeds excluded). Freemail and platform domains are never edges.
+  - The lowest touched campaign id survives; merged campaigns keep `merged_into` for the 301.
+  - A check with no neighbour gets no campaign.
+- **`edge_counts`** = count of members by the edge that linked them. `orgs` are in first-seen order.
+- **`/api/campaigns/{id}`:** identifiers shared by ≥ 2 members are masked, except domains, which are shown in full (`03` §4.3).
+**Files:** `campaign/*`, `probes/p06_identifier_trace.py`, `api/campaigns.py`, `storage/repo.py`, `pipeline/runner.py`.
