@@ -28,13 +28,19 @@ export interface Probe {
 }
 export interface CheckView {
   check_id: string; status: string; mode: "live" | "replay"; created_at: string; warnings?: string[];
-  claims: Claim[]; probes: Probe[]; findings: Finding[]; verdict: Verdict | null;
+  claims: Claim[]; probes: Probe[]; findings: Finding[]; verdict: Verdict | null; shared_on?: string;
   campaign: { campaign_id: number; member_count: number; orgs: string[] } | null;
   credits?: { used: number; cache_hits: number; budget: number };
 }
 export interface Created {
   check_id: string; status: string; mode: string; claims: Claim[]; warnings: string[];
   links: { self: string; events: string };
+}
+export interface CampaignView {
+  campaign_id: number; member_count: number; orgs: string[]; first_seen: string | null; last_seen: string | null;
+  edge_counts: Record<string, number>; tier_counts: Record<string, number>;
+  shared_identifiers: { kind: string; masked?: string; value?: string; checks: number }[];
+  members: { share_token: string | null; org: string | null; tier: Tier | null; created_at: string }[];
 }
 export interface Health { mode: "live" | "replay"; replay_recorded_at: string | null; ocr: boolean }
 
@@ -68,4 +74,5 @@ export const api = {
     { method: "POST" }),
   getShare: (token: string) => call<CheckView>(`/api/share/${token}`),
   health: () => call<Health>("/api/health"),
+  campaign: (id: string) => call<CampaignView>(`/api/campaigns/${id}`),
 };

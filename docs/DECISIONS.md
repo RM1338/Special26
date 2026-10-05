@@ -390,3 +390,16 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
   - Only when both fail does P05 raise, which makes its status `error` or `skipped_*`.
 - **`P05_PIB_FACTCHECK`:** any result from the three calls whose registrable domain is `pib.gov.in`, or with "PIB Fact Check" in the title, counts when a scheme claim exists. It doesn't need to meet the complaint criteria.
 **Files:** `probes/p05_chatter.py`.
+
+### D-43 · 2026-10-06 · Share and campaign pages
+- **The share view drops `check_id`.** The check id is the only key to the unmasked `GET /api/checks/{id}`, so a shared link must not reveal it.
+- **More masking on share pages:** receipt `query` and `title` are masked as well as `snippet`, because P06's query quotes raw identifiers. `claim_ids` are emptied.
+- **Field:** `shared_on` is added to the share response for "Checked on {date}" (S7).
+- **`/s/{token}`:** rendered server-side with `og:title` (headline) and `og:description` (reason 1), HTML-escaped. Crawler fetches of this page don't count as views; only `GET /api/share/{token}` does.
+- **The share page** shows the verdict card and next steps without the "Tell your placement cell" step, since the reader is already the person it was shared with.
+- **Campaign page:**
+  - The title uses the edge type with the highest count.
+  - Tier words: High risk, Unverified, Consistent, Not enough information.
+  - Template similarity is shown as "{n} offers share near-identical wording" (D-19).
+- **Verdict screen:** a check in a campaign shows "Linked to N other offers using the same details", linking to the campaign page (`09` §1, F → J).
+**Files:** `api/share.py`, `api/checks.py`, `api/web.py`, `frontend/src/pages/{Share,Campaign,Check}.tsx`.

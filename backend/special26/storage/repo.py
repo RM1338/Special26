@@ -337,6 +337,27 @@ class Repo:
         return [dict(r) for r in rows]
 
 
+    # ---- share tokens (07 §6) ---------------------------------------------------
+    def share_for(self, check_id: str) -> dict:
+        """Idempotent: one 22-char token per check, valid 30 days (NFR-06)."""
+        import secrets
+        r = self.db.execute("SELECT * FROM share_tokens WHERE check_id = ?", (check_id,)).fetchone()
+        if r:
+            return dict(r)
+        created = now()
+        row = {"token": secrets.token_urlsafe(16), "check_id": check_id, "created_at": iso(created),
+               "expires_at": iso(created + timedelta(days=30)), "view_count": 0}
+        self.db.execute("INSERT INTO share_tokens VALUES (:token, :check_id, :created_at, :expires_at, :view_count)", row)
+        return row
+
+    def share(self, token: str) -> dict | None:
+        r = self.db.execute("SELECT * FROM share_tokens WHERE token = ?", (token,)).fetchone()
+        return dict(r) if r else None
+
+    def count_view(self, token: str) -> None:
+        self.db.execute("UPDATE share_tokens SET view_count = view_count + 1 WHERE token = ?", (token,))
+
+
 def _put(conn: sqlite3.Connection, key: str, engine: str, params: dict, data: dict) -> None:
     body = json.dumps(data, ensure_ascii=False)
     conn.execute("INSERT OR REPLACE INTO serp_cache (cache_key, engine, params_json, response_json, fetched_at, bytes)"

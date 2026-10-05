@@ -82,6 +82,14 @@ export default function Check() {
       {c.verdict ? (
         <>
           <VerdictCard verdict={c.verdict} findings={c.findings} probes={c.probes} />
+          {c.campaign && (
+            <Link to={`/campaign/${c.campaign.campaign_id}`}
+              className="mt-4 block rounded-lg border border-rule bg-surface px-5 py-3.5 text-[0.95rem] no-underline hover:border-action">
+              <span className="font-semibold text-ink">Linked to {c.campaign.member_count - 1} other
+                offer{c.campaign.member_count > 2 ? "s" : ""}</span>
+              <span className="text-muted"> using the same details{c.campaign.orgs.length > 1 ? `, claiming ${c.campaign.orgs.join(", ")}` : ""}.</span>
+            </Link>
+          )}
           <NextSteps steps={c.verdict.next_steps} org={org} contacts={c.verdict.official_contacts}
             onShare={share} shareState={shareState} />
           <details className="mt-10">

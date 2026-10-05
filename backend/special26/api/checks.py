@@ -294,8 +294,11 @@ def mask_view(view: dict) -> dict:
     for p in view["probes"]:
         p.pop("outputs", None)
     for f in view["findings"]:
-        f["receipt"]["snippet"] = mask_text(f["receipt"].get("snippet"))
+        for k in ("snippet", "query", "title"):          # P06 queries quote raw identifiers
+            f["receipt"][k] = mask_text(f["receipt"].get(k))
+        f["claim_ids"] = []
     view.pop("warnings", None)
+    view.pop("check_id", None)                          # the check id would unlock the unmasked view
     return view
 
 

@@ -2,7 +2,7 @@
 import os
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -17,6 +17,18 @@ def mount(app: FastAPI) -> None:
     if not (STATIC / "index.html").exists():
         return
     app.mount("/assets", StaticFiles(directory=STATIC / "assets"), name="assets")
+
+    @app.get("/s/{token}", include_in_schema=False)
+    async def share_page(token: str, request: Request):
+        from special26.api.share import og_page, shared_view
+        from special26.errors import Special26Error
+        try:
+            v = shared_view(request.app.state.s26, token, count=False)
+        except Special26Error:
+            return HTMLResponse(index_html())
+        verdict = v.get("verdict") or {}
+        reasons = verdict.get("reasons") or [{}]
+        return og_page(index_html(), verdict.get("headline", "Special26"), reasons[0].get("message", ""))
 
     @app.get("/{path:path}", include_in_schema=False)
     async def spa(path: str):
