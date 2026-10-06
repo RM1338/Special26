@@ -5,10 +5,10 @@
  "template_group": "tg-lookalike-2",
  "source_url": "https://careers.techmahindra.com/CPDOC/Recruitment_Fraud.pdf",
  "provenance": "constructed",
- "text": "Dear Candidate,\nThis is to inform you that your candidature for Software Engineer at Capgemini has been approved. A offer letter charges payment of Rs 1,800\nis mandatory before onboarding. Pay to the account below today itself to avoid cancellation.\nRecruitment Cell\nrecruitment@capgemini.co.in",
+ "text": "Dear Candidate,\nThis is to inform you that your candidature for Software Engineer at Capgemini has been approved. A offer letter charges payment of Rs 1,800\nis mandatory before onboarding. Pay to the account below today itself to avoid cancellation.\nRecruitment Cell\nrecruitment@capgemini.net.in",
  "files": [],
  "confirmed_claims": null,
  "expected_tier": "red",
- "notes": "Constructed lookalike domain capgemini.co.in; RDAP-unregistered status to be confirmed when recording.",
+ "notes": "Constructed lookalike domain capgemini.net.in; RDAP-unregistered status to be confirmed when recording.",
  "split": "holdout"
 }

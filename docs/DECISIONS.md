@@ -512,3 +512,14 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **Harness fix:** campaign membership is read after all cases have run (F-CMP-01a joins only when 01b links to it).
 - **Remaining SerpApi searches:** 18, kept for the live site (deployed daily cap 15).
 **Files:** `eval/run_eval.py`, `eval/report.md`, `eval/notes.md`, `data/eval.db`, `.gitignore`.
+
+### D-53 · 2026-10-06 · Constructed domains must be unregistered; README and GIF
+- **RDAP check (2026-10-06) of every constructed lookalike domain:**
+  - `techmahindra-careers.in`, `infosys-careers.co`, `hcltech-hiring.in`, `infosys-hr.xyz`, `tcs-careers.in`, `accenture-jobs.co`, `cognizant-hiring.in`, `drreddys-careers.com` and `aicte-internship-portal.in` are unregistered (404).
+  - `de1oitte.com` (registered 2024) and `capgemini.co.in` (registered 2004, likely Capgemini's own) were in eval cases F-LKF-05/06. They were replaced by `de1oitte.co.in` (homoglyph) and `capgemini.net.in` (tld_swap), both unregistered, so `14` §3's rule ("constructed domains must be unregistered") holds.
+  - Neither case was in the recorded subset, so no recordings changed and the report numbers are identical.
+- **Recorded subset list** saved in `eval/recorded_subset.txt`.
+- **`README.md`** covers `12` §5: the problem with sources, the GIF, live and replay run instructions, the engine-to-claim table, the eval table, limitations.
+- **`docs/demo.gif`:** 24 frames at 390 px, captured from a local server in replay mode (no credits). It shows G1: confirm, verdict, employer-notice receipt, Google receipt, per-claim evidence, next steps.
+- **Copy audit (T4.3):** no em dash in `frontend/src`, `README.md` or `docs/` status files, and no banned words in UI string literals. The backend copy is covered by `test_copy_rules`.
+**Files:** `eval/build_cases.py`, `eval/cases/F-LKF-05.json`, `eval/cases/F-LKF-06.json`, `eval/recorded_subset.txt`, `README.md`, `docs/demo.gif`.

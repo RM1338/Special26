@@ -133,3 +133,26 @@
 1. README (T4.7): the problem with sources, the GIF, run instructions for live and replay, the engine table, the eval table, limitations.
 2. Copy audit, em dash grep and mobile pass (T4.3).
 3. S26 eval recording and report once credits arrive. Until then the report shows B0 and B3 only.
+
+## M4/M5 progress, 2026-10-06
+
+**Done**
+- **Eval within free-plan credits** (D-52): S26 on 13 recorded cases has no false reds, red recall 1.00 and green yield 0.40. B0 and B3 run on all 60. Five ablations. `eval/report.md`, `eval/notes.md`, `data/eval.db`.
+- **Extraction fixes found by eval** (D-51): amount purpose fallback, extra role patterns, tighter city-only address.
+- **README with GIF** (T4.7). Copy audit and em dash check are clean (T4.3).
+- **All constructed demo and eval domains confirmed unregistered** (D-53).
+- 340 tests pass, 1 strict xfail (G3).
+
+**Not deployed yet:** commits after `24524ee` (D-48 to D-53). The user stopped the last `railway up`, and it is waiting for their go-ahead.
+
+**Credits:** about 18 SerpApi searches left on the free plan. The deployed daily cap is 15.
+
+**Still open**
+- Offline `docker run` replay check (needs the user in the `docker` group). Railway builds the same Dockerfile successfully.
+- G3 consented `.eml`.
+- Video (T4.8, Sat 10 Oct). The script is in `14`; record it from replay.
+
+**Next three tasks**
+1. Mobile pass at 360 px of the share and campaign pages.
+2. Deploy once the user approves.
+3. Video dry run in replay (`14` §2).

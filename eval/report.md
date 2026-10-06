@@ -1,6 +1,6 @@
 ## Part 1: all 60 cases, credit-free systems (B0, B3)
 
-Generated 2026-10-05 19:45 UTC. Ruleset `2026.10.1`. Split `all`: 60 cases (30 fraud, 30 genuine). Mode `replay`.
+Generated 2026-10-06 08:52 UTC. Ruleset `2026.10.1`. Split `all`: 60 cases (30 fraud, 30 genuine). Mode `replay`.
 
 All cases are constructed (see `eval/build_cases.py` and `docs/DECISIONS.md` D-49). Intervals are 95% Wilson intervals; with this many cases they are wide, and that is the honest reading.
 
@@ -102,7 +102,7 @@ B1 (EMSCAD TF-IDF) and B2 (LLM only) are stretch baselines (`12` §3) and were n
 
 ## Part 2: recorded subset (13 cases), full system S26 with ablations
 
-Generated 2026-10-05 19:45 UTC. Ruleset `2026.10.1`. Split `all`: 13 cases (7 fraud, 6 genuine). Mode `replay`.
+Generated 2026-10-06 08:52 UTC. Ruleset `2026.10.1`. Split `all`: 13 cases (7 fraud, 6 genuine). Mode `replay`.
 
 All cases are constructed (see `eval/build_cases.py` and `docs/DECISIONS.md` D-49). Intervals are 95% Wilson intervals; with this many cases they are wide, and that is the honest reading.
 
@@ -166,7 +166,7 @@ B1 (EMSCAD TF-IDF) and B2 (LLM only) are stretch baselines (`12` §3) and were n
 
 ## Latency and credits (S26)
 
-- p50 latency: 22 ms, p95: 34 ms (replay mode)
+- p50 latency: 17 ms, p95: 23 ms (replay mode)
 - Mean uncached SerpApi calls per check: 0.0
 
 ## Per case

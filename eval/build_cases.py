@@ -102,8 +102,8 @@ LOOK = [
      "refundable laptop deposit", "4,500"),
     ("F-LKF-04", "Cognizant", "cognizant-hiring.in", "Programmer Analyst Trainee", "Pune", "background verification",
      "2,200"),
-    ("F-LKF-05", "Deloitte", "de1oitte.com", "Analyst", "Hyderabad", "registration", "999"),
-    ("F-LKF-06", "Capgemini", "capgemini.co.in", "Software Engineer", "Noida", "offer letter charges", "1,800"),
+    ("F-LKF-05", "Deloitte", "de1oitte.co.in", "Analyst", "Hyderabad", "registration", "999"),
+    ("F-LKF-06", "Capgemini", "capgemini.net.in", "Software Engineer", "Noida", "offer letter charges", "1,800"),
 ]
 for i, (cid, org, dom, role, city, purpose, amt) in enumerate(LOOK):
     style = i % 3
