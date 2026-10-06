@@ -156,3 +156,64 @@
 1. Mobile pass at 360 px of the share and campaign pages.
 2. Deploy once the user approves.
 3. Video dry run in replay (`14` §2).
+
+---
+
+# Where we are now (2026-10-06, after M5 work)
+
+**Stage:** all MVP features from `12` §1 are built, tested and deployed. M0, M1, M2 and M3 are done; M4 (feature freeze, Fri 9 Oct 12:00) is close; M5 is partly done; M6 (submission, Sat 10 Oct 18:00) is not started.
+
+- Live: https://web-production-4b8c8.up.railway.app (Railway, live mode, daily cap 15 searches)
+- Code: https://github.com/RM1338/Special26 (`main` = deployed build)
+- Tests: 344 backend tests pass offline, about 10 s, plus 1 strict xfail (G3)
+- SerpApi: Free Plan, about 18 searches left this month
+
+## `12` §5 definition of done
+
+| Item | State |
+|------|-------|
+| Golden cases return the expected tier, red_kind, decisive set and reason 1 in replay, in CI | Done for G1, G2, G4, G5, G6a, G6b in replay. **G3 missing** (needs a consented `.eml`). **No CI yet** |
+| One live check end to end on the deployed URL in ≤ 45 s | Done: G1 in 7.9 s |
+| Every reason on every golden verdict opens a receipt with a working link | Done. Rule receipts explain the rule in plain words; they have no link by design (D-57) |
+| Share page renders at 360 px and shows a WhatsApp preview | Renders at 360 px; OG tags served. **Not yet tested in real WhatsApp** |
+| `eval/report.md` with S26 vs B0 vs B3 and ≥ 3 ablations on ≥ 60 cases | **Partly**: B0 and B3 on 60 cases; S26 and 5 ablations on a 13-case recorded subset (credit limit, D-52) |
+| README with problem and sources, GIF, run instructions, engine table, eval table, limitations | Done |
+| No em dashes in UI copy or README | Done |
+
+## Remaining work
+
+### Ronel + Claude (code, data, deploys)
+
+| # | Task | Priority | Done when |
+|---|------|----------|-----------|
+| 1 | **Free example runs on the live site:** example offers run against the recorded results (`demo.db`) with the "recorded on" banner; real pasted offers stay live | High, before judging | Example chips spend 0 credits; real offers still run live |
+| 2 | **Green example for the video:** add the constructed Wipro offer (eval G-OFF-03, already recorded) as a third example chip, labelled as constructed, copied into `demo.db` | High, before video | Chip gives a green verdict in replay |
+| 3 | **GitHub Actions CI:** backend tests (with goldens in replay) and frontend build on every push | High | Green check on `main` |
+| 4 | **Merge teammate data:** review his PR (fraud notices must match the NO_FEE pattern, new companies must not change goldens); turn real messages into seed texts and eval cases marked as real | High, Thu | PR merged, goldens unchanged, deployed |
+| 5 | **Pre-freeze checks:** security pass (uploads, limits, headers), coverage ≥ 80% on core modules, final phone and laptop pass, README and STATUS match the deployed build | Medium, Fri morning | Checklist done |
+| 6 | **Credits:** if more arrive, record all 60 eval cases and update the report, README and video numbers; if not, keep the remaining searches for judges and raise the daily cap on submission day | Depends on organisers | Decision recorded in `DECISIONS.md` |
+| 7 | **G3 golden case** once a consented `.eml` arrives: add it, record it, remove the xfail | When data arrives | G3 test passes |
+
+Not planned (stretch, too risky this late): Hindi headline, TPO bulk upload, LLM extraction fallback, B1/B2 baselines.
+
+### Teammate (gavriel953): see `docs/TEAMMATE_TASKS.md`
+
+| Task | Due |
+|------|-----|
+| A. Employer fraud notices (exact "never charges" quotes from company sites) | Thu 8 Oct |
+| B. 26 more companies with checked official domains | Thu 8 Oct |
+| C. Real suspicious offers (≥ 10) and 1 genuine `.eml`, with written consent | Thu 8 Oct |
+| D. Real-phone test, including the WhatsApp share preview | Fri 9 Oct 10:00 |
+| E. Clean-machine Docker replay check with internet off | Fri 9 Oct |
+| F. Demo video (≤ 2:55, captioned, public) | Sat 10 Oct 12:00 |
+| Ask organisers about extra SerpApi credits | Now |
+
+### Submission (Sat 10 Oct)
+
+| Time (IST) | Task | Owner |
+|------------|------|-------|
+| by 12:00 | Video recorded and edited | Teammate |
+| 12:00 to 13:00 | Video uploaded public, checked logged out | Teammate |
+| 13:00 to 15:00 | Final README pass, repo topics, `#BuiltWithSerpApi` | Ronel |
+| 15:00 to 17:00 | Submission form, every link opened on a phone on mobile data | Teammate + Ronel |
+| 18:00 | Submitted | |
