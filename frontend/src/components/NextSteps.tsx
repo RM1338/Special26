@@ -9,7 +9,7 @@ export default function NextSteps({ steps, org, contacts, onShare, shareState }:
   const items: Record<string, React.ReactNode> = {
     do_not_pay: "Do not pay anything or share Aadhaar, PAN or bank details.",
     verify_official: contact && (
-      <>Confirm directly with {org}: <a className={`${link} break-all`} href={contact.value} target="_blank" rel="noopener noreferrer">
+      <>Confirm directly with {org}: <a className={`${link} [overflow-wrap:anywhere]`} href={contact.value} target="_blank" rel="noopener noreferrer">
         {contact.value.replace(/^https?:\/\//, "").replace(/\/$/, "")}</a></>
     ),
     call_1930: (<>Already paid? <a className={link} href="tel:1930">Call 1930</a> (National Cyber Crime Helpline) now.
