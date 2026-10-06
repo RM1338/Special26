@@ -32,6 +32,11 @@ REGARDS = re.compile(r"\b(?:regards|thanks|thank you|sincerely)\b", re.IGNORECAS
 REPLY = re.compile(rf"(?:reply(?:\s+back)?\s+to|send\s+(?:your\s+|all\s+|the\s+)?[^.\n]{{0,60}}?\s+to)\s*:?\s*({EMAIL.pattern})",
                    re.IGNORECASE)
 ROLE_1 = re.compile(r"selected for the (?:position|role|post) of\s+(?:an?\s+)?([A-Z][\w&/\-]*(?:[ \t]+[A-Z][\w&/\-]*){0,6})")
+_ROLE_WORDS = r"([A-Z][\w&/\-]*(?:[ \t]+[A-Z][\w&/\-]*){0,6})"
+ROLE_3 = re.compile(rf"(?:offer you the|for the|interview for(?: the)?)[ \t]+(?:position|role|post)[ \t]+of[ \t]+"
+                    rf"(?:an?[ \t]+)?{_ROLE_WORDS}")                                                       # D-51
+ROLE_4 = re.compile(rf"(?:applying for|application for|regarding|interview for|clearing the interview for|offer you the)"
+                    rf"[ \t]+(?:the[ \t]+)?{_ROLE_WORDS}(?=[ \t]+(?:role|position|opening|with|at)\b|[ \t]*\()")
 ROLE_2 = re.compile(r"\bas an?\s+((?:[A-Z][\w&/\-]*[ \t]+){0,5}(?:Intern|Trainee|Engineer|Analyst|Executive|Associate))\b")
 DEADLINE_HOURS = re.compile(r"within\s+(\d{1,3})\s*(?:hours?|hrs?)\b", re.IGNORECASE)
 DEADLINE_DAYS = re.compile(r"within\s+(\d{1,2})\s*days?\b", re.IGNORECASE)
@@ -191,6 +196,12 @@ def extract_claims(text: str, eml: dict | None = None, images: list[tuple[int, s
         # D-31: the clause ending at the city ("Infosys Limited, Mysuru"), without leading prepositions
         seg_start = max([lo] + [text.rfind(ch, lo, cm.start()) + 1 for ch in ".!?(:;"])
         seg = ADDR_LEAD.sub("", text[seg_start:cm.end()].strip(" ,"))
+        parts = [p.strip() for p in seg.split(",")]
+        if len(parts) > 1:                  # D-51: keep only the capitalised name before the city: "Wipro, Pune"
+            name = re.search(r"((?:[A-Z][\w&.\-]*[ \t]*)+)$", parts[-2])
+            seg = f"{name.group(1).strip()}, {parts[-1]}" if name else parts[-1]
+        else:
+            seg = cm.group()                # a city inside a sentence is just the city
         seg_start = cm.end() - len(seg)
         addr = (seg, cm.group(), None, (seg_start, cm.end()))
     if addr:
@@ -198,7 +209,7 @@ def extract_claims(text: str, eml: dict | None = None, images: list[tuple[int, s
         add(Claim.make(T.address, {"raw": raw, "city": city, "pincode": pin}, raw, "pattern", 0.7, span))
 
     # ---- role ----------------------------------------------------------------------------------------------
-    for rx in (ROLE_1, ROLE_2):
+    for rx in (ROLE_1, ROLE_2, ROLE_3, ROLE_4):
         if m := rx.search(text):
             title = re.sub(r"[ \t]+(?:at|with|in|for)$", "", m.group(1).strip())
             add(Claim.make(T.role, {"title": title}, title, "pattern", 0.7, m.span(1)))

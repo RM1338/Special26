@@ -54,5 +54,8 @@ def classify(text: str, start: int, end: int) -> tuple[str | None, str, str]:
     """Returns (purpose, payer, window). FR-13."""
     w = window(text, start, end)
     purpose = next((k for k, rx in _purpose_rx().items() if rx.search(w)), None)
+    if purpose is None:                     # D-51: "deposit ... (14 tokens) ... Rs. 4,250": use the whole sentence
+        w = window(text, start, end, n=10_000)
+        purpose = next((k for k, rx in _purpose_rx().items() if rx.search(w)), None)
     payer = "candidate" if purpose not in ("stipend", "salary") and _payer_rx().search(w) else "employer"
     return purpose, payer, w

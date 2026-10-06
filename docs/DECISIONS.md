@@ -492,3 +492,23 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **Tests skip** until `demo.db` has a recording. G3 is a strict xfail (D-14).
 - **Contact fix:** P01 now also outputs `official_hosts`, the seed hostnames as written. The "website" official contact uses it, so G2 links to `https://pminternship.mca.gov.in` rather than the registrable `mca.gov.in` (`14` §3 G2).
 **Files:** `backend/tests/golden/*`, `scripts/record_demo.py`, `probes/p01_entity.py`, `scoring/nextsteps.py`.
+
+### D-51 · 2026-10-06 · Extraction fixes found by evaluation (11 §8: extraction bugs may be fixed freely)
+- **Amount purpose:** if no purpose keyword lies within the 12-token window, the whole (D-23-clipped) sentence is used. F-RPT-03: "You have to deposit the (Cash) as an initial amount ... for Rs. 4,250/-" has "deposit" 14 tokens before the amount.
+- **Role patterns added** to `08` §2.1's two:
+  - "offer you the / for the / interview for (the) position|role|post of X"
+  - "applying for / application for / regarding / interview for / clearing the interview for / offer you the X (role|position|opening|with|at|()"
+- **City-only address:** only the capitalised name before the city is kept ("Wipro, Pune"). A city inside a sentence without a comma becomes just the city, so P08 uses `{org} office {city}`.
+- **No weights, thresholds or decisive rules changed.** The golden snapshot is unchanged and its tests pass.
+**Files:** `claims/amounts.py`, `claims/extract.py`.
+
+### D-52 · 2026-10-06 · Evaluation under the free-plan credit limit (user: "make it work with the credits which are available now")
+- **Responses reused:** `data/eval.db` was seeded with every response already paid for (`demo.db` and the local cache), and the harness prefills its cache from it, so nothing is bought twice.
+- **Cost dry run:** a replay of all 60 cases against what was already recorded showed 269 searches still needed. Not affordable.
+- **Recorded live:** 13 cases for 41 searches. The cheapest per category, plus the campaign pair F-CMP-01a/b: `F-RPT-10,F-RPT-03,F-RPT-04,F-RPT-09,F-SCH-01,G-OFF-03,G-OFF-07,G-OFF-08,F-CMP-01a,F-CMP-01b,G-OFF-02,G-JOB-02,G-SUP-01`.
+  - The guard `--max-credits` stops before a case once the cap is reached.
+  - After the D-51 fixes, only the P07/P08 queries for the official-template genuine cases were re-recorded (6 searches). Other changed queries are left unrecorded and show `skipped_replay_miss` (lower coverage).
+- **`eval/report.md`** has Part 1 (B0, B3 on all 60) and Part 2 (S26, B0, B3, 5 ablations on the 13). `eval/notes.md` holds the reading and the error analysis.
+- **Harness fix:** campaign membership is read after all cases have run (F-CMP-01a joins only when 01b links to it).
+- **Remaining SerpApi searches:** 18, kept for the live site (deployed daily cap 15).
+**Files:** `eval/run_eval.py`, `eval/report.md`, `eval/notes.md`, `data/eval.db`, `.gitignore`.

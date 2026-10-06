@@ -51,7 +51,7 @@ def b0(case: dict) -> dict:
 
 
 async def run_system(cases: list[dict], mode: str, replay_db: str | None, masked: list[str],
-                     record_to: str | None) -> dict[str, dict]:
+                     record_to: str | None, max_credits: int | None = None) -> dict[str, dict]:
     """Every case through the production pipeline, in case_id order, on a fresh DB (memory builds up as in prod)."""
     tmp = tempfile.mkdtemp(prefix="s26eval-")
     s = Settings(_env_file=ROOT / ".env", mode=mode, db_path=f"{tmp}/run.db", demo_db=replay_db or f"{tmp}/none.db",
@@ -62,10 +62,19 @@ async def run_system(cases: list[dict], mode: str, replay_db: str | None, masked
                 record=connect_replay(record_to) if record_to else None)
     seed_known_entities(conn)
     seed_templates(repo)
+    if mode == "live" and replay_db and Path(replay_db).exists():          # cache-first: never re-buy a response
+        rows = connect_replay(replay_db).execute("SELECT cache_key, engine, params_json, response_json, bytes"
+                                                 " FROM serp_cache").fetchall()
+        now = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        conn.executemany("INSERT OR IGNORE INTO serp_cache VALUES (?, ?, ?, ?, ?, ?)",
+                         [(k, e, p, r, now, b) for k, e, p, r, b in rows])
     out = {}
     async with httpx.AsyncClient() as http:
         state = State(s, repo, SerpClient(s, repo, http), Events(repo), http)
         for case in cases:
+            if max_credits is not None and repo.credits_today() >= max_credits:
+                print(f"credit guard: stopping before {case['case_id']} ({repo.credits_today()} spent)")
+                break
             cid = "chk_" + case["case_id"].lower().replace("-", "")
             red, _ = redact(case["text"])
             repo.create_check(cid, mode, None, case["text"], red, False, [])
@@ -74,11 +83,14 @@ async def run_system(cases: list[dict], mode: str, replay_db: str | None, masked
             t0 = time.monotonic()
             await run_check(state, cid)
             v = repo.verdict(cid)
+            print(f"  {case['case_id']}: {v['tier'] if v else 'error'} (credits so far {repo.credits_today()})")
             out[case["case_id"]] = {
                 "tier": v["tier"] if v else "error", "score": v["score"] if v else 0.0,
                 "coverage": v["coverage"] if v else 0.0, "credits": repo.credits_for_check(cid)[0],
                 "latency_ms": int((time.monotonic() - t0) * 1000), "reasons": v["reasons"] if v else [],
                 "campaign": repo.campaign_of(cid)}
+        for case_id, r in out.items():                  # campaigns form as later cases link in: read at the end
+            r["campaign"] = repo.campaign_of("chk_" + case_id.lower().replace("-", ""))
     return out
 
 
@@ -209,14 +221,22 @@ async def main() -> None:
     ap.add_argument("--ablate", default="")
     ap.add_argument("--out", default=str(ROOT / "eval/report.md"))
     ap.add_argument("--results-db", default=str(ROOT / "data/special26.db"))
+    ap.add_argument("--cases", help="comma list of case ids (recorded subset)")
+    ap.add_argument("--max-credits", type=int, help="live only: stop before a case once this many are spent")
+    ap.add_argument("--title", default="")
+    ap.add_argument("--append", action="store_true")
     args = ap.parse_args()
     cases = load_cases(args.split)
+    if args.cases:
+        wanted = args.cases.split(",")
+        cases = sorted((c for c in cases if c["case_id"] in wanted), key=lambda c: wanted.index(c["case_id"]))
     runs: dict[str, dict] = {}
     for name in args.systems.split(","):
         if name == "B0":
             runs["B0"] = {c["case_id"]: b0(c) for c in cases}
         elif name == "S26":
-            runs["S26"] = await run_system(cases, args.mode, args.replay_db, [], args.record_to)
+            runs["S26"] = await run_system(cases, args.mode, args.replay_db, [], args.record_to, args.max_credits)
+            cases = [c for c in cases if c["case_id"] in runs["S26"]]             # guard may stop early
         elif name == "B3":
             runs["B3"] = await run_system(cases, args.mode, args.replay_db, ENGINES, None)
         else:
@@ -227,7 +247,13 @@ async def main() -> None:
         ablations[f"A:{spec}"] = await run_system(cases, args.mode, args.replay_db, masked, None)
     for name, res in {**runs, **ablations}.items():
         persist(args.results_db, args, name, cases, res)
-    Path(args.out).write_text(report(args, cases, runs, ablations))
+    runs = {n: {i: r[i] for i in r if i in {c["case_id"] for c in cases}} for n, r in runs.items()}
+    text = report(args, cases, runs, ablations)
+    if args.title:
+        text = text.replace("# Special26 evaluation report", f"## {args.title}", 1)
+    if args.append and Path(args.out).exists():
+        text = Path(args.out).read_text() + "\n" + text
+    Path(args.out).write_text(text)
     print(f"wrote {args.out}")
 
 
