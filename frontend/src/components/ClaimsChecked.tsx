@@ -90,7 +90,7 @@ export default function ClaimsChecked({ claims, findings, probes }: { claims: Cl
           );
         })}
       </ul>
-      {open && <ReceiptDrawer finding={open} onClose={() => setOpen(null)} />}
+      {open && <ReceiptDrawer finding={open} claims={claims} onClose={() => setOpen(null)} />}
     </section>
   );
 }

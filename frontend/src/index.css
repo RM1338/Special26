@@ -43,8 +43,14 @@ body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
 .slip-rule { border-top: 1px dashed #b9bfca; }
 
 @keyframes print-in { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@keyframes tear-off { from { transform: translateY(0); opacity: 1; } to { transform: translateY(24px); opacity: 0; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fade-out { from { opacity: 1; } to { opacity: 0; } }
 .printing { animation: print-in 260ms cubic-bezier(.2,.8,.2,1); }
+.tearing { animation: tear-off 180ms ease-in forwards; }
+.backdrop-in { animation: fade-in 160ms ease-out; }
+.backdrop-out { animation: fade-out 180ms ease-in forwards; }
 @media (prefers-reduced-motion: reduce) {
-  .printing { animation: none; }
+  .printing, .tearing, .backdrop-in, .backdrop-out { animation: none; }
   *, *::before, *::after { transition: none !important; }
 }

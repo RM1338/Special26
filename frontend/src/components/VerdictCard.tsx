@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { Finding, Probe, Verdict } from "../api";
+import type { Claim, Finding, Probe, Verdict } from "../api";
 import { ENGINE_NAMES, FAMILY_NAMES, PROBES, SKIP_REASONS } from "../copy";
 import { TierIcon } from "./Icon";
 import ReceiptDrawer from "./ReceiptDrawer";
@@ -11,11 +11,13 @@ function engineBadge(f?: Finding) {
   if (!f) return null;
   const r = f.receipt;
   const name = r.kind === "serp" ? ENGINE_NAMES[r.engine ?? ""] : r.kind === "local_memory" ? "Earlier checks"
-    : r.rule_id === "known_entities.fraud_notice" ? "Employer notice" : "Rule";
+    : r.rule_id === "known_entities.fraud_notice" ? "Employer notice" : "Our check";
   return <span className="shrink-0 rounded border border-rule px-1.5 py-0.5 text-[0.72rem] font-semibold text-muted">{name}</span>;
 }
 
-export default function VerdictCard({ verdict, findings, probes }: { verdict: Verdict; findings: Finding[]; probes: Probe[] }) {
+export default function VerdictCard({ verdict, findings, probes, claims }: {
+  verdict: Verdict; findings: Finding[]; probes: Probe[]; claims?: Claim[];
+}) {
   const [open, setOpen] = useState<{ f: Finding; why?: string } | null>(null);
   const [showSkipped, setShowSkipped] = useState(false);
   const byId = Object.fromEntries(findings.map((f) => [f.id, f]));
@@ -104,7 +106,7 @@ export default function VerdictCard({ verdict, findings, probes }: { verdict: Ve
           </details>
         )}
       </div>
-      {open && <ReceiptDrawer finding={open.f} why={open.why} onClose={() => setOpen(null)} />}
+      {open && <ReceiptDrawer finding={open.f} why={open.why} claims={claims} onClose={() => setOpen(null)} />}
     </section>
   );
 }

@@ -64,21 +64,25 @@ DECISIVE_COPY = {
 }
 
 # Shown in the receipt drawer for kind = "rule" (09 S5)
-RULE_COPY = {
-    "P02_SENDER": "Rule: compares the offer's domains with the official domains found by Google Search.",
-    "P11_CANDIDATE_PAYS": "Rule: P11_CANDIDATE_PAYS. Genuine employers do not charge candidates. AICTE's internship "
-                          "portal terms prohibit fees.",
-    "P11_REFUNDABLE_BAIT": "Rule: P11_REFUNDABLE_BAIT. Calling a fee refundable is a common pressure tactic.",
-    "P11_PERSONAL_UPI": "Rule: P11_PERSONAL_UPI. Employers do not collect money through personal UPI IDs or QR codes.",
-    "P11_SCHEME_OFF_PORTAL": "Rule: P11_SCHEME_OFF_PORTAL. Government schemes run only on .gov.in or .nic.in portals "
-                             "and their listed official sites.",
-    "P11_FORM_OR_SHORTLINK": "Rule: P11_FORM_OR_SHORTLINK. Real hiring uses the employer's careers site, not forms, "
+RULE_COPY = {   # plain language, no internal codes (D-57)
+    "P02_SENDER": "We compared the domains in the offer with the official websites Google Search shows for the "
+                  "company.",
+    "P11_CANDIDATE_PAYS": "Real employers do not charge candidates for a job or internship. AICTE's internship portal "
+                          "terms forbid any fee.",
+    "P11_REFUNDABLE_BAIT": "Calling a payment refundable is a common way to make a fee feel harmless. Real employers do "
+                           "not take deposits from candidates.",
+    "P11_PERSONAL_UPI": "Companies do not collect money through personal UPI IDs, payment links or QR codes sent in a "
+                        "message.",
+    "P11_SCHEME_OFF_PORTAL": "Government internship schemes run only on official .gov.in or .nic.in portals and their "
+                             "listed websites.",
+    "P11_FORM_OR_SHORTLINK": "Real hiring happens on the employer's own careers website, not through online forms, "
                              "short links or chat links.",
-    "P11_URGENCY": "Rule: P11_URGENCY. Short deadlines push people to pay before checking.",
-    "P11_NO_INTERVIEW": "Rule: P11_NO_INTERVIEW. Genuine employers interview before making an offer.",
-    "P11_CHAT_INTERVIEW": "Rule: P11_CHAT_INTERVIEW. Chat-only interviews are a common sign of impersonation.",
-    "P03_HEADERS": "Rule: reads the Authentication-Results header added by your email provider.",
-    "P10_TEMPLATE": "Rule: compares this offer's wording with known fake offer texts.",
+    "P11_URGENCY": "A very short deadline is meant to make you pay before you can check. Real offers give you time.",
+    "P11_NO_INTERVIEW": "Real employers interview candidates before they make an offer.",
+    "P11_CHAT_INTERVIEW": "Interviews held only over WhatsApp or Telegram chat are a common sign of a fake offer.",
+    "P03_HEADERS": "Your email provider records whether a message really came from the domain it claims. We read that "
+                   "record from the .eml file.",
+    "P10_TEMPLATE": "We compare the offer's wording with fake offer texts described in public reports.",
 }
 
 HEADLINES = {   # 09 S4, exact

@@ -555,3 +555,16 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **Phones:** checked at 360 and 390 px with no horizontal scroll on home, verdict, share and campaign. The verdict band puts the icon beside the headline from 640 px up.
 - **README GIF** re-recorded from replay with the new UI.
 **Files:** `frontend/src/**`, `docs/demo.gif`.
+
+### D-57 · 2026-10-06 · Rule receipts in plain language; receipt close animation (user request)
+**Context:** A rule receipt read "Rule: P11_URGENCY. Short deadlines push people to pay before checking." The user pointed out that nobody without context of our rules understands "P11_URGENCY". (`09` S5's example used the "Rule: CODE." form.)
+**Decision:**
+- **Rule receipts:**
+  - The drawer heading is "How we judged this", with no internal code.
+  - `RULE_COPY` is rewritten as plain sentences, for example "A very short deadline is meant to make you pay before you can check. Real offers give you time."
+  - The drawer quotes the exact words from the offer that the finding is about ("In this offer: ..."), taken from the finding's claims on the private page. Share pages have no raw text, so no quote is shown there.
+  - Email-header receipts show "From your email's header: ...".
+  - The reason badge reads "Our check" instead of "Rule".
+  - Receipts saved earlier still carry "Rule: CODE." in `extra.text`; the drawer strips that prefix.
+- **Closing animation:** the slip slides down 24 px and fades over 180 ms (the reverse of the existing print-in), and the backdrop fades. It is skipped under `prefers-reduced-motion`.
+**Files:** `scoring/copy.py`, `frontend/src/components/ReceiptDrawer.tsx`, `frontend/src/components/VerdictCard.tsx`, `frontend/src/components/ClaimsChecked.tsx`, `frontend/src/index.css`.

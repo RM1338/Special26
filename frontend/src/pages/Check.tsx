@@ -83,7 +83,7 @@ export default function Check() {
       {c.verdict ? (
         <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start lg:gap-10">
           <div className="min-w-0">
-            <VerdictCard verdict={c.verdict} findings={c.findings} probes={c.probes} />
+            <VerdictCard verdict={c.verdict} findings={c.findings} probes={c.probes} claims={c.claims} />
             <ClaimsChecked claims={c.claims} findings={c.findings} probes={c.probes} />
           </div>
           <aside className="lg:sticky lg:top-8">
