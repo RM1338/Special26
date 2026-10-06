@@ -86,6 +86,7 @@ HEADLINES = {   # 09 S4, exact
     ("red", "fee_risk"): "High risk: this offer asks you to pay. Do not pay.",
     ("amber", None): "Could not verify this offer. Confirm through the official channel before you share documents "
                      "or pay.",
+    ("amber", "minor"): "No serious warning signs, but this offer is not fully confirmed.",   # D-54
     ("green", None): "Consistent with a genuine offer from {org}.",
     ("grey", None): "Not enough information to judge.",
 }
@@ -93,6 +94,8 @@ SUBLINES = {
     ("red", "impersonation"): "This offer claims to be from {org}, but the evidence below says otherwise.",
     ("red", "fee_risk"): "Genuine employers and government internship schemes do not charge candidates.",
     ("amber", None): "Some details could not be matched to {org}.",
+    ("amber", "minor"): "Some details matched {org}, others could not be checked. Confirm through "
+                        "{official_contact} before you share ID documents.",
     ("green", None): "Still confirm through {official_contact} before you share ID documents.",
     ("grey", None): "Add the sender's email, the full offer text, or the original .eml file.",
 }

@@ -63,15 +63,22 @@ class P08Office(Probe):
         lex = seeds.lexicons()
         data, key = await self.search(ctx, {"engine": "google_maps", "type": "search", "q": q})
         places = [data["place_results"]] if data.get("place_results") else data.get("local_results", [])[:3]
+        addr = ctx.claims.first(T.address)
+        pin = addr.value.get("pincode") if (addr and is_address) else None
+        # D-55: Maps matches words of an address (village names) and returns unrelated places nearby.
+        # With a PIN in the offer, only places whose own address has that PIN are "at the address".
+        at = [(i, p) for i, p in enumerate(places) if not pin or not p.get("address") or pin in p["address"]]
         org = ctx.claims.org_name or ""
         official = set(ctx.official)
-        ids = [c.id for c in (ctx.claims.first(T.address), ctx.claims.first(T.org)) if c]
+        ids = [c.id for c in (addr, ctx.claims.first(T.org)) if c]
+        out = {"places": [{"title": p.get("title"), "type": p.get("type"), "address": p.get("address"),
+                           "at_address": any(p is x for _, x in at)} for p in places], "pincode": pin}
         f = []
-        if not places:
+        if not at:
             if is_address:
                 f.append(self.finding("P08_NOT_FOUND", serp_receipt("google_maps", q, key), ids))
-            return self.result(f)
-        match = next(((i, p) for i, p in enumerate(places) if org and fuzz.token_set_ratio(p.get("title", ""), org) >= 80
+            return self.result(f, out)
+        match = next(((i, p) for i, p in at if org and fuzz.token_set_ratio(p.get("title", ""), org) >= 80
                       and (reg(urlparse(p.get("website") or "").netloc) in official or has_type(p, lex["office_types"]))),
                      None)
         if match:
@@ -79,9 +86,9 @@ class P08Office(Probe):
             f.append(self.finding("P08_OFFICE_MATCH", place_receipt(q, key, i, p), ids, org=org))
             if any(has_scam_word(t) for t in review_texts(p)):
                 f.append(self.finding("P08_REVIEWS_SCAM", place_receipt(q, key, i, p), ids))
-        top = places[0]
-        if is_address and (t := has_type(top, lex["residential_types"])):
-            f.append(self.finding("P08_RESIDENTIAL", place_receipt(q, key, 0, top), ids, place_type=t.lower()))
-        if t := has_type(top, lex["coworking_types"]):
-            f.append(self.finding("P08_COWORKING", place_receipt(q, key, 0, top), ids, place_type=t.lower()))
-        return self.result(f, {"places": len(places)})
+        ti, top = at[0]
+        if is_address and not match and (t := has_type(top, lex["residential_types"])):
+            f.append(self.finding("P08_RESIDENTIAL", place_receipt(q, key, ti, top), ids, place_type=t.lower()))
+        if not match and (t := has_type(top, lex["coworking_types"])):
+            f.append(self.finding("P08_COWORKING", place_receipt(q, key, ti, top), ids, place_type=t.lower()))
+        return self.result(f, out)

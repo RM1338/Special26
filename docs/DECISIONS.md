@@ -523,3 +523,35 @@ The org query `"Tech Mahindra" recruitment fraud notice` didn't surface the comp
 - **`docs/demo.gif`:** 24 frames at 390 px, captured from a local server in replay mode (no credits). It shows G1: confirm, verdict, employer-notice receipt, Google receipt, per-claim evidence, next steps.
 - **Copy audit (T4.3):** no em dash in `frontend/src`, `README.md` or `docs/` status files, and no banned words in UI string literals. The backend copy is covered by `test_copy_rules`.
 **Files:** `eval/build_cases.py`, `eval/cases/F-LKF-05.json`, `eval/cases/F-LKF-06.json`, `eval/recorded_subset.txt`, `README.md`, `docs/demo.gif`.
+
+### D-54 · 2026-10-06 · Amber wording when only minor flags exist (user request)
+**Context:** The user found "Could not verify this offer. Confirm through the official channel before you share documents or pay." on most offers, and inaccurate for offers where the official site was found and the only flag was minor. Their check of "Quantis Sphere": official site found, office not on Maps, only flag `P11_URGENCY` (+0.5), S = 0.5.
+**Decision:**
+- Tier and score are unchanged. Only the amber headline and sub line differ.
+- When no finding has an effective weight of +1.0 or more, the headline reads "No serious warning signs, but this offer is not fully confirmed." The sub line is "Some details matched {org}, others could not be checked. Confirm through {official_contact} before you share ID documents."
+- Any concern of at least +1.0 (no official presence, freemail sender, fee ask, lookalike domain, ...) keeps the `09` S4 amber copy exactly. G4 keeps it.
+- The new strings pass the same copy-rule test (no "scam", "safe", "guaranteed", no em dash).
+**Files:** `scoring/copy.py`, `scoring/nextsteps.py`, `api/checks.py`, `tests/unit/test_scoring.py`.
+
+### D-55 · 2026-10-06 · P08: places must be at the offer's address
+**Context:** Same check. The Maps query for "7/38c/1 Devicode, Tholady, ..., Tamil Nadu 629170" returned three unrelated places matched on words in the address: "7" (PIN 629178), "THOLADY" (housing society, 629152) and "Moovottukonam" (beauty parlour, 629152). Nothing matched, so the UI said "Google Maps gave nothing conclusive". Had the housing society ranked first, `P08_RESIDENTIAL` would have fired on an unrelated building. 1 credit spent to inspect.
+**Decision:**
+- When the address claim has a PIN, a returned place counts as "at the address" only if its own address holds that PIN. A place with no address can't be ruled out, so it still counts.
+- If no place is at the address, the result is `P08_NOT_FOUND` (`08`: "address query returns no place"); `08`'s weights are unchanged.
+- MATCH, RESIDENTIAL and COWORKING are judged only on places at the address. RESIDENTIAL and COWORKING are not raised when the office matched.
+- `outputs.places` (title, type, address, at_address) and `outputs.pincode` let the claims view say "Google Maps has no listing at PIN 629170. It matched words in the address to other places instead: ...".
+- A Google web result showing the address (company site, registry) is not Maps evidence and isn't claimed as such.
+**Files:** `probes/p08_office.py`, `frontend/src/components/ClaimsChecked.tsx`, `tests/unit/test_probes_m3.py`.
+
+### D-56 · 2026-10-06 · No emoji; laptop and phone layouts (user request)
+- **Icons:** tier and timeline emoji/glyphs (stop sign, warning, check, question, ✓, !, –) are replaced by inline SVG icons (`components/Icon.tsx`, no icon library). `09` §5 still holds: the tier shows as icon plus headline text, never colour alone.
+- **Laptop (≥ 1024 px):**
+  - Full-width header with a "Check an offer" link, and the content area widened from 40rem to 72rem.
+  - Home: intro and "what we check" list beside the form card.
+  - Confirm: fieldsets in two columns.
+  - Verdict and share: the verdict card and per-claim evidence on the left, a sticky side column with campaign link, next steps and checks run.
+  - Campaign: facts and member list side by side.
+  - The receipt slip is a centred card.
+- **Phones:** checked at 360 and 390 px with no horizontal scroll on home, verdict, share and campaign. The verdict band puts the icon beside the headline from 640 px up.
+- **README GIF** re-recorded from replay with the new UI.
+**Files:** `frontend/src/**`, `docs/demo.gif`.

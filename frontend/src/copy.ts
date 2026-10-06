@@ -29,7 +29,6 @@ export const SKIP_REASONS: Record<string, string> = {
   unsupported: "not supported for this domain",
 };
 
-export const TIER_ICON: Record<string, string> = { red: "⛔", amber: "⚠️", green: "✅", grey: "❔" };
 
 export const FAMILY_NAMES: Record<string, string> = {
   identity: "Identity", process: "Payment and process", reputation: "Reports and warnings",

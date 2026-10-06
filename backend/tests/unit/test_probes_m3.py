@@ -360,3 +360,18 @@ async def test_p12_live_fixture_and_unregistered():
 def test_p12_skips_official_and_freemail():
     assert P12DomainAge().applicable(ctx("Regards\nx@gmail.com", official=[])) == "skipped_no_input"
     assert P12DomainAge().applicable(ctx("Regards\nhr@infosys.com", official=["infosys.com"])) == "skipped_no_input"
+
+
+async def test_p08_places_must_share_the_pin():  # D-55: the user's Quantis Sphere check
+    text = ("Welcome to Quantis Sphere. Office: 7/38c/1 Devicode, Tholady, Kanyakumari, Tamil Nadu 629170, India")
+    nearby = {"local_results": [
+        {"title": "7", "address": "1/57d, Devicode, Tamil Nadu 629178"},
+        {"title": "THOLADY", "type": "Housing society", "types": ["Housing society"],
+         "address": "95WP+H84, Cheruvallur, Tamil Nadu 629152"}]}
+    res = await P08Office().run(ctx(text, official=["quantissphere.com"], serp=AnySerp(nearby)))
+    assert codes(res) == ["P08_NOT_FOUND"]                        # not RESIDENTIAL from an unrelated building
+    assert res.outputs["pincode"] == "629170" and not any(p["at_address"] for p in res.outputs["places"])
+    here = {"local_results": [{"title": "Quantis Sphere LLP", "type": "Software company",
+                               "address": "Devicode, Tamil Nadu 629170", "website": "https://quantissphere.com/"}]}
+    res = await P08Office().run(ctx(text, official=["quantissphere.com"], serp=AnySerp(here)))
+    assert codes(res) == ["P08_OFFICE_MATCH"]

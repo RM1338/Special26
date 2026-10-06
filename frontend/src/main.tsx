@@ -13,12 +13,15 @@ const qc = new QueryClient({ defaultOptions: { queries: { retry: 1, refetchOnWin
 function Shell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-dvh">
-      <header className="mx-auto flex max-w-[40rem] items-center px-4 pt-5">
-        <Link to="/" className="text-[1.05rem] font-extrabold tracking-tight text-ink no-underline">
-          Special<span className="text-action">26</span>
-        </Link>
+      <header className="border-b border-rule bg-surface">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
+          <Link to="/" className="text-[1.1rem] font-extrabold tracking-tight text-ink no-underline">
+            Special<span className="text-action">26</span>
+          </Link>
+          <Link to="/" className="text-[0.9rem] font-semibold text-action no-underline hover:underline">Check an offer</Link>
+        </div>
       </header>
-      <main className="mx-auto max-w-[40rem] px-4 pb-24 pt-6">{children}</main>
+      <main className="mx-auto max-w-6xl px-4 pb-24 pt-6 sm:px-6 sm:pt-8 lg:px-8 lg:pt-12">{children}</main>
     </div>
   );
 }

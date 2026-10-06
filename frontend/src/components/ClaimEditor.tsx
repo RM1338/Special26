@@ -94,8 +94,8 @@ export default function ClaimEditor({ claims, warnings, busy, error, onRun, onRe
   );
 
   return (
-    <section aria-labelledby="confirm-title">
-      <h1 id="confirm-title" className="text-[1.9rem] font-extrabold leading-tight tracking-tight">
+    <section aria-labelledby="confirm-title" className="mx-auto max-w-5xl">
+      <h1 id="confirm-title" className="text-[1.9rem] font-extrabold leading-tight tracking-tight lg:text-[2.4rem]">
         Is this what the offer says?
       </h1>
       {warnings.includes("OCR_UNAVAILABLE") && (
@@ -104,6 +104,7 @@ export default function ClaimEditor({ claims, warnings, busy, error, onRun, onRe
         </p>
       )}
 
+      <div className="lg:grid lg:grid-cols-2 lg:gap-x-12">
       <Group title="Who is offering">
         {org && (
           <div>
@@ -244,6 +245,8 @@ export default function ClaimEditor({ claims, warnings, busy, error, onRun, onRe
           </Field>
         ))}
       </Group>
+
+      </div>
 
       {error && <p role="alert" className="mt-6 font-semibold text-red">{error}</p>}
       <div className="mt-8 flex flex-wrap items-center gap-4">

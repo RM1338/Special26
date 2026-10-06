@@ -1,5 +1,6 @@
 import type { Finding, Probe } from "../api";
 import { PROBES, SKIP_REASONS } from "../copy";
+import { BangIcon, CheckIcon, MinusIcon } from "./Icon";
 
 const ORDER = Object.keys(PROBES);
 
@@ -20,7 +21,7 @@ function Mark({ p, findings }: { p?: Probe; findings: Finding[] }) {
   const bad = findings.some((f) => f.probe_id === p.probe_id && f.weight > 0);
   const tone = p.status !== "ok" ? "bg-[#e7eaef] text-grey" : bad ? "bg-red text-white" : "bg-[#e3f1ea] text-green";
   return <span aria-hidden className={`grid size-5 place-items-center rounded-full text-[0.7rem] font-bold ${tone}`}>
-    {p.status !== "ok" ? "–" : bad ? "!" : "✓"}
+    {p.status !== "ok" ? <MinusIcon className="size-3" /> : bad ? <BangIcon className="size-3" /> : <CheckIcon className="size-3" />}
   </span>;
 }
 

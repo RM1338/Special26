@@ -34,7 +34,7 @@ export default function ReceiptDrawer({ finding, why, onClose }: { finding: Find
     <div className="fixed inset-0 z-40 flex items-end justify-center bg-ink/40" onClick={onClose}>
       <div ref={ref} tabIndex={-1} role="dialog" aria-modal="true" aria-label="Receipt"
         onClick={(e) => e.stopPropagation()}
-        className="slip printing mb-0 w-full max-w-[40rem] px-5 pb-7 pt-6 text-[0.88rem] leading-relaxed text-ink sm:mb-8 sm:rounded-b-md">
+        className="slip printing mb-0 w-full max-w-xl px-5 pb-7 pt-6 text-[0.88rem] leading-relaxed text-ink sm:mb-10 sm:rounded-b-md sm:px-7">
         <div className="flex items-start justify-between gap-4">
           <p className="font-semibold">{head}</p>
           <button onClick={onClose} className="font-sans text-[0.9rem] font-semibold text-action underline underline-offset-4">Close</button>

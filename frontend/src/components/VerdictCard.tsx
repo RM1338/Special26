@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { Finding, Probe, Verdict } from "../api";
-import { ENGINE_NAMES, FAMILY_NAMES, PROBES, SKIP_REASONS, TIER_ICON } from "../copy";
+import { ENGINE_NAMES, FAMILY_NAMES, PROBES, SKIP_REASONS } from "../copy";
+import { TierIcon } from "./Icon";
 import ReceiptDrawer from "./ReceiptDrawer";
 
 const BAND: Record<string, string> = { red: "bg-red", amber: "bg-amber", green: "bg-green", grey: "bg-grey" };
@@ -28,15 +29,17 @@ export default function VerdictCard({ verdict, findings, probes }: { verdict: Ve
 
   return (
     <section aria-labelledby="verdict-title">
-      <div className={`${BAND[verdict.tier]} rounded-t-lg px-5 pb-6 pt-5 text-white`}>
-        <p className="text-[2rem] leading-none" aria-hidden>{TIER_ICON[verdict.tier]}</p>
-        <h1 id="verdict-title" className="mt-3 text-balance text-[1.6rem] font-extrabold leading-tight tracking-tight sm:text-[1.9rem]">
-          {verdict.headline}
-        </h1>
-        <p className="mt-2 text-[1rem] leading-relaxed text-white/90">{verdict.sub_line}</p>
+      <div className={`${BAND[verdict.tier]} rounded-t-lg px-5 pb-6 pt-5 text-white sm:flex sm:gap-5 sm:px-7 sm:py-7`}>
+        <TierIcon tier={verdict.tier} className="size-10 shrink-0 sm:size-12" />
+        <div>
+          <h1 id="verdict-title" className="mt-3 text-balance text-[1.6rem] font-extrabold leading-tight tracking-tight sm:mt-0 sm:text-[2rem]">
+            {verdict.headline}
+          </h1>
+          <p className="mt-2 text-[1rem] leading-relaxed text-white/90 sm:text-[1.05rem]">{verdict.sub_line}</p>
+        </div>
       </div>
 
-      <div className="rounded-b-lg border border-t-0 border-rule bg-surface px-5 pb-6 pt-5">
+      <div className="rounded-b-lg border border-t-0 border-rule bg-surface px-5 pb-6 pt-5 sm:px-7">
         <h2 className="text-[1.1rem] font-bold">Why</h2>
         <ol className="mt-2 divide-y divide-rule">
           {verdict.reasons.map((r) => {

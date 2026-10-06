@@ -196,3 +196,14 @@ def test_reasons_follow_verdict_direction():  # D-44: live G1 has P07/P08 at -1.
     green = score(results(F("P03_DKIM_ALIGNED_OFFICIAL"), F("P07_ROLE_LISTED"), F("P05_COMPLAINTS_GENERAL")))
     assert green.tier == "green" and [x.code for x in green.reasons][:2] == ["P03_DKIM_ALIGNED_OFFICIAL",
                                                                              "P07_ROLE_LISTED"]
+
+
+def test_amber_minor_headline():  # D-54
+    from special26.scoring.nextsteps import headline
+    contacts = [{"kind": "website", "value": "https://quantissphere.com", "finding_id": 1}]
+    minor = headline("amber", None, "Quantis Sphere", contacts, [{"weight": 0.5, "effective_weight": 0.5}])
+    assert minor[0] == "No serious warning signs, but this offer is not fully confirmed."
+    assert "https://quantissphere.com" in minor[1]
+    serious = headline("amber", None, "X", [], [{"weight": 1.5, "effective_weight": 1.5}])
+    assert serious[0].startswith("Could not verify this offer.")
+    assert headline("amber", None, "X", [])[0].startswith("Could not verify")          # no findings info: 09 copy

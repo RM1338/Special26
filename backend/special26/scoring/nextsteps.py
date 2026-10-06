@@ -43,7 +43,15 @@ def _contact_text(contacts: list[dict]) -> str:
     return c["value"] if c else "the company's official website"
 
 
-def headline(tier: str, red_kind: str | None, org: str | None, contacts: list[dict]) -> tuple[str, str]:
+SERIOUS = 1.0      # D-54: a concern at least this strong keeps the 09 amber wording
+
+
+def headline(tier: str, red_kind: str | None, org: str | None, contacts: list[dict],
+             findings: list[dict] | None = None) -> tuple[str, str]:
     key = (tier, red_kind if tier == "red" else None)
+    if tier == "amber" and findings is not None and not any(
+            (f.get("effective_weight") if f.get("effective_weight") is not None else f["weight"]) >= SERIOUS
+            for f in findings):
+        key = ("amber", "minor")
     vars_ = {"org": org or "the employer", "official_contact": _contact_text(contacts)}
     return HEADLINES[key].format(**vars_), SUBLINES[key].format(**vars_)

@@ -40,7 +40,11 @@ function neutral(c: Claim, org: string, official: string[] | null, probes: Recor
   if ((c.type === "phone" || c.type === "upi_id") && ran("P06_IDENTIFIER_TRACE"))
     return "We searched for it in public reports and found nothing.";
   if (c.type === "role" && ran("P07_ROLE")) return "Google Jobs had no listing to compare. That is not evidence either way.";
-  if (c.type === "address" && ran("P08_OFFICE")) return "Google Maps gave nothing conclusive about this place.";
+  if (c.type === "address" && ran("P08_OFFICE")) {
+    const places = (probes["P08_OFFICE"].outputs?.places as { title: string }[] | undefined) ?? [];
+    return places.length ? "Google Maps lists places here, but none is named as this company's office."
+      : "Google Maps gave nothing conclusive about this place.";
+  }
   if (c.type === "image" && ran("P09_IMAGE")) return "Google Lens found no matches that point either way.";
   if (c.type === "amount" && c.value.payer !== "candidate") return "Paid to you, not asked from you.";
   return "Nothing in our checks confirmed or contradicted this.";
@@ -67,6 +71,7 @@ export default function ClaimsChecked({ claims, findings, probes }: { claims: Cl
             <li key={c.id} className="py-3.5">
               <p className="text-[0.82rem] font-semibold text-muted">{LABEL[c.type]}</p>
               <p className="break-words text-[1rem] font-semibold">{shown(c)}</p>
+              {c.type === "address" && <NearbyPlaces probe={byProbe["P08_OFFICE"]} />}
               {fs.length ? (
                 <ul className="mt-1.5 grid gap-1">
                   {fs.map((f) => (
@@ -87,5 +92,23 @@ export default function ClaimsChecked({ claims, findings, probes }: { claims: Cl
       </ul>
       {open && <ReceiptDrawer finding={open} onClose={() => setOpen(null)} />}
     </section>
+  );
+}
+
+/** D-55: when Maps returned places that are not at the offer's address (different PIN), say what it returned. */
+function NearbyPlaces({ probe }: { probe?: Probe }) {
+  const out = probe?.outputs as { places?: { title: string; type: string | null; address: string | null;
+    at_address: boolean }[]; pincode?: string | null } | undefined;
+  const places = out?.places ?? [];
+  if (!out?.pincode || !places.length || places.some((p) => p.at_address)) return null;
+  const desc = places.map((p) => {
+    const pin = p.address?.match(/\b\d{6}\b/)?.[0];
+    return [p.title, [p.type?.toLowerCase(), pin && `PIN ${pin}`].filter(Boolean).join(", ")].filter(Boolean)
+      .join(" (") + (p.type || pin ? ")" : "");
+  }).join("; ");
+  return (
+    <p className="mt-1 text-[0.9rem] text-muted">
+      Google Maps has no listing at PIN {out.pincode}. It matched words in the address to other places instead: {desc}.
+    </p>
   );
 }

@@ -264,7 +264,7 @@ def check_view(state, check_id: str, public: bool = False) -> dict:
     v = repo.verdict(check_id)
     if v:
         cs = ClaimSet(claims=claims)
-        head, sub = headline(v["tier"], v["red_kind"], cs.org_name, v["official_contacts"])
+        head, sub = headline(v["tier"], v["red_kind"], cs.org_name, v["official_contacts"], view["findings"])
         view["verdict"] = {
             "tier": v["tier"], "red_kind": v["red_kind"], "headline": head, "sub_line": sub, "score": v["score"],
             "family_scores": v["family_scores"], "decisive": v["decisive"], "coverage": v["coverage"],
