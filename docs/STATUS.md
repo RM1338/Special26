@@ -143,7 +143,7 @@
 - **All constructed demo and eval domains confirmed unregistered** (D-53).
 - 340 tests pass, 1 strict xfail (G3).
 
-**Not deployed yet:** commits after `24524ee` (D-48 to D-53). The user stopped the last `railway up`, and it is waiting for their go-ahead.
+**Not deployed yet:** commits after `430b946` (D-46 onward, history rewritten without co-author trailers on 2026-10-06). The user stopped the last `railway up`, and it is waiting for their go-ahead.
 
 **Credits:** about 18 SerpApi searches left on the free plan. The deployed daily cap is 15.
 
